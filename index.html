@@ -25,16 +25,10 @@
             --guristas-secondary: #44d1ff;
             --guristas-glow: rgba(124, 92, 255, 0.20);
 
-            --corruption-bar-1: #7a4a15;
-            --corruption-bar-2: #b87020;
-            --corruption-bar-3: #f0b24f;
-
-            --suppression-bar-1: #1e4461;
-            --suppression-bar-2: #2b6f95;
-            --suppression-bar-3: #6bc6d9;
-
-            --track-outer: #0b1119;
-            --track-inner: #1a2432;
+            --progress-green: #8cff00;
+            --progress-white: #f3f4f6;
+            --progress-track: #141c26;
+            --progress-divider: rgba(255,255,255,0.12);
         }
 
         * { box-sizing: border-box; }
@@ -226,20 +220,27 @@
         }
 
         .card {
-            background: rgba(17,24,39,0.88);
-            border: 1px solid rgba(255,255,255,0.07);
             border-radius: 14px;
             padding: 12px;
             min-width: 0;
             backdrop-filter: blur(2px);
+            border: 1px solid rgba(255,255,255,0.07);
         }
 
         .angels .card {
-            box-shadow: inset 0 0 0 1px rgba(255,122,24,0.04);
+            background:
+                linear-gradient(180deg, rgba(26,18,12,0.96), rgba(17,24,39,0.88));
+            box-shadow:
+                inset 0 0 0 1px rgba(255,122,24,0.08),
+                inset 0 1px 0 rgba(255,200,120,0.06);
         }
 
         .guristas .card {
-            box-shadow: inset 0 0 0 1px rgba(124,92,255,0.05);
+            background:
+                linear-gradient(180deg, rgba(16,18,34,0.96), rgba(17,24,39,0.88));
+            box-shadow:
+                inset 0 0 0 1px rgba(124,92,255,0.08),
+                inset 0 1px 0 rgba(120,180,255,0.06);
         }
 
         .card-header {
@@ -256,11 +257,30 @@
             flex: 0 0 auto;
         }
 
+        .name-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
         .name {
             font-size: 18px;
             font-weight: bold;
             line-height: 1.2;
             word-break: break-word;
+        }
+
+        .sec-badge {
+            display: inline-flex;
+            align-items: center;
+            font-size: 12px;
+            font-weight: 700;
+            padding: 2px 7px;
+            border-radius: 999px;
+            border: 1px solid rgba(255,255,255,0.08);
+            background: rgba(255,255,255,0.03);
+            letter-spacing: 0.2px;
         }
 
         .sub {
@@ -310,76 +330,59 @@
 
         .progress-block {
             margin-top: 10px;
+            padding-top: 8px;
+            border-top: 1px solid var(--progress-divider);
         }
 
-        .progress-label {
+        .progress-title {
             display: flex;
             justify-content: space-between;
+            align-items: center;
             gap: 12px;
             font-size: 12px;
-            color: #d5ddeb;
-            margin-bottom: 5px;
+            color: #d6deea;
+            margin-bottom: 8px;
+        }
+
+        .progress-pair {
+            display: grid;
+            gap: 6px;
+        }
+
+        .progress-line {
+            display: grid;
+            gap: 2px;
+        }
+
+        .progress-line-label {
+            font-size: 11px;
+            color: var(--muted);
+            letter-spacing: 0.2px;
         }
 
         .progress-track {
-            position: relative;
             width: 100%;
-            height: 12px;
-            background:
-                linear-gradient(180deg, var(--track-outer), #101722);
-            border-radius: 999px;
+            height: 8px;
+            background: var(--progress-track);
+            border-radius: 0;
             overflow: hidden;
-            border: 1px solid rgba(255,255,255,0.05);
-            box-shadow:
-                inset 0 1px 0 rgba(255,255,255,0.04),
-                inset 0 -1px 0 rgba(0,0,0,0.38);
-        }
-
-        .progress-track::after {
-            content: "";
-            position: absolute;
-            inset: 2px;
-            border-radius: 999px;
-            background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0));
-            pointer-events: none;
+            border: 1px solid rgba(255,255,255,0.04);
         }
 
         .progress-fill {
-            position: relative;
             height: 100%;
             width: 0%;
-            border-radius: 999px;
-            overflow: hidden;
-        }
-
-        .progress-fill::after {
-            content: "";
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(180deg, rgba(255,255,255,0.18), rgba(255,255,255,0));
-            pointer-events: none;
+            border-radius: 0;
         }
 
         .progress-fill.corruption {
-            background:
-                linear-gradient(90deg,
-                var(--corruption-bar-1) 0%,
-                var(--corruption-bar-2) 56%,
-                var(--corruption-bar-3) 100%);
-            box-shadow:
-                0 0 10px rgba(240,178,79,0.18),
-                inset 0 0 5px rgba(255,255,255,0.06);
+            background: var(--progress-green);
+            box-shadow: 0 0 8px rgba(140,255,0,0.15);
         }
 
         .progress-fill.suppression {
-            background:
-                linear-gradient(90deg,
-                var(--suppression-bar-1) 0%,
-                var(--suppression-bar-2) 56%,
-                var(--suppression-bar-3) 100%);
-            box-shadow:
-                0 0 10px rgba(107,198,217,0.16),
-                inset 0 0 5px rgba(255,255,255,0.05);
+            background: var(--progress-white);
+            box-shadow: 0 0 6px rgba(255,255,255,0.08);
         }
 
         @media (max-width: 1280px) {
@@ -493,18 +496,30 @@
         showFar: {
             angels: false,
             guristas: false
-        }
+        },
+        stats: {}
     };
 
     async function fetchJson(url) {
-        const response = await fetch(url, { cache: "no-store" });
+        const response = await fetch(`${url}?t=${Date.now()}`, {
+            cache: "no-store"
+        });
+
         const text = await response.text();
 
         if (!response.ok) {
             throw new Error(`HTTP ${response.status}: ${text.slice(0, 250)}`);
         }
 
-        return JSON.parse(text);
+        if (!text || !text.trim()) {
+            throw new Error("JSON file is empty right now");
+        }
+
+        try {
+            return JSON.parse(text);
+        } catch {
+            throw new Error(`Invalid or partial JSON received: ${text.slice(0, 120)}`);
+        }
     }
 
     function escapeHtml(str) {
@@ -522,18 +537,54 @@
         return Math.max(0, Math.min(100, n));
     }
 
-    function createProgressBar(label, percentage, stateValue, cssClass) {
-        const pct = clampPercent(percentage);
-        const stateLabel = stateValue ?? "-";
+    function formatSecurity(value) {
+        const n = Number(value);
+        if (!Number.isFinite(n)) return null;
+        return n.toFixed(2);
+    }
+
+    function getSecurityColor(value) {
+        const n = Number(value);
+        if (!Number.isFinite(n)) return "#9aa8bc";
+
+        if (n >= 0.95) return "#2f9df6";
+        if (n >= 0.85) return "#45b8ff";
+        if (n >= 0.75) return "#58d4ff";
+        if (n >= 0.65) return "#4fe3c1";
+        if (n >= 0.55) return "#78e36f";
+        if (n >= 0.45) return "#c2e55d";
+        if (n >= 0.35) return "#f0cf53";
+        if (n >= 0.25) return "#f0a34f";
+        if (n >= 0.15) return "#eb7349";
+        if (n > 0) return "#d9534f";
+        return "#b91c1c";
+    }
+
+    function createProgressPair(corruptionPct, corruptionState, suppressionPct, suppressionState) {
+        const corr = clampPercent(corruptionPct);
+        const supp = clampPercent(suppressionPct);
 
         return `
             <div class="progress-block">
-              <div class="progress-label">
-                <span>${escapeHtml(label)}</span>
-                <span>${pct.toFixed(2).replace(/\.00$/, "")}% • state ${escapeHtml(String(stateLabel))}</span>
+              <div class="progress-title">
+                <span>Insurgency Progress</span>
+                <span>C ${escapeHtml(String(corruptionState ?? "-"))} / S ${escapeHtml(String(suppressionState ?? "-"))}</span>
               </div>
-              <div class="progress-track">
-                <div class="progress-fill ${cssClass}" style="width:${pct}%"></div>
+
+              <div class="progress-pair">
+                <div class="progress-line">
+                  <div class="progress-line-label">Corruption ${corr.toFixed(2).replace(/\.00$/, "")}%</div>
+                  <div class="progress-track">
+                    <div class="progress-fill corruption" style="width:${corr}%"></div>
+                  </div>
+                </div>
+
+                <div class="progress-line">
+                  <div class="progress-line-label">Suppression ${supp.toFixed(2).replace(/\.00$/, "")}%</div>
+                  <div class="progress-track">
+                    <div class="progress-fill suppression" style="width:${supp}%"></div>
+                  </div>
+                </div>
               </div>
             </div>
         `;
@@ -570,13 +621,17 @@
             }
         }
 
+        const securityText = formatSecurity(system.security);
+        const securityColor = getSecurityColor(system.security);
+
         return `
             <div class="card">
               <div class="card-header">
                 <img src="${IMAGES[system.faction] || ""}" alt="">
                 <div>
-                  <div class="name">
-                    ${escapeHtml(system.name)}
+                  <div class="name-row">
+                    <div class="name">${escapeHtml(system.name)}</div>
+                    ${securityText ? `<span class="sec-badge" style="color:${securityColor}; border-color:${securityColor}33;">${securityText}</span>` : ""}
                     ${system.isFob ? `<span class="pill fob">FOB</span>` : ""}
                     <span class="pill lawless">LAWLESS</span>
                   </div>
@@ -622,8 +677,12 @@
                 : ""
         }
 
-              ${createProgressBar("Corruption", system.corruptionPercentage, system.corruptionState, "corruption")}
-              ${createProgressBar("Suppression", system.suppressionPercentage, system.suppressionState, "suppression")}
+              ${createProgressPair(
+            system.corruptionPercentage,
+            system.corruptionState,
+            system.suppressionPercentage,
+            system.suppressionState
+        )}
             </div>
         `;
     }
@@ -725,15 +784,20 @@
     }
 
     async function loadData() {
-        state.showFar.angels = false;
-        state.showFar.guristas = false;
+        try {
+            state.showFar.angels = false;
+            state.showFar.guristas = false;
 
-        const data = await fetchJson(API);
+            const data = await fetchJson(API);
 
-        state.generatedAt = data.generatedAt;
-        state.stats = data.stats || {};
-        state.systems = data.systems || [];
-        render();
+            state.generatedAt = data.generatedAt;
+            state.stats = data.stats || {};
+            state.systems = data.systems || [];
+            render();
+        } catch (error) {
+            document.getElementById("meta").innerHTML =
+                `<span class="err">${escapeHtml(error.message || String(error))}</span>`;
+        }
     }
 
     document.getElementById("refreshBtn").onclick = loadData;
