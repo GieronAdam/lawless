@@ -1,62 +1,81 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>EVE Lawless HS Systems</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>EVE Lawless Systems</title>
 
     <style>
         body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #0b0f14;
-            color: #e6edf3;
+            margin:0;
+            font-family: Arial;
+            background:#0b0f14;
+            color:#e6edf3;
         }
 
         .wrap {
-            max-width: 1100px;
-            margin: 0 auto;
-            padding: 24px;
+            max-width:1100px;
+            margin:auto;
+            padding:20px;
         }
 
-        h1 { margin-bottom: 10px; }
+        h1 { margin-bottom:10px; }
 
         .toolbar {
-            margin-bottom: 16px;
+            margin-bottom:15px;
         }
 
-        select, button {
-            padding: 8px;
-            margin-right: 10px;
+        select,button {
+            padding:8px;
+            margin-right:10px;
+            background:#121923;
+            color:white;
+            border:1px solid #2a3747;
         }
 
         .meta {
-            margin-bottom: 10px;
-            color: #9fb0c0;
+            color:#9fb0c0;
+            margin-bottom:10px;
+        }
+
+        .grid {
+            display:grid;
+            grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+            gap:12px;
         }
 
         .card {
-            background: #121923;
-            border: 1px solid #2a3747;
-            border-radius: 10px;
-            padding: 12px;
-            margin-bottom: 10px;
+            background:#121923;
+            border:1px solid #2a3747;
+            border-radius:10px;
+            padding:12px;
+        }
+
+        .header {
+            display:flex;
+            align-items:center;
+            gap:10px;
+            margin-bottom:10px;
+        }
+
+        .header img {
+            width:50px;
         }
 
         .name {
-            font-size: 18px;
-            font-weight: bold;
+            font-size:18px;
+            font-weight:bold;
         }
 
         .row {
-            display: flex;
-            justify-content: space-between;
-            font-size: 14px;
+            display:flex;
+            justify-content:space-between;
+            font-size:14px;
         }
 
         .lawless {
-            color: #31c48d;
-            font-weight: bold;
+            color:#31c48d;
+            font-weight:bold;
         }
     </style>
 </head>
@@ -64,13 +83,19 @@
 <body>
 <div class="wrap">
 
-    <h1>Lawless High-Sec Systems</h1>
+    <h1>Lawless Systems</h1>
 
     <div class="toolbar">
         <select id="factionFilter">
             <option value="all">All</option>
             <option value="guristas">Guristas</option>
             <option value="angels">Angel Cartel</option>
+        </select>
+
+        <select id="secFilter">
+            <option value="all">All space</option>
+            <option value="High-Sec">High-Sec</option>
+            <option value="Low-Sec">Low-Sec</option>
         </select>
 
         <button id="refreshBtn">Refresh</button>
@@ -82,180 +107,160 @@
 </div>
 
 <script>
-    const INSURGENCY_API = "./data/insurgency.json";
-    const ESI_ROUTE = "https://esi.evetech.net/route";
+    const API = "./data/insurgency.json";
 
-    const TRADE_HUBS = [
-        { name: "Jita", id: 30000142 },
-        { name: "Amarr", id: 30002187 },
-        { name: "Dodixie", id: 30002659 },
-        { name: "Hek", id: 30002053 },
-        { name: "Rens", id: 30002510 },
+    const HUBS = [
+        {name:"Jita",id:30000142},
+        {name:"Amarr",id:30002187},
+        {name:"Dodixie",id:30002659},
+        {name:"Hek",id:30002053},
+        {name:"Rens",id:30002510},
     ];
 
-    const PIRATES = {
+    const FACTIONS = {
         500010: "guristas",
         500011: "angels"
     };
 
-    let state = {
-        systems: [],
-        lastUpdated: null,
-        error: null
+    const IMAGES = {
+        guristas: "https://images.evetech.net/types/24692/render?size=64",
+        angels: "https://images.evetech.net/types/17920/render?size=64"
     };
+
+    let state = {systems:[], last:null};
 
     const cache = new Map();
 
-    async function fetchJson(url, options = {}) {
-        const res = await fetch(url, {
-            cache: "no-store",
-            ...options,
-            headers: {
-                "Accept": "application/json",
-                ...options.headers
+    async function fetchJson(url,opt={}) {
+        const r = await fetch(url,{cache:"no-store",...opt});
+        if(!r.ok) throw new Error(r.status);
+        return r.json();
+    }
+
+    async function jumps(a,b){
+        const k=a+":"+b;
+        if(cache.has(k)) return cache.get(k);
+
+        const r = await fetchJson(
+            `https://esi.evetech.net/route/${a}/${b}`,
+            {
+                method:"POST",
+                headers:{
+                    "Content-Type":"application/json",
+                    "X-Compatibility-Date":"2025-09-30"
+                },
+                body:JSON.stringify({preference:"shorter"})
             }
-        });
-
-        if (!res.ok) throw new Error("HTTP " + res.status);
-        return res.json();
-    }
-
-    async function getJumps(from, to) {
-        const key = from + ":" + to;
-        if (cache.has(key)) return cache.get(key);
-
-        const url = `${ESI_ROUTE}/${from}/${to}`;
-
-        const route = await fetchJson(url, {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "X-Compatibility-Date": "2025-09-30"
-            },
-            body: JSON.stringify({ preference: "shorter" })
-        });
-
-        const jumps = route.length - 1;
-        cache.set(key, jumps);
-        return jumps;
-    }
-
-    async function getHubDistances(systemId) {
-        const results = await Promise.all(
-            TRADE_HUBS.map(async hub => {
-                try {
-                    const jumps = await getJumps(systemId, hub.id);
-                    return { name: hub.name, jumps };
-                } catch {
-                    return { name: hub.name, jumps: null };
-                }
-            })
         );
 
-        const valid = results.filter(x => x.jumps !== null);
-        const nearest = valid.length
-            ? valid.reduce((a, b) => a.jumps < b.jumps ? a : b)
-            : null;
-
-        return { results, nearest };
+        const j=r.length-1;
+        cache.set(k,j);
+        return j;
     }
 
-    async function load() {
-        try {
-            const data = await fetchJson(INSURGENCY_API);
+    async function hubInfo(id){
+        const res=await Promise.all(HUBS.map(async h=>{
+            try{return {name:h.name,j:await jumps(id,h.id)}}
+            catch{return {name:h.name,j:null}}
+        }));
 
-            const systems = [];
+        const valid=res.filter(x=>x.j!=null);
+        const nearest=valid.length?valid.reduce((a,b)=>a.j<b.j?a:b):null;
 
-            for (const camp of data) {
-                const faction = PIRATES[camp.pirateFactionId];
+        return {res,nearest};
+    }
 
-                for (const i of camp.insurgencies || []) {
-                    if (i.corruptionState < 5) continue;
-                    if (i.solarSystem.securityBand !== "High-Sec") continue;
+    async function load(){
+        const data=await fetchJson(API);
 
-                    systems.push({
-                        id: i.solarSystem.id,
-                        name: i.solarSystem.name,
-                        faction,
-                        corruption: i.corruptionPercentage
-                    });
-                }
+        let out=[];
+
+        for(const c of data){
+            const f=FACTIONS[c.pirateFactionId];
+
+            for(const i of c.insurgencies||[]){
+                if(i.corruptionState<5) continue;
+
+                out.push({
+                    id:i.solarSystem.id,
+                    name:i.solarSystem.name,
+                    sec:i.solarSystem.securityBand,
+                    faction:f,
+                    corr:i.corruptionPercentage
+                });
             }
-
-            const enriched = await Promise.all(
-                systems.map(async s => {
-                    const hubs = await getHubDistances(s.id);
-                    return { ...s, hubs };
-                })
-            );
-
-            state.systems = enriched;
-            state.lastUpdated = new Date();
-            state.error = null;
-
-        } catch (e) {
-            state.error = e.message;
         }
+
+        const enriched=await Promise.all(out.map(async s=>{
+            const hubs=await hubInfo(s.id);
+            return {...s,hubs};
+        }));
+
+        state.systems=enriched;
+        state.last=new Date();
 
         render();
     }
 
-    function render() {
-        const app = document.getElementById("app");
-        const meta = document.getElementById("meta");
-        const filter = document.getElementById("factionFilter").value;
+    function render(){
+        const f=document.getElementById("factionFilter").value;
+        const sec=document.getElementById("secFilter").value;
 
-        if (state.error) {
-            app.innerHTML = "Error: " + state.error;
+        let list=state.systems;
+
+        if(f!=="all") list=list.filter(x=>x.faction===f);
+        if(sec!=="all") list=list.filter(x=>x.sec===sec);
+
+        document.getElementById("meta").innerText =
+            `Updated: ${state.last?.toLocaleTimeString()} | ${list.length} systems`;
+
+        if(!list.length){
+            document.getElementById("app").innerHTML="No systems";
             return;
         }
 
-        let list = state.systems;
-        if (filter !== "all") {
-            list = list.filter(x => x.faction === filter);
-        }
+        document.getElementById("app").innerHTML =
+            `<div class="grid">`+
+            list.map(s=>`
+      <div class="card">
 
-        meta.innerText = `Updated: ${state.lastUpdated?.toLocaleTimeString()} | Systems: ${list.length}`;
-
-        if (!list.length) {
-            app.innerHTML = "No systems";
-            return;
-        }
-
-        app.innerHTML = list.map(s => `
-    <div class="card">
-      <div class="name">${s.name} (${s.faction})</div>
-
-      <div class="row">
-        <div>Corruption</div>
-        <div>${s.corruption}%</div>
-      </div>
-
-      <div class="row">
-        <div>Nearest hub</div>
-        <div>${s.hubs.nearest ? s.hubs.nearest.name + " (" + s.hubs.nearest.jumps + ")" : "-"}</div>
-      </div>
-
-      <div class="row">
-        <div>All hubs</div>
-        <div>
-          ${s.hubs.results.map(h => `${h.name}:${h.jumps ?? "?"}`).join("<br>")}
+        <div class="header">
+          <img src="${IMAGES[s.faction]}">
+          <div>
+            <div class="name">${s.name}</div>
+            <div>${s.faction}</div>
+          </div>
         </div>
-      </div>
 
-      <div class="row">
-        <div>Lawless</div>
-        <div class="lawless">YES</div>
+        <div class="row"><div>Security</div><div>${s.sec}</div></div>
+        <div class="row"><div>Corruption</div><div>${s.corr}%</div></div>
+
+        <div class="row">
+          <div>Nearest hub</div>
+          <div>${s.hubs.nearest ? s.hubs.nearest.name+" ("+s.hubs.nearest.j+")" : "-"}</div>
+        </div>
+
+        <div class="row">
+          <div>All hubs</div>
+          <div>${s.hubs.res.map(h=>h.name+":"+(h.j??"?")).join("<br>")}</div>
+        </div>
+
+        <div class="row">
+          <div>Lawless</div>
+          <div class="lawless">YES</div>
+        </div>
+
       </div>
-    </div>
-  `).join("");
+    `).join("")+
+            `</div>`;
     }
 
-    document.getElementById("refreshBtn").onclick = load;
-    document.getElementById("factionFilter").onchange = render;
+    document.getElementById("refreshBtn").onclick=load;
+    document.getElementById("factionFilter").onchange=render;
+    document.getElementById("secFilter").onchange=render;
 
     load();
-    setInterval(load, 60000);
+    setInterval(load,60000);
 </script>
 
 </body>
