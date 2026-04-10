@@ -1,120 +1,110 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta charset="UTF-8">
     <title>EVE Lawless Systems</title>
 
     <style>
         body {
-            margin:0;
             font-family: Arial;
-            background:#0b0f14;
-            color:#e6edf3;
+            background: #0b0f17;
+            color: #e5e7eb;
+            padding: 20px;
         }
 
-        .wrap {
-            max-width:1100px;
-            margin:auto;
-            padding:20px;
+        .controls {
+            margin-bottom: 20px;
         }
 
-        h1 { margin-bottom:10px; }
-
-        .toolbar {
-            margin-bottom:15px;
-        }
-
-        select,button {
-            padding:8px;
-            margin-right:10px;
-            background:#121923;
-            color:white;
-            border:1px solid #2a3747;
-        }
-
-        .meta {
-            color:#9fb0c0;
-            margin-bottom:10px;
+        select, button {
+            padding: 6px 10px;
+            margin-right: 10px;
+            background: #111827;
+            color: white;
+            border: 1px solid #374151;
         }
 
         .grid {
-            display:grid;
-            grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
-            gap:12px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 12px;
         }
 
         .card {
-            background:#121923;
-            border:1px solid #2a3747;
-            border-radius:10px;
-            padding:12px;
+            background: #111827;
+            padding: 12px;
+            border-radius: 10px;
+            border: 1px solid #1f2937;
         }
 
         .header {
-            display:flex;
-            align-items:center;
-            gap:10px;
-            margin-bottom:10px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            margin-bottom: 10px;
         }
 
         .header img {
-            width:50px;
+            width: 48px;
         }
 
         .name {
-            font-size:18px;
-            font-weight:bold;
+            font-size: 18px;
+            font-weight: bold;
         }
 
         .row {
-            display:flex;
-            justify-content:space-between;
-            font-size:14px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 13px;
+            margin-top: 4px;
         }
 
         .lawless {
-            color:#31c48d;
-            font-weight:bold;
+            color: #22c55e;
+            font-weight: bold;
+        }
+
+        .meta {
+            margin-bottom: 10px;
+            font-size: 12px;
+            color: #9ca3af;
         }
     </style>
 </head>
 
 <body>
-<div class="wrap">
 
-    <h1>Lawless Systems</h1>
+<h2>🔥 EVE Lawless Systems</h2>
 
-    <div class="toolbar">
-        <select id="factionFilter">
-            <option value="all">All</option>
-            <option value="guristas">Guristas</option>
-            <option value="angels">Angel Cartel</option>
-        </select>
+<div class="controls">
+    <select id="factionFilter">
+        <option value="all">All factions</option>
+        <option value="guristas">Guristas</option>
+        <option value="angels">Angel Cartel</option>
+    </select>
 
-        <select id="secFilter">
-            <option value="all">All space</option>
-            <option value="High-Sec">High-Sec</option>
-            <option value="Low-Sec">Low-Sec</option>
-        </select>
+    <select id="secFilter">
+        <option value="all">All space</option>
+        <option value="High-Sec">High-Sec</option>
+        <option value="Low-Sec">Low-Sec</option>
+    </select>
 
-        <button id="refreshBtn">Refresh</button>
-    </div>
-
-    <div id="meta" class="meta">Loading...</div>
-    <div id="app"></div>
-
+    <button id="refreshBtn">Refresh</button>
 </div>
+
+<div class="meta" id="meta"></div>
+<div id="app"></div>
 
 <script>
     const API = "./data/insurgency.json";
 
     const HUBS = [
-        {name:"Jita",id:30000142},
-        {name:"Amarr",id:30002187},
-        {name:"Dodixie",id:30002659},
-        {name:"Hek",id:30002053},
-        {name:"Rens",id:30002510},
+        { name: "Jita", id: 30000142 },
+        { name: "Amarr", id: 30002187 },
+        { name: "Dodixie", id: 30002659 },
+        { name: "Hek", id: 30002053 },
+        { name: "Rens", id: 30002510 },
     ];
 
     const FACTIONS = {
@@ -127,103 +117,126 @@
         angels: "https://images.evetech.net/types/17738/render?size=64"    // Machariel
     };
 
-    let state = {systems:[], last:null};
+    let state = {
+        systems: [],
+        last: null,
+        errors: []
+    };
 
-    const cache = new Map();
+    const routeCache = new Map();
 
-    async function fetchJson(url,opt={}) {
-        const r = await fetch(url,{cache:"no-store",...opt});
-        if(!r.ok) throw new Error(r.status);
-        return r.json();
+    async function fetchJson(url, opt = {}) {
+        const r = await fetch(url, {
+            cache: "no-store",
+            headers: { "Accept": "application/json" },
+            ...opt
+        });
+
+        const text = await r.text();
+
+        if (!r.ok) {
+            throw new Error(`HTTP ${r.status}: ${text.slice(0,200)}`);
+        }
+
+        return JSON.parse(text);
     }
 
-    async function jumps(a,b){
-        const k=a+":"+b;
-        if(cache.has(k)) return cache.get(k);
+    async function jumps(from, to) {
+        const key = `${from}:${to}`;
+        if (routeCache.has(key)) return routeCache.get(key);
 
-        const r = await fetchJson(
-            `https://esi.evetech.net/route/${a}/${b}`,
-            {
-                method:"POST",
-                headers:{
-                    "Content-Type":"application/json",
-                    "X-Compatibility-Date":"2025-09-30"
-                },
-                body:JSON.stringify({preference:"shorter"})
-            }
-        );
+        const url = `https://esi.evetech.net/route/${from}/${to}`;
 
-        const j=r.length-1;
-        cache.set(k,j);
+        const route = await fetchJson(url, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "X-Compatibility-Date": "2025-09-30"
+            },
+            body: JSON.stringify({ preference: "shorter" })
+        });
+
+        if (!Array.isArray(route)) throw new Error("bad route");
+
+        const j = Math.max(route.length - 1, 0);
+        routeCache.set(key, j);
         return j;
     }
 
-    async function hubInfo(id){
-        const res=await Promise.all(HUBS.map(async h=>{
-            try{return {name:h.name,j:await jumps(id,h.id)}}
-            catch{return {name:h.name,j:null}}
-        }));
+    async function hubInfo(systemId) {
+        const res = await Promise.all(
+            HUBS.map(async (h) => {
+                try {
+                    return { name: h.name, j: await jumps(systemId, h.id) };
+                } catch (e) {
+                    state.errors.push(`${systemId}->${h.name}`);
+                    return { name: h.name, j: null };
+                }
+            })
+        );
 
-        const valid=res.filter(x=>x.j!=null);
-        const nearest=valid.length?valid.reduce((a,b)=>a.j<b.j?a:b):null;
+        const valid = res.filter(x => x.j !== null);
+        const nearest = valid.length
+            ? valid.reduce((a,b)=>a.j<b.j?a:b)
+            : null;
 
-        return {res,nearest};
+        return { res, nearest };
     }
 
-    async function load(){
-        const data=await fetchJson(API);
+    async function load() {
+        state.errors = [];
 
-        let out=[];
+        const data = await fetchJson(API);
 
-        for(const c of data){
-            const f=FACTIONS[c.pirateFactionId];
+        let systems = [];
 
-            for(const i of c.insurgencies||[]){
-                if(i.corruptionState<5) continue;
+        for (const c of data) {
+            const faction = FACTIONS[c.pirateFactionId];
 
-                out.push({
-                    id:i.solarSystem.id,
-                    name:i.solarSystem.name,
-                    sec:i.solarSystem.securityBand,
-                    faction:f,
-                    corr:i.corruptionPercentage
+            for (const i of c.insurgencies || []) {
+                if ((i.corruptionState ?? 0) < 5) continue;
+
+                systems.push({
+                    id: i.solarSystem.id,
+                    name: i.solarSystem.name,
+                    sec: i.solarSystem.securityBand,
+                    faction,
+                    corr: i.corruptionPercentage
                 });
             }
         }
 
-        const enriched=await Promise.all(out.map(async s=>{
-            const hubs=await hubInfo(s.id);
-            return {...s,hubs};
-        }));
+        const enriched = await Promise.all(
+            systems.map(async s => ({
+                ...s,
+                hubs: await hubInfo(s.id)
+            }))
+        );
 
-        state.systems=enriched;
-        state.last=new Date();
-
+        state.systems = enriched;
+        state.last = new Date();
         render();
     }
 
-    function render(){
-        const f=document.getElementById("factionFilter").value;
-        const sec=document.getElementById("secFilter").value;
+    function render() {
+        const faction = factionFilter.value;
+        const sec = secFilter.value;
 
-        let list=state.systems;
+        let list = [...state.systems];
 
-        if(f!=="all") list=list.filter(x=>x.faction===f);
-        if(sec!=="all") list=list.filter(x=>x.sec===sec);
+        if (faction !== "all") list = list.filter(x => x.faction === faction);
+        if (sec !== "all") list = list.filter(x => x.sec === sec);
 
-        document.getElementById("meta").innerText =
-            `Updated: ${state.last?.toLocaleTimeString()} | ${list.length} systems`;
+        meta.innerHTML = `
+    Updated: ${state.last?.toLocaleTimeString() || "-"} |
+    Systems: ${list.length}
+    ${state.errors.length ? `<br style="color:red">Route errors: ${state.errors.length}` : ""}
+  `;
 
-        if(!list.length){
-            document.getElementById("app").innerHTML="No systems";
-            return;
-        }
-
-        document.getElementById("app").innerHTML =
-            `<div class="grid">`+
-            list.map(s=>`
+        app.innerHTML = `
+  <div class="grid">
+    ${list.map(s => `
       <div class="card">
-
         <div class="header">
           <img src="${IMAGES[s.faction]}">
           <div>
@@ -237,30 +250,26 @@
 
         <div class="row">
           <div>Nearest hub</div>
-          <div>${s.hubs.nearest ? s.hubs.nearest.name+" ("+s.hubs.nearest.j+")" : "-"}</div>
+          <div>${s.hubs.nearest ? `${s.hubs.nearest.name} (${s.hubs.nearest.j})` : "ERR"}</div>
         </div>
 
         <div class="row">
           <div>All hubs</div>
-          <div>${s.hubs.res.map(h=>h.name+":"+(h.j??"?")).join("<br>")}</div>
+          <div>${s.hubs.res.map(h => `${h.name}:${h.j ?? "?"}`).join("<br>")}</div>
         </div>
 
-        <div class="row">
-          <div>Lawless</div>
-          <div class="lawless">YES</div>
-        </div>
-
+        <div class="row"><div>Lawless</div><div class="lawless">YES</div></div>
       </div>
-    `).join("")+
-            `</div>`;
+    `).join("")}
+  </div>`;
     }
 
-    document.getElementById("refreshBtn").onclick=load;
-    document.getElementById("factionFilter").onchange=render;
-    document.getElementById("secFilter").onchange=render;
+    refreshBtn.onclick = load;
+    factionFilter.onchange = render;
+    secFilter.onchange = render;
 
     load();
-    setInterval(load,60000);
+    setInterval(load, 60000);
 </script>
 
 </body>
