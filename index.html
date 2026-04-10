@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>EVE Lawless HS Systems</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0b0f14;
+            color: #e6edf3;
+        }
+
+        .wrap {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 24px;
+        }
+
+        h1 { margin-bottom: 10px; }
+
+        .toolbar {
+            margin-bottom: 16px;
+        }
+
+        select, button {
+            padding: 8px;
+            margin-right: 10px;
+        }
+
+        .meta {
+            margin-bottom: 10px;
+            color: #9fb0c0;
+        }
+
+        .card {
+            background: #121923;
+            border: 1px solid #2a3747;
+            border-radius: 10px;
+            padding: 12px;
+            margin-bottom: 10px;
+        }
+
+        .name {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+        }
+
+        .lawless {
+            color: #31c48d;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+<div class="wrap">
+
+    <h1>Lawless High-Sec Systems</h1>
+
+    <div class="toolbar">
+        <select id="factionFilter">
+            <option value="all">All</option>
+            <option value="guristas">Guristas</option>
+            <option value="angels">Angel Cartel</option>
+        </select>
+
+        <button id="refreshBtn">Refresh</button>
+    </div>
+
+    <div id="meta" class="meta">Loading...</div>
+    <div id="app"></div>
+
+</div>
+
+<script>
+    const INSURGENCY_API = "https://www.eveonline.com/api/warzone/insurgency";
+    const ESI_ROUTE = "https://esi.evetech.net/route";
+
+    const TRADE_HUBS = [
+        { name: "Jita", id: 30000142 },
+        { name: "Amarr", id: 30002187 },
+        { name: "Dodixie", id: 30002659 },
+        { name: "Hek", id: 30002053 },
+        { name: "Rens", id: 30002510 },
+    ];
+
+    const PIRATES = {
+        500010: "guristas",
+        500011: "angels"
+    };
+
+    let state = {
+        systems: [],
+        lastUpdated: null,
+        error: null
+    };
+
+    const cache = new Map();
+
+    async function fetchJson(url, options = {}) {
+        const res = await fetch(url, {
+            cache: "no-store",
+            ...options,
+            headers: {
+                "Accept": "application/json",
+                ...options.headers
+            }
+        });
+
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        return res.json();
+    }
+
+    async function getJumps(from, to) {
+        const key = from + ":" + to;
+        if (cache.has(key)) return cache.get(key);
+
+        const url = `${ESI_ROUTE}/${from}/${to}`;
+
+        const route = await fetchJson(url, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "X-Compatibility-Date": "2025-09-30"
+            },
+            body: JSON.stringify({ preference: "shorter" })
+        });
+
+        const jumps = route.length - 1;
+        cache.set(key, jumps);
+        return jumps;
+    }
+
+    async function getHubDistances(systemId) {
+        const results = await Promise.all(
+            TRADE_HUBS.map(async hub => {
+                try {
+                    const jumps = await getJumps(systemId, hub.id);
+                    return { name: hub.name, jumps };
+                } catch {
+                    return { name: hub.name, jumps: null };
+                }
+            })
+        );
+
+        const valid = results.filter(x => x.jumps !== null);
+        const nearest = valid.length
+            ? valid.reduce((a, b) => a.jumps < b.jumps ? a : b)
+            : null;
+
+        return { results, nearest };
+    }
+
+    async function load() {
+        try {
+            const data = await fetchJson(INSURGENCY_API);
+
+            const systems = [];
+
+            for (const camp of data) {
+                const faction = PIRATES[camp.pirateFactionId];
+
+                for (const i of camp.insurgencies || []) {
+                    if (i.corruptionState < 5) continue;
+                    if (i.solarSystem.securityBand !== "High-Sec") continue;
+
+                    systems.push({
+                        id: i.solarSystem.id,
+                        name: i.solarSystem.name,
+                        faction,
+                        corruption: i.corruptionPercentage
+                    });
+                }
+            }
+
+            const enriched = await Promise.all(
+                systems.map(async s => {
+                    const hubs = await getHubDistances(s.id);
+                    return { ...s, hubs };
+                })
+            );
+
+            state.systems = enriched;
+            state.lastUpdated = new Date();
+            state.error = null;
+
+        } catch (e) {
+            state.error = e.message;
+        }
+
+        render();
+    }
+
+    function render() {
+        const app = document.getElementById("app");
+        const meta = document.getElementById("meta");
+        const filter = document.getElementById("factionFilter").value;
+
+        if (state.error) {
+            app.innerHTML = "Error: " + state.error;
+            return;
+        }
+
+        let list = state.systems;
+        if (filter !== "all") {
+            list = list.filter(x => x.faction === filter);
+        }
+
+        meta.innerText = `Updated: ${state.lastUpdated?.toLocaleTimeString()} | Systems: ${list.length}`;
+
+        if (!list.length) {
+            app.innerHTML = "No systems";
+            return;
+        }
+
+        app.innerHTML = list.map(s => `
+    <div class="card">
+      <div class="name">${s.name} (${s.faction})</div>
+
+      <div class="row">
+        <div>Corruption</div>
+        <div>${s.corruption}%</div>
+      </div>
+
+      <div class="row">
+        <div>Nearest hub</div>
+        <div>${s.hubs.nearest ? s.hubs.nearest.name + " (" + s.hubs.nearest.jumps + ")" : "-"}</div>
+      </div>
+
+      <div class="row">
+        <div>All hubs</div>
+        <div>
+          ${s.hubs.results.map(h => `${h.name}:${h.jumps ?? "?"}`).join("<br>")}
+        </div>
+      </div>
+
+      <div class="row">
+        <div>Lawless</div>
+        <div class="lawless">YES</div>
+      </div>
+    </div>
+  `).join("");
+    }
+
+    document.getElementById("refreshBtn").onclick = load;
+    document.getElementById("factionFilter").onchange = render;
+
+    load();
+    setInterval(load, 60000);
+</script>
+
+</body>
+</html>
