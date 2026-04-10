@@ -27,6 +27,8 @@ jobs:
 
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -346,11 +348,13 @@ jobs:
               systems
             };
 
+            const tmpPath = `${OUTPUT_PATH}.tmp`;
             await fs.writeFile(
-              OUTPUT_PATH,
+              tmpPath,
               JSON.stringify(output, null, 2),
               "utf8"
             );
+            await fs.rename(tmpPath, OUTPUT_PATH);
 
             console.log(`Route calculated now: ${okCount}`);
             console.log(`Route errors: ${errCount}`);
@@ -380,6 +384,21 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Push changes
+      - name: Rebase on latest main
         if: steps.commit.outputs.changed == 'true'
-        run: git push -f
+        run: |
+          git fetch origin main
+          git pull --rebase origin main
+
+      - name: Push changes with retry
+        if: steps.commit.outputs.changed == 'true'
+        run: |
+          for i in 1 2 3; do
+            git push && exit 0
+            echo "Push failed on attempt $i, retrying after rebase..."
+            git fetch origin main
+            git pull --rebase origin main
+            sleep 3
+          done
+          echo "Push failed after retries"
+          exit 1
