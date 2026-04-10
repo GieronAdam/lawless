@@ -25,9 +25,16 @@
             --guristas-secondary: #44d1ff;
             --guristas-glow: rgba(124, 92, 255, 0.20);
 
-            --corruption-bar: #dc2626;
-            --suppression-bar: #2563eb;
-            --track: #1c2635;
+            --corruption-bar-1: #7a4a15;
+            --corruption-bar-2: #b87020;
+            --corruption-bar-3: #f0b24f;
+
+            --suppression-bar-1: #1e4461;
+            --suppression-bar-2: #2b6f95;
+            --suppression-bar-3: #6bc6d9;
+
+            --track-outer: #0b1119;
+            --track-inner: #1a2432;
         }
 
         * { box-sizing: border-box; }
@@ -105,7 +112,7 @@
             background-repeat: no-repeat;
             background-position: center 58%;
             background-size: 62%;
-            opacity: 0.07;
+            opacity: 0.065;
             pointer-events: none;
             z-index: 0;
         }
@@ -311,30 +318,68 @@
             gap: 12px;
             font-size: 12px;
             color: #d5ddeb;
-            margin-bottom: 4px;
+            margin-bottom: 5px;
         }
 
         .progress-track {
+            position: relative;
             width: 100%;
-            height: 10px;
-            background: var(--track);
+            height: 12px;
+            background:
+                linear-gradient(180deg, var(--track-outer), #101722);
             border-radius: 999px;
             overflow: hidden;
-            border: 1px solid rgba(255,255,255,0.06);
+            border: 1px solid rgba(255,255,255,0.05);
+            box-shadow:
+                inset 0 1px 0 rgba(255,255,255,0.04),
+                inset 0 -1px 0 rgba(0,0,0,0.38);
+        }
+
+        .progress-track::after {
+            content: "";
+            position: absolute;
+            inset: 2px;
+            border-radius: 999px;
+            background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0));
+            pointer-events: none;
         }
 
         .progress-fill {
+            position: relative;
             height: 100%;
             width: 0%;
             border-radius: 999px;
+            overflow: hidden;
+        }
+
+        .progress-fill::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, rgba(255,255,255,0.18), rgba(255,255,255,0));
+            pointer-events: none;
         }
 
         .progress-fill.corruption {
-            background: linear-gradient(90deg, #7f1d1d, var(--corruption-bar));
+            background:
+                linear-gradient(90deg,
+                var(--corruption-bar-1) 0%,
+                var(--corruption-bar-2) 56%,
+                var(--corruption-bar-3) 100%);
+            box-shadow:
+                0 0 10px rgba(240,178,79,0.18),
+                inset 0 0 5px rgba(255,255,255,0.06);
         }
 
         .progress-fill.suppression {
-            background: linear-gradient(90deg, #1d4ed8, var(--suppression-bar));
+            background:
+                linear-gradient(90deg,
+                var(--suppression-bar-1) 0%,
+                var(--suppression-bar-2) 56%,
+                var(--suppression-bar-3) 100%);
+            box-shadow:
+                0 0 10px rgba(107,198,217,0.16),
+                inset 0 0 5px rgba(255,255,255,0.05);
         }
 
         @media (max-width: 1280px) {
@@ -396,7 +441,7 @@
     <section class="faction-column angels">
         <div class="faction-inner">
             <div class="faction-header">
-                <img src="https://images.evetech.net/corporations/500011/logo?size=128" alt="Angel Cartel">
+                <img src="https://images.evetech.net/factions/500011/logo?size=128" alt="Angel Cartel">
                 <div>
                     <div class="faction-title">Angel Cartel</div>
                     <div class="faction-sub">Lawless systems</div>
@@ -409,7 +454,7 @@
     <section class="faction-column guristas">
         <div class="faction-inner">
             <div class="faction-header">
-                <img src="https://images.evetech.net/corporations/500010/logo?size=128" alt="Guristas">
+                <img src="https://images.evetech.net/factions/500010/logo?size=128" alt="Guristas">
                 <div>
                     <div class="faction-title">Guristas</div>
                     <div class="faction-sub">Lawless systems</div>
@@ -684,8 +729,6 @@
         state.showFar.guristas = false;
 
         const data = await fetchJson(API);
-        console.log("JSON loaded:", data);
-        console.log("First system:", data.systems?.[0]);
 
         state.generatedAt = data.generatedAt;
         state.stats = data.stats || {};
