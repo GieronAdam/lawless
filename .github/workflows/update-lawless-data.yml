@@ -1,0 +1,326 @@
+name: Update lawless systems data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "7,17,27,37,47,57 * * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-lawless-data.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-lawless-systems-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Debug time
+        run: date -u
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Build enriched lawless JSON
+        run: |
+          mkdir -p data scripts
+
+          cat > scripts/build-lawless.mjs <<'EOF'
+          import fs from "node:fs/promises";
+
+          const INSURGENCY_URL = "https://www.eveonline.com/api/warzone/insurgency";
+          const ROUTE_BASE = "https://esi.evetech.net/route";
+
+          const HUBS = [
+            { key: "jita", name: "Jita", id: 30000142 },
+            { key: "amarr", name: "Amarr", id: 30002187 },
+            { key: "dodixie", name: "Dodixie", id: 30002659 },
+            { key: "hek", name: "Hek", id: 30002053 },
+            { key: "rens", name: "Rens", id: 30002510 },
+          ];
+
+          const FACTIONS = {
+            500010: "guristas",
+            500011: "angels",
+          };
+
+          const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+          async function fetchJson(url, options = {}) {
+            const response = await fetch(url, {
+              ...options,
+              headers: {
+                Accept: "application/json",
+                ...(options.headers || {}),
+              },
+            });
+
+            const text = await response.text();
+
+            if (!response.ok) {
+              throw new Error(`HTTP ${response.status} for ${url}: ${text.slice(0, 300)}`);
+            }
+
+            try {
+              return JSON.parse(text);
+            } catch {
+              throw new Error(`Invalid JSON from ${url}: ${text.slice(0, 300)}`);
+            }
+          }
+
+          async function getRouteJumps(fromSystemId, toSystemId, retries = 3) {
+            const url = `${ROUTE_BASE}/${fromSystemId}/${toSystemId}`;
+
+            for (let attempt = 1; attempt <= retries; attempt++) {
+              try {
+                const route = await fetchJson(url, {
+                  method: "POST",
+                  headers: {
+                    "Content-Type": "application/json",
+                    "X-Compatibility-Date": "2025-09-30",
+                    "User-Agent": "github-actions-lawless-tool",
+                  },
+                  body: JSON.stringify({
+                    preference: "Shorter",
+                    security_penalty: 50,
+                  }),
+                });
+
+                if (!Array.isArray(route)) {
+                  throw new Error("Unexpected route payload");
+                }
+
+                return Math.max(route.length - 1, 0);
+              } catch (error) {
+                if (attempt === retries) {
+                  throw error;
+                }
+
+                await sleep(800 * attempt);
+              }
+            }
+          }
+
+          async function runWithConcurrency(items, limit, worker) {
+            let index = 0;
+
+            async function next() {
+              while (index < items.length) {
+                const currentIndex = index++;
+                await worker(items[currentIndex], currentIndex);
+              }
+            }
+
+            const runners = [];
+            for (let i = 0; i < Math.min(limit, items.length); i++) {
+              runners.push(next());
+            }
+
+            await Promise.all(runners);
+          }
+
+          function getLawlessAge(corruptionDate) {
+            if (!corruptionDate) {
+              return { days: null, label: "-" };
+            }
+
+            const start = new Date(corruptionDate).getTime();
+            if (Number.isNaN(start)) {
+              return { days: null, label: "-" };
+            }
+
+            const diffMs = Date.now() - start;
+            if (diffMs < 0) {
+              return { days: 0, label: "0h" };
+            }
+
+            const totalHours = Math.floor(diffMs / (1000 * 60 * 60));
+            const days = Math.floor(totalHours / 24);
+            const hours = totalHours % 24;
+
+            return {
+              days,
+              label: days === 0 ? `${hours}h` : `${days}d ${hours}h`,
+            };
+          }
+
+          function dedupeSystems(items) {
+            const bySystemId = new Map();
+
+            for (const item of items) {
+              const existing = bySystemId.get(item.id);
+
+              if (!existing) {
+                bySystemId.set(item.id, item);
+                continue;
+              }
+
+              const existingCorr = Number(existing.corruptionPercentage ?? 0);
+              const currentCorr = Number(item.corruptionPercentage ?? 0);
+
+              if (currentCorr > existingCorr) {
+                bySystemId.set(item.id, item);
+              }
+            }
+
+            return [...bySystemId.values()];
+          }
+
+          async function main() {
+            console.log("Fetching insurgency feed...");
+            const campaigns = await fetchJson(INSURGENCY_URL);
+
+            const rawSystems = [];
+
+            for (const campaign of campaigns) {
+              const faction = FACTIONS[campaign.pirateFactionId] ?? "unknown";
+              const fobOriginId = campaign.originSolarSystem?.id ?? null;
+              const fobOriginName = campaign.originSolarSystem?.name ?? null;
+
+              for (const entry of campaign.insurgencies || []) {
+                if ((entry.corruptionState ?? 0) < 5) {
+                  continue;
+                }
+
+                const systemId = entry.solarSystem?.id;
+                if (!systemId) continue;
+
+                const lawlessAge = getLawlessAge(entry.corruptionDate);
+
+                rawSystems.push({
+                  id: systemId,
+                  name: entry.solarSystem.name,
+                  sec: entry.solarSystem.securityBand,
+                  security: entry.solarSystem.security,
+                  faction,
+                  campaignId: campaign.campaignId,
+                  campaignState: campaign.state,
+                  isFob: fobOriginId !== null && systemId === fobOriginId,
+                  fobOriginId,
+                  fobOriginName,
+                  corruptionPercentage: entry.corruptionPercentage,
+                  corruptionState: entry.corruptionState,
+                  corruptionDate: entry.corruptionDate,
+                  suppressionPercentage: entry.suppressionPercentage,
+                  suppressionState: entry.suppressionState,
+                  suppressionDate: entry.suppressionDate,
+                  occupierFactionId: entry.solarSystem.occupierFactionId,
+                  ownerFactionId: entry.solarSystem.ownerFactionId,
+                  lawlessAgeDays: lawlessAge.days,
+                  lawlessAgeLabel: lawlessAge.label,
+                  distances: {},
+                  routeErrors: {},
+                });
+              }
+            }
+
+            const systems = dedupeSystems(rawSystems);
+
+            console.log(`Lawless systems found: ${systems.length}`);
+            console.log("Calculating route distances...");
+
+            const jobs = [];
+            for (const system of systems) {
+              for (const hub of HUBS) {
+                jobs.push({ system, hub });
+              }
+            }
+
+            let done = 0;
+
+            await runWithConcurrency(jobs, 3, async ({ system, hub }) => {
+              try {
+                const jumps = await getRouteJumps(system.id, hub.id, 3);
+                system.distances[hub.key] = {
+                  hubId: hub.id,
+                  hubName: hub.name,
+                  jumps,
+                };
+              } catch (error) {
+                system.distances[hub.key] = {
+                  hubId: hub.id,
+                  hubName: hub.name,
+                  jumps: null,
+                };
+                system.routeErrors[hub.key] = String(error instanceof Error ? error.message : error);
+              } finally {
+                done += 1;
+                if (done % 10 === 0 || done === jobs.length) {
+                  console.log(`Route progress: ${done}/${jobs.length}`);
+                }
+              }
+            });
+
+            for (const system of systems) {
+              const validDistances = Object.values(system.distances)
+                .filter((x) => typeof x.jumps === "number");
+
+              if (validDistances.length) {
+                const nearest = validDistances.reduce((best, cur) =>
+                  cur.jumps < best.jumps ? cur : best
+                );
+                system.nearestHub = nearest;
+              } else {
+                system.nearestHub = null;
+              }
+            }
+
+            systems.sort((a, b) => {
+              if (a.faction !== b.faction) return a.faction.localeCompare(b.faction);
+              return a.name.localeCompare(b.name);
+            });
+
+            const output = {
+              generatedAt: new Date().toISOString(),
+              source: INSURGENCY_URL,
+              hubs: HUBS,
+              systems,
+            };
+
+            await fs.writeFile(
+              "data/lawless-systems.json",
+              JSON.stringify(output, null, 2),
+              "utf8"
+            );
+
+            console.log("Wrote data/lawless-systems.json");
+          }
+
+          main().catch((error) => {
+            console.error(error);
+            process.exit(1);
+          });
+          EOF
+
+          node scripts/build-lawless.mjs
+
+      - name: Commit generated data
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/lawless-systems.json
+
+          if git diff --staged --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes to commit."
+          else
+            git commit -m "Update lawless systems data"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Push changes
+        if: steps.commit.outputs.changed == 'true'
+        run: git push
