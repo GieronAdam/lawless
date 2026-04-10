@@ -7,25 +7,37 @@
 
     <style>
         :root {
-            --bg: #0b0f17;
-            --panel: #111827;
-            --border: #1f2937;
-            --text: #e5e7eb;
-            --muted: #9ca3af;
+            --bg: #070b12;
+            --panel: #101722;
+            --panel-2: #0d141f;
+            --border: #1f2a39;
+            --text: #e9eef7;
+            --muted: #9aa8bc;
             --warn: #f59e0b;
             --err: #ef4444;
             --ok: #22c55e;
 
+            --angel-primary: #ff7a18;
+            --angel-secondary: #ffb347;
+            --angel-glow: rgba(255, 122, 24, 0.22);
+
+            --guristas-primary: #7c5cff;
+            --guristas-secondary: #44d1ff;
+            --guristas-glow: rgba(124, 92, 255, 0.20);
+
             --corruption-bar: #dc2626;
             --suppression-bar: #2563eb;
-            --track: #1f2937;
+            --track: #1c2635;
         }
 
         * { box-sizing: border-box; }
 
         body {
             font-family: Arial, sans-serif;
-            background: var(--bg);
+            background:
+                radial-gradient(circle at top left, rgba(255,122,24,0.06), transparent 24%),
+                radial-gradient(circle at top right, rgba(124,92,255,0.06), transparent 24%),
+                var(--bg);
             color: var(--text);
             margin: 0;
             padding: 20px;
@@ -33,7 +45,8 @@
 
         h1 {
             margin: 0 0 16px;
-            font-size: 28px;
+            font-size: 30px;
+            letter-spacing: 0.3px;
         }
 
         .toolbar {
@@ -44,20 +57,28 @@
         }
 
         select, button {
-            padding: 8px 10px;
-            background: var(--panel);
+            padding: 9px 12px;
+            background: linear-gradient(180deg, #131b28, #0d141f);
             color: #fff;
-            border: 1px solid #374151;
-            border-radius: 8px;
+            border: 1px solid #334155;
+            border-radius: 10px;
         }
 
-        button { cursor: pointer; }
+        button {
+            cursor: pointer;
+            transition: transform 0.12s ease, border-color 0.12s ease;
+        }
+
+        button:hover {
+            transform: translateY(-1px);
+            border-color: #5b6b80;
+        }
 
         .meta {
             margin-bottom: 14px;
             font-size: 13px;
             color: var(--muted);
-            line-height: 1.5;
+            line-height: 1.6;
         }
 
         .faction-layout {
@@ -69,12 +90,12 @@
 
         .faction-column {
             position: relative;
-            min-height: 200px;
-            background: linear-gradient(180deg, rgba(17,24,39,0.92), rgba(15,23,42,0.96));
-            border: 1px solid var(--border);
-            border-radius: 16px;
+            min-height: 220px;
+            border-radius: 18px;
             padding: 16px;
             overflow: hidden;
+            border: 1px solid var(--border);
+            background: linear-gradient(180deg, rgba(16,23,34,0.95), rgba(10,16,25,0.98));
         }
 
         .faction-column::before {
@@ -82,19 +103,37 @@
             position: absolute;
             inset: 0;
             background-repeat: no-repeat;
-            background-position: center;
-            background-size: 60%;
-            opacity: 0.06;
+            background-position: center 58%;
+            background-size: 62%;
+            opacity: 0.07;
             pointer-events: none;
             z-index: 0;
         }
 
+        .faction-column.angels {
+            box-shadow:
+                inset 0 0 0 1px rgba(255,122,24,0.12),
+                0 0 32px rgba(255,122,24,0.06);
+            background:
+                radial-gradient(circle at top left, rgba(255,122,24,0.12), transparent 28%),
+                linear-gradient(180deg, rgba(22,15,10,0.96), rgba(12,14,20,0.98));
+        }
+
+        .faction-column.guristas {
+            box-shadow:
+                inset 0 0 0 1px rgba(124,92,255,0.12),
+                0 0 32px rgba(124,92,255,0.06);
+            background:
+                radial-gradient(circle at top right, rgba(124,92,255,0.12), transparent 28%),
+                linear-gradient(180deg, rgba(13,15,28,0.96), rgba(10,13,20,0.98));
+        }
+
         .faction-column.angels::before {
-            background-image: url("https://images.evetech.net/corporations/500008/logo?size=512");
+            background-image: url("https://images.evetech.net/factions/500011/logo?size=512");
         }
 
         .faction-column.guristas::before {
-            background-image: url("https://images.evetech.net/corporations/500010/logo?size=512");
+            background-image: url("https://images.evetech.net/factions/500010/logo?size=512");
         }
 
         .faction-inner {
@@ -112,17 +151,33 @@
         }
 
         .faction-header img {
-            width: 52px;
-            height: 52px;
+            width: 56px;
+            height: 56px;
             object-fit: contain;
-            border-radius: 10px;
+            border-radius: 12px;
             background: rgba(255,255,255,0.03);
-            padding: 4px;
+            padding: 5px;
+        }
+
+        .angels .faction-header img {
+            box-shadow: 0 0 18px var(--angel-glow);
+        }
+
+        .guristas .faction-header img {
+            box-shadow: 0 0 18px var(--guristas-glow);
         }
 
         .faction-title {
-            font-size: 20px;
+            font-size: 21px;
             font-weight: 700;
+        }
+
+        .angels .faction-title {
+            color: var(--angel-secondary);
+        }
+
+        .guristas .faction-title {
+            color: var(--guristas-secondary);
         }
 
         .faction-sub {
@@ -134,7 +189,7 @@
         .section-title {
             margin: 18px 0 10px;
             font-size: 15px;
-            color: #cbd5e1;
+            color: #d7dfeb;
         }
 
         .pill {
@@ -159,15 +214,25 @@
 
         .grid {
             display: grid;
-            grid-template-columns: 1fr;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
             gap: 12px;
         }
 
         .card {
-            background: rgba(17,24,39,0.86);
-            border: 1px solid rgba(255,255,255,0.06);
-            border-radius: 12px;
+            background: rgba(17,24,39,0.88);
+            border: 1px solid rgba(255,255,255,0.07);
+            border-radius: 14px;
             padding: 12px;
+            min-width: 0;
+            backdrop-filter: blur(2px);
+        }
+
+        .angels .card {
+            box-shadow: inset 0 0 0 1px rgba(255,122,24,0.04);
+        }
+
+        .guristas .card {
+            box-shadow: inset 0 0 0 1px rgba(124,92,255,0.05);
         }
 
         .card-header {
@@ -181,11 +246,14 @@
             width: 52px;
             height: 52px;
             object-fit: contain;
+            flex: 0 0 auto;
         }
 
         .name {
             font-size: 18px;
             font-weight: bold;
+            line-height: 1.2;
+            word-break: break-word;
         }
 
         .sub {
@@ -203,8 +271,14 @@
             align-items: flex-start;
         }
 
+        .row > div:first-child {
+            color: #c7d0dd;
+        }
+
         .row > div:last-child {
             text-align: right;
+            min-width: 0;
+            word-break: break-word;
         }
 
         .lawless {
@@ -214,7 +288,11 @@
 
         .warn { color: var(--warn); }
         .err { color: var(--err); }
-        .empty { color: var(--muted); font-size: 13px; padding: 8px 0; }
+        .empty {
+            color: var(--muted);
+            font-size: 13px;
+            padding: 8px 0;
+        }
 
         .actions {
             margin-top: 16px;
@@ -232,7 +310,7 @@
             justify-content: space-between;
             gap: 12px;
             font-size: 12px;
-            color: #cbd5e1;
+            color: #d5ddeb;
             margin-bottom: 4px;
         }
 
@@ -252,15 +330,31 @@
         }
 
         .progress-fill.corruption {
-            background: linear-gradient(90deg, #991b1b, var(--corruption-bar));
+            background: linear-gradient(90deg, #7f1d1d, var(--corruption-bar));
         }
 
         .progress-fill.suppression {
             background: linear-gradient(90deg, #1d4ed8, var(--suppression-bar));
         }
 
+        @media (max-width: 1280px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
         @media (max-width: 980px) {
             .faction-layout {
+                grid-template-columns: 1fr;
+            }
+
+            .grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+
+        @media (max-width: 720px) {
+            .grid {
                 grid-template-columns: 1fr;
             }
         }
@@ -339,6 +433,14 @@
         guristas: "Guristas"
     };
 
+    const HUB_LABELS = {
+        jita: "Jita",
+        amarr: "Amarr",
+        dodixie: "Dodixie",
+        hek: "Hek",
+        rens: "Rens"
+    };
+
     let state = {
         systems: [],
         generatedAt: null,
@@ -380,16 +482,16 @@
         const stateLabel = stateValue ?? "-";
 
         return `
-    <div class="progress-block">
-      <div class="progress-label">
-        <span>${escapeHtml(label)}</span>
-        <span>${pct.toFixed(2).replace(/\.00$/, "")}% • state ${escapeHtml(String(stateLabel))}</span>
-      </div>
-      <div class="progress-track">
-        <div class="progress-fill ${cssClass}" style="width:${pct}%"></div>
-      </div>
-    </div>
-  `;
+            <div class="progress-block">
+              <div class="progress-label">
+                <span>${escapeHtml(label)}</span>
+                <span>${pct.toFixed(2).replace(/\.00$/, "")}% • state ${escapeHtml(String(stateLabel))}</span>
+              </div>
+              <div class="progress-track">
+                <div class="progress-fill ${cssClass}" style="width:${pct}%"></div>
+              </div>
+            </div>
+        `;
     }
 
     function applyBaseFilters() {
@@ -412,7 +514,10 @@
         let distanceClass = "";
 
         if (selectedHubKey !== "none") {
-            if (!distanceEntry || distanceEntry.jumps === null) {
+            if (!distanceEntry) {
+                distanceLabel = "NO DATA";
+                distanceClass = "err";
+            } else if (distanceEntry.jumps === null) {
                 distanceLabel = "ERR";
                 distanceClass = "err";
             } else {
@@ -421,61 +526,61 @@
         }
 
         return `
-    <div class="card">
-      <div class="card-header">
-        <img src="${IMAGES[system.faction] || ""}" alt="">
-        <div>
-          <div class="name">
-            ${escapeHtml(system.name)}
-            ${system.isFob ? `<span class="pill fob">FOB</span>` : ""}
-            <span class="pill lawless">LAWLESS</span>
-          </div>
-          <div class="sub">${escapeHtml(FACTION_LABELS[system.faction] || system.faction)} • ${escapeHtml(system.sec)}</div>
-        </div>
-      </div>
+            <div class="card">
+              <div class="card-header">
+                <img src="${IMAGES[system.faction] || ""}" alt="">
+                <div>
+                  <div class="name">
+                    ${escapeHtml(system.name)}
+                    ${system.isFob ? `<span class="pill fob">FOB</span>` : ""}
+                    <span class="pill lawless">LAWLESS</span>
+                  </div>
+                  <div class="sub">${escapeHtml(FACTION_LABELS[system.faction] || system.faction)} • ${escapeHtml(system.sec)}</div>
+                </div>
+              </div>
 
-      <div class="row">
-        <div>System ID</div>
-        <div>${system.id}</div>
-      </div>
+              <div class="row">
+                <div>System ID</div>
+                <div>${system.id}</div>
+              </div>
 
-      <div class="row">
-        <div>Campaign</div>
-        <div>#${system.campaignId}</div>
-      </div>
+              <div class="row">
+                <div>Campaign</div>
+                <div>#${system.campaignId}</div>
+              </div>
 
-      <div class="row">
-        <div>Lawless for</div>
-        <div>${escapeHtml(system.lawlessAgeLabel || "-")}</div>
-      </div>
+              <div class="row">
+                <div>Lawless for</div>
+                <div>${escapeHtml(system.lawlessAgeLabel || "-")}</div>
+              </div>
 
-      <div class="row">
-        <div>Corruption date</div>
-        <div>${system.corruptionDate ? escapeHtml(new Date(system.corruptionDate).toLocaleString()) : "-"}</div>
-      </div>
+              <div class="row">
+                <div>Corruption date</div>
+                <div>${system.corruptionDate ? escapeHtml(new Date(system.corruptionDate).toLocaleString()) : "-"}</div>
+              </div>
 
-      ${system.isFob ? `
-        <div class="row">
-          <div>FOB / origin</div>
-          <div>${escapeHtml(system.fobOriginName || system.name)}</div>
-        </div>
-      ` : ""}
+              ${system.isFob ? `
+                <div class="row">
+                  <div>FOB / origin</div>
+                  <div>${escapeHtml(system.fobOriginName || system.name)}</div>
+                </div>
+              ` : ""}
 
-      ${
+              ${
             selectedHubKey !== "none"
                 ? `
-            <div class="row">
-              <div>${escapeHtml(distanceEntry?.hubName || selectedHubKey)}</div>
-              <div class="${distanceClass}">${distanceLabel}</div>
-            </div>
-          `
+                    <div class="row">
+                      <div>${escapeHtml(distanceEntry?.hubName || HUB_LABELS[selectedHubKey] || selectedHubKey)}</div>
+                      <div class="${distanceClass}">${distanceLabel}</div>
+                    </div>
+                  `
                 : ""
         }
 
-      ${createProgressBar("Corruption", system.corruptionPercentage, system.corruptionState, "corruption")}
-      ${createProgressBar("Suppression", system.suppressionPercentage, system.suppressionState, "suppression")}
-    </div>
-  `;
+              ${createProgressBar("Corruption", system.corruptionPercentage, system.corruptionState, "corruption")}
+              ${createProgressBar("Suppression", system.suppressionPercentage, system.suppressionState, "suppression")}
+            </div>
+        `;
     }
 
     function renderFactionColumn(faction, items, hubKey, jumpLimit) {
@@ -496,23 +601,23 @@
                 }
             }
 
-            inRange.sort((a, b) => (a.distances[hubKey]?.jumps ?? 9999) - (b.distances[hubKey]?.jumps ?? 9999));
-            far.sort((a, b) => (a.distances[hubKey]?.jumps ?? 9999) - (b.distances[hubKey]?.jumps ?? 9999));
+            inRange.sort((a, b) => (a.distances?.[hubKey]?.jumps ?? 9999) - (b.distances?.[hubKey]?.jumps ?? 9999));
+            far.sort((a, b) => (a.distances?.[hubKey]?.jumps ?? 9999) - (b.distances?.[hubKey]?.jumps ?? 9999));
         }
 
         const showFar = state.showFar[faction];
 
         const matchingHtml = `
-    <div class="section-title">
-      Matching systems
-      <span class="pill">${inRange.length}${hubKey !== "none" ? ` within ${jumpLimit}j` : ""}</span>
-    </div>
-    ${
+            <div class="section-title">
+              Matching systems
+              <span class="pill">${inRange.length}${hubKey !== "none" ? ` within ${jumpLimit}j` : ""}</span>
+            </div>
+            ${
             inRange.length
                 ? `<div class="grid">${inRange.map(x => createCard(x, hubKey)).join("")}</div>`
                 : `<div class="empty">No systems match current filters yet.</div>`
         }
-  `;
+        `;
 
         if (hubKey === "none") {
             return matchingHtml;
@@ -520,18 +625,18 @@
 
         const farHtml = showFar
             ? `
-      <div class="section-title">Farther systems <span class="pill">${far.length}</span></div>
-      ${
+              <div class="section-title">Farther systems <span class="pill">${far.length}</span></div>
+              ${
                 far.length
                     ? `<div class="grid">${far.map(x => createCard(x, hubKey)).join("")}</div>`
                     : `<div class="empty">No farther systems.</div>`
             }
-    `
+            `
             : `
-      <div class="actions">
-        <button class="show-far-btn" data-faction="${faction}">Load farther systems (${far.length})</button>
-      </div>
-    `;
+              <div class="actions">
+                <button class="show-far-btn" data-faction="${faction}">Load farther systems (${far.length})</button>
+              </div>
+            `;
 
         return matchingHtml + farHtml;
     }
@@ -549,12 +654,17 @@
         const guristas = baseList.filter(x => x.faction === "guristas");
         const fobCount = baseList.filter(x => x.isFob).length;
 
+        const stats = state.stats || {};
+
         const parts = [];
         parts.push(`Generated: ${state.generatedAt ? new Date(state.generatedAt).toLocaleString() : "-"}`);
         parts.push(`All visible systems: ${baseList.length}`);
         parts.push(`Angels: ${angels.length}`);
         parts.push(`Guristas: ${guristas.length}`);
         parts.push(`FOB-marked: ${fobCount}`);
+        if (typeof stats.cachedDistancesReused === "number") parts.push(`Cache hits: ${stats.cachedDistancesReused}`);
+        if (typeof stats.routeCalculatedNow === "number") parts.push(`Routes now: ${stats.routeCalculatedNow}`);
+        if (typeof stats.routeErrors === "number") parts.push(`Route errors: ${stats.routeErrors}`);
 
         meta.innerHTML = parts.join(" | ");
 
@@ -574,7 +684,11 @@
         state.showFar.guristas = false;
 
         const data = await fetchJson(API);
+        console.log("JSON loaded:", data);
+        console.log("First system:", data.systems?.[0]);
+
         state.generatedAt = data.generatedAt;
+        state.stats = data.stats || {};
         state.systems = data.systems || [];
         render();
     }
