@@ -382,4 +382,4 @@ jobs:
 
       - name: Push changes
         if: steps.commit.outputs.changed == 'true'
-        run: git push
+        run: git push -f
