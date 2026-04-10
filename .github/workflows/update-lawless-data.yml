@@ -42,18 +42,19 @@ jobs:
 
           const INSURGENCY_URL = "https://www.eveonline.com/api/warzone/insurgency";
           const ROUTE_BASE = "https://esi.evetech.net/route";
+          const OUTPUT_PATH = "data/lawless-systems.json";
 
           const HUBS = [
             { key: "jita", name: "Jita", id: 30000142 },
             { key: "amarr", name: "Amarr", id: 30002187 },
             { key: "dodixie", name: "Dodixie", id: 30002659 },
             { key: "hek", name: "Hek", id: 30002053 },
-            { key: "rens", name: "Rens", id: 30002510 },
+            { key: "rens", name: "Rens", id: 30002510 }
           ];
 
           const FACTIONS = {
             500010: "guristas",
-            500011: "angels",
+            500011: "angels"
           };
 
           const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
@@ -63,8 +64,8 @@ jobs:
               ...options,
               headers: {
                 Accept: "application/json",
-                ...(options.headers || {}),
-              },
+                ...(options.headers || {})
+              }
             });
 
             const text = await response.text();
@@ -80,27 +81,69 @@ jobs:
             }
           }
 
+          async function readPreviousOutput() {
+            try {
+              const raw = await fs.readFile(OUTPUT_PATH, "utf8");
+              return JSON.parse(raw);
+            } catch {
+              return null;
+            }
+          }
+
+          function buildDistanceCache(previousOutput) {
+            const cache = new Map();
+
+            if (!previousOutput?.systems || !Array.isArray(previousOutput.systems)) {
+              return cache;
+            }
+
+            for (const system of previousOutput.systems) {
+              const systemId = system?.id;
+              const distances = system?.distances;
+
+              if (!systemId || !distances || typeof distances !== "object") {
+                continue;
+              }
+
+              for (const [hubKey, entry] of Object.entries(distances)) {
+                if (entry && typeof entry === "object" && typeof entry.jumps === "number") {
+                  cache.set(`${systemId}:${hubKey}`, entry);
+                }
+              }
+            }
+
+            return cache;
+          }
+
           async function getRouteJumps(fromSystemId, toSystemId, retries = 4) {
             const url = `${ROUTE_BASE}/${fromSystemId}/${toSystemId}`;
 
             for (let attempt = 1; attempt <= retries; attempt++) {
               try {
-                const route = await fetchJson(url, {
+                const payload = await fetchJson(url, {
                   method: "POST",
                   headers: {
                     "Content-Type": "application/json",
                     "X-Compatibility-Date": "2025-09-30",
-                    "User-Agent": "github-actions-lawless-tool",
+                    "User-Agent": "github-actions-lawless-tool"
                   },
                   body: JSON.stringify({
                     preference: "Shorter",
-                    security_penalty: 50,
-                  }),
+                    security_penalty: 50
+                  })
                 });
+
+                let route = null;
+
+                if (Array.isArray(payload)) {
+                  route = payload;
+                } else if (payload && Array.isArray(payload.route)) {
+                  route = payload.route;
+                }
 
                 if (!Array.isArray(route)) {
                   throw new Error(
-                    `Unexpected route payload: ${JSON.stringify(route).slice(0, 300)}`
+                    `Unexpected route payload: ${JSON.stringify(payload).slice(0, 300)}`
                   );
                 }
 
@@ -144,13 +187,38 @@ jobs:
 
             return {
               days,
-              label: days === 0 ? `${hours}h` : `${days}d ${hours}h`,
+              label: days === 0 ? `${hours}h` : `${days}d ${hours}h`
             };
           }
 
+          function dedupeSystems(systems) {
+            const byId = new Map();
+
+            for (const system of systems) {
+              const existing = byId.get(system.id);
+
+              if (!existing) {
+                byId.set(system.id, system);
+                continue;
+              }
+
+              const existingCorr = Number(existing.corruptionPercentage ?? 0);
+              const currentCorr = Number(system.corruptionPercentage ?? 0);
+
+              if (currentCorr > existingCorr) {
+                byId.set(system.id, system);
+              }
+            }
+
+            return [...byId.values()];
+          }
+
           async function main() {
+            const previousOutput = await readPreviousOutput();
+            const previousDistanceCache = buildDistanceCache(previousOutput);
+
             const campaigns = await fetchJson(INSURGENCY_URL);
-            const systems = [];
+            const rawSystems = [];
 
             for (const campaign of campaigns) {
               const faction = FACTIONS[campaign.pirateFactionId] ?? "unknown";
@@ -165,7 +233,15 @@ jobs:
 
                 const lawlessAge = getLawlessAge(entry.corruptionDate);
 
-                systems.push({
+                const distances = {};
+                for (const hub of HUBS) {
+                  const cached = previousDistanceCache.get(`${systemId}:${hub.key}`);
+                  if (cached) {
+                    distances[hub.key] = cached;
+                  }
+                }
+
+                rawSystems.push({
                   id: systemId,
                   name: entry.solarSystem.name,
                   sec: entry.solarSystem.securityBand,
@@ -184,36 +260,53 @@ jobs:
                   suppressionDate: entry.suppressionDate,
                   lawlessAgeDays: lawlessAge.days,
                   lawlessAgeLabel: lawlessAge.label,
-                  distances: {},
-                  routeErrors: {},
+                  distances,
+                  routeErrors: {}
                 });
               }
             }
 
+            const systems = dedupeSystems(rawSystems);
+
             const jobs = [];
             for (const system of systems) {
               for (const hub of HUBS) {
-                jobs.push({ system, hub });
+                if (!system.distances[hub.key] || typeof system.distances[hub.key].jumps !== "number") {
+                  jobs.push({ system, hub });
+                }
               }
             }
 
             let okCount = 0;
             let errCount = 0;
+            let cacheHitCount = 0;
 
-            await runWithConcurrency(jobs, 2, async ({ system, hub }) => {
+            for (const system of systems) {
+              for (const hub of HUBS) {
+                if (system.distances[hub.key] && typeof system.distances[hub.key].jumps === "number") {
+                  cacheHitCount++;
+                }
+              }
+            }
+
+            console.log(`Systems: ${systems.length}`);
+            console.log(`Cached distances reused: ${cacheHitCount}`);
+            console.log(`Route jobs to calculate: ${jobs.length}`);
+
+            await runWithConcurrency(jobs, 5, async ({ system, hub }) => {
               try {
                 const jumps = await getRouteJumps(system.id, hub.id, 4);
                 system.distances[hub.key] = {
                   hubId: hub.id,
                   hubName: hub.name,
-                  jumps,
+                  jumps
                 };
                 okCount++;
               } catch (error) {
                 system.distances[hub.key] = {
                   hubId: hub.id,
                   hubName: hub.name,
-                  jumps: null,
+                  jumps: null
                 };
                 system.routeErrors[hub.key] = String(
                   error instanceof Error ? error.message : error
@@ -222,25 +315,46 @@ jobs:
               }
             });
 
-            console.log(`Route success: ${okCount}`);
-            console.log(`Route errors: ${errCount}`);
+            for (const system of systems) {
+              const validDistances = Object.values(system.distances)
+                .filter((entry) => entry && typeof entry.jumps === "number");
+
+              if (validDistances.length) {
+                system.nearestHub = validDistances.reduce((best, cur) =>
+                  cur.jumps < best.jumps ? cur : best
+                );
+              } else {
+                system.nearestHub = null;
+              }
+            }
+
+            systems.sort((a, b) => {
+              if (a.faction !== b.faction) return a.faction.localeCompare(b.faction);
+              return a.name.localeCompare(b.name);
+            });
 
             const output = {
               generatedAt: new Date().toISOString(),
               source: INSURGENCY_URL,
               hubs: HUBS,
               stats: {
-                routeSuccess: okCount,
-                routeErrors: errCount,
+                systems: systems.length,
+                cachedDistancesReused: cacheHitCount,
+                routeCalculatedNow: okCount,
+                routeErrors: errCount
               },
-              systems,
+              systems
             };
 
             await fs.writeFile(
-              "data/lawless-systems.json",
+              OUTPUT_PATH,
               JSON.stringify(output, null, 2),
               "utf8"
             );
+
+            console.log(`Route calculated now: ${okCount}`);
+            console.log(`Route errors: ${errCount}`);
+            console.log(`Wrote ${OUTPUT_PATH}`);
           }
 
           main().catch((error) => {
