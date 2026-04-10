@@ -40,207 +40,213 @@ jobs:
           cat > scripts/build-lawless.mjs <<'EOF'
           import fs from "node:fs/promises";
 
-  const INSURGENCY_URL = "https://www.eveonline.com/api/warzone/insurgency";
-  const ROUTE_BASE = "https://esi.evetech.net/route";
-  
-  const HUBS = [
-  { key: "jita", name: "Jita", id: 30000142 },
-  { key: "amarr", name: "Amarr", id: 30002187 },
-  { key: "dodixie", name: "Dodixie", id: 30002659 },
-  { key: "hek", name: "Hek", id: 30002053 },
-  { key: "rens", name: "Rens", id: 30002510 },
-];
-  
-  const FACTIONS = {
-500010: "guristas",
-500011: "angels",
-};
-  
-  const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-  
-  async function fetchJson(url, options = {}) {
-  const response = await fetch(url, {
-  ...options,
-headers: {
-  Accept: "application/json",
-           ...(options.headers || {}),
-},
-});
+          const INSURGENCY_URL = "https://www.eveonline.com/api/warzone/insurgency";
+          const ROUTE_BASE = "https://esi.evetech.net/route";
 
-  const text = await response.text();
+          const HUBS = [
+            { key: "jita", name: "Jita", id: 30000142 },
+            { key: "amarr", name: "Amarr", id: 30002187 },
+            { key: "dodixie", name: "Dodixie", id: 30002659 },
+            { key: "hek", name: "Hek", id: 30002053 },
+            { key: "rens", name: "Rens", id: 30002510 },
+          ];
 
-  if (!response.ok) {
-throw new Error(`HTTP ${response.status} for ${url}: ${text.slice(0, 500)}`);
-}
+          const FACTIONS = {
+            500010: "guristas",
+            500011: "angels",
+          };
 
-  try {
-  return JSON.parse(text);
-} catch {
-throw new Error(`Invalid JSON from ${url}: ${text.slice(0, 500)}`);
-}
-}
+          const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
-  async function getRouteJumps(fromSystemId, toSystemId, retries = 4) {
-  const url = `${ROUTE_BASE}/${fromSystemId}/${toSystemId}`;
+          async function fetchJson(url, options = {}) {
+            const response = await fetch(url, {
+              ...options,
+              headers: {
+                Accept: "application/json",
+                ...(options.headers || {}),
+              },
+            });
 
-  for (let attempt = 1; attempt <= retries; attempt++) {
-  try {
-  const route = await fetchJson(url, {
-method: "POST",
-headers: {
-  "Content-Type": "application/json",
-  "X-Compatibility-Date": "2025-09-30",
-  "User-Agent": "github-actions-lawless-tool",
-},
-body: JSON.stringify({
-  preference: "Shorter",
-  security_penalty: 50,
-}),
-});
-  
-  if (!Array.isArray(route)) {
-throw new Error(`Unexpected route payload: ${JSON.stringify(route).slice(0, 300)}`);
-}
+            const text = await response.text();
 
-  return Math.max(route.length - 1, 0);
-} catch (error) {
-  if (attempt === retries) throw error;
-  await sleep(1200 * attempt);
-}
-}
-}
+            if (!response.ok) {
+              throw new Error(`HTTP ${response.status} for ${url}: ${text.slice(0, 500)}`);
+            }
 
-  async function runWithConcurrency(items, limit, worker) {
-  let index = 0;
+            try {
+              return JSON.parse(text);
+            } catch {
+              throw new Error(`Invalid JSON from ${url}: ${text.slice(0, 500)}`);
+            }
+          }
 
-  async function next() {
-  while (index < items.length) {
-  const currentIndex = index++;
-  await worker(items[currentIndex], currentIndex);
-}
-}
+          async function getRouteJumps(fromSystemId, toSystemId, retries = 4) {
+            const url = `${ROUTE_BASE}/${fromSystemId}/${toSystemId}`;
 
-  await Promise.all(
-Array.from({ length: Math.min(limit, items.length) }, () => next())
-  );
-}
+            for (let attempt = 1; attempt <= retries; attempt++) {
+              try {
+                const route = await fetchJson(url, {
+                  method: "POST",
+                  headers: {
+                    "Content-Type": "application/json",
+                    "X-Compatibility-Date": "2025-09-30",
+                    "User-Agent": "github-actions-lawless-tool",
+                  },
+                  body: JSON.stringify({
+                    preference: "Shorter",
+                    security_penalty: 50,
+                  }),
+                });
 
-  function getLawlessAge(corruptionDate) {
-if (!corruptionDate) return { days: null, label: "-" };
+                if (!Array.isArray(route)) {
+                  throw new Error(
+                    `Unexpected route payload: ${JSON.stringify(route).slice(0, 300)}`
+                  );
+                }
 
-  const start = new Date(corruptionDate).getTime();
-if (Number.isNaN(start)) return { days: null, label: "-" };
+                return Math.max(route.length - 1, 0);
+              } catch (error) {
+                if (attempt === retries) {
+                  throw error;
+                }
+                await sleep(1200 * attempt);
+              }
+            }
+          }
 
-  const diffMs = Date.now() - start;
-if (diffMs < 0) return { days: 0, label: "0h" };
+          async function runWithConcurrency(items, limit, worker) {
+            let index = 0;
 
-  const totalHours = Math.floor(diffMs / (1000 * 60 * 60));
-  const days = Math.floor(totalHours / 24);
-  const hours = totalHours % 24;
+            async function next() {
+              while (index < items.length) {
+                const currentIndex = index++;
+                await worker(items[currentIndex], currentIndex);
+              }
+            }
 
-  return {
-  days,
-label: days === 0 ? `${hours}h` : `${days}d ${hours}h`,
-};
-}
+            await Promise.all(
+              Array.from({ length: Math.min(limit, items.length) }, () => next())
+            );
+          }
 
-  async function main() {
-  const campaigns = await fetchJson(INSURGENCY_URL);
-  const systems = [];
+          function getLawlessAge(corruptionDate) {
+            if (!corruptionDate) return { days: null, label: "-" };
 
-  for (const campaign of campaigns) {
-  const faction = FACTIONS[campaign.pirateFactionId] ?? "unknown";
-  const fobOriginId = campaign.originSolarSystem?.id ?? null;
-  const fobOriginName = campaign.originSolarSystem?.name ?? null;
-  
-  for (const entry of campaign.insurgencies || []) {
-  if ((entry.corruptionState ?? 0) < 5) continue;
-  
-  const systemId = entry.solarSystem?.id;
-  if (!systemId) continue;
-  
-  const lawlessAge = getLawlessAge(entry.corruptionDate);
-  
-  systems.push({
-id: systemId,
-name: entry.solarSystem.name,
-sec: entry.solarSystem.securityBand,
-security: entry.solarSystem.security,
-  faction,
-campaignId: campaign.campaignId,
-campaignState: campaign.state,
-isFob: fobOriginId !== null && systemId === fobOriginId,
-  fobOriginId,
-  fobOriginName,
-corruptionPercentage: entry.corruptionPercentage,
-corruptionState: entry.corruptionState,
-corruptionDate: entry.corruptionDate,
-suppressionPercentage: entry.suppressionPercentage,
-suppressionState: entry.suppressionState,
-suppressionDate: entry.suppressionDate,
-lawlessAgeDays: lawlessAge.days,
-lawlessAgeLabel: lawlessAge.label,
-distances: {},
-routeErrors: {},
-});
-  }
-  }
+            const start = new Date(corruptionDate).getTime();
+            if (Number.isNaN(start)) return { days: null, label: "-" };
 
-  const jobs = [];
-  for (const system of systems) {
-  for (const hub of HUBS) {
-  jobs.push({ system, hub });
-  }
-  }
+            const diffMs = Date.now() - start;
+            if (diffMs < 0) return { days: 0, label: "0h" };
 
-  let okCount = 0;
-  let errCount = 0;
+            const totalHours = Math.floor(diffMs / (1000 * 60 * 60));
+            const days = Math.floor(totalHours / 24);
+            const hours = totalHours % 24;
 
-  await runWithConcurrency(jobs, 2, async ({ system, hub }) => {
-  try {
-  const jumps = await getRouteJumps(system.id, hub.id, 4);
-  system.distances[hub.key] = {
-hubId: hub.id,
-hubName: hub.name,
-  jumps,
-};
-  okCount++;
-} catch (error) {
-  system.distances[hub.key] = {
-hubId: hub.id,
-hubName: hub.name,
-jumps: null,
-};
-system.routeErrors[hub.key] = String(error instanceof Error ? error.message : error);
-  errCount++;
-}
-});
+            return {
+              days,
+              label: days === 0 ? `${hours}h` : `${days}d ${hours}h`,
+            };
+          }
 
-console.log(`Route success: ${okCount}`);
-console.log(`Route errors: ${errCount}`);
+          async function main() {
+            const campaigns = await fetchJson(INSURGENCY_URL);
+            const systems = [];
 
-  const output = {
-generatedAt: new Date().toISOString(),
-source: INSURGENCY_URL,
-hubs: HUBS,
-stats: {
-  routeSuccess: okCount,
-  routeErrors: errCount,
-},
-  systems,
-};
+            for (const campaign of campaigns) {
+              const faction = FACTIONS[campaign.pirateFactionId] ?? "unknown";
+              const fobOriginId = campaign.originSolarSystem?.id ?? null;
+              const fobOriginName = campaign.originSolarSystem?.name ?? null;
 
-  await fs.writeFile(
-  "data/lawless-systems.json",
-  JSON.stringify(output, null, 2),
-  "utf8"
-  );
-}
+              for (const entry of campaign.insurgencies || []) {
+                if ((entry.corruptionState ?? 0) < 5) continue;
 
-  main().catch((error) => {
-  console.error(error);
-  process.exit(1);
-});
+                const systemId = entry.solarSystem?.id;
+                if (!systemId) continue;
+
+                const lawlessAge = getLawlessAge(entry.corruptionDate);
+
+                systems.push({
+                  id: systemId,
+                  name: entry.solarSystem.name,
+                  sec: entry.solarSystem.securityBand,
+                  security: entry.solarSystem.security,
+                  faction,
+                  campaignId: campaign.campaignId,
+                  campaignState: campaign.state,
+                  isFob: fobOriginId !== null && systemId === fobOriginId,
+                  fobOriginId,
+                  fobOriginName,
+                  corruptionPercentage: entry.corruptionPercentage,
+                  corruptionState: entry.corruptionState,
+                  corruptionDate: entry.corruptionDate,
+                  suppressionPercentage: entry.suppressionPercentage,
+                  suppressionState: entry.suppressionState,
+                  suppressionDate: entry.suppressionDate,
+                  lawlessAgeDays: lawlessAge.days,
+                  lawlessAgeLabel: lawlessAge.label,
+                  distances: {},
+                  routeErrors: {},
+                });
+              }
+            }
+
+            const jobs = [];
+            for (const system of systems) {
+              for (const hub of HUBS) {
+                jobs.push({ system, hub });
+              }
+            }
+
+            let okCount = 0;
+            let errCount = 0;
+
+            await runWithConcurrency(jobs, 2, async ({ system, hub }) => {
+              try {
+                const jumps = await getRouteJumps(system.id, hub.id, 4);
+                system.distances[hub.key] = {
+                  hubId: hub.id,
+                  hubName: hub.name,
+                  jumps,
+                };
+                okCount++;
+              } catch (error) {
+                system.distances[hub.key] = {
+                  hubId: hub.id,
+                  hubName: hub.name,
+                  jumps: null,
+                };
+                system.routeErrors[hub.key] = String(
+                  error instanceof Error ? error.message : error
+                );
+                errCount++;
+              }
+            });
+
+            console.log(`Route success: ${okCount}`);
+            console.log(`Route errors: ${errCount}`);
+
+            const output = {
+              generatedAt: new Date().toISOString(),
+              source: INSURGENCY_URL,
+              hubs: HUBS,
+              stats: {
+                routeSuccess: okCount,
+                routeErrors: errCount,
+              },
+              systems,
+            };
+
+            await fs.writeFile(
+              "data/lawless-systems.json",
+              JSON.stringify(output, null, 2),
+              "utf8"
+            );
+          }
+
+          main().catch((error) => {
+            console.error(error);
+            process.exit(1);
+          });
           EOF
 
           node scripts/build-lawless.mjs
