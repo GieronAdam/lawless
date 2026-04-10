@@ -130,11 +130,11 @@
         }
 
         .faction-column.angels::before {
-            background-image: url("https://images.evetech.net/corporations/500011/logo?size=512");
+            background-image: url("https://images.evetech.net/factions/500011/logo?size=512");
         }
 
         .faction-column.guristas::before {
-            background-image: url("https://images.evetech.net/corporations/500010/logo?size=512");
+            background-image: url("https://images.evetech.net/factions/500010/logo?size=512");
         }
 
         .faction-inner {
@@ -220,11 +220,25 @@
         }
 
         .card {
+            position: relative;
             border-radius: 14px;
             padding: 12px;
             min-width: 0;
             backdrop-filter: blur(2px);
             border: 1px solid rgba(255,255,255,0.07);
+            overflow: hidden;
+        }
+
+        .card::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 10px;
+            bottom: 10px;
+            width: 3px;
+            border-radius: 999px;
+            background: rgba(255,255,255,0.08);
+            pointer-events: none;
         }
 
         .angels .card {
@@ -241,6 +255,28 @@
             box-shadow:
                 inset 0 0 0 1px rgba(124,92,255,0.08),
                 inset 0 1px 0 rgba(120,180,255,0.06);
+        }
+
+        .card.sec-high {
+            box-shadow:
+                inset 0 0 0 1px rgba(80, 190, 255, 0.14),
+                0 0 18px rgba(80, 190, 255, 0.06);
+        }
+
+        .card.sec-high::before {
+            background: linear-gradient(180deg, #4cc3ff, #8ae7ff);
+            box-shadow: 0 0 10px rgba(76,195,255,0.25);
+        }
+
+        .card.sec-low {
+            box-shadow:
+                inset 0 0 0 1px rgba(255, 120, 80, 0.12),
+                0 0 18px rgba(255, 120, 80, 0.05);
+        }
+
+        .card.sec-low::before {
+            background: linear-gradient(180deg, #ff8a4c, #ff5f4c);
+            box-shadow: 0 0 10px rgba(255,95,76,0.24);
         }
 
         .card-header {
@@ -281,6 +317,21 @@
             border: 1px solid rgba(255,255,255,0.08);
             background: rgba(255,255,255,0.03);
             letter-spacing: 0.2px;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.05);
+        }
+
+        .sec-badge.high {
+            background: rgba(62, 157, 255, 0.10);
+            box-shadow:
+                inset 0 1px 0 rgba(255,255,255,0.04),
+                0 0 10px rgba(76,195,255,0.14);
+        }
+
+        .sec-badge.low {
+            background: rgba(255, 116, 76, 0.10);
+            box-shadow:
+                inset 0 1px 0 rgba(255,255,255,0.04),
+                0 0 10px rgba(255,95,76,0.12);
         }
 
         .sub {
@@ -444,7 +495,7 @@
     <section class="faction-column angels">
         <div class="faction-inner">
             <div class="faction-header">
-                <img src="https://images.evetech.net/corporations/500011/logo?size=128" alt="Angel Cartel">
+                <img src="https://images.evetech.net/factions/500011/logo?size=128" alt="Angel Cartel">
                 <div>
                     <div class="faction-title">Angel Cartel</div>
                     <div class="faction-sub">Lawless systems</div>
@@ -457,7 +508,7 @@
     <section class="faction-column guristas">
         <div class="faction-inner">
             <div class="faction-header">
-                <img src="https://images.evetech.net/corporations/500010/logo?size=128" alt="Guristas">
+                <img src="https://images.evetech.net/factions/500010/logo?size=128" alt="Guristas">
                 <div>
                     <div class="faction-title">Guristas</div>
                     <div class="faction-sub">Lawless systems</div>
@@ -560,6 +611,12 @@
         return "#b91c1c";
     }
 
+    function getSecurityClass(secBand) {
+        if (secBand === "High-Sec") return "high";
+        if (secBand === "Low-Sec") return "low";
+        return "";
+    }
+
     function createProgressPair(corruptionPct, corruptionState, suppressionPct, suppressionState) {
         const corr = clampPercent(corruptionPct);
         const supp = clampPercent(suppressionPct);
@@ -623,15 +680,16 @@
 
         const securityText = formatSecurity(system.security);
         const securityColor = getSecurityColor(system.security);
+        const secClass = getSecurityClass(system.sec);
 
         return `
-            <div class="card">
+            <div class="card sec-${secClass}">
               <div class="card-header">
                 <img src="${IMAGES[system.faction] || ""}" alt="">
                 <div>
                   <div class="name-row">
                     <div class="name">${escapeHtml(system.name)}</div>
-                    ${securityText ? `<span class="sec-badge" style="color:${securityColor}; border-color:${securityColor}33;">${securityText}</span>` : ""}
+                    ${securityText ? `<span class="sec-badge ${secClass}" style="color:${securityColor}; border-color:${securityColor}33;">${securityText}</span>` : ""}
                     ${system.isFob ? `<span class="pill fob">FOB</span>` : ""}
                     <span class="pill lawless">LAWLESS</span>
                   </div>
