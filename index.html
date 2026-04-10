@@ -44,7 +44,93 @@
             padding: 20px;
         }
 
-        h1 {
+        .hero {
+            position: relative;
+            overflow: hidden;
+            margin: 0 0 18px;
+            border-radius: 18px;
+            border: 1px solid rgba(255,255,255,0.08);
+            background:
+                radial-gradient(circle at top left, rgba(255,122,24,0.16), transparent 30%),
+                radial-gradient(circle at top right, rgba(124,92,255,0.16), transparent 30%),
+                linear-gradient(180deg, rgba(16,23,34,0.96), rgba(10,16,25,0.98));
+            box-shadow:
+                inset 0 0 0 1px rgba(255,255,255,0.03),
+                0 0 30px rgba(0,0,0,0.24);
+        }
+
+        .hero::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                url("https://images.evetech.net/corporations/500011/logo?size=256") left 6% center / 170px no-repeat,
+                url("https://images.evetech.net/corporations/500010/logo?size=256") right 6% center / 170px no-repeat;
+            opacity: 0.05;
+            pointer-events: none;
+        }
+
+        .hero-inner {
+            position: relative;
+            z-index: 1;
+            padding: 28px 24px;
+            max-width: 760px;
+        }
+
+        .eyebrow {
+            display: inline-block;
+            margin-bottom: 10px;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 0.9px;
+            text-transform: uppercase;
+            color: var(--angel-secondary);
+        }
+
+        .hero h1 {
+            margin: 0 0 10px;
+            font-size: 34px;
+            line-height: 1.15;
+            letter-spacing: 0.2px;
+        }
+
+        .hero p {
+            margin: 0;
+            max-width: 620px;
+            color: #c7d0dd;
+            line-height: 1.6;
+        }
+
+        .button-row {
+            margin-top: 18px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 42px;
+            padding: 10px 16px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 700;
+            color: #fff;
+            border: 1px solid rgba(255,179,71,0.45);
+            background: linear-gradient(180deg, #ff8a26, #d46612);
+            box-shadow: 0 0 18px rgba(255,122,24,0.18);
+            transition: transform 0.12s ease, box-shadow 0.12s ease, border-color 0.12s ease;
+        }
+
+        .button:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 0 24px rgba(255,122,24,0.25);
+            border-color: rgba(255,210,140,0.6);
+        }
+
+        h1.page-title {
             margin: 0 0 16px;
             font-size: 30px;
             letter-spacing: 0.3px;
@@ -456,12 +542,32 @@
             .grid {
                 grid-template-columns: 1fr;
             }
+
+            .hero h1 {
+                font-size: 28px;
+            }
         }
     </style>
 </head>
 <body>
 
-<h1>🔥 EVE Lawless Systems</h1>
+<section class="hero">
+    <div class="hero-inner">
+        <div class="eyebrow">Beginner ISK Guide</div>
+        <h1>EVE Online Exploration Guide for Beginners</h1>
+        <p>
+            Exploration is one of the strongest ways to make early ISK in EVE Online.
+            It has low startup cost, works well solo and teaches useful survival habits.
+        </p>
+        <div class="button-row">
+            <a class="button" href="https://www.eveonline.com/signup?invc=489b9a6c-b5e0-442b-8780-c48606009418" target="_blank" rel="noopener noreferrer">
+                Start EVE with 1M SP
+            </a>
+        </div>
+    </div>
+</section>
+
+<h1 class="page-title">🔥 EVE Lawless Systems</h1>
 
 <div class="toolbar">
     <select id="secFilter">
