@@ -228,12 +228,13 @@ jobs:
               const fobOriginName = campaign.originSolarSystem?.name ?? null;
 
               for (const entry of campaign.insurgencies || []) {
-                if ((entry.corruptionState ?? 0) < 5) continue;
-
                 const systemId = entry.solarSystem?.id;
                 if (!systemId) continue;
 
-                const lawlessAge = getLawlessAge(entry.corruptionDate);
+                const isLawless = (entry.corruptionState ?? 0) >= 5;
+                const lawlessAge = isLawless
+                  ? getLawlessAge(entry.corruptionDate)
+                  : { days: null, label: "-" };
 
                 const distances = {};
                 for (const hub of HUBS) {
@@ -251,6 +252,7 @@ jobs:
                   faction,
                   campaignId: campaign.campaignId,
                   campaignState: campaign.state,
+                  isLawless,
                   isFob: fobOriginId !== null && systemId === fobOriginId,
                   fobOriginId,
                   fobOriginName,
@@ -341,6 +343,7 @@ jobs:
               hubs: HUBS,
               stats: {
                 systems: systems.length,
+                lawlessNow: systems.filter((x) => x.isLawless).length,
                 cachedDistancesReused: cacheHitCount,
                 routeCalculatedNow: okCount,
                 routeErrors: errCount
