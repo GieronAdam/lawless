@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-13T18:51:07.790Z",
+  "generatedAt": "2026-04-13T19:57:22.147Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -48,7 +48,7 @@
       "isFob": false,
       "fobOriginId": 30002087,
       "fobOriginName": "Isbrabata",
-      "corruptionPercentage": 7.8,
+      "corruptionPercentage": 8.4,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 1.6,
@@ -105,11 +105,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-04-13T14:59:44.426Z",
-      "suppressionPercentage": 19.2,
-      "suppressionState": 1,
+      "suppressionPercentage": 20.95,
+      "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "3h",
+      "lawlessAgeLabel": "4h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -156,7 +156,7 @@
       "isFob": false,
       "fobOriginId": 30002087,
       "fobOriginName": "Isbrabata",
-      "corruptionPercentage": 7.8,
+      "corruptionPercentage": 8.6,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 0,
@@ -217,7 +217,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "2h",
+      "lawlessAgeLabel": "3h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -271,7 +271,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "2h",
+      "lawlessAgeLabel": "3h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -318,7 +318,7 @@
       "isFob": false,
       "fobOriginId": 30002087,
       "fobOriginName": "Isbrabata",
-      "corruptionPercentage": 10.2,
+      "corruptionPercentage": 10.4,
       "corruptionState": 1,
       "corruptionDate": null,
       "suppressionPercentage": 0.8,
@@ -375,7 +375,7 @@
       "corruptionPercentage": 63.7,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 7.85,
+      "suppressionPercentage": 9.6,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -426,7 +426,7 @@
       "isFob": false,
       "fobOriginId": 30002087,
       "fobOriginName": "Isbrabata",
-      "corruptionPercentage": 30.55,
+      "corruptionPercentage": 31.15,
       "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 0.4,
@@ -480,10 +480,10 @@
       "isFob": false,
       "fobOriginId": 30002087,
       "fobOriginName": "Isbrabata",
-      "corruptionPercentage": 97.15,
+      "corruptionPercentage": 97.95,
       "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 7,
+      "suppressionPercentage": 8.75,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
