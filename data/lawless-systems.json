@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-13T23:26:34.329Z",
+  "generatedAt": "2026-04-14T00:04:03.465Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -48,8 +48,8 @@
       "isFob": false,
       "fobOriginId": 30002087,
       "fobOriginName": "Isbrabata",
-      "corruptionPercentage": 9.8,
-      "corruptionState": 0,
+      "corruptionPercentage": 10.4,
+      "corruptionState": 1,
       "corruptionDate": null,
       "suppressionPercentage": 1.6,
       "suppressionState": 0,
@@ -109,7 +109,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "8h",
+      "lawlessAgeLabel": "9h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -318,7 +318,7 @@
       "isFob": false,
       "fobOriginId": 30002087,
       "fobOriginName": "Isbrabata",
-      "corruptionPercentage": 11.8,
+      "corruptionPercentage": 12,
       "corruptionState": 1,
       "corruptionDate": null,
       "suppressionPercentage": 6.05,
@@ -426,7 +426,7 @@
       "isFob": false,
       "fobOriginId": 30002087,
       "fobOriginName": "Isbrabata",
-      "corruptionPercentage": 34.15,
+      "corruptionPercentage": 35.65,
       "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 3.65,
@@ -487,7 +487,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "1h",
+      "lawlessAgeLabel": "2h",
       "distances": {
         "jita": {
           "hubId": 30000142,
