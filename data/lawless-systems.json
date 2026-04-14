@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-14T11:12:00.542Z",
+  "generatedAt": "2026-04-14T12:07:45.559Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -163,7 +163,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "20h",
+      "lawlessAgeLabel": "21h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -210,10 +210,10 @@
       "isFob": false,
       "fobOriginId": 30002087,
       "fobOriginName": "Isbrabata",
-      "corruptionPercentage": 17.4,
-      "corruptionState": 1,
+      "corruptionPercentage": 20.9,
+      "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 4.7,
+      "suppressionPercentage": 5.1,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -271,7 +271,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "18h",
+      "lawlessAgeLabel": "19h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -325,7 +325,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "18h",
+      "lawlessAgeLabel": "19h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -375,7 +375,7 @@
       "corruptionPercentage": 26.85,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 7.8,
+      "suppressionPercentage": 8,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -480,7 +480,7 @@
       "isFob": false,
       "fobOriginId": 30002087,
       "fobOriginName": "Isbrabata",
-      "corruptionPercentage": 59.1,
+      "corruptionPercentage": 59.5,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 8.4,
@@ -541,7 +541,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "13h",
+      "lawlessAgeLabel": "14h",
       "distances": {
         "jita": {
           "hubId": 30000142,
