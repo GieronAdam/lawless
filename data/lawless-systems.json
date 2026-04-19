@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-19T08:36:00.232Z",
+  "generatedAt": "2026-04-19T09:26:46.041Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -30,7 +30,7 @@
   ],
   "stats": {
     "systems": 31,
-    "lawlessNow": 18,
+    "lawlessNow": 19,
     "cachedDistancesReused": 155,
     "routeCalculatedNow": 0,
     "routeErrors": 0
@@ -48,7 +48,7 @@
       "isFob": false,
       "fobOriginId": 30002087,
       "fobOriginName": "Isbrabata",
-      "corruptionPercentage": 92.65,
+      "corruptionPercentage": 94.05,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 31.2,
@@ -109,7 +109,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 17h",
+      "lawlessAgeLabel": "2d 18h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -163,7 +163,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 16h",
+      "lawlessAgeLabel": "1d 17h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -210,8 +210,8 @@
       "isFob": false,
       "fobOriginId": 30002087,
       "fobOriginName": "Isbrabata",
-      "corruptionPercentage": 9.8,
-      "corruptionState": 0,
+      "corruptionPercentage": 11.4,
+      "corruptionState": 1,
       "corruptionDate": null,
       "suppressionPercentage": 2.8,
       "suppressionState": 0,
@@ -267,11 +267,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-04-13T14:59:44.426Z",
-      "suppressionPercentage": 38.55,
+      "suppressionPercentage": 38.95,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 17h",
+      "lawlessAgeLabel": "5d 18h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -368,18 +368,18 @@
       "faction": "angels",
       "campaignId": 140,
       "campaignState": "ACTIVE",
-      "isLawless": false,
+      "isLawless": true,
       "isFob": false,
       "fobOriginId": 30002087,
       "fobOriginName": "Isbrabata",
-      "corruptionPercentage": 99.45,
-      "corruptionState": 4,
-      "corruptionDate": null,
-      "suppressionPercentage": 19.75,
+      "corruptionPercentage": 100,
+      "corruptionState": 5,
+      "corruptionDate": "2026-04-19T08:40:28.020Z",
+      "suppressionPercentage": 19.95,
       "suppressionState": 1,
       "suppressionDate": null,
-      "lawlessAgeDays": null,
-      "lawlessAgeLabel": "-",
+      "lawlessAgeDays": 0,
+      "lawlessAgeLabel": "0h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -426,7 +426,7 @@
       "isFob": false,
       "fobOriginId": 30002087,
       "fobOriginName": "Isbrabata",
-      "corruptionPercentage": 11.95,
+      "corruptionPercentage": 12.95,
       "corruptionState": 1,
       "corruptionDate": null,
       "suppressionPercentage": 3,
@@ -483,11 +483,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-04-18T16:41:14.366Z",
-      "suppressionPercentage": 10.95,
+      "suppressionPercentage": 11.95,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "15h",
+      "lawlessAgeLabel": "16h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -541,7 +541,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 16h",
+      "lawlessAgeLabel": "5d 17h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -595,7 +595,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 16h",
+      "lawlessAgeLabel": "5d 17h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -649,7 +649,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 22h",
+      "lawlessAgeLabel": "2d 23h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -696,7 +696,7 @@
       "isFob": false,
       "fobOriginId": 30002087,
       "fobOriginName": "Isbrabata",
-      "corruptionPercentage": 21.45,
+      "corruptionPercentage": 22.05,
       "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 2,
@@ -753,11 +753,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-04-19T07:47:25.436Z",
-      "suppressionPercentage": 9.4,
+      "suppressionPercentage": 9.8,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "0h",
+      "lawlessAgeLabel": "1h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -804,7 +804,7 @@
       "isFob": false,
       "fobOriginId": 30002087,
       "fobOriginName": "Isbrabata",
-      "corruptionPercentage": 60.4,
+      "corruptionPercentage": 60.6,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 8.8,
@@ -919,7 +919,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 17h",
+      "lawlessAgeLabel": "4d 18h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -973,7 +973,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 16h",
+      "lawlessAgeLabel": "3d 17h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1074,7 +1074,7 @@
       "isFob": false,
       "fobOriginId": 30003853,
       "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 4.6,
+      "corruptionPercentage": 5,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 0.6,
@@ -1182,7 +1182,7 @@
       "isFob": false,
       "fobOriginId": 30003853,
       "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 87.35,
+      "corruptionPercentage": 89.65,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 10.25,
@@ -1243,7 +1243,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 1h",
+      "lawlessAgeLabel": "1d 2h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1290,8 +1290,8 @@
       "isFob": false,
       "fobOriginId": 30003853,
       "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 19.9,
-      "corruptionState": 1,
+      "corruptionPercentage": 24,
+      "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 3.6,
       "suppressionState": 0,
@@ -1347,11 +1347,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-04-18T00:54:42.924Z",
-      "suppressionPercentage": 14.5,
+      "suppressionPercentage": 15.5,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 7h",
+      "lawlessAgeLabel": "1d 8h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1405,7 +1405,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 19h",
+      "lawlessAgeLabel": "1d 20h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1452,11 +1452,11 @@
       "isFob": false,
       "fobOriginId": 30003853,
       "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 60.45,
+      "corruptionPercentage": 60.85,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 9.45,
-      "suppressionState": 0,
+      "suppressionPercentage": 10.45,
+      "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -1567,7 +1567,7 @@
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "15h",
+      "lawlessAgeLabel": "16h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1617,7 +1617,7 @@
       "corruptionPercentage": 23.65,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 21.35,
+      "suppressionPercentage": 22.95,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -1668,10 +1668,10 @@
       "isFob": false,
       "fobOriginId": 30003853,
       "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 58.25,
+      "corruptionPercentage": 58.85,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 33,
+      "suppressionPercentage": 33.4,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
