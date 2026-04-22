@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-22T04:19:56.861Z",
+  "generatedAt": "2026-04-22T06:14:57.299Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -318,10 +318,10 @@
       "isFob": false,
       "fobOriginId": 30003853,
       "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 41.3,
+      "corruptionPercentage": 41.7,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 35.8,
+      "suppressionPercentage": 39.3,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -375,8 +375,8 @@
       "corruptionPercentage": 46.95,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 37.55,
-      "suppressionState": 2,
+      "suppressionPercentage": 42.25,
+      "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -433,7 +433,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 6,
-      "lawlessAgeLabel": "6d 10h",
+      "lawlessAgeLabel": "6d 12h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -483,11 +483,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-04-19T13:20:40.784Z",
-      "suppressionPercentage": 27.9,
+      "suppressionPercentage": 30.05,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 14h",
+      "lawlessAgeLabel": "2d 16h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -534,7 +534,7 @@
       "isFob": false,
       "fobOriginId": 30003853,
       "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 6.8,
+      "corruptionPercentage": 7.8,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 5,
@@ -588,7 +588,7 @@
       "isFob": false,
       "fobOriginId": 30003853,
       "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 42.75,
+      "corruptionPercentage": 45.15,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 8.15,
@@ -645,11 +645,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-04-18T06:54:45.945Z",
-      "suppressionPercentage": 68.5,
+      "suppressionPercentage": 68.9,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 21h",
+      "lawlessAgeLabel": "3d 23h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -699,11 +699,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-04-21T11:44:41.902Z",
-      "suppressionPercentage": 9,
+      "suppressionPercentage": 9.2,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "16h",
+      "lawlessAgeLabel": "18h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -753,11 +753,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-04-18T00:54:42.924Z",
-      "suppressionPercentage": 16.5,
+      "suppressionPercentage": 18.25,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 3h",
+      "lawlessAgeLabel": "4d 5h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -807,11 +807,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-04-17T12:56:07.801Z",
-      "suppressionPercentage": 28.45,
+      "suppressionPercentage": 29.25,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 15h",
+      "lawlessAgeLabel": "4d 17h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -865,7 +865,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 18h",
+      "lawlessAgeLabel": "1d 20h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -915,11 +915,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-04-17T04:34:10.600Z",
-      "suppressionPercentage": 27.55,
+      "suppressionPercentage": 28.15,
       "suppressionState": 2,
       "suppressionDate": null,
-      "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 23h",
+      "lawlessAgeDays": 5,
+      "lawlessAgeLabel": "5d 1h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -966,11 +966,11 @@
       "isFob": false,
       "fobOriginId": 30003853,
       "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 11,
+      "corruptionPercentage": 12.4,
       "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 19.65,
-      "suppressionState": 1,
+      "suppressionPercentage": 22.8,
+      "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -1027,7 +1027,7 @@
       "suppressionState": 5,
       "suppressionDate": "2026-04-21T11:32:16.615Z",
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 11h",
+      "lawlessAgeLabel": "3d 13h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1077,11 +1077,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-04-21T09:22:01.651Z",
-      "suppressionPercentage": 50.45,
+      "suppressionPercentage": 51.65,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "18h",
+      "lawlessAgeLabel": "20h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1131,11 +1131,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-04-20T10:52:09.358Z",
-      "suppressionPercentage": 57.05,
+      "suppressionPercentage": 58.05,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 17h",
+      "lawlessAgeLabel": "1d 19h",
       "distances": {
         "jita": {
           "hubId": 30000142,
