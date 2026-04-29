@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T00:06:01.384Z",
+  "generatedAt": "2026-04-29T03:57:02.102Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -29,10 +29,10 @@
     }
   ],
   "stats": {
-    "systems": 36,
-    "lawlessNow": 22,
-    "cachedDistancesReused": 180,
-    "routeCalculatedNow": 0,
+    "systems": 16,
+    "lawlessNow": 5,
+    "cachedDistancesReused": 55,
+    "routeCalculatedNow": 25,
     "routeErrors": 0
   },
   "systems": [
@@ -48,10 +48,10 @@
       "isFob": false,
       "fobOriginId": 30002540,
       "fobOriginName": "Lantorn",
-      "corruptionPercentage": 24.5,
+      "corruptionPercentage": 25.87,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 41.6,
+      "suppressionPercentage": 43.2,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -105,7 +105,7 @@
       "corruptionPercentage": 29.23,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 79.3,
+      "suppressionPercentage": 83.9,
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -159,11 +159,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-04-25T15:48:18.626Z",
-      "suppressionPercentage": 44.85,
+      "suppressionPercentage": 47.4,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 8h",
+      "lawlessAgeLabel": "3d 12h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -210,10 +210,10 @@
       "isFob": false,
       "fobOriginId": 30002540,
       "fobOriginName": "Lantorn",
-      "corruptionPercentage": 0,
+      "corruptionPercentage": 1.2,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 0.6,
+      "suppressionPercentage": 1,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -271,7 +271,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 9h",
+      "lawlessAgeLabel": "2d 13h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -318,7 +318,7 @@
       "isFob": false,
       "fobOriginId": 30002540,
       "fobOriginName": "Lantorn",
-      "corruptionPercentage": 41.05,
+      "corruptionPercentage": 47.75,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 37.35,
@@ -372,7 +372,7 @@
       "isFob": false,
       "fobOriginId": 30002540,
       "fobOriginName": "Lantorn",
-      "corruptionPercentage": 55.35,
+      "corruptionPercentage": 65.1,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 28.3,
@@ -426,10 +426,10 @@
       "isFob": false,
       "fobOriginId": 30002540,
       "fobOriginName": "Lantorn",
-      "corruptionPercentage": 72.69,
+      "corruptionPercentage": 76.16,
       "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 50.45,
+      "suppressionPercentage": 52.2,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -483,11 +483,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-04-26T01:56:38.274Z",
-      "suppressionPercentage": 23.7,
+      "suppressionPercentage": 25.65,
       "suppressionState": 2,
       "suppressionDate": null,
-      "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 22h",
+      "lawlessAgeDays": 3,
+      "lawlessAgeLabel": "3d 2h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -537,11 +537,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-04-26T23:36:26.015Z",
-      "suppressionPercentage": 52.8,
+      "suppressionPercentage": 53,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 0h",
+      "lawlessAgeLabel": "2d 4h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -591,11 +591,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-04-26T10:52:38.664Z",
-      "suppressionPercentage": 43.95,
+      "suppressionPercentage": 44.95,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 13h",
+      "lawlessAgeLabel": "2d 17h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -631,503 +631,17 @@
       }
     },
     {
-      "id": 30003832,
-      "name": "Adacyne",
-      "sec": "High-Sec",
-      "security": 0.548773790794279,
-      "faction": "guristas",
-      "campaignId": 141,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30003853,
-      "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-04-24T03:30:04.366Z",
-      "suppressionPercentage": 61.3,
-      "suppressionState": 3,
-      "suppressionDate": null,
-      "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 20h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 15
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 21
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 8
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 14
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 17
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002659,
-        "hubName": "Dodixie",
-        "jumps": 8
-      }
-    },
-    {
-      "id": 30003854,
-      "name": "Alamel",
+      "id": 30003837,
+      "name": "Aldranette",
       "sec": "Low-Sec",
-      "security": 0.170912543465936,
+      "security": 0.36751048374349,
       "faction": "guristas",
-      "campaignId": 141,
-      "campaignState": "NO_WINNER",
+      "campaignId": 143,
+      "campaignState": "FORECAST",
       "isLawless": false,
       "isFob": false,
-      "fobOriginId": 30003853,
-      "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 84.86,
-      "corruptionState": 4,
-      "corruptionDate": null,
-      "suppressionPercentage": 100,
-      "suppressionState": 5,
-      "suppressionDate": "2026-04-24T17:04:02.169Z",
-      "lawlessAgeDays": null,
-      "lawlessAgeLabel": "-",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 14
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 21
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 12
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 15
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 18
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002659,
-        "hubName": "Dodixie",
-        "jumps": 12
-      }
-    },
-    {
-      "id": 30003850,
-      "name": "Alparena",
-      "sec": "Low-Sec",
-      "security": 0.146572257249346,
-      "faction": "guristas",
-      "campaignId": 141,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30003853,
-      "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-04-15T17:33:28.239Z",
-      "suppressionPercentage": 30,
-      "suppressionState": 2,
-      "suppressionDate": null,
-      "lawlessAgeDays": 13,
-      "lawlessAgeLabel": "13d 6h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 13
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 22
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 9
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 15
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 18
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002659,
-        "hubName": "Dodixie",
-        "jumps": 9
-      }
-    },
-    {
-      "id": 30003852,
-      "name": "Arderonne",
-      "sec": "Low-Sec",
-      "security": 0.174709207291325,
-      "faction": "guristas",
-      "campaignId": 141,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30003853,
-      "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-04-19T13:20:40.784Z",
-      "suppressionPercentage": 77.35,
-      "suppressionState": 4,
-      "suppressionDate": null,
-      "lawlessAgeDays": 9,
-      "lawlessAgeLabel": "9d 10h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 13
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 21
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 11
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 15
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 18
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002659,
-        "hubName": "Dodixie",
-        "jumps": 11
-      }
-    },
-    {
-      "id": 30045332,
-      "name": "Asakai",
-      "sec": "Low-Sec",
-      "security": 0.256374367978025,
-      "faction": "guristas",
-      "campaignId": 141,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30003853,
-      "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-04-24T14:18:58.472Z",
-      "suppressionPercentage": 31.95,
-      "suppressionState": 2,
-      "suppressionDate": null,
-      "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 9h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 8
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 17
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 12
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 16
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 21
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 8
-      }
-    },
-    {
-      "id": 30045323,
-      "name": "Astoh",
-      "sec": "High-Sec",
-      "security": 0.612424055025467,
-      "faction": "guristas",
-      "campaignId": 141,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30003853,
-      "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-04-23T13:37:41.844Z",
-      "suppressionPercentage": 46.85,
-      "suppressionState": 3,
-      "suppressionDate": null,
-      "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 10h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 9
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 20
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 15
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 17
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 20
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 9
-      }
-    },
-    {
-      "id": 30003856,
-      "name": "Athounon",
-      "sec": "Low-Sec",
-      "security": 0.076205911588786,
-      "faction": "guristas",
-      "campaignId": 141,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30003853,
-      "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-04-18T06:54:45.945Z",
-      "suppressionPercentage": 100,
-      "suppressionState": 5,
-      "suppressionDate": "2026-04-27T11:30:01.704Z",
-      "lawlessAgeDays": 10,
-      "lawlessAgeLabel": "10d 17h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 10
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 20
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 12
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 18
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 21
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 10
-      }
-    },
-    {
-      "id": 30003834,
-      "name": "Chardalane",
-      "sec": "Low-Sec",
-      "security": 0.372551628574913,
-      "faction": "guristas",
-      "campaignId": 141,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30003853,
-      "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-04-26T08:34:17.292Z",
-      "suppressionPercentage": 22.75,
-      "suppressionState": 2,
-      "suppressionDate": null,
-      "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 15h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 16
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 22
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 9
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 15
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 18
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002659,
-        "hubName": "Dodixie",
-        "jumps": 9
-      }
-    },
-    {
-      "id": 30045337,
-      "name": "Ikoskio",
-      "sec": "Low-Sec",
-      "security": 0.283312241163054,
-      "faction": "guristas",
-      "campaignId": 141,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30003853,
-      "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-04-21T11:44:41.902Z",
-      "suppressionPercentage": 44.2,
-      "suppressionState": 3,
-      "suppressionDate": null,
-      "lawlessAgeDays": 7,
-      "lawlessAgeLabel": "7d 12h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 9
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 18
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 13
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 17
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 21
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 9
-      }
-    },
-    {
-      "id": 30045314,
-      "name": "Kinakka",
-      "sec": "Low-Sec",
-      "security": 0.415623008476671,
-      "faction": "guristas",
-      "campaignId": 141,
-      "campaignState": "NO_WINNER",
-      "isLawless": false,
-      "isFob": false,
-      "fobOriginId": 30003853,
-      "fobOriginName": "Mercomesier",
+      "fobOriginId": 30003829,
+      "fobOriginName": "Renarelle",
       "corruptionPercentage": 0,
       "corruptionState": 0,
       "corruptionDate": null,
@@ -1140,174 +654,12 @@
         "jita": {
           "hubId": 30000142,
           "hubName": "Jita",
-          "jumps": 8
+          "jumps": 10
         },
         "amarr": {
           "hubId": 30002187,
           "hubName": "Amarr",
-          "jumps": 19
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 14
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 14
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
           "jumps": 17
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 8
-      }
-    },
-    {
-      "id": 30003855,
-      "name": "Mantenault",
-      "sec": "Low-Sec",
-      "security": 0.13714960488229,
-      "faction": "guristas",
-      "campaignId": 141,
-      "campaignState": "NO_WINNER",
-      "isLawless": false,
-      "isFob": false,
-      "fobOriginId": 30003853,
-      "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 33.86,
-      "corruptionState": 2,
-      "corruptionDate": null,
-      "suppressionPercentage": 86.05,
-      "suppressionState": 4,
-      "suppressionDate": null,
-      "lawlessAgeDays": null,
-      "lawlessAgeLabel": "-",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 15
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 22
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 13
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 16
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 19
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002659,
-        "hubName": "Dodixie",
-        "jumps": 13
-      }
-    },
-    {
-      "id": 30003835,
-      "name": "Maut",
-      "sec": "Low-Sec",
-      "security": 0.248017059349721,
-      "faction": "guristas",
-      "campaignId": 141,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30003853,
-      "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-04-18T00:54:42.924Z",
-      "suppressionPercentage": 26.9,
-      "suppressionState": 2,
-      "suppressionDate": null,
-      "lawlessAgeDays": 10,
-      "lawlessAgeLabel": "10d 23h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 14
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 21
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 8
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 14
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 17
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002659,
-        "hubName": "Dodixie",
-        "jumps": 8
-      }
-    },
-    {
-      "id": 30003853,
-      "name": "Mercomesier",
-      "sec": "Low-Sec",
-      "security": 0.122967260983117,
-      "faction": "guristas",
-      "campaignId": 141,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": true,
-      "fobOriginId": 30003853,
-      "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-04-17T12:56:07.801Z",
-      "suppressionPercentage": 60.25,
-      "suppressionState": 3,
-      "suppressionDate": null,
-      "lawlessAgeDays": 11,
-      "lawlessAgeLabel": "11d 11h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 11
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 21
         },
         "dodixie": {
           "hubId": 30002659,
@@ -1317,390 +669,120 @@
         "hek": {
           "hubId": 30002053,
           "hubName": "Hek",
-          "jumps": 17
+          "jumps": 11
         },
         "rens": {
           "hubId": 30002510,
           "hubName": "Rens",
-          "jumps": 20
+          "jumps": 14
         }
       },
       "routeErrors": {},
       "nearestHub": {
         "hubId": 30000142,
         "hubName": "Jita",
-        "jumps": 11
+        "jumps": 10
       }
     },
     {
-      "id": 30045334,
-      "name": "Mushikegi",
+      "id": 30003827,
+      "name": "Aubenall",
       "sec": "Low-Sec",
-      "security": 0.433611949800207,
+      "security": 0.431851288426,
       "faction": "guristas",
-      "campaignId": 141,
-      "campaignState": "NO_WINNER",
+      "campaignId": 143,
+      "campaignState": "FORECAST",
       "isLawless": false,
       "isFob": false,
-      "fobOriginId": 30003853,
-      "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 3.8,
+      "fobOriginId": 30003829,
+      "fobOriginName": "Renarelle",
+      "corruptionPercentage": 0,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 4.2,
+      "suppressionPercentage": 0,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 8
-        },
         "amarr": {
           "hubId": 30002187,
           "hubName": "Amarr",
-          "jumps": 17
+          "jumps": 18
         },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 12
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 13
         },
         "hek": {
           "hubId": 30002053,
           "hubName": "Hek",
-          "jumps": 16
+          "jumps": 12
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 8
         },
         "rens": {
           "hubId": 30002510,
           "hubName": "Rens",
-          "jumps": 21
+          "jumps": 15
         }
       },
       "routeErrors": {},
       "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
+        "hubId": 30002659,
+        "hubName": "Dodixie",
         "jumps": 8
       }
     },
     {
-      "id": 30045330,
-      "name": "Okkamon",
+      "id": 30003828,
+      "name": "Moclinamaud",
       "sec": "Low-Sec",
-      "security": 0.285363606221956,
+      "security": 0.394320846733168,
       "faction": "guristas",
-      "campaignId": 141,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30003853,
-      "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-04-28T06:08:11.582Z",
-      "suppressionPercentage": 19.65,
-      "suppressionState": 1,
-      "suppressionDate": null,
-      "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "17h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 7
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 16
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 11
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 15
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 20
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 7
-      }
-    },
-    {
-      "id": 30045324,
-      "name": "Onnamon",
-      "sec": "High-Sec",
-      "security": 0.555534508863,
-      "faction": "guristas",
-      "campaignId": 141,
-      "campaignState": "NO_WINNER",
+      "campaignId": 143,
+      "campaignState": "FORECAST",
       "isLawless": false,
       "isFob": false,
-      "fobOriginId": 30003853,
-      "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 70.29,
-      "corruptionState": 4,
+      "fobOriginId": 30003829,
+      "fobOriginName": "Renarelle",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 79.65,
-      "suppressionState": 4,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 7
-        },
         "amarr": {
           "hubId": 30002187,
           "hubName": "Amarr",
           "jumps": 18
         },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 15
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 15
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 18
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 7
-      }
-    },
-    {
-      "id": 30003830,
-      "name": "Orvolle",
-      "sec": "High-Sec",
-      "security": 0.746238173885059,
-      "faction": "guristas",
-      "campaignId": 141,
-      "campaignState": "NO_WINNER",
-      "isLawless": false,
-      "isFob": false,
-      "fobOriginId": 30003853,
-      "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 48,
-      "corruptionState": 3,
-      "corruptionDate": null,
-      "suppressionPercentage": 26,
-      "suppressionState": 2,
-      "suppressionDate": null,
-      "lawlessAgeDays": null,
-      "lawlessAgeLabel": "-",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 13
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 19
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 6
-        },
         "hek": {
           "hubId": 30002053,
           "hubName": "Hek",
           "jumps": 12
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 15
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002659,
-        "hubName": "Dodixie",
-        "jumps": 6
-      }
-    },
-    {
-      "id": 30003831,
-      "name": "Osmeden",
-      "sec": "High-Sec",
-      "security": 0.72898942397594,
-      "faction": "guristas",
-      "campaignId": 141,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30003853,
-      "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-04-20T09:46:14.431Z",
-      "suppressionPercentage": 32.4,
-      "suppressionState": 2,
-      "suppressionDate": null,
-      "lawlessAgeDays": 8,
-      "lawlessAgeLabel": "8d 14h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 14
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 20
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 7
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 13
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 16
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002659,
-        "hubName": "Dodixie",
-        "jumps": 7
-      }
-    },
-    {
-      "id": 30001403,
-      "name": "Piak",
-      "sec": "High-Sec",
-      "security": 0.741152174277791,
-      "faction": "guristas",
-      "campaignId": 141,
-      "campaignState": "NO_WINNER",
-      "isLawless": false,
-      "isFob": false,
-      "fobOriginId": 30003853,
-      "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 32.35,
-      "corruptionState": 2,
-      "corruptionDate": null,
-      "suppressionPercentage": 19.35,
-      "suppressionState": 1,
-      "suppressionDate": null,
-      "lawlessAgeDays": null,
-      "lawlessAgeLabel": "-",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 6
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 17
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 15
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 15
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 19
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 6
-      }
-    },
-    {
-      "id": 30003851,
-      "name": "Reschard",
-      "sec": "Low-Sec",
-      "security": 0.127917629814996,
-      "faction": "guristas",
-      "campaignId": 141,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30003853,
-      "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-04-17T04:34:10.600Z",
-      "suppressionPercentage": 65.85,
-      "suppressionState": 3,
-      "suppressionDate": null,
-      "lawlessAgeDays": 11,
-      "lawlessAgeLabel": "11d 19h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 12
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 22
         },
         "dodixie": {
           "hubId": 30002659,
           "hubName": "Dodixie",
           "jumps": 10
         },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 16
-        },
         "rens": {
           "hubId": 30002510,
           "hubName": "Rens",
-          "jumps": 19
+          "jumps": 15
+        },
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 13
         }
       },
       "routeErrors": {},
@@ -1711,273 +793,111 @@
       }
     },
     {
-      "id": 30045325,
-      "name": "Rohamaa",
-      "sec": "High-Sec",
-      "security": 0.504716885530221,
+      "id": 30003829,
+      "name": "Renarelle",
+      "sec": "Low-Sec",
+      "security": 0.309962537906334,
       "faction": "guristas",
-      "campaignId": 141,
-      "campaignState": "NO_WINNER",
+      "campaignId": 143,
+      "campaignState": "FORECAST",
       "isLawless": false,
-      "isFob": false,
-      "fobOriginId": 30003853,
-      "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 96.55,
-      "corruptionState": 4,
+      "isFob": true,
+      "fobOriginId": 30003829,
+      "fobOriginName": "Renarelle",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 100,
-      "suppressionState": 5,
-      "suppressionDate": "2026-04-26T11:19:02.038Z",
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
+      "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
         "jita": {
           "hubId": 30000142,
           "hubName": "Jita",
-          "jumps": 8
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 19
+          "jumps": 12
         },
         "dodixie": {
           "hubId": 30002659,
           "hubName": "Dodixie",
-          "jumps": 15
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 16
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 19
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 8
-      }
-    },
-    {
-      "id": 30045322,
-      "name": "Samanuni",
-      "sec": "High-Sec",
-      "security": 0.65278484359145,
-      "faction": "guristas",
-      "campaignId": 141,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30003853,
-      "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-04-18T17:01:00.692Z",
-      "suppressionPercentage": 100,
-      "suppressionState": 5,
-      "suppressionDate": "2026-04-21T11:32:16.615Z",
-      "lawlessAgeDays": 10,
-      "lawlessAgeLabel": "10d 7h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
           "jumps": 9
         },
         "amarr": {
           "hubId": 30002187,
           "hubName": "Amarr",
-          "jumps": 19
+          "jumps": 17
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 11
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 14
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30002659,
+        "hubName": "Dodixie",
+        "jumps": 9
+      }
+    },
+    {
+      "id": 30003836,
+      "name": "Vlillirier",
+      "sec": "Low-Sec",
+      "security": 0.289309115052423,
+      "faction": "guristas",
+      "campaignId": 143,
+      "campaignState": "FORECAST",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30003829,
+      "fobOriginName": "Renarelle",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 11
+        },
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 16
         },
         "dodixie": {
           "hubId": 30002659,
           "hubName": "Dodixie",
+          "jumps": 10
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
           "jumps": 13
         },
         "hek": {
           "hubId": 30002053,
           "hubName": "Hek",
-          "jumps": 17
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 20
+          "jumps": 10
         }
       },
       "routeErrors": {},
       "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 9
-      }
-    },
-    {
-      "id": 30045327,
-      "name": "Tsuruma",
-      "sec": "High-Sec",
-      "security": 0.542633412774106,
-      "faction": "guristas",
-      "campaignId": 141,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30003853,
-      "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-04-26T22:07:30.307Z",
-      "suppressionPercentage": 35.9,
-      "suppressionState": 2,
-      "suppressionDate": null,
-      "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 1h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 8
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 19
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 16
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 16
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 19
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 8
-      }
-    },
-    {
-      "id": 30045321,
-      "name": "Uchomida",
-      "sec": "High-Sec",
-      "security": 0.494726933596337,
-      "faction": "guristas",
-      "campaignId": 141,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30003853,
-      "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-04-21T09:22:01.651Z",
-      "suppressionPercentage": 95,
-      "suppressionState": 4,
-      "suppressionDate": null,
-      "lawlessAgeDays": 7,
-      "lawlessAgeLabel": "7d 14h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 9
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 20
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 14
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 17
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 20
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 9
-      }
-    },
-    {
-      "id": 30045326,
-      "name": "Uuhulanen",
-      "sec": "High-Sec",
-      "security": 0.492079487801732,
-      "faction": "guristas",
-      "campaignId": 141,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30003853,
-      "fobOriginName": "Mercomesier",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-04-20T10:52:09.358Z",
-      "suppressionPercentage": 100,
-      "suppressionState": 5,
-      "suppressionDate": "2026-04-27T03:00:48.954Z",
-      "lawlessAgeDays": 8,
-      "lawlessAgeLabel": "8d 13h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 8
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 19
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 14
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 16
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 19
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 8
+        "hubId": 30002659,
+        "hubName": "Dodixie",
+        "jumps": 10
       }
     }
   ]
