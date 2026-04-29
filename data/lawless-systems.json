@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T03:57:02.102Z",
+  "generatedAt": "2026-04-29T06:18:57.818Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -29,10 +29,10 @@
     }
   ],
   "stats": {
-    "systems": 16,
+    "systems": 17,
     "lawlessNow": 5,
-    "cachedDistancesReused": 55,
-    "routeCalculatedNow": 25,
+    "cachedDistancesReused": 80,
+    "routeCalculatedNow": 5,
     "routeErrors": 0
   },
   "systems": [
@@ -51,7 +51,7 @@
       "corruptionPercentage": 25.87,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 43.2,
+      "suppressionPercentage": 47.95,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -105,7 +105,7 @@
       "corruptionPercentage": 29.23,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 83.9,
+      "suppressionPercentage": 85.85,
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -163,7 +163,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 12h",
+      "lawlessAgeLabel": "3d 14h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -271,7 +271,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 13h",
+      "lawlessAgeLabel": "2d 15h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -318,11 +318,11 @@
       "isFob": false,
       "fobOriginId": 30002540,
       "fobOriginName": "Lantorn",
-      "corruptionPercentage": 47.75,
+      "corruptionPercentage": 48.35,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 37.35,
-      "suppressionState": 2,
+      "suppressionPercentage": 41.05,
+      "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -372,8 +372,8 @@
       "isFob": false,
       "fobOriginId": 30002540,
       "fobOriginName": "Lantorn",
-      "corruptionPercentage": 65.1,
-      "corruptionState": 3,
+      "corruptionPercentage": 70.65,
+      "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 28.3,
       "suppressionState": 2,
@@ -426,10 +426,10 @@
       "isFob": false,
       "fobOriginId": 30002540,
       "fobOriginName": "Lantorn",
-      "corruptionPercentage": 76.16,
+      "corruptionPercentage": 78.99,
       "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 52.2,
+      "suppressionPercentage": 53.95,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -483,11 +483,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-04-26T01:56:38.274Z",
-      "suppressionPercentage": 25.65,
+      "suppressionPercentage": 25.85,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 2h",
+      "lawlessAgeLabel": "3d 4h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -523,6 +523,60 @@
       }
     },
     {
+      "id": 30002091,
+      "name": "Ontorn",
+      "sec": "Low-Sec",
+      "security": 0.321812998731719,
+      "faction": "angels",
+      "campaignId": 142,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30002540,
+      "fobOriginName": "Lantorn",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 11
+        },
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 15
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 6
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 9
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 7
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30002053,
+        "hubName": "Hek",
+        "jumps": 6
+      }
+    },
+    {
       "id": 30002539,
       "name": "Siseide",
       "sec": "Low-Sec",
@@ -541,7 +595,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 4h",
+      "lawlessAgeLabel": "2d 6h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -595,7 +649,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 17h",
+      "lawlessAgeLabel": "2d 19h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -705,25 +759,25 @@
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 18
-        },
         "jita": {
           "hubId": 30000142,
           "hubName": "Jita",
           "jumps": 13
         },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 12
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 18
         },
         "dodixie": {
           "hubId": 30002659,
           "hubName": "Dodixie",
           "jumps": 8
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 12
         },
         "rens": {
           "hubId": 30002510,
@@ -759,30 +813,30 @@
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 13
+        },
         "amarr": {
           "hubId": 30002187,
           "hubName": "Amarr",
           "jumps": 18
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 12
         },
         "dodixie": {
           "hubId": 30002659,
           "hubName": "Dodixie",
           "jumps": 10
         },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 12
+        },
         "rens": {
           "hubId": 30002510,
           "hubName": "Rens",
           "jumps": 15
-        },
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 13
         }
       },
       "routeErrors": {},
@@ -818,15 +872,15 @@
           "hubName": "Jita",
           "jumps": 12
         },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 9
-        },
         "amarr": {
           "hubId": 30002187,
           "hubName": "Amarr",
           "jumps": 17
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 9
         },
         "hek": {
           "hubId": 30002053,
@@ -882,15 +936,15 @@
           "hubName": "Dodixie",
           "jumps": 10
         },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 13
-        },
         "hek": {
           "hubId": 30002053,
           "hubName": "Hek",
           "jumps": 10
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 13
         }
       },
       "routeErrors": {},
