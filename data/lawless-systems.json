@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T23:10:33.500Z",
+  "generatedAt": "2026-04-30T00:06:25.014Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -51,7 +51,7 @@
       "corruptionPercentage": 31.89,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 61.75,
+      "suppressionPercentage": 61.95,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -163,7 +163,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 7h",
+      "lawlessAgeLabel": "4d 8h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -210,10 +210,10 @@
       "isFob": false,
       "fobOriginId": 30002540,
       "fobOriginName": "Lantorn",
-      "corruptionPercentage": 5.8,
+      "corruptionPercentage": 6.2,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 3.2,
+      "suppressionPercentage": 3.4,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -271,7 +271,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 8h",
+      "lawlessAgeLabel": "3d 9h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -318,7 +318,7 @@
       "isFob": false,
       "fobOriginId": 30002540,
       "fobOriginName": "Lantorn",
-      "corruptionPercentage": 58.71,
+      "corruptionPercentage": 58.99,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 49.9,
@@ -375,7 +375,7 @@
       "corruptionPercentage": 93.45,
       "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 34.25,
+      "suppressionPercentage": 36,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -483,11 +483,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-04-26T01:56:38.274Z",
-      "suppressionPercentage": 25.85,
+      "suppressionPercentage": 27.6,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 21h",
+      "lawlessAgeLabel": "3d 22h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -534,7 +534,7 @@
       "isFob": false,
       "fobOriginId": 30002540,
       "fobOriginName": "Lantorn",
-      "corruptionPercentage": 6.6,
+      "corruptionPercentage": 7.2,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 0.2,
@@ -594,8 +594,8 @@
       "suppressionPercentage": 59.05,
       "suppressionState": 3,
       "suppressionDate": null,
-      "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 23h",
+      "lawlessAgeDays": 3,
+      "lawlessAgeLabel": "3d 0h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -645,11 +645,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-04-26T10:52:38.664Z",
-      "suppressionPercentage": 46.95,
+      "suppressionPercentage": 47.35,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 12h",
+      "lawlessAgeLabel": "3d 13h",
       "distances": {
         "jita": {
           "hubId": 30000142,
