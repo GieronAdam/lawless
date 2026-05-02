@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-02T08:01:44.101Z",
+  "generatedAt": "2026-05-02T09:14:11.184Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -29,10 +29,10 @@
     }
   ],
   "stats": {
-    "systems": 21,
+    "systems": 22,
     "lawlessNow": 10,
     "cachedDistancesReused": 105,
-    "routeCalculatedNow": 0,
+    "routeCalculatedNow": 5,
     "routeErrors": 0
   },
   "systems": [
@@ -102,10 +102,10 @@
       "isFob": false,
       "fobOriginId": 30002540,
       "fobOriginName": "Lantorn",
-      "corruptionPercentage": 17.45,
+      "corruptionPercentage": 18.05,
       "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 19.1,
+      "suppressionPercentage": 19.3,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -156,7 +156,7 @@
       "isFob": false,
       "fobOriginId": 30002540,
       "fobOriginName": "Lantorn",
-      "corruptionPercentage": 47.26,
+      "corruptionPercentage": 48.38,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 100,
@@ -213,11 +213,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-04-25T15:48:18.626Z",
-      "suppressionPercentage": 57.9,
+      "suppressionPercentage": 58.1,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 6,
-      "lawlessAgeLabel": "6d 16h",
+      "lawlessAgeLabel": "6d 17h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -264,10 +264,10 @@
       "isFob": false,
       "fobOriginId": 30002540,
       "fobOriginName": "Lantorn",
-      "corruptionPercentage": 66.75,
-      "corruptionState": 3,
+      "corruptionPercentage": 74,
+      "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 15.7,
+      "suppressionPercentage": 16.3,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -325,7 +325,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 17h",
+      "lawlessAgeLabel": "5d 18h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -375,11 +375,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-05-02T07:22:18.218Z",
-      "suppressionPercentage": 84.5,
+      "suppressionPercentage": 86.7,
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "0h",
+      "lawlessAgeLabel": "1h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -429,11 +429,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-04-30T07:10:12.588Z",
-      "suppressionPercentage": 42.75,
+      "suppressionPercentage": 42.95,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 0h",
+      "lawlessAgeLabel": "2d 2h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -469,6 +469,60 @@
       }
     },
     {
+      "id": 30002093,
+      "name": "Gebuladi",
+      "sec": "Low-Sec",
+      "security": 0.263331754072794,
+      "faction": "angels",
+      "campaignId": 142,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30002540,
+      "fobOriginName": "Lantorn",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 10
+        },
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 15
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 6
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 8
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 6
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30002053,
+        "hubName": "Hek",
+        "jumps": 6
+      }
+    },
+    {
       "id": 30002096,
       "name": "Hofjaldgund",
       "sec": "Low-Sec",
@@ -487,7 +541,7 @@
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 6h",
+      "lawlessAgeLabel": "1d 8h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -541,7 +595,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 6,
-      "lawlessAgeLabel": "6d 6h",
+      "lawlessAgeLabel": "6d 7h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -588,7 +642,7 @@
       "isFob": false,
       "fobOriginId": 30002540,
       "fobOriginName": "Lantorn",
-      "corruptionPercentage": 63.3,
+      "corruptionPercentage": 63.9,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 22.15,
@@ -645,11 +699,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-04-26T23:36:26.015Z",
-      "suppressionPercentage": 72.1,
+      "suppressionPercentage": 72.5,
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 8h",
+      "lawlessAgeLabel": "5d 9h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -703,7 +757,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 21h",
+      "lawlessAgeLabel": "5d 22h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -750,10 +804,10 @@
       "isFob": false,
       "fobOriginId": 30003829,
       "fobOriginName": "Renarelle",
-      "corruptionPercentage": 45.45,
+      "corruptionPercentage": 45.65,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 19.1,
+      "suppressionPercentage": 19.3,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -804,7 +858,7 @@
       "isFob": false,
       "fobOriginId": 30003829,
       "fobOriginName": "Renarelle",
-      "corruptionPercentage": 7.6,
+      "corruptionPercentage": 8.4,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 0.2,
@@ -865,7 +919,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "18h",
+      "lawlessAgeLabel": "19h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -912,7 +966,7 @@
       "isFob": false,
       "fobOriginId": 30003829,
       "fobOriginName": "Renarelle",
-      "corruptionPercentage": 21.2,
+      "corruptionPercentage": 23.95,
       "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 2.6,
@@ -966,10 +1020,10 @@
       "isFob": false,
       "fobOriginId": 30003829,
       "fobOriginName": "Renarelle",
-      "corruptionPercentage": 14.9,
+      "corruptionPercentage": 15.9,
       "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 2.2,
+      "suppressionPercentage": 2.6,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -1027,7 +1081,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "2h",
+      "lawlessAgeLabel": "3h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1074,7 +1128,7 @@
       "isFob": true,
       "fobOriginId": 30003829,
       "fobOriginName": "Renarelle",
-      "corruptionPercentage": 87.9,
+      "corruptionPercentage": 90.4,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 8.25,
@@ -1128,10 +1182,10 @@
       "isFob": false,
       "fobOriginId": 30003829,
       "fobOriginName": "Renarelle",
-      "corruptionPercentage": 37.95,
+      "corruptionPercentage": 38.15,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 34.15,
+      "suppressionPercentage": 36.9,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
