@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T11:54:22.176Z",
+  "generatedAt": "2026-05-07T13:21:04.266Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -29,10 +29,10 @@
     }
   ],
   "stats": {
-    "systems": 21,
+    "systems": 22,
     "lawlessNow": 8,
-    "cachedDistancesReused": 90,
-    "routeCalculatedNow": 15,
+    "cachedDistancesReused": 105,
+    "routeCalculatedNow": 5,
     "routeErrors": 0
   },
   "systems": [
@@ -165,6 +165,11 @@
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 12
+        },
         "amarr": {
           "hubId": 30002187,
           "hubName": "Amarr",
@@ -184,11 +189,6 @@
           "hubId": 30002510,
           "hubName": "Rens",
           "jumps": 8
-        },
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 12
         }
       },
       "routeErrors": {},
@@ -273,15 +273,15 @@
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 13
-        },
         "jita": {
           "hubId": 30000142,
           "hubName": "Jita",
           "jumps": 11
+        },
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 13
         },
         "dodixie": {
           "hubId": 30002659,
@@ -318,10 +318,10 @@
       "isFob": false,
       "fobOriginId": 30003829,
       "fobOriginName": "Renarelle",
-      "corruptionPercentage": 16.5,
+      "corruptionPercentage": 16.9,
       "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 2.8,
+      "suppressionPercentage": 4.55,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -426,10 +426,10 @@
       "isFob": false,
       "fobOriginId": 30003829,
       "fobOriginName": "Renarelle",
-      "corruptionPercentage": 88.75,
+      "corruptionPercentage": 89.97,
       "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 79.5,
+      "suppressionPercentage": 80.1,
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -486,8 +486,8 @@
       "suppressionPercentage": 19.75,
       "suppressionState": 1,
       "suppressionDate": null,
-      "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 23h",
+      "lawlessAgeDays": 3,
+      "lawlessAgeLabel": "3d 0h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -540,8 +540,8 @@
       "suppressionPercentage": 19.6,
       "suppressionState": 1,
       "suppressionDate": null,
-      "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 22h",
+      "lawlessAgeDays": 6,
+      "lawlessAgeLabel": "6d 0h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -595,7 +595,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 3h",
+      "lawlessAgeLabel": "3d 4h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -649,7 +649,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 16h",
+      "lawlessAgeLabel": "2d 18h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -699,11 +699,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-05-02T05:55:39.344Z",
-      "suppressionPercentage": 42.3,
+      "suppressionPercentage": 44.05,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 5h",
+      "lawlessAgeLabel": "5d 7h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -750,10 +750,10 @@
       "isFob": false,
       "fobOriginId": 30003829,
       "fobOriginName": "Renarelle",
-      "corruptionPercentage": 37.66,
+      "corruptionPercentage": 39.9,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 91.15,
+      "suppressionPercentage": 91.35,
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -804,7 +804,7 @@
       "isFob": false,
       "fobOriginId": 30003829,
       "fobOriginName": "Renarelle",
-      "corruptionPercentage": 9.05,
+      "corruptionPercentage": 9.85,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 12.8,
@@ -858,8 +858,8 @@
       "isFob": false,
       "fobOriginId": 30003829,
       "fobOriginName": "Renarelle",
-      "corruptionPercentage": 68.5,
-      "corruptionState": 3,
+      "corruptionPercentage": 73,
+      "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 9.6,
       "suppressionState": 0,
@@ -901,6 +901,60 @@
       }
     },
     {
+      "id": 30003831,
+      "name": "Osmeden",
+      "sec": "High-Sec",
+      "security": 0.72898942397594,
+      "faction": "guristas",
+      "campaignId": 143,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30003829,
+      "fobOriginName": "Renarelle",
+      "corruptionPercentage": 0.4,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 14
+        },
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 20
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 13
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 7
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 16
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30002659,
+        "hubName": "Dodixie",
+        "jumps": 7
+      }
+    },
+    {
       "id": 30003833,
       "name": "Oulley",
       "sec": "Low-Sec",
@@ -915,11 +969,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-05-06T00:03:03.230Z",
-      "suppressionPercentage": 7.2,
+      "suppressionPercentage": 7.6,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 11h",
+      "lawlessAgeLabel": "1d 13h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -972,8 +1026,8 @@
       "suppressionPercentage": 35.45,
       "suppressionState": 2,
       "suppressionDate": null,
-      "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 23h",
+      "lawlessAgeDays": 5,
+      "lawlessAgeLabel": "5d 1h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1027,7 +1081,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "9h",
+      "lawlessAgeLabel": "10h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1077,7 +1131,7 @@
       "corruptionPercentage": 5.85,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 11.8,
+      "suppressionPercentage": 12.4,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
