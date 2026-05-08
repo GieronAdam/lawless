@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-08T06:13:31.335Z",
+  "generatedAt": "2026-05-08T07:56:51.482Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -318,7 +318,7 @@
       "isFob": false,
       "fobOriginId": 30003829,
       "fobOriginName": "Renarelle",
-      "corruptionPercentage": 44.1,
+      "corruptionPercentage": 44.7,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 5.55,
@@ -429,11 +429,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-05-07T18:58:21.199Z",
-      "suppressionPercentage": 91.7,
+      "suppressionPercentage": 91.9,
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "11h",
+      "lawlessAgeLabel": "12h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -483,11 +483,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-05-04T12:48:31.698Z",
-      "suppressionPercentage": 22.5,
+      "suppressionPercentage": 23.1,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 17h",
+      "lawlessAgeLabel": "3d 19h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -541,7 +541,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 6,
-      "lawlessAgeLabel": "6d 16h",
+      "lawlessAgeLabel": "6d 18h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -591,11 +591,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-05-04T08:38:17.950Z",
-      "suppressionPercentage": 31.65,
+      "suppressionPercentage": 31.85,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 21h",
+      "lawlessAgeLabel": "3d 23h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -645,11 +645,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-05-04T18:56:47.401Z",
-      "suppressionPercentage": 39.75,
-      "suppressionState": 2,
+      "suppressionPercentage": 40.15,
+      "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 11h",
+      "lawlessAgeLabel": "3d 13h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -699,11 +699,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-05-02T05:55:39.344Z",
-      "suppressionPercentage": 46.8,
+      "suppressionPercentage": 47,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 6,
-      "lawlessAgeLabel": "6d 0h",
+      "lawlessAgeLabel": "6d 2h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -807,7 +807,7 @@
       "corruptionPercentage": 15.35,
       "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 27.65,
+      "suppressionPercentage": 34.5,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -865,7 +865,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "6h",
+      "lawlessAgeLabel": "8h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -912,7 +912,7 @@
       "isFob": false,
       "fobOriginId": 30003829,
       "fobOriginName": "Renarelle",
-      "corruptionPercentage": 7.4,
+      "corruptionPercentage": 9.4,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 0.8,
@@ -973,7 +973,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 6h",
+      "lawlessAgeLabel": "2d 7h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1027,7 +1027,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 17h",
+      "lawlessAgeLabel": "5d 19h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1077,11 +1077,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-05-07T02:34:49.737Z",
-      "suppressionPercentage": 12.1,
+      "suppressionPercentage": 12.3,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 3h",
+      "lawlessAgeLabel": "1d 5h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1128,7 +1128,7 @@
       "isFob": false,
       "fobOriginId": 30003829,
       "fobOriginName": "Renarelle",
-      "corruptionPercentage": 11.7,
+      "corruptionPercentage": 14.95,
       "corruptionState": 1,
       "corruptionDate": null,
       "suppressionPercentage": 35.35,
