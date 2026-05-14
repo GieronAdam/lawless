@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T16:31:57.025Z",
+  "generatedAt": "2026-05-14T18:17:27.844Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -48,7 +48,7 @@
       "isFob": false,
       "fobOriginId": 30002057,
       "fobOriginName": "Hadozeko",
-      "corruptionPercentage": 97.9,
+      "corruptionPercentage": 98.9,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 32.75,
@@ -109,7 +109,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 20h",
+      "lawlessAgeLabel": "2d 21h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -156,10 +156,10 @@
       "isFob": false,
       "fobOriginId": 30002057,
       "fobOriginName": "Hadozeko",
-      "corruptionPercentage": 54.3,
+      "corruptionPercentage": 57.3,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 38.95,
+      "suppressionPercentage": 39.95,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -213,11 +213,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-05-13T17:08:39.532Z",
-      "suppressionPercentage": 24.9,
+      "suppressionPercentage": 25.3,
       "suppressionState": 2,
       "suppressionDate": null,
-      "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "23h",
+      "lawlessAgeDays": 1,
+      "lawlessAgeLabel": "1d 1h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -264,7 +264,7 @@
       "isFob": false,
       "fobOriginId": 30002057,
       "fobOriginName": "Hadozeko",
-      "corruptionPercentage": 5.2,
+      "corruptionPercentage": 7.4,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 3,
@@ -318,8 +318,8 @@
       "isFob": false,
       "fobOriginId": 30002057,
       "fobOriginName": "Hadozeko",
-      "corruptionPercentage": 18.7,
-      "corruptionState": 1,
+      "corruptionPercentage": 23.25,
+      "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 7.8,
       "suppressionState": 0,
@@ -372,10 +372,10 @@
       "isFob": false,
       "fobOriginId": 30002057,
       "fobOriginName": "Hadozeko",
-      "corruptionPercentage": 4.8,
+      "corruptionPercentage": 6.2,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 3,
+      "suppressionPercentage": 3.2,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -433,7 +433,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 3h",
+      "lawlessAgeLabel": "3d 4h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -483,11 +483,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-05-14T11:53:02.674Z",
-      "suppressionPercentage": 17.3,
+      "suppressionPercentage": 17.5,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "4h",
+      "lawlessAgeLabel": "6h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -537,11 +537,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-05-10T15:33:58.410Z",
-      "suppressionPercentage": 32.55,
+      "suppressionPercentage": 32.75,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 0h",
+      "lawlessAgeLabel": "4d 2h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -595,7 +595,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 4h",
+      "lawlessAgeLabel": "2d 6h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -649,7 +649,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 2h",
+      "lawlessAgeLabel": "4d 3h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -703,7 +703,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 1h",
+      "lawlessAgeLabel": "1d 3h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -757,7 +757,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 3h",
+      "lawlessAgeLabel": "4d 4h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -804,8 +804,8 @@
       "isFob": false,
       "fobOriginId": 30002057,
       "fobOriginName": "Hadozeko",
-      "corruptionPercentage": 9.6,
-      "corruptionState": 0,
+      "corruptionPercentage": 10,
+      "corruptionState": 1,
       "corruptionDate": null,
       "suppressionPercentage": 1,
       "suppressionState": 0,
