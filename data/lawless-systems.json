@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-16T20:26:38.763Z",
+  "generatedAt": "2026-05-16T21:08:37.039Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -31,8 +31,8 @@
   "stats": {
     "systems": 24,
     "lawlessNow": 12,
-    "cachedDistancesReused": 115,
-    "routeCalculatedNow": 5,
+    "cachedDistancesReused": 120,
+    "routeCalculatedNow": 0,
     "routeErrors": 0
   },
   "systems": [
@@ -55,7 +55,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 1h",
+      "lawlessAgeLabel": "2d 2h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -159,7 +159,7 @@
       "corruptionPercentage": 2,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 1.2,
+      "suppressionPercentage": 1.4,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -217,7 +217,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "12h",
+      "lawlessAgeLabel": "13h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -372,7 +372,7 @@
       "isFob": false,
       "fobOriginId": 30002057,
       "fobOriginName": "Hadozeko",
-      "corruptionPercentage": 93.9,
+      "corruptionPercentage": 94.3,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 21.65,
@@ -429,7 +429,7 @@
       "corruptionPercentage": 33.85,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 17.1,
+      "suppressionPercentage": 19.6,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -483,7 +483,7 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-05-11T13:22:27.145Z",
-      "suppressionPercentage": 61.85,
+      "suppressionPercentage": 62.05,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 5,
@@ -541,7 +541,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 8h",
+      "lawlessAgeLabel": "2d 9h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -595,7 +595,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 6,
-      "lawlessAgeLabel": "6d 4h",
+      "lawlessAgeLabel": "6d 5h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -645,11 +645,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-05-12T12:00:58.866Z",
-      "suppressionPercentage": 17.95,
+      "suppressionPercentage": 19.35,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 8h",
+      "lawlessAgeLabel": "4d 9h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -699,8 +699,8 @@
       "corruptionPercentage": 1.8,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 9.8,
-      "suppressionState": 0,
+      "suppressionPercentage": 10.6,
+      "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -813,15 +813,15 @@
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 11
-        },
         "jita": {
           "hubId": 30000142,
           "hubName": "Jita",
           "jumps": 15
+        },
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 11
         },
         "dodixie": {
           "hubId": 30002659,
@@ -966,7 +966,7 @@
       "isFob": false,
       "fobOriginId": 30002057,
       "fobOriginName": "Hadozeko",
-      "corruptionPercentage": 71.35,
+      "corruptionPercentage": 75.05,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 3.95,
@@ -1020,7 +1020,7 @@
       "isFob": false,
       "fobOriginId": 30045343,
       "fobOriginName": "Immuri",
-      "corruptionPercentage": 43.4,
+      "corruptionPercentage": 44.2,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 5.2,
@@ -1074,7 +1074,7 @@
       "isFob": false,
       "fobOriginId": 30045343,
       "fobOriginName": "Immuri",
-      "corruptionPercentage": 4.4,
+      "corruptionPercentage": 6,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 1.4,
@@ -1185,7 +1185,7 @@
       "corruptionPercentage": 44.75,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 7.5,
+      "suppressionPercentage": 7.7,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -1236,7 +1236,7 @@
       "isFob": true,
       "fobOriginId": 30045343,
       "fobOriginName": "Immuri",
-      "corruptionPercentage": 42.15,
+      "corruptionPercentage": 42.55,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 2.4,
@@ -1290,10 +1290,10 @@
       "isFob": false,
       "fobOriginId": 30045343,
       "fobOriginName": "Immuri",
-      "corruptionPercentage": 43.55,
+      "corruptionPercentage": 46.8,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 6.4,
+      "suppressionPercentage": 6.6,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
