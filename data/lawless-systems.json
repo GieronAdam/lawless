@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-26T17:44:52.858Z",
+  "generatedAt": "2026-05-26T19:45:07.119Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -55,7 +55,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "4h",
+      "lawlessAgeLabel": "6h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -105,11 +105,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-05-26T15:42:49.900Z",
-      "suppressionPercentage": 29.9,
+      "suppressionPercentage": 30.1,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "2h",
+      "lawlessAgeLabel": "4h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -156,10 +156,10 @@
       "isFob": false,
       "fobOriginId": 30002975,
       "fobOriginName": "Roushzar",
-      "corruptionPercentage": 16.95,
+      "corruptionPercentage": 18.35,
       "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 2.4,
+      "suppressionPercentage": 2.6,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -210,7 +210,7 @@
       "isFob": false,
       "fobOriginId": 30002975,
       "fobOriginName": "Roushzar",
-      "corruptionPercentage": 45.01,
+      "corruptionPercentage": 46.79,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 47.05,
@@ -264,10 +264,10 @@
       "isFob": false,
       "fobOriginId": 30002975,
       "fobOriginName": "Roushzar",
-      "corruptionPercentage": 2.4,
+      "corruptionPercentage": 2.8,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 2.2,
+      "suppressionPercentage": 3,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -318,7 +318,7 @@
       "isFob": false,
       "fobOriginId": 30002975,
       "fobOriginName": "Roushzar",
-      "corruptionPercentage": 97.68,
+      "corruptionPercentage": 97.96,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 53.45,
@@ -372,7 +372,7 @@
       "isFob": true,
       "fobOriginId": 30002975,
       "fobOriginName": "Roushzar",
-      "corruptionPercentage": 91.5,
+      "corruptionPercentage": 95.25,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 39.7,
@@ -426,10 +426,10 @@
       "isFob": false,
       "fobOriginId": 30002975,
       "fobOriginName": "Roushzar",
-      "corruptionPercentage": 11,
+      "corruptionPercentage": 12.95,
       "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 4,
+      "suppressionPercentage": 5.6,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -480,8 +480,8 @@
       "isFob": false,
       "fobOriginId": 30002975,
       "fobOriginName": "Roushzar",
-      "corruptionPercentage": 8.6,
-      "corruptionState": 0,
+      "corruptionPercentage": 11.4,
+      "corruptionState": 1,
       "corruptionDate": null,
       "suppressionPercentage": 0.6,
       "suppressionState": 0,
@@ -541,7 +541,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 14h",
+      "lawlessAgeLabel": "4d 16h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -595,7 +595,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 12h",
+      "lawlessAgeLabel": "5d 14h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -645,11 +645,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-05-17T21:07:07.941Z",
-      "suppressionPercentage": 53.3,
+      "suppressionPercentage": 53.5,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 8,
-      "lawlessAgeLabel": "8d 20h",
+      "lawlessAgeLabel": "8d 22h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -699,11 +699,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-05-22T10:11:22.285Z",
-      "suppressionPercentage": 17.8,
+      "suppressionPercentage": 18,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 7h",
+      "lawlessAgeLabel": "4d 9h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -753,11 +753,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-05-18T23:00:56.067Z",
-      "suppressionPercentage": 6.95,
+      "suppressionPercentage": 7.55,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 7,
-      "lawlessAgeLabel": "7d 18h",
+      "lawlessAgeLabel": "7d 20h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -807,11 +807,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-05-25T22:46:53.223Z",
-      "suppressionPercentage": 9.9,
-      "suppressionState": 0,
+      "suppressionPercentage": 10.5,
+      "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "18h",
+      "lawlessAgeLabel": "20h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -861,11 +861,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-05-20T08:11:50.739Z",
-      "suppressionPercentage": 29.4,
+      "suppressionPercentage": 29.6,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 6,
-      "lawlessAgeLabel": "6d 9h",
+      "lawlessAgeLabel": "6d 11h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -918,8 +918,8 @@
       "suppressionPercentage": 15.95,
       "suppressionState": 1,
       "suppressionDate": null,
-      "lawlessAgeDays": 9,
-      "lawlessAgeLabel": "9d 22h",
+      "lawlessAgeDays": 10,
+      "lawlessAgeLabel": "10d 0h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -969,11 +969,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-05-18T08:09:34.806Z",
-      "suppressionPercentage": 33.5,
+      "suppressionPercentage": 33.9,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 8,
-      "lawlessAgeLabel": "8d 9h",
+      "lawlessAgeLabel": "8d 11h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1081,7 +1081,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 8,
-      "lawlessAgeLabel": "8d 14h",
+      "lawlessAgeLabel": "8d 16h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1135,7 +1135,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "20h",
+      "lawlessAgeLabel": "22h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1189,7 +1189,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "1h",
+      "lawlessAgeLabel": "3h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1239,7 +1239,7 @@
       "corruptionPercentage": 10.2,
       "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 14.15,
+      "suppressionPercentage": 16.15,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -1293,11 +1293,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-05-18T04:29:06.764Z",
-      "suppressionPercentage": 63.45,
+      "suppressionPercentage": 63.65,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 8,
-      "lawlessAgeLabel": "8d 13h",
+      "lawlessAgeLabel": "8d 15h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1344,7 +1344,7 @@
       "isFob": false,
       "fobOriginId": 30045343,
       "fobOriginName": "Immuri",
-      "corruptionPercentage": 12.85,
+      "corruptionPercentage": 13.85,
       "corruptionState": 1,
       "corruptionDate": null,
       "suppressionPercentage": 19.4,
@@ -1398,10 +1398,10 @@
       "isFob": false,
       "fobOriginId": 30045343,
       "fobOriginName": "Immuri",
-      "corruptionPercentage": 8.8,
+      "corruptionPercentage": 9,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 1.2,
+      "suppressionPercentage": 1.4,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -1452,10 +1452,10 @@
       "isFob": false,
       "fobOriginId": 30045343,
       "fobOriginName": "Immuri",
-      "corruptionPercentage": 17.65,
-      "corruptionState": 1,
+      "corruptionPercentage": 27.05,
+      "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 24.85,
+      "suppressionPercentage": 25.85,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -1509,11 +1509,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-05-24T06:17:14.151Z",
-      "suppressionPercentage": 40.15,
+      "suppressionPercentage": 40.75,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 11h",
+      "lawlessAgeLabel": "2d 13h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1567,7 +1567,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 6,
-      "lawlessAgeLabel": "6d 17h",
+      "lawlessAgeLabel": "6d 19h",
       "distances": {
         "jita": {
           "hubId": 30000142,
