@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T17:19:15.175Z",
+  "generatedAt": "2026-05-30T18:16:50.659Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -55,7 +55,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 4h",
+      "lawlessAgeLabel": "4d 5h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -102,10 +102,10 @@
       "isFob": false,
       "fobOriginId": 30002975,
       "fobOriginName": "Roushzar",
-      "corruptionPercentage": 47.1,
+      "corruptionPercentage": 48.1,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 13.15,
+      "suppressionPercentage": 13.35,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -159,11 +159,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-05-26T15:42:49.900Z",
-      "suppressionPercentage": 71.3,
+      "suppressionPercentage": 73.8,
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 1h",
+      "lawlessAgeLabel": "4d 2h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -271,7 +271,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 5h",
+      "lawlessAgeLabel": "1d 6h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -429,11 +429,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-05-26T22:01:12.118Z",
-      "suppressionPercentage": 71.85,
+      "suppressionPercentage": 72.65,
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 19h",
+      "lawlessAgeLabel": "3d 20h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -480,11 +480,11 @@
       "isFob": false,
       "fobOriginId": 30002975,
       "fobOriginName": "Roushzar",
-      "corruptionPercentage": 53.7,
+      "corruptionPercentage": 54.3,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 9.75,
-      "suppressionState": 0,
+      "suppressionPercentage": 12.75,
+      "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -537,7 +537,7 @@
       "corruptionPercentage": 18.85,
       "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 1.8,
+      "suppressionPercentage": 3.55,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -591,11 +591,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-05-26T21:42:03.420Z",
-      "suppressionPercentage": 59.15,
+      "suppressionPercentage": 60.9,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 19h",
+      "lawlessAgeLabel": "3d 20h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -642,10 +642,10 @@
       "isFob": false,
       "fobOriginId": 30002975,
       "fobOriginName": "Roushzar",
-      "corruptionPercentage": 91.42,
+      "corruptionPercentage": 91.56,
       "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 74,
+      "suppressionPercentage": 74.4,
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -703,7 +703,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 10h",
+      "lawlessAgeLabel": "1d 11h",
       "distances": {
         "jita": {
           "hubId": 30000142,
