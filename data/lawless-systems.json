@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T12:58:12.060Z",
+  "generatedAt": "2026-06-06T14:47:51.163Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -325,7 +325,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 2h",
+      "lawlessAgeLabel": "3d 3h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -429,11 +429,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-06-04T07:37:13.561Z",
-      "suppressionPercentage": 28.95,
+      "suppressionPercentage": 29.15,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 5h",
+      "lawlessAgeLabel": "2d 7h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -483,11 +483,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-06-02T14:39:33.658Z",
-      "suppressionPercentage": 28.2,
+      "suppressionPercentage": 28.8,
       "suppressionState": 2,
       "suppressionDate": null,
-      "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 22h",
+      "lawlessAgeDays": 4,
+      "lawlessAgeLabel": "4d 0h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -534,7 +534,7 @@
       "isFob": false,
       "fobOriginId": 30003826,
       "fobOriginName": "Frarie",
-      "corruptionPercentage": 4,
+      "corruptionPercentage": 4.4,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 5,
@@ -591,11 +591,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-06-02T14:54:13.334Z",
-      "suppressionPercentage": 22.95,
+      "suppressionPercentage": 23.15,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 22h",
+      "lawlessAgeLabel": "3d 23h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -645,11 +645,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-06-02T04:53:59.918Z",
-      "suppressionPercentage": 20.45,
+      "suppressionPercentage": 22.2,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 8h",
+      "lawlessAgeLabel": "4d 9h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -703,7 +703,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "17h",
+      "lawlessAgeLabel": "19h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -753,11 +753,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-06-02T08:11:24.071Z",
-      "suppressionPercentage": 22.5,
+      "suppressionPercentage": 26.35,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 4h",
+      "lawlessAgeLabel": "4d 6h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -807,11 +807,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-06-05T22:01:34.918Z",
-      "suppressionPercentage": 10.35,
+      "suppressionPercentage": 10.55,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "14h",
+      "lawlessAgeLabel": "16h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -858,10 +858,10 @@
       "isFob": false,
       "fobOriginId": 30003826,
       "fobOriginName": "Frarie",
-      "corruptionPercentage": 3.2,
+      "corruptionPercentage": 3.6,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 6.8,
+      "suppressionPercentage": 7,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -912,7 +912,7 @@
       "isFob": false,
       "fobOriginId": 30003826,
       "fobOriginName": "Frarie",
-      "corruptionPercentage": 15.55,
+      "corruptionPercentage": 19.35,
       "corruptionState": 1,
       "corruptionDate": null,
       "suppressionPercentage": 1,
@@ -973,7 +973,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 4h",
+      "lawlessAgeLabel": "2d 6h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1023,11 +1023,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-06-06T03:38:07.851Z",
-      "suppressionPercentage": 70.35,
+      "suppressionPercentage": 72.3,
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "9h",
+      "lawlessAgeLabel": "11h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1081,7 +1081,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 3h",
+      "lawlessAgeLabel": "5d 5h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1128,10 +1128,10 @@
       "isFob": false,
       "fobOriginId": 30003826,
       "fobOriginName": "Frarie",
-      "corruptionPercentage": 50.72,
+      "corruptionPercentage": 53,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 65.8,
+      "suppressionPercentage": 66.4,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -1182,10 +1182,10 @@
       "isFob": false,
       "fobOriginId": 30003826,
       "fobOriginName": "Frarie",
-      "corruptionPercentage": 11.65,
+      "corruptionPercentage": 13.45,
       "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 33.1,
+      "suppressionPercentage": 34.85,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
