@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T10:01:22.664Z",
+  "generatedAt": "2026-06-14T12:03:58.218Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -30,7 +30,7 @@
   ],
   "stats": {
     "systems": 22,
-    "lawlessNow": 10,
+    "lawlessNow": 11,
     "cachedDistancesReused": 110,
     "routeCalculatedNow": 0,
     "routeErrors": 0
@@ -54,8 +54,8 @@
       "suppressionPercentage": 38.4,
       "suppressionState": 2,
       "suppressionDate": null,
-      "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 23h",
+      "lawlessAgeDays": 3,
+      "lawlessAgeLabel": "3d 1h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -105,7 +105,7 @@
       "corruptionPercentage": 9.5,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 33.15,
+      "suppressionPercentage": 35.3,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -159,7 +159,7 @@
       "corruptionPercentage": 25.02,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 78.65,
+      "suppressionPercentage": 83.25,
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -213,11 +213,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-06-09T03:19:36.583Z",
-      "suppressionPercentage": 23.75,
+      "suppressionPercentage": 23.95,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 6h",
+      "lawlessAgeLabel": "5d 8h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -271,7 +271,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 12h",
+      "lawlessAgeLabel": "2d 14h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -325,7 +325,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 3h",
+      "lawlessAgeLabel": "1d 5h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -379,7 +379,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 21h",
+      "lawlessAgeLabel": "4d 23h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -433,7 +433,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 7h",
+      "lawlessAgeLabel": "5d 9h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -480,7 +480,7 @@
       "isFob": false,
       "fobOriginId": 30002091,
       "fobOriginName": "Ontorn",
-      "corruptionPercentage": 94.8,
+      "corruptionPercentage": 98.4,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 16.3,
@@ -541,7 +541,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 11h",
+      "lawlessAgeLabel": "2d 13h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -645,7 +645,7 @@
       "corruptionPercentage": 37.3,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 35.2,
+      "suppressionPercentage": 35.6,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -702,8 +702,8 @@
       "suppressionPercentage": 16.95,
       "suppressionState": 1,
       "suppressionDate": null,
-      "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 23h",
+      "lawlessAgeDays": 6,
+      "lawlessAgeLabel": "6d 1h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -757,7 +757,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 17h",
+      "lawlessAgeLabel": "5d 19h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -810,8 +810,8 @@
       "suppressionPercentage": 35.35,
       "suppressionState": 2,
       "suppressionDate": null,
-      "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 23h",
+      "lawlessAgeDays": 2,
+      "lawlessAgeLabel": "2d 1h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -858,10 +858,10 @@
       "isFob": false,
       "fobOriginId": 30002091,
       "fobOriginName": "Ontorn",
-      "corruptionPercentage": 39.2,
-      "corruptionState": 2,
+      "corruptionPercentage": 40.6,
+      "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 16.25,
+      "suppressionPercentage": 16.45,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -912,10 +912,10 @@
       "isFob": false,
       "fobOriginId": 30045310,
       "fobOriginName": "Sarenemi",
-      "corruptionPercentage": 39.15,
-      "corruptionState": 2,
+      "corruptionPercentage": 43.2,
+      "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 8.25,
+      "suppressionPercentage": 8.45,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -962,18 +962,18 @@
       "faction": "guristas",
       "campaignId": 149,
       "campaignState": "ACTIVE",
-      "isLawless": false,
+      "isLawless": true,
       "isFob": false,
       "fobOriginId": 30045310,
       "fobOriginName": "Sarenemi",
-      "corruptionPercentage": 95.6,
-      "corruptionState": 4,
-      "corruptionDate": null,
+      "corruptionPercentage": 100,
+      "corruptionState": 5,
+      "corruptionDate": "2026-06-14T11:28:16.307Z",
       "suppressionPercentage": 0.8,
       "suppressionState": 0,
       "suppressionDate": null,
-      "lawlessAgeDays": null,
-      "lawlessAgeLabel": "-",
+      "lawlessAgeDays": 0,
+      "lawlessAgeLabel": "0h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1020,10 +1020,10 @@
       "isFob": false,
       "fobOriginId": 30045310,
       "fobOriginName": "Sarenemi",
-      "corruptionPercentage": 35.75,
+      "corruptionPercentage": 36.35,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 9,
+      "suppressionPercentage": 9.2,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -1074,7 +1074,7 @@
       "isFob": true,
       "fobOriginId": 30045310,
       "fobOriginName": "Sarenemi",
-      "corruptionPercentage": 37.45,
+      "corruptionPercentage": 39.8,
       "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 4.35,
@@ -1128,8 +1128,8 @@
       "isFob": false,
       "fobOriginId": 30045310,
       "fobOriginName": "Sarenemi",
-      "corruptionPercentage": 9.2,
-      "corruptionState": 0,
+      "corruptionPercentage": 12.2,
+      "corruptionState": 1,
       "corruptionDate": null,
       "suppressionPercentage": 0,
       "suppressionState": 0,
@@ -1182,10 +1182,10 @@
       "isFob": false,
       "fobOriginId": 30045310,
       "fobOriginName": "Sarenemi",
-      "corruptionPercentage": 41.8,
+      "corruptionPercentage": 46.7,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 13.7,
+      "suppressionPercentage": 14.1,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
