@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T19:14:00.676Z",
+  "generatedAt": "2026-06-24T20:55:25.780Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -31,8 +31,8 @@
   "stats": {
     "systems": 12,
     "lawlessNow": 1,
-    "cachedDistancesReused": 35,
-    "routeCalculatedNow": 25,
+    "cachedDistancesReused": 60,
+    "routeCalculatedNow": 0,
     "routeErrors": 0
   },
   "systems": [
@@ -48,8 +48,8 @@
       "isFob": true,
       "fobOriginId": 30002537,
       "fobOriginName": "Amamake",
-      "corruptionPercentage": 38.55,
-      "corruptionState": 2,
+      "corruptionPercentage": 40.15,
+      "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 39.4,
       "suppressionState": 2,
@@ -105,7 +105,7 @@
       "corruptionPercentage": 48.65,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 28.95,
+      "suppressionPercentage": 31.5,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -156,7 +156,7 @@
       "isFob": false,
       "fobOriginId": 30002537,
       "fobOriginName": "Amamake",
-      "corruptionPercentage": 21.09,
+      "corruptionPercentage": 23.19,
       "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 48.9,
@@ -210,7 +210,7 @@
       "isFob": false,
       "fobOriginId": 30002537,
       "fobOriginName": "Amamake",
-      "corruptionPercentage": 40.2,
+      "corruptionPercentage": 41.2,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 5.25,
@@ -264,10 +264,10 @@
       "isFob": false,
       "fobOriginId": 30002537,
       "fobOriginName": "Amamake",
-      "corruptionPercentage": 1.2,
+      "corruptionPercentage": 1.6,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 0,
+      "suppressionPercentage": 0.2,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -321,11 +321,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-06-23T14:53:20.553Z",
-      "suppressionPercentage": 29.4,
+      "suppressionPercentage": 29.6,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 4h",
+      "lawlessAgeLabel": "1d 6h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -372,10 +372,10 @@
       "isFob": false,
       "fobOriginId": 30002537,
       "fobOriginName": "Amamake",
-      "corruptionPercentage": 72.35,
+      "corruptionPercentage": 72.55,
       "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 14.3,
+      "suppressionPercentage": 14.5,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -435,30 +435,30 @@
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 6
+        },
         "amarr": {
           "hubId": 30002187,
           "hubName": "Amarr",
           "jumps": 15
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 14
         },
         "dodixie": {
           "hubId": 30002659,
           "hubName": "Dodixie",
           "jumps": 9
         },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 14
+        },
         "rens": {
           "hubId": 30002510,
           "hubName": "Rens",
           "jumps": 18
-        },
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 6
         }
       },
       "routeErrors": {},
@@ -494,15 +494,15 @@
           "hubName": "Jita",
           "jumps": 5
         },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 9
-        },
         "amarr": {
           "hubId": 30002187,
           "hubName": "Amarr",
           "jumps": 14
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 9
         },
         "hek": {
           "hubId": 30002053,
@@ -607,15 +607,15 @@
           "hubName": "Amarr",
           "jumps": 13
         },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 12
-        },
         "dodixie": {
           "hubId": 30002659,
           "hubName": "Dodixie",
           "jumps": 8
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 12
         },
         "rens": {
           "hubId": 30002510,
