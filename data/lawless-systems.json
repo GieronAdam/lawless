@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T16:03:34.784Z",
+  "generatedAt": "2026-06-25T18:20:40.631Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -29,10 +29,10 @@
     }
   ],
   "stats": {
-    "systems": 12,
+    "systems": 13,
     "lawlessNow": 2,
     "cachedDistancesReused": 60,
-    "routeCalculatedNow": 0,
+    "routeCalculatedNow": 5,
     "routeErrors": 0
   },
   "systems": [
@@ -48,10 +48,10 @@
       "isFob": true,
       "fobOriginId": 30002537,
       "fobOriginName": "Amamake",
-      "corruptionPercentage": 53.84,
+      "corruptionPercentage": 56.04,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 43.35,
+      "suppressionPercentage": 47.95,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -91,6 +91,60 @@
       }
     },
     {
+      "id": 30002066,
+      "name": "Arnher",
+      "sec": "Low-Sec",
+      "security": 0.192099606131865,
+      "faction": "angels",
+      "campaignId": 150,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30002537,
+      "fobOriginName": "Amamake",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0.4,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 11
+        },
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 12
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 10
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 6
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 6
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30002053,
+        "hubName": "Hek",
+        "jumps": 6
+      }
+    },
+    {
       "id": 30002542,
       "name": "Auga",
       "sec": "Low-Sec",
@@ -102,10 +156,10 @@
       "isFob": false,
       "fobOriginId": 30002537,
       "fobOriginName": "Amamake",
-      "corruptionPercentage": 58.2,
+      "corruptionPercentage": 60.3,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 45.3,
+      "suppressionPercentage": 51.1,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -156,10 +210,10 @@
       "isFob": false,
       "fobOriginId": 30002537,
       "fobOriginName": "Amamake",
-      "corruptionPercentage": 33.2,
+      "corruptionPercentage": 33.34,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 64.05,
+      "suppressionPercentage": 66.05,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -210,8 +264,8 @@
       "isFob": false,
       "fobOriginId": 30002537,
       "fobOriginName": "Amamake",
-      "corruptionPercentage": 69.3,
-      "corruptionState": 3,
+      "corruptionPercentage": 70.9,
+      "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 5.45,
       "suppressionState": 0,
@@ -264,7 +318,7 @@
       "isFob": false,
       "fobOriginId": 30002537,
       "fobOriginName": "Amamake",
-      "corruptionPercentage": 10.2,
+      "corruptionPercentage": 15.15,
       "corruptionState": 1,
       "corruptionDate": null,
       "suppressionPercentage": 0.2,
@@ -325,7 +379,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 1h",
+      "lawlessAgeLabel": "2d 3h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -375,11 +429,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-06-25T14:46:04.882Z",
-      "suppressionPercentage": 17.65,
+      "suppressionPercentage": 17.85,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "1h",
+      "lawlessAgeLabel": "3h",
       "distances": {
         "jita": {
           "hubId": 30000142,
