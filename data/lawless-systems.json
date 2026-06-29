@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T11:26:51.873Z",
+  "generatedAt": "2026-06-29T14:55:14.928Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -29,10 +29,10 @@
     }
   ],
   "stats": {
-    "systems": 22,
+    "systems": 24,
     "lawlessNow": 11,
     "cachedDistancesReused": 110,
-    "routeCalculatedNow": 0,
+    "routeCalculatedNow": 10,
     "routeErrors": 0
   },
   "systems": [
@@ -55,7 +55,7 @@
       "suppressionState": 5,
       "suppressionDate": "2026-06-29T07:19:18.575Z",
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 0h",
+      "lawlessAgeLabel": "1d 3h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -105,11 +105,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-06-29T04:34:11.147Z",
-      "suppressionPercentage": 11.85,
+      "suppressionPercentage": 12.05,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "6h",
+      "lawlessAgeLabel": "10h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -210,8 +210,8 @@
       "isFob": false,
       "fobOriginId": 30002537,
       "fobOriginName": "Amamake",
-      "corruptionPercentage": 67.78,
-      "corruptionState": 3,
+      "corruptionPercentage": 70.93,
+      "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 100,
       "suppressionState": 5,
@@ -264,10 +264,10 @@
       "isFob": false,
       "fobOriginId": 30002537,
       "fobOriginName": "Amamake",
-      "corruptionPercentage": 6.6,
+      "corruptionPercentage": 7,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 10.2,
+      "suppressionPercentage": 11.8,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -324,8 +324,8 @@
       "suppressionPercentage": 13.35,
       "suppressionState": 1,
       "suppressionDate": null,
-      "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 22h",
+      "lawlessAgeDays": 3,
+      "lawlessAgeLabel": "3d 1h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -375,11 +375,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-06-28T21:40:42.510Z",
-      "suppressionPercentage": 26.45,
+      "suppressionPercentage": 27.65,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "13h",
+      "lawlessAgeLabel": "17h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -426,10 +426,10 @@
       "isFob": false,
       "fobOriginId": 30002537,
       "fobOriginName": "Amamake",
-      "corruptionPercentage": 10.6,
+      "corruptionPercentage": 15.15,
       "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 2.8,
+      "suppressionPercentage": 3.4,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -483,11 +483,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-06-23T14:53:20.553Z",
-      "suppressionPercentage": 38.2,
+      "suppressionPercentage": 38.6,
       "suppressionState": 2,
       "suppressionDate": null,
-      "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 20h",
+      "lawlessAgeDays": 6,
+      "lawlessAgeLabel": "6d 0h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -534,10 +534,10 @@
       "isFob": false,
       "fobOriginId": 30002537,
       "fobOriginName": "Amamake",
-      "corruptionPercentage": 26.08,
+      "corruptionPercentage": 30.1,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 43.1,
+      "suppressionPercentage": 51.3,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -577,6 +577,60 @@
       }
     },
     {
+      "id": 30002540,
+      "name": "Lantorn",
+      "sec": "Low-Sec",
+      "security": 0.33948597391556,
+      "faction": "angels",
+      "campaignId": 150,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30002537,
+      "fobOriginName": "Amamake",
+      "corruptionPercentage": 0.2,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0.4,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 9
+        },
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 17
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 7
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 8
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 5
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30002510,
+        "hubName": "Rens",
+        "jumps": 5
+      }
+    },
+    {
       "id": 30002539,
       "name": "Siseide",
       "sec": "Low-Sec",
@@ -591,11 +645,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-06-25T14:46:04.882Z",
-      "suppressionPercentage": 27.5,
+      "suppressionPercentage": 27.7,
       "suppressionState": 2,
       "suppressionDate": null,
-      "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 20h",
+      "lawlessAgeDays": 4,
+      "lawlessAgeLabel": "4d 0h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -642,10 +696,10 @@
       "isFob": false,
       "fobOriginId": 30002537,
       "fobOriginName": "Amamake",
-      "corruptionPercentage": 31.65,
+      "corruptionPercentage": 33.55,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 31.25,
+      "suppressionPercentage": 32.05,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -696,7 +750,7 @@
       "isFob": false,
       "fobOriginId": 30045346,
       "fobOriginName": "Kedama",
-      "corruptionPercentage": 4.6,
+      "corruptionPercentage": 9.4,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 2.8,
@@ -753,11 +807,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-06-29T03:22:07.521Z",
-      "suppressionPercentage": 16.15,
+      "suppressionPercentage": 16.35,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "8h",
+      "lawlessAgeLabel": "11h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -811,7 +865,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 3h",
+      "lawlessAgeLabel": "2d 6h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -847,6 +901,60 @@
       }
     },
     {
+      "id": 30002807,
+      "name": "Nagamanen",
+      "sec": "Low-Sec",
+      "security": 0.304725897655193,
+      "faction": "guristas",
+      "campaignId": 151,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30045346,
+      "fobOriginName": "Kedama",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0.2,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 15
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 8
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 14
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 17
+        },
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 6
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30000142,
+        "hubName": "Jita",
+        "jumps": 6
+      }
+    },
+    {
       "id": 30045352,
       "name": "Nisuwa",
       "sec": "Low-Sec",
@@ -858,10 +966,10 @@
       "isFob": false,
       "fobOriginId": 30045346,
       "fobOriginName": "Kedama",
-      "corruptionPercentage": 34.75,
-      "corruptionState": 2,
+      "corruptionPercentage": 40.3,
+      "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 18.6,
+      "suppressionPercentage": 19.4,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -915,7 +1023,7 @@
       "corruptionPercentage": 12,
       "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 5.2,
+      "suppressionPercentage": 8.95,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -966,11 +1074,11 @@
       "isFob": false,
       "fobOriginId": 30045346,
       "fobOriginName": "Kedama",
-      "corruptionPercentage": 10.4,
+      "corruptionPercentage": 12.6,
       "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 15.35,
-      "suppressionState": 1,
+      "suppressionPercentage": 22.25,
+      "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -1026,8 +1134,8 @@
       "suppressionPercentage": 11.45,
       "suppressionState": 1,
       "suppressionDate": null,
-      "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "20h",
+      "lawlessAgeDays": 1,
+      "lawlessAgeLabel": "1d 0h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1074,10 +1182,10 @@
       "isFob": false,
       "fobOriginId": 30045346,
       "fobOriginName": "Kedama",
-      "corruptionPercentage": 64.05,
-      "corruptionState": 3,
+      "corruptionPercentage": 70.15,
+      "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 6.15,
+      "suppressionPercentage": 7.15,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -1131,11 +1239,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-06-28T04:44:26.402Z",
-      "suppressionPercentage": 14.75,
+      "suppressionPercentage": 14.95,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 6h",
+      "lawlessAgeLabel": "1d 10h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1185,11 +1293,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-06-28T17:40:05.291Z",
-      "suppressionPercentage": 13.9,
+      "suppressionPercentage": 16.65,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "17h",
+      "lawlessAgeLabel": "21h",
       "distances": {
         "jita": {
           "hubId": 30000142,
