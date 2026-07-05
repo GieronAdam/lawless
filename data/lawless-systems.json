@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T22:12:05.711Z",
+  "generatedAt": "2026-07-05T23:15:54.174Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -43,7 +43,7 @@
       "security": 0.438761248111,
       "faction": "angels",
       "campaignId": 150,
-      "campaignState": "ACTIVE",
+      "campaignState": "NO_WINNER",
       "isLawless": true,
       "isFob": true,
       "fobOriginId": 30002537,
@@ -55,7 +55,7 @@
       "suppressionState": 5,
       "suppressionDate": "2026-06-29T07:19:18.575Z",
       "lawlessAgeDays": 7,
-      "lawlessAgeLabel": "7d 10h",
+      "lawlessAgeLabel": "7d 11h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -97,7 +97,7 @@
       "security": 0.192099606131865,
       "faction": "angels",
       "campaignId": 150,
-      "campaignState": "ACTIVE",
+      "campaignState": "NO_WINNER",
       "isLawless": true,
       "isFob": false,
       "fobOriginId": 30002537,
@@ -109,7 +109,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 6,
-      "lawlessAgeLabel": "6d 17h",
+      "lawlessAgeLabel": "6d 18h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -151,7 +151,7 @@
       "security": 0.385483820575927,
       "faction": "angels",
       "campaignId": 150,
-      "campaignState": "ACTIVE",
+      "campaignState": "NO_WINNER",
       "isLawless": false,
       "isFob": false,
       "fobOriginId": 30002537,
@@ -205,7 +205,7 @@
       "security": 0.411359588988721,
       "faction": "angels",
       "campaignId": 150,
-      "campaignState": "ACTIVE",
+      "campaignState": "NO_WINNER",
       "isLawless": false,
       "isFob": false,
       "fobOriginId": 30002537,
@@ -259,7 +259,7 @@
       "security": 0.252911448296854,
       "faction": "angels",
       "campaignId": 150,
-      "campaignState": "ACTIVE",
+      "campaignState": "NO_WINNER",
       "isLawless": true,
       "isFob": false,
       "fobOriginId": 30002537,
@@ -271,7 +271,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 19h",
+      "lawlessAgeLabel": "2d 20h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -313,7 +313,7 @@
       "security": 0.252871671481953,
       "faction": "angels",
       "campaignId": 150,
-      "campaignState": "ACTIVE",
+      "campaignState": "NO_WINNER",
       "isLawless": true,
       "isFob": false,
       "fobOriginId": 30002537,
@@ -325,7 +325,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 9,
-      "lawlessAgeLabel": "9d 9h",
+      "lawlessAgeLabel": "9d 10h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -367,7 +367,7 @@
       "security": 0.212796293381666,
       "faction": "angels",
       "campaignId": 150,
-      "campaignState": "ACTIVE",
+      "campaignState": "NO_WINNER",
       "isLawless": true,
       "isFob": false,
       "fobOriginId": 30002537,
@@ -379,7 +379,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 7,
-      "lawlessAgeLabel": "7d 0h",
+      "lawlessAgeLabel": "7d 1h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -421,7 +421,7 @@
       "security": 0.247392084054528,
       "faction": "angels",
       "campaignId": 150,
-      "campaignState": "ACTIVE",
+      "campaignState": "NO_WINNER",
       "isLawless": true,
       "isFob": false,
       "fobOriginId": 30002537,
@@ -433,7 +433,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 10h",
+      "lawlessAgeLabel": "3d 11h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -475,12 +475,12 @@
       "security": 0.184510738821213,
       "faction": "angels",
       "campaignId": 150,
-      "campaignState": "ACTIVE",
+      "campaignState": "NO_WINNER",
       "isLawless": false,
       "isFob": false,
       "fobOriginId": 30002537,
       "fobOriginName": "Amamake",
-      "corruptionPercentage": 54.8,
+      "corruptionPercentage": 55.64,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 54.15,
@@ -529,7 +529,7 @@
       "security": 0.37679403765006,
       "faction": "angels",
       "campaignId": 150,
-      "campaignState": "ACTIVE",
+      "campaignState": "NO_WINNER",
       "isLawless": true,
       "isFob": false,
       "fobOriginId": 30002537,
@@ -541,7 +541,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 12,
-      "lawlessAgeLabel": "12d 7h",
+      "lawlessAgeLabel": "12d 8h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -583,7 +583,7 @@
       "security": 0.151897592518254,
       "faction": "angels",
       "campaignId": 150,
-      "campaignState": "ACTIVE",
+      "campaignState": "NO_WINNER",
       "isLawless": false,
       "isFob": false,
       "fobOriginId": 30002537,
@@ -637,7 +637,7 @@
       "security": 0.265825190145965,
       "faction": "angels",
       "campaignId": 150,
-      "campaignState": "ACTIVE",
+      "campaignState": "NO_WINNER",
       "isLawless": false,
       "isFob": false,
       "fobOriginId": 30002537,
@@ -691,7 +691,7 @@
       "security": 0.363480159478758,
       "faction": "angels",
       "campaignId": 150,
-      "campaignState": "ACTIVE",
+      "campaignState": "NO_WINNER",
       "isLawless": false,
       "isFob": false,
       "fobOriginId": 30002537,
@@ -745,12 +745,12 @@
       "security": 0.355271173817566,
       "faction": "angels",
       "campaignId": 150,
-      "campaignState": "ACTIVE",
+      "campaignState": "NO_WINNER",
       "isLawless": false,
       "isFob": false,
       "fobOriginId": 30002537,
       "fobOriginName": "Amamake",
-      "corruptionPercentage": 8.2,
+      "corruptionPercentage": 8.8,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 9.4,
@@ -799,7 +799,7 @@
       "security": 0.33948597391556,
       "faction": "angels",
       "campaignId": 150,
-      "campaignState": "ACTIVE",
+      "campaignState": "NO_WINNER",
       "isLawless": true,
       "isFob": false,
       "fobOriginId": 30002537,
@@ -811,7 +811,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "18h",
+      "lawlessAgeLabel": "19h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -853,7 +853,7 @@
       "security": 0.321812998731719,
       "faction": "angels",
       "campaignId": 150,
-      "campaignState": "ACTIVE",
+      "campaignState": "NO_WINNER",
       "isLawless": false,
       "isFob": false,
       "fobOriginId": 30002537,
@@ -907,7 +907,7 @@
       "security": 0.338351102747753,
       "faction": "angels",
       "campaignId": 150,
-      "campaignState": "ACTIVE",
+      "campaignState": "NO_WINNER",
       "isLawless": true,
       "isFob": false,
       "fobOriginId": 30002537,
@@ -919,7 +919,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 10,
-      "lawlessAgeLabel": "10d 7h",
+      "lawlessAgeLabel": "10d 8h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -961,7 +961,7 @@
       "security": 0.115854998989236,
       "faction": "angels",
       "campaignId": 150,
-      "campaignState": "ACTIVE",
+      "campaignState": "NO_WINNER",
       "isLawless": false,
       "isFob": false,
       "fobOriginId": 30002537,
@@ -1015,7 +1015,7 @@
       "security": 0.379095938438127,
       "faction": "angels",
       "campaignId": 150,
-      "campaignState": "ACTIVE",
+      "campaignState": "NO_WINNER",
       "isLawless": true,
       "isFob": false,
       "fobOriginId": 30002537,
@@ -1027,7 +1027,7 @@
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 21h",
+      "lawlessAgeLabel": "2d 22h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1074,10 +1074,10 @@
       "isFob": false,
       "fobOriginId": 30045346,
       "fobOriginName": "Kedama",
-      "corruptionPercentage": 23.75,
+      "corruptionPercentage": 25.5,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 7.6,
+      "suppressionPercentage": 7.8,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -1293,11 +1293,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-07-03T00:53:29.514Z",
-      "suppressionPercentage": 57.85,
+      "suppressionPercentage": 58.05,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 21h",
+      "lawlessAgeLabel": "2d 22h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1351,7 +1351,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 6,
-      "lawlessAgeLabel": "6d 18h",
+      "lawlessAgeLabel": "6d 19h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1509,11 +1509,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-06-27T08:15:42.981Z",
-      "suppressionPercentage": 28.75,
+      "suppressionPercentage": 29.15,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 8,
-      "lawlessAgeLabel": "8d 13h",
+      "lawlessAgeLabel": "8d 15h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1563,11 +1563,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-07-03T16:24:20.725Z",
-      "suppressionPercentage": 31.6,
+      "suppressionPercentage": 32.2,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 5h",
+      "lawlessAgeLabel": "2d 6h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1617,7 +1617,7 @@
       "corruptionPercentage": 0,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 3.4,
+      "suppressionPercentage": 4,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -1675,7 +1675,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 16h",
+      "lawlessAgeLabel": "4d 17h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1725,11 +1725,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-07-03T08:02:17.250Z",
-      "suppressionPercentage": 13.15,
+      "suppressionPercentage": 13.55,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 14h",
+      "lawlessAgeLabel": "2d 15h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1783,7 +1783,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "20h",
+      "lawlessAgeLabel": "21h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1833,11 +1833,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-07-02T07:55:33.818Z",
-      "suppressionPercentage": 48.4,
+      "suppressionPercentage": 50.15,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 14h",
+      "lawlessAgeLabel": "3d 15h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1945,7 +1945,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 7,
-      "lawlessAgeLabel": "7d 7h",
+      "lawlessAgeLabel": "7d 8h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1999,7 +1999,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 14h",
+      "lawlessAgeLabel": "5d 15h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -2053,7 +2053,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 7,
-      "lawlessAgeLabel": "7d 17h",
+      "lawlessAgeLabel": "7d 18h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -2103,11 +2103,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-06-28T17:40:05.291Z",
-      "suppressionPercentage": 36.65,
+      "suppressionPercentage": 37.05,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 7,
-      "lawlessAgeLabel": "7d 4h",
+      "lawlessAgeLabel": "7d 5h",
       "distances": {
         "jita": {
           "hubId": 30000142,
