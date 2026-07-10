@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T20:40:46.436Z",
+  "generatedAt": "2026-07-10T21:40:09.959Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -31,8 +31,8 @@
   "stats": {
     "systems": 15,
     "lawlessNow": 3,
-    "cachedDistancesReused": 70,
-    "routeCalculatedNow": 5,
+    "cachedDistancesReused": 75,
+    "routeCalculatedNow": 0,
     "routeErrors": 0
   },
   "systems": [
@@ -48,10 +48,10 @@
       "isFob": false,
       "fobOriginId": 30002961,
       "fobOriginName": "Oyeman",
-      "corruptionPercentage": 10.1,
+      "corruptionPercentage": 10.3,
       "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 26.95,
+      "suppressionPercentage": 31.3,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -100,9 +100,9 @@
       "campaignState": "ACTIVE",
       "isLawless": false,
       "isFob": false,
-      "fobOriginId": null,
-      "fobOriginName": null,
-      "corruptionPercentage": 0,
+      "fobOriginId": 30002961,
+      "fobOriginName": "Oyeman",
+      "corruptionPercentage": 0.6,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 0,
@@ -111,15 +111,20 @@
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 21
+        },
         "amarr": {
           "hubId": 30002187,
           "hubName": "Amarr",
           "jumps": 11
         },
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 21
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 13
         },
         "hek": {
           "hubId": 30002053,
@@ -130,11 +135,6 @@
           "hubId": 30002510,
           "hubName": "Rens",
           "jumps": 6
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 13
         }
       },
       "routeErrors": {},
@@ -213,7 +213,7 @@
       "corruptionPercentage": 46,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 22.3,
+      "suppressionPercentage": 23.7,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -267,11 +267,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-07-09T13:30:31.577Z",
-      "suppressionPercentage": 57.5,
+      "suppressionPercentage": 60.2,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 7h",
+      "lawlessAgeLabel": "1d 8h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -379,7 +379,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "6h",
+      "lawlessAgeLabel": "7h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -483,7 +483,7 @@
       "corruptionPercentage": 71.28,
       "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 71.05,
+      "suppressionPercentage": 75.75,
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -537,11 +537,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-07-10T12:14:32.154Z",
-      "suppressionPercentage": 64.55,
+      "suppressionPercentage": 67.3,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "8h",
+      "lawlessAgeLabel": "9h",
       "distances": {
         "jita": {
           "hubId": 30000142,
