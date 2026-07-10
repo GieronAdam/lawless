@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T05:12:00.807Z",
+  "generatedAt": "2026-07-10T08:38:46.910Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -29,10 +29,10 @@
     }
   ],
   "stats": {
-    "systems": 31,
-    "lawlessNow": 17,
-    "cachedDistancesReused": 155,
-    "routeCalculatedNow": 0,
+    "systems": 13,
+    "lawlessNow": 1,
+    "cachedDistancesReused": 60,
+    "routeCalculatedNow": 5,
     "routeErrors": 0
   },
   "systems": [
@@ -51,7 +51,7 @@
       "corruptionPercentage": 5,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 6.6,
+      "suppressionPercentage": 9,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -102,7 +102,7 @@
       "isFob": false,
       "fobOriginId": 30002961,
       "fobOriginName": "Oyeman",
-      "corruptionPercentage": 22.65,
+      "corruptionPercentage": 29.9,
       "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 7.95,
@@ -159,11 +159,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-07-09T13:30:31.577Z",
-      "suppressionPercentage": 47.3,
+      "suppressionPercentage": 48.8,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "15h",
+      "lawlessAgeLabel": "19h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -213,8 +213,8 @@
       "corruptionPercentage": 4.44,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 58,
-      "suppressionState": 3,
+      "suppressionPercentage": 70.1,
+      "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -264,7 +264,7 @@
       "isFob": true,
       "fobOriginId": 30002961,
       "fobOriginName": "Oyeman",
-      "corruptionPercentage": 90.12,
+      "corruptionPercentage": 94.25,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 43.05,
@@ -318,10 +318,10 @@
       "isFob": false,
       "fobOriginId": 30002961,
       "fobOriginName": "Oyeman",
-      "corruptionPercentage": 57.67,
+      "corruptionPercentage": 62.74,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 96.05,
+      "suppressionPercentage": 99.95,
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -372,10 +372,10 @@
       "isFob": false,
       "fobOriginId": 30002961,
       "fobOriginName": "Oyeman",
-      "corruptionPercentage": 53.64,
+      "corruptionPercentage": 61.86,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 62.1,
+      "suppressionPercentage": 63.1,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -426,10 +426,10 @@
       "isFob": false,
       "fobOriginId": 30002961,
       "fobOriginName": "Oyeman",
-      "corruptionPercentage": 88.27,
+      "corruptionPercentage": 94.32,
       "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 57.7,
+      "suppressionPercentage": 59.45,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -469,133 +469,25 @@
       }
     },
     {
-      "id": 30004984,
-      "name": "Abune",
-      "sec": "Low-Sec",
-      "security": 0.285634043869117,
-      "faction": "guristas",
-      "campaignId": 151,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30045346,
-      "fobOriginName": "Kedama",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-07-08T04:40:41.637Z",
-      "suppressionPercentage": 24.95,
-      "suppressionState": 2,
-      "suppressionDate": null,
-      "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 0h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 8
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 17
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 6
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 12
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 15
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002659,
-        "hubName": "Dodixie",
-        "jumps": 6
-      }
-    },
-    {
-      "id": 30004981,
-      "name": "Actee",
-      "sec": "High-Sec",
-      "security": 0.501464902507026,
-      "faction": "guristas",
-      "campaignId": 151,
-      "campaignState": "NO_WINNER",
-      "isLawless": false,
-      "isFob": false,
-      "fobOriginId": 30045346,
-      "fobOriginName": "Kedama",
-      "corruptionPercentage": 16.6,
-      "corruptionState": 1,
-      "corruptionDate": null,
-      "suppressionPercentage": 21.6,
-      "suppressionState": 2,
-      "suppressionDate": null,
-      "lawlessAgeDays": null,
-      "lawlessAgeLabel": "-",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 9
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 18
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 6
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 12
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 15
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002659,
-        "hubName": "Dodixie",
-        "jumps": 6
-      }
-    },
-    {
       "id": 30004985,
       "name": "Deven",
       "sec": "Low-Sec",
       "security": 0.317772478577719,
       "faction": "guristas",
-      "campaignId": 151,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30045346,
-      "fobOriginName": "Kedama",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-07-06T08:43:28.019Z",
-      "suppressionPercentage": 13.75,
-      "suppressionState": 1,
+      "campaignId": 153,
+      "campaignState": "FORECAST",
+      "isLawless": false,
+      "isFob": true,
+      "fobOriginId": 30004985,
+      "fobOriginName": "Deven",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
       "suppressionDate": null,
-      "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 20h",
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -636,16 +528,16 @@
       "sec": "Low-Sec",
       "security": 0.345510552864609,
       "faction": "guristas",
-      "campaignId": 151,
-      "campaignState": "NO_WINNER",
+      "campaignId": 153,
+      "campaignState": "FORECAST",
       "isLawless": false,
       "isFob": false,
-      "fobOriginId": 30045346,
-      "fobOriginName": "Kedama",
-      "corruptionPercentage": 96.3,
-      "corruptionState": 4,
+      "fobOriginId": 30004985,
+      "fobOriginName": "Deven",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 7.65,
+      "suppressionPercentage": 0,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -682,330 +574,6 @@
         "hubId": 30002659,
         "hubName": "Dodixie",
         "jumps": 6
-      }
-    },
-    {
-      "id": 30004979,
-      "name": "Heydieles",
-      "sec": "Low-Sec",
-      "security": 0.306625197910181,
-      "faction": "guristas",
-      "campaignId": 151,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30045346,
-      "fobOriginName": "Kedama",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-07-09T10:10:24.143Z",
-      "suppressionPercentage": 37.2,
-      "suppressionState": 2,
-      "suppressionDate": null,
-      "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "19h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 9
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 18
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 5
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 11
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 14
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002659,
-        "hubName": "Dodixie",
-        "jumps": 5
-      }
-    },
-    {
-      "id": 30045338,
-      "name": "Hikkoken",
-      "sec": "Low-Sec",
-      "security": 0.342755089938634,
-      "faction": "guristas",
-      "campaignId": 151,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30045346,
-      "fobOriginName": "Kedama",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-07-03T00:53:29.514Z",
-      "suppressionPercentage": 87.05,
-      "suppressionState": 4,
-      "suppressionDate": null,
-      "lawlessAgeDays": 7,
-      "lawlessAgeLabel": "7d 4h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 8
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 17
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 9
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 13
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 16
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 8
-      }
-    },
-    {
-      "id": 30045345,
-      "name": "Hirri",
-      "sec": "Low-Sec",
-      "security": 0.335504032624278,
-      "faction": "guristas",
-      "campaignId": 151,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30045346,
-      "fobOriginName": "Kedama",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-06-29T03:22:07.521Z",
-      "suppressionPercentage": 44.4,
-      "suppressionState": 3,
-      "suppressionDate": null,
-      "lawlessAgeDays": 11,
-      "lawlessAgeLabel": "11d 1h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 6
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 15
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 9
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 14
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 18
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 6
-      }
-    },
-    {
-      "id": 30045343,
-      "name": "Immuri",
-      "sec": "Low-Sec",
-      "security": 0.42115981760492,
-      "faction": "guristas",
-      "campaignId": 151,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30045346,
-      "fobOriginName": "Kedama",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-07-06T14:45:04.858Z",
-      "suppressionPercentage": 47.55,
-      "suppressionState": 3,
-      "suppressionDate": null,
-      "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 14h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 9
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 18
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 10
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 13
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 16
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 9
-      }
-    },
-    {
-      "id": 30045351,
-      "name": "Iwisoda",
-      "sec": "Low-Sec",
-      "security": 0.238360468023429,
-      "faction": "guristas",
-      "campaignId": 151,
-      "campaignState": "NO_WINNER",
-      "isLawless": false,
-      "isFob": false,
-      "fobOriginId": 30045346,
-      "fobOriginName": "Kedama",
-      "corruptionPercentage": 51.36,
-      "corruptionState": 3,
-      "corruptionDate": null,
-      "suppressionPercentage": 61.5,
-      "suppressionState": 3,
-      "suppressionDate": null,
-      "lawlessAgeDays": null,
-      "lawlessAgeLabel": "-",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 8
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 17
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 10
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 16
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 19
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 8
-      }
-    },
-    {
-      "id": 30045346,
-      "name": "Kedama",
-      "sec": "Low-Sec",
-      "security": 0.338464408401388,
-      "faction": "guristas",
-      "campaignId": 151,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": true,
-      "fobOriginId": 30045346,
-      "fobOriginName": "Kedama",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-06-27T08:15:42.981Z",
-      "suppressionPercentage": 35.1,
-      "suppressionState": 2,
-      "suppressionDate": null,
-      "lawlessAgeDays": 12,
-      "lawlessAgeLabel": "12d 20h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 5
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 14
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 9
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 13
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 18
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 5
       }
     },
     {
@@ -1014,286 +582,16 @@
       "sec": "Low-Sec",
       "security": 0.304725897655193,
       "faction": "guristas",
-      "campaignId": 151,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30045346,
-      "fobOriginName": "Kedama",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-07-03T16:24:20.725Z",
-      "suppressionPercentage": 51.15,
-      "suppressionState": 3,
-      "suppressionDate": null,
-      "lawlessAgeDays": 6,
-      "lawlessAgeLabel": "6d 12h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 6
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 15
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 8
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 14
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 17
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 6
-      }
-    },
-    {
-      "id": 30045344,
-      "name": "Nennamaila",
-      "sec": "Low-Sec",
-      "security": 0.274257774046926,
-      "faction": "guristas",
-      "campaignId": 151,
-      "campaignState": "NO_WINNER",
+      "campaignId": 153,
+      "campaignState": "FORECAST",
       "isLawless": false,
       "isFob": false,
-      "fobOriginId": 30045346,
-      "fobOriginName": "Kedama",
-      "corruptionPercentage": 55.94,
-      "corruptionState": 3,
+      "fobOriginId": 30004985,
+      "fobOriginName": "Deven",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 48.15,
-      "suppressionState": 3,
-      "suppressionDate": null,
-      "lawlessAgeDays": null,
-      "lawlessAgeLabel": "-",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 9
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 18
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 10
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 12
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 15
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 9
-      }
-    },
-    {
-      "id": 30045352,
-      "name": "Nisuwa",
-      "sec": "Low-Sec",
-      "security": 0.309432550412595,
-      "faction": "guristas",
-      "campaignId": 151,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30045346,
-      "fobOriginName": "Kedama",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-07-01T05:35:41.079Z",
-      "suppressionPercentage": 40.35,
-      "suppressionState": 3,
-      "suppressionDate": null,
-      "lawlessAgeDays": 8,
-      "lawlessAgeLabel": "8d 23h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 6
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 15
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 8
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 14
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 17
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 6
-      }
-    },
-    {
-      "id": 30045348,
-      "name": "Notoras",
-      "sec": "Low-Sec",
-      "security": 0.188790632928016,
-      "faction": "guristas",
-      "campaignId": 151,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30045346,
-      "fobOriginName": "Kedama",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-07-03T08:02:17.250Z",
-      "suppressionPercentage": 20.3,
-      "suppressionState": 2,
-      "suppressionDate": null,
-      "lawlessAgeDays": 6,
-      "lawlessAgeLabel": "6d 21h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 7
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 16
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 9
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 15
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 18
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 7
-      }
-    },
-    {
-      "id": 30045347,
-      "name": "Oinasiken",
-      "sec": "Low-Sec",
-      "security": 0.233713658496399,
-      "faction": "guristas",
-      "campaignId": 151,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30045346,
-      "fobOriginName": "Kedama",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-07-05T01:51:59.328Z",
-      "suppressionPercentage": 37.65,
-      "suppressionState": 2,
-      "suppressionDate": null,
-      "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 3h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 7
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 16
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 7
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 13
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 16
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 7
-      }
-    },
-    {
-      "id": 30005000,
-      "name": "Old Man Star",
-      "sec": "Low-Sec",
-      "security": 0.335686588824539,
-      "faction": "guristas",
-      "campaignId": 151,
-      "campaignState": "NO_WINNER",
-      "isLawless": false,
-      "isFob": false,
-      "fobOriginId": 30045346,
-      "fobOriginName": "Kedama",
-      "corruptionPercentage": 28.2,
-      "corruptionState": 2,
-      "corruptionDate": null,
-      "suppressionPercentage": 2.8,
+      "suppressionPercentage": 0,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -1302,66 +600,12 @@
         "jita": {
           "hubId": 30000142,
           "hubName": "Jita",
-          "jumps": 10
+          "jumps": 6
         },
         "amarr": {
           "hubId": 30002187,
           "hubName": "Amarr",
-          "jumps": 17
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 4
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 10
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 13
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002659,
-        "hubName": "Dodixie",
-        "jumps": 4
-      }
-    },
-    {
-      "id": 30045353,
-      "name": "Pynekastoh",
-      "sec": "Low-Sec",
-      "security": 0.239632812646096,
-      "faction": "guristas",
-      "campaignId": 151,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30045346,
-      "fobOriginName": "Kedama",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-07-02T07:55:33.818Z",
-      "suppressionPercentage": 60.4,
-      "suppressionState": 3,
-      "suppressionDate": null,
-      "lawlessAgeDays": 7,
-      "lawlessAgeLabel": "7d 21h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 7
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 16
+          "jumps": 15
         },
         "dodixie": {
           "hubId": 30002659,
@@ -1383,27 +627,27 @@
       "nearestHub": {
         "hubId": 30000142,
         "hubName": "Jita",
-        "jumps": 7
+        "jumps": 6
       }
     },
     {
-      "id": 30045349,
-      "name": "Rakapas",
+      "id": 30002808,
+      "name": "Oto",
       "sec": "Low-Sec",
-      "security": 0.222780374110675,
+      "security": 0.398090282464315,
       "faction": "guristas",
-      "campaignId": 151,
-      "campaignState": "NO_WINNER",
+      "campaignId": 153,
+      "campaignState": "FORECAST",
       "isLawless": false,
       "isFob": false,
-      "fobOriginId": 30045346,
-      "fobOriginName": "Kedama",
-      "corruptionPercentage": 70.24,
-      "corruptionState": 4,
+      "fobOriginId": 30004985,
+      "fobOriginName": "Deven",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 100,
-      "suppressionState": 5,
-      "suppressionDate": "2026-07-01T20:05:36.669Z",
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
+      "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
@@ -1417,15 +661,15 @@
           "hubName": "Amarr",
           "jumps": 16
         },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 9
-        },
         "hek": {
           "hubId": 30002053,
           "hubName": "Hek",
           "jumps": 15
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 9
         },
         "rens": {
           "hubId": 30002510,
@@ -1441,79 +685,25 @@
       }
     },
     {
-      "id": 30045354,
-      "name": "Reitsato",
-      "sec": "Low-Sec",
-      "security": 0.189510479733951,
-      "faction": "guristas",
-      "campaignId": 151,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30045346,
-      "fobOriginName": "Kedama",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-06-28T14:46:41.626Z",
-      "suppressionPercentage": 45.5,
-      "suppressionState": 3,
-      "suppressionDate": null,
-      "lawlessAgeDays": 11,
-      "lawlessAgeLabel": "11d 14h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 6
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 15
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 10
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 14
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 19
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 6
-      }
-    },
-    {
       "id": 30002809,
       "name": "Sujarento",
       "sec": "Low-Sec",
       "security": 0.311135690039648,
       "faction": "guristas",
-      "campaignId": 151,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
+      "campaignId": 153,
+      "campaignState": "FORECAST",
+      "isLawless": false,
       "isFob": false,
-      "fobOriginId": 30045346,
-      "fobOriginName": "Kedama",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-06-30T07:48:52.736Z",
-      "suppressionPercentage": 30.9,
-      "suppressionState": 2,
+      "fobOriginId": 30004985,
+      "fobOriginName": "Deven",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
       "suppressionDate": null,
-      "lawlessAgeDays": 9,
-      "lawlessAgeLabel": "9d 21h",
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1546,168 +736,6 @@
         "hubId": 30000142,
         "hubName": "Jita",
         "jumps": 5
-      }
-    },
-    {
-      "id": 30002813,
-      "name": "Tama",
-      "sec": "Low-Sec",
-      "security": 0.282555688333797,
-      "faction": "guristas",
-      "campaignId": 151,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30045346,
-      "fobOriginName": "Kedama",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-06-28T04:44:26.402Z",
-      "suppressionPercentage": 44.95,
-      "suppressionState": 3,
-      "suppressionDate": null,
-      "lawlessAgeDays": 12,
-      "lawlessAgeLabel": "12d 0h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 4
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 13
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 8
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 12
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 17
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 4
-      }
-    },
-    {
-      "id": 30045350,
-      "name": "Teimo",
-      "sec": "Low-Sec",
-      "security": 0.273208222003818,
-      "faction": "guristas",
-      "campaignId": 151,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30045346,
-      "fobOriginName": "Kedama",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-06-28T17:40:05.291Z",
-      "suppressionPercentage": 42.4,
-      "suppressionState": 3,
-      "suppressionDate": null,
-      "lawlessAgeDays": 11,
-      "lawlessAgeLabel": "11d 11h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 6
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 15
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 10
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 14
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 19
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 6
-      }
-    },
-    {
-      "id": 30004977,
-      "name": "Yvangier",
-      "sec": "Low-Sec",
-      "security": 0.397838452048622,
-      "faction": "guristas",
-      "campaignId": 151,
-      "campaignState": "NO_WINNER",
-      "isLawless": false,
-      "isFob": false,
-      "fobOriginId": 30045346,
-      "fobOriginName": "Kedama",
-      "corruptionPercentage": 3.6,
-      "corruptionState": 0,
-      "corruptionDate": null,
-      "suppressionPercentage": 0.4,
-      "suppressionState": 0,
-      "suppressionDate": null,
-      "lawlessAgeDays": null,
-      "lawlessAgeLabel": "-",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 10
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 19
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 6
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 12
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 15
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002659,
-        "hubName": "Dodixie",
-        "jumps": 6
       }
     }
   ]
