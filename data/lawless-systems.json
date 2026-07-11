@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T21:57:03.171Z",
+  "generatedAt": "2026-07-11T22:39:46.454Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -51,7 +51,7 @@
       "corruptionPercentage": 38.61,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 61.25,
+      "suppressionPercentage": 64.4,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -102,7 +102,7 @@
       "isFob": false,
       "fobOriginId": 30002961,
       "fobOriginName": "Oyeman",
-      "corruptionPercentage": 32.2,
+      "corruptionPercentage": 33.8,
       "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 10.2,
@@ -210,7 +210,7 @@
       "isFob": false,
       "fobOriginId": 30002961,
       "fobOriginName": "Oyeman",
-      "corruptionPercentage": 68.27,
+      "corruptionPercentage": 68.83,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 43.4,
@@ -271,7 +271,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 8h",
+      "lawlessAgeLabel": "2d 9h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -379,7 +379,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 7h",
+      "lawlessAgeLabel": "1d 8h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -483,7 +483,7 @@
       "corruptionPercentage": 97.56,
       "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 92.8,
+      "suppressionPercentage": 94.3,
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -541,7 +541,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 9h",
+      "lawlessAgeLabel": "1d 10h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -588,7 +588,7 @@
       "isFob": true,
       "fobOriginId": 30004985,
       "fobOriginName": "Deven",
-      "corruptionPercentage": 13.75,
+      "corruptionPercentage": 15.15,
       "corruptionState": 1,
       "corruptionDate": null,
       "suppressionPercentage": 1.95,
@@ -645,7 +645,7 @@
       "corruptionPercentage": 10.6,
       "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 1,
+      "suppressionPercentage": 1.2,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -696,7 +696,7 @@
       "isFob": false,
       "fobOriginId": 30004985,
       "fobOriginName": "Deven",
-      "corruptionPercentage": 6.8,
+      "corruptionPercentage": 7.4,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 5.2,
