@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T04:18:50.689Z",
+  "generatedAt": "2026-07-11T06:29:51.003Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -48,10 +48,10 @@
       "isFob": false,
       "fobOriginId": 30002961,
       "fobOriginName": "Oyeman",
-      "corruptionPercentage": 15.26,
+      "corruptionPercentage": 16.49,
       "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 43.4,
+      "suppressionPercentage": 44.4,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -102,7 +102,7 @@
       "isFob": false,
       "fobOriginId": 30002961,
       "fobOriginName": "Oyeman",
-      "corruptionPercentage": 3.2,
+      "corruptionPercentage": 4.4,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 3.2,
@@ -156,7 +156,7 @@
       "isFob": false,
       "fobOriginId": 30002961,
       "fobOriginName": "Oyeman",
-      "corruptionPercentage": 6.4,
+      "corruptionPercentage": 7.4,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 0.2,
@@ -210,7 +210,7 @@
       "isFob": false,
       "fobOriginId": 30002961,
       "fobOriginName": "Oyeman",
-      "corruptionPercentage": 49.4,
+      "corruptionPercentage": 51.7,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 33.7,
@@ -271,7 +271,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 14h",
+      "lawlessAgeLabel": "1d 16h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -318,7 +318,7 @@
       "isFob": false,
       "fobOriginId": 30002961,
       "fobOriginName": "Oyeman",
-      "corruptionPercentage": 9.06,
+      "corruptionPercentage": 9.2,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 100,
@@ -379,7 +379,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "14h",
+      "lawlessAgeLabel": "16h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -480,7 +480,7 @@
       "isFob": false,
       "fobOriginId": 30002961,
       "fobOriginName": "Oyeman",
-      "corruptionPercentage": 74.71,
+      "corruptionPercentage": 78.03,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 81.55,
@@ -541,7 +541,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "16h",
+      "lawlessAgeLabel": "18h",
       "distances": {
         "jita": {
           "hubId": 30000142,
