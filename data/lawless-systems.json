@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T04:36:48.739Z",
+  "generatedAt": "2026-07-12T07:10:31.993Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -29,9 +29,9 @@
     }
   ],
   "stats": {
-    "systems": 16,
+    "systems": 17,
     "lawlessNow": 3,
-    "cachedDistancesReused": 75,
+    "cachedDistancesReused": 80,
     "routeCalculatedNow": 5,
     "routeErrors": 0
   },
@@ -48,7 +48,7 @@
       "isFob": false,
       "fobOriginId": 30002961,
       "fobOriginName": "Oyeman",
-      "corruptionPercentage": 41.86,
+      "corruptionPercentage": 43.93,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 76.6,
@@ -102,10 +102,10 @@
       "isFob": false,
       "fobOriginId": 30002961,
       "fobOriginName": "Oyeman",
-      "corruptionPercentage": 39.9,
-      "corruptionState": 2,
+      "corruptionPercentage": 41.3,
+      "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 27.2,
+      "suppressionPercentage": 32.2,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -156,8 +156,8 @@
       "isFob": false,
       "fobOriginId": 30002961,
       "fobOriginName": "Oyeman",
-      "corruptionPercentage": 17.55,
-      "corruptionState": 1,
+      "corruptionPercentage": 22.5,
+      "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 11.55,
       "suppressionState": 1,
@@ -210,10 +210,10 @@
       "isFob": false,
       "fobOriginId": 30002961,
       "fobOriginName": "Oyeman",
-      "corruptionPercentage": 0.2,
+      "corruptionPercentage": 0.4,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 0.2,
+      "suppressionPercentage": 0.8,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -234,15 +234,15 @@
           "hubName": "Dodixie",
           "jumps": 9
         },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 6
-        },
         "hek": {
           "hubId": 30002053,
           "hubName": "Hek",
           "jumps": 10
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 6
         }
       },
       "routeErrors": {},
@@ -264,10 +264,10 @@
       "isFob": false,
       "fobOriginId": 30002961,
       "fobOriginName": "Oyeman",
-      "corruptionPercentage": 72.12,
+      "corruptionPercentage": 74.22,
       "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 54.8,
+      "suppressionPercentage": 56,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -325,7 +325,7 @@
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 15h",
+      "lawlessAgeLabel": "2d 17h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -372,7 +372,7 @@
       "isFob": false,
       "fobOriginId": 30002961,
       "fobOriginName": "Oyeman",
-      "corruptionPercentage": 12.84,
+      "corruptionPercentage": 13.4,
       "corruptionState": 1,
       "corruptionDate": null,
       "suppressionPercentage": 100,
@@ -433,7 +433,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 14h",
+      "lawlessAgeLabel": "1d 17h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -595,7 +595,7 @@
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 16h",
+      "lawlessAgeLabel": "1d 18h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -642,10 +642,10 @@
       "isFob": true,
       "fobOriginId": 30004985,
       "fobOriginName": "Deven",
-      "corruptionPercentage": 30.7,
-      "corruptionState": 2,
+      "corruptionPercentage": 40.7,
+      "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 3.7,
+      "suppressionPercentage": 5.2,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -685,6 +685,60 @@
       }
     },
     {
+      "id": 30002810,
+      "name": "Eranakko",
+      "sec": "Low-Sec",
+      "security": 0.324032565657082,
+      "faction": "guristas",
+      "campaignId": 153,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30004985,
+      "fobOriginName": "Deven",
+      "corruptionPercentage": 0.6,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 15
+        },
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 6
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 14
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 7
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 16
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30000142,
+        "hubName": "Jita",
+        "jumps": 6
+      }
+    },
+    {
       "id": 30004980,
       "name": "Fliet",
       "sec": "Low-Sec",
@@ -696,7 +750,7 @@
       "isFob": false,
       "fobOriginId": 30004985,
       "fobOriginName": "Deven",
-      "corruptionPercentage": 14.8,
+      "corruptionPercentage": 19.75,
       "corruptionState": 1,
       "corruptionDate": null,
       "suppressionPercentage": 1.6,
@@ -750,8 +804,8 @@
       "isFob": false,
       "fobOriginId": 30004985,
       "fobOriginName": "Deven",
-      "corruptionPercentage": 8.6,
-      "corruptionState": 0,
+      "corruptionPercentage": 13.8,
+      "corruptionState": 1,
       "corruptionDate": null,
       "suppressionPercentage": 7.2,
       "suppressionState": 0,
@@ -804,10 +858,10 @@
       "isFob": false,
       "fobOriginId": 30004985,
       "fobOriginName": "Deven",
-      "corruptionPercentage": 5.6,
+      "corruptionPercentage": 6.2,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 8,
+      "suppressionPercentage": 9.8,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -858,10 +912,10 @@
       "isFob": false,
       "fobOriginId": 30004985,
       "fobOriginName": "Deven",
-      "corruptionPercentage": 65.05,
-      "corruptionState": 3,
+      "corruptionPercentage": 71.55,
+      "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 0.4,
+      "suppressionPercentage": 0.6,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
