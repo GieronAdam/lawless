@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T20:34:57.587Z",
+  "generatedAt": "2026-07-17T21:25:13.583Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -375,11 +375,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-07-13T16:42:24.251Z",
-      "suppressionPercentage": 33.3,
+      "suppressionPercentage": 33.5,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 3h",
+      "lawlessAgeLabel": "4d 4h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -429,11 +429,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-07-15T10:47:53.162Z",
-      "suppressionPercentage": 24.3,
+      "suppressionPercentage": 24.7,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 9h",
+      "lawlessAgeLabel": "2d 10h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -486,8 +486,8 @@
       "suppressionPercentage": 19.05,
       "suppressionState": 1,
       "suppressionDate": null,
-      "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 23h",
+      "lawlessAgeDays": 3,
+      "lawlessAgeLabel": "3d 0h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -541,7 +541,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "1h",
+      "lawlessAgeLabel": "2h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -588,7 +588,7 @@
       "isFob": false,
       "fobOriginId": 30004985,
       "fobOriginName": "Deven",
-      "corruptionPercentage": 51.6,
+      "corruptionPercentage": 52.96,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 50.45,
@@ -699,11 +699,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-07-14T10:11:32.730Z",
-      "suppressionPercentage": 39.6,
+      "suppressionPercentage": 39.8,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 10h",
+      "lawlessAgeLabel": "3d 11h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -750,10 +750,10 @@
       "isFob": false,
       "fobOriginId": 30004985,
       "fobOriginName": "Deven",
-      "corruptionPercentage": 64.25,
+      "corruptionPercentage": 67.65,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 12.05,
+      "suppressionPercentage": 12.25,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -811,7 +811,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 12h",
+      "lawlessAgeLabel": "2d 13h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -915,7 +915,7 @@
       "corruptionPercentage": 62.1,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 2.6,
+      "suppressionPercentage": 4.1,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
