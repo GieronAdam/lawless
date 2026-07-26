@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T23:10:00.096Z",
+  "generatedAt": "2026-07-26T00:11:14.949Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -109,7 +109,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 9h",
+      "lawlessAgeLabel": "4d 10h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -163,7 +163,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 0h",
+      "lawlessAgeLabel": "4d 1h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -217,7 +217,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 19h",
+      "lawlessAgeLabel": "5d 20h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -271,7 +271,7 @@
       "suppressionState": 5,
       "suppressionDate": "2026-07-25T07:10:36.590Z",
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 0h",
+      "lawlessAgeLabel": "3d 1h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -318,7 +318,7 @@
       "isFob": false,
       "fobOriginId": 30002084,
       "fobOriginName": "Aset",
-      "corruptionPercentage": 76.55,
+      "corruptionPercentage": 79.55,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 14.4,
@@ -375,7 +375,7 @@
       "corruptionPercentage": 0.4,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 5.8,
+      "suppressionPercentage": 6,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -433,7 +433,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 10h",
+      "lawlessAgeLabel": "4d 11h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -534,7 +534,7 @@
       "isFob": false,
       "fobOriginId": 30002084,
       "fobOriginName": "Aset",
-      "corruptionPercentage": 0.2,
+      "corruptionPercentage": 0.8,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 0,
@@ -591,7 +591,7 @@
       "corruptionPercentage": 4.8,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 8.6,
+      "suppressionPercentage": 9,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -645,8 +645,8 @@
       "corruptionPercentage": 5.8,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 9.4,
-      "suppressionState": 0,
+      "suppressionPercentage": 10,
+      "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -699,7 +699,7 @@
       "corruptionPercentage": 84.98,
       "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 61.25,
+      "suppressionPercentage": 62.65,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -753,11 +753,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-07-20T16:33:29.620Z",
-      "suppressionPercentage": 18.95,
-      "suppressionState": 1,
+      "suppressionPercentage": 20.35,
+      "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 6h",
+      "lawlessAgeLabel": "5d 7h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -807,11 +807,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-07-25T04:39:49.830Z",
-      "suppressionPercentage": 41.85,
+      "suppressionPercentage": 42.05,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "18h",
+      "lawlessAgeLabel": "19h",
       "distances": {
         "jita": {
           "hubId": 30000142,
