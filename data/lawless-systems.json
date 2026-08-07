@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T15:25:52.365Z",
+  "generatedAt": "2026-08-07T00:29:43.134Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -31,8 +31,8 @@
   "stats": {
     "systems": 35,
     "lawlessNow": 23,
-    "cachedDistancesReused": 170,
-    "routeCalculatedNow": 5,
+    "cachedDistancesReused": 175,
+    "routeCalculatedNow": 0,
     "routeErrors": 0
   },
   "systems": [
@@ -51,11 +51,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-08-04T12:31:55.176Z",
-      "suppressionPercentage": 14.9,
+      "suppressionPercentage": 15.5,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 2h",
+      "lawlessAgeLabel": "2d 11h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -102,10 +102,10 @@
       "isFob": false,
       "fobOriginId": 30003069,
       "fobOriginName": "Kamela",
-      "corruptionPercentage": 70.61,
+      "corruptionPercentage": 82.37,
       "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 41,
+      "suppressionPercentage": 44.8,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -156,7 +156,7 @@
       "isFob": false,
       "fobOriginId": 30003069,
       "fobOriginName": "Kamela",
-      "corruptionPercentage": 0,
+      "corruptionPercentage": 4,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 0,
@@ -165,15 +165,15 @@
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 8
-        },
         "jita": {
           "hubId": 30000142,
           "hubName": "Jita",
           "jumps": 19
+        },
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 8
         },
         "dodixie": {
           "hubId": 30002659,
@@ -210,10 +210,10 @@
       "isFob": false,
       "fobOriginId": 30003069,
       "fobOriginName": "Kamela",
-      "corruptionPercentage": 31.9,
+      "corruptionPercentage": 38.8,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 4.4,
+      "suppressionPercentage": 6.4,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -264,10 +264,10 @@
       "isFob": false,
       "fobOriginId": 30003069,
       "fobOriginName": "Kamela",
-      "corruptionPercentage": 5.2,
+      "corruptionPercentage": 7,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 0.8,
+      "suppressionPercentage": 9,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -321,11 +321,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-08-05T14:38:49.524Z",
-      "suppressionPercentage": 11.9,
+      "suppressionPercentage": 14.65,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 0h",
+      "lawlessAgeLabel": "1d 9h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -375,11 +375,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-08-06T14:22:28.822Z",
-      "suppressionPercentage": 31.55,
+      "suppressionPercentage": 35.1,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "1h",
+      "lawlessAgeLabel": "10h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -429,11 +429,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-08-06T03:43:44.532Z",
-      "suppressionPercentage": 15.85,
+      "suppressionPercentage": 16.05,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "11h",
+      "lawlessAgeLabel": "20h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -480,10 +480,10 @@
       "isFob": false,
       "fobOriginId": 30003069,
       "fobOriginName": "Kamela",
-      "corruptionPercentage": 24,
+      "corruptionPercentage": 33.3,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 10.7,
+      "suppressionPercentage": 13.6,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -537,11 +537,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-08-05T13:28:32.669Z",
-      "suppressionPercentage": 8.85,
+      "suppressionPercentage": 9.05,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 1h",
+      "lawlessAgeLabel": "1d 11h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -588,11 +588,11 @@
       "isFob": false,
       "fobOriginId": 30003069,
       "fobOriginName": "Kamela",
-      "corruptionPercentage": 34.55,
-      "corruptionState": 2,
+      "corruptionPercentage": 42.75,
+      "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 3.8,
-      "suppressionState": 0,
+      "suppressionPercentage": 15.2,
+      "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -645,11 +645,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-08-01T10:24:53.859Z",
-      "suppressionPercentage": 35.75,
+      "suppressionPercentage": 36.75,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 5h",
+      "lawlessAgeLabel": "5d 14h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -696,10 +696,10 @@
       "isFob": false,
       "fobOriginId": 30005320,
       "fobOriginName": "Hevrice",
-      "corruptionPercentage": 5.4,
+      "corruptionPercentage": 8.2,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 0,
+      "suppressionPercentage": 0.4,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -807,11 +807,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-08-05T11:59:32.773Z",
-      "suppressionPercentage": 28.6,
+      "suppressionPercentage": 28.8,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 3h",
+      "lawlessAgeLabel": "1d 12h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -858,11 +858,11 @@
       "isFob": false,
       "fobOriginId": 30005320,
       "fobOriginName": "Hevrice",
-      "corruptionPercentage": 15.75,
-      "corruptionState": 1,
+      "corruptionPercentage": 26.75,
+      "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 6.35,
-      "suppressionState": 0,
+      "suppressionPercentage": 12.85,
+      "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -912,8 +912,8 @@
       "isFob": false,
       "fobOriginId": 30005320,
       "fobOriginName": "Hevrice",
-      "corruptionPercentage": 7.8,
-      "corruptionState": 0,
+      "corruptionPercentage": 12.8,
+      "corruptionState": 1,
       "corruptionDate": null,
       "suppressionPercentage": 0.2,
       "suppressionState": 0,
@@ -969,7 +969,7 @@
       "corruptionPercentage": 4.4,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 6.2,
+      "suppressionPercentage": 7.8,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -1027,7 +1027,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "1h",
+      "lawlessAgeLabel": "10h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1077,11 +1077,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-07-28T09:48:16.898Z",
-      "suppressionPercentage": 19.5,
-      "suppressionState": 1,
+      "suppressionPercentage": 22.05,
+      "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 9,
-      "lawlessAgeLabel": "9d 5h",
+      "lawlessAgeLabel": "9d 14h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1135,7 +1135,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "6h",
+      "lawlessAgeLabel": "15h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1189,7 +1189,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 8,
-      "lawlessAgeLabel": "8d 7h",
+      "lawlessAgeLabel": "8d 16h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1236,11 +1236,11 @@
       "isFob": false,
       "fobOriginId": 30005320,
       "fobOriginName": "Hevrice",
-      "corruptionPercentage": 31.45,
-      "corruptionState": 2,
+      "corruptionPercentage": 47.65,
+      "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 19.65,
-      "suppressionState": 1,
+      "suppressionPercentage": 21.65,
+      "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -1293,11 +1293,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-08-04T02:12:44.969Z",
-      "suppressionPercentage": 13.3,
+      "suppressionPercentage": 13.5,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 13h",
+      "lawlessAgeLabel": "2d 22h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1347,11 +1347,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-07-29T19:43:44.873Z",
-      "suppressionPercentage": 63.65,
+      "suppressionPercentage": 65.85,
       "suppressionState": 3,
       "suppressionDate": null,
-      "lawlessAgeDays": 7,
-      "lawlessAgeLabel": "7d 19h",
+      "lawlessAgeDays": 8,
+      "lawlessAgeLabel": "8d 4h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1405,7 +1405,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 7h",
+      "lawlessAgeLabel": "3d 16h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1455,11 +1455,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-08-06T08:10:37.470Z",
-      "suppressionPercentage": 9.35,
-      "suppressionState": 0,
+      "suppressionPercentage": 10.35,
+      "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "7h",
+      "lawlessAgeLabel": "16h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1513,7 +1513,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 2h",
+      "lawlessAgeLabel": "4d 12h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1563,11 +1563,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-07-30T07:00:05.621Z",
-      "suppressionPercentage": 15.8,
+      "suppressionPercentage": 19.5,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 7,
-      "lawlessAgeLabel": "7d 8h",
+      "lawlessAgeLabel": "7d 17h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1621,7 +1621,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 8,
-      "lawlessAgeLabel": "8d 12h",
+      "lawlessAgeLabel": "8d 22h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1674,8 +1674,8 @@
       "suppressionPercentage": 10.7,
       "suppressionState": 1,
       "suppressionDate": null,
-      "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 16h",
+      "lawlessAgeDays": 6,
+      "lawlessAgeLabel": "6d 1h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1725,11 +1725,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-07-31T21:32:57.299Z",
-      "suppressionPercentage": 25.05,
+      "suppressionPercentage": 25.65,
       "suppressionState": 2,
       "suppressionDate": null,
-      "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 17h",
+      "lawlessAgeDays": 6,
+      "lawlessAgeLabel": "6d 2h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1782,8 +1782,8 @@
       "suppressionPercentage": 27.4,
       "suppressionState": 2,
       "suppressionDate": null,
-      "lawlessAgeDays": 6,
-      "lawlessAgeLabel": "6d 18h",
+      "lawlessAgeDays": 7,
+      "lawlessAgeLabel": "7d 3h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1833,11 +1833,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-07-29T02:17:17.195Z",
-      "suppressionPercentage": 78.1,
+      "suppressionPercentage": 79.3,
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": 8,
-      "lawlessAgeLabel": "8d 13h",
+      "lawlessAgeLabel": "8d 22h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1887,11 +1887,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-08-03T17:27:49.143Z",
-      "suppressionPercentage": 20.75,
+      "suppressionPercentage": 21.75,
       "suppressionState": 2,
       "suppressionDate": null,
-      "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 21h",
+      "lawlessAgeDays": 3,
+      "lawlessAgeLabel": "3d 7h",
       "distances": {
         "jita": {
           "hubId": 30000142,
