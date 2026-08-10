@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T19:26:00.044Z",
+  "generatedAt": "2026-08-10T20:05:45.578Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -48,7 +48,7 @@
       "isFob": false,
       "fobOriginId": 30003069,
       "fobOriginName": "Kamela",
-      "corruptionPercentage": 67.8,
+      "corruptionPercentage": 69,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 18.4,
@@ -109,7 +109,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 6,
-      "lawlessAgeLabel": "6d 6h",
+      "lawlessAgeLabel": "6d 7h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -159,11 +159,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-08-07T13:26:13.492Z",
-      "suppressionPercentage": 85.1,
+      "suppressionPercentage": 85.7,
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 5h",
+      "lawlessAgeLabel": "3d 6h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -267,7 +267,7 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-08-08T14:25:30.737Z",
-      "suppressionPercentage": 12.7,
+      "suppressionPercentage": 14.1,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
@@ -318,7 +318,7 @@
       "isFob": false,
       "fobOriginId": 30003069,
       "fobOriginName": "Kamela",
-      "corruptionPercentage": 26,
+      "corruptionPercentage": 28.1,
       "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 0.2,
@@ -433,7 +433,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 4h",
+      "lawlessAgeLabel": "5d 5h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -541,7 +541,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 15h",
+      "lawlessAgeLabel": "4d 16h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -588,7 +588,7 @@
       "isFob": false,
       "fobOriginId": 30003069,
       "fobOriginName": "Kamela",
-      "corruptionPercentage": 54.1,
+      "corruptionPercentage": 54.3,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 1.6,
@@ -649,7 +649,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 13h",
+      "lawlessAgeLabel": "2d 14h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -858,7 +858,7 @@
       "isFob": false,
       "fobOriginId": 30003069,
       "fobOriginName": "Kamela",
-      "corruptionPercentage": 5.6,
+      "corruptionPercentage": 6.2,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 0.2,
@@ -919,7 +919,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 5h",
+      "lawlessAgeLabel": "5d 6h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -969,11 +969,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-08-08T06:32:18.275Z",
-      "suppressionPercentage": 31.7,
+      "suppressionPercentage": 32.1,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 12h",
+      "lawlessAgeLabel": "2d 13h",
       "distances": {
         "jita": {
           "hubId": 30000142,
