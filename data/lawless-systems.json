@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T18:28:50.937Z",
+  "generatedAt": "2026-08-13T19:36:04.816Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -29,138 +29,84 @@
     }
   ],
   "stats": {
-    "systems": 32,
-    "lawlessNow": 21,
-    "cachedDistancesReused": 160,
-    "routeCalculatedNow": 0,
+    "systems": 15,
+    "lawlessNow": 5,
+    "cachedDistancesReused": 50,
+    "routeCalculatedNow": 25,
     "routeErrors": 0
   },
   "systems": [
     {
-      "id": 30003071,
-      "name": "Anka",
+      "id": 30002084,
+      "name": "Aset",
       "sec": "Low-Sec",
-      "security": 0.414599901241162,
+      "security": 0.355243976346207,
       "faction": "angels",
-      "campaignId": 156,
-      "campaignState": "PIRATE_VICTORY",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30003069,
-      "fobOriginName": "Kamela",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-08-11T13:29:18.512Z",
-      "suppressionPercentage": 24.3,
-      "suppressionState": 2,
-      "suppressionDate": null,
-      "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 4h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 20
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 9
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 11
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 12
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 8
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002510,
-        "hubName": "Rens",
-        "jumps": 8
-      }
-    },
-    {
-      "id": 30002965,
-      "name": "Choonka",
-      "sec": "High-Sec",
-      "security": 0.649812200526337,
-      "faction": "angels",
-      "campaignId": 156,
-      "campaignState": "PIRATE_VICTORY",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30003069,
-      "fobOriginName": "Kamela",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-08-04T12:31:55.176Z",
-      "suppressionPercentage": 26.7,
-      "suppressionState": 2,
-      "suppressionDate": null,
-      "lawlessAgeDays": 9,
-      "lawlessAgeLabel": "9d 5h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 19
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 8
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 10
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 11
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 7
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002510,
-        "hubName": "Rens",
-        "jumps": 7
-      }
-    },
-    {
-      "id": 30002967,
-      "name": "Dihra",
-      "sec": "High-Sec",
-      "security": 0.589286842646081,
-      "faction": "angels",
-      "campaignId": 156,
-      "campaignState": "PIRATE_VICTORY",
+      "campaignId": 158,
+      "campaignState": "FORECAST",
       "isLawless": false,
       "isFob": false,
-      "fobOriginId": 30003069,
-      "fobOriginName": "Kamela",
-      "corruptionPercentage": 9.8,
-      "corruptionState": 1,
+      "fobOriginId": 30002089,
+      "fobOriginName": "Avenod",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 23.4,
-      "suppressionState": 2,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 13
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 8
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 6
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 9
+        },
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 15
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30002053,
+        "hubName": "Hek",
+        "jumps": 6
+      }
+    },
+    {
+      "id": 30002089,
+      "name": "Avenod",
+      "sec": "Low-Sec",
+      "security": 0.385904622093975,
+      "faction": "angels",
+      "campaignId": 158,
+      "campaignState": "FORECAST",
+      "isLawless": false,
+      "isFob": true,
+      "fobOriginId": 30002089,
+      "fobOriginName": "Avenod",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -168,270 +114,54 @@
         "jita": {
           "hubId": 30000142,
           "hubName": "Jita",
-          "jumps": 20
+          "jumps": 15
         },
         "amarr": {
           "hubId": 30002187,
           "hubName": "Amarr",
-          "jumps": 9
+          "jumps": 14
         },
         "dodixie": {
           "hubId": 30002659,
           "hubName": "Dodixie",
-          "jumps": 11
+          "jumps": 7
         },
         "hek": {
           "hubId": 30002053,
           "hubName": "Hek",
-          "jumps": 12
+          "jumps": 7
         },
         "rens": {
           "hubId": 30002510,
           "hubName": "Rens",
-          "jumps": 8
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002510,
-        "hubName": "Rens",
-        "jumps": 8
-      }
-    },
-    {
-      "id": 30002968,
-      "name": "Dital",
-      "sec": "High-Sec",
-      "security": 0.478715399269348,
-      "faction": "angels",
-      "campaignId": 156,
-      "campaignState": "PIRATE_VICTORY",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30003069,
-      "fobOriginName": "Kamela",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-08-07T13:26:13.492Z",
-      "suppressionPercentage": 100,
-      "suppressionState": 5,
-      "suppressionDate": "2026-08-11T18:00:16.349Z",
-      "lawlessAgeDays": 6,
-      "lawlessAgeLabel": "6d 5h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 20
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 9
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 11
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 12
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 8
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002510,
-        "hubName": "Rens",
-        "jumps": 8
-      }
-    },
-    {
-      "id": 30002964,
-      "name": "Esescama",
-      "sec": "High-Sec",
-      "security": 0.612691959383857,
-      "faction": "angels",
-      "campaignId": 156,
-      "campaignState": "PIRATE_VICTORY",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30003069,
-      "fobOriginName": "Kamela",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-08-09T09:16:05.925Z",
-      "suppressionPercentage": 6.8,
-      "suppressionState": 0,
-      "suppressionDate": null,
-      "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 9h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 19
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 8
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 11
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 12
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 8
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002187,
-        "hubName": "Amarr",
-        "jumps": 8
-      }
-    },
-    {
-      "id": 30003076,
-      "name": "Gammel",
-      "sec": "High-Sec",
-      "security": 0.465589281118482,
-      "faction": "angels",
-      "campaignId": 156,
-      "campaignState": "PIRATE_VICTORY",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30003069,
-      "fobOriginName": "Kamela",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-08-08T14:25:30.737Z",
-      "suppressionPercentage": 19.2,
-      "suppressionState": 1,
-      "suppressionDate": null,
-      "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 4h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 20
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 9
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 11
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 12
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 8
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002510,
-        "hubName": "Rens",
-        "jumps": 8
-      }
-    },
-    {
-      "id": 30002972,
-      "name": "Gheth",
-      "sec": "High-Sec",
-      "security": 0.596575983935538,
-      "faction": "angels",
-      "campaignId": 156,
-      "campaignState": "PIRATE_VICTORY",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30003069,
-      "fobOriginName": "Kamela",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-08-12T18:47:59.659Z",
-      "suppressionPercentage": 24.6,
-      "suppressionState": 2,
-      "suppressionDate": null,
-      "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "23h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 21
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
           "jumps": 10
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 12
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 13
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 8
         }
       },
       "routeErrors": {},
       "nearestHub": {
-        "hubId": 30002510,
-        "hubName": "Rens",
-        "jumps": 8
+        "hubId": 30002659,
+        "hubName": "Dodixie",
+        "jumps": 7
       }
     },
     {
-      "id": 30003067,
-      "name": "Huola",
+      "id": 30002085,
+      "name": "Eytjangard",
       "sec": "Low-Sec",
-      "security": 0.370248587667823,
+      "security": 0.361597523689222,
       "faction": "angels",
-      "campaignId": 156,
-      "campaignState": "PIRATE_VICTORY",
+      "campaignId": 158,
+      "campaignState": "FORECAST",
       "isLawless": false,
       "isFob": false,
-      "fobOriginId": 30003069,
-      "fobOriginName": "Kamela",
-      "corruptionPercentage": 70.76,
-      "corruptionState": 4,
+      "fobOriginId": 30002089,
+      "fobOriginName": "Avenod",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 100,
-      "suppressionState": 5,
-      "suppressionDate": "2026-08-10T09:42:14.833Z",
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
+      "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
@@ -443,170 +173,8 @@
         "amarr": {
           "hubId": 30002187,
           "hubName": "Amarr",
-          "jumps": 5
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 9
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 10
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 6
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002187,
-        "hubName": "Amarr",
-        "jumps": 5
-      }
-    },
-    {
-      "id": 30003072,
-      "name": "Iesa",
-      "sec": "Low-Sec",
-      "security": 0.413818545662793,
-      "faction": "angels",
-      "campaignId": 156,
-      "campaignState": "PIRATE_VICTORY",
-      "isLawless": false,
-      "isFob": false,
-      "fobOriginId": 30003069,
-      "fobOriginName": "Kamela",
-      "corruptionPercentage": 35.6,
-      "corruptionState": 2,
-      "corruptionDate": null,
-      "suppressionPercentage": 3.35,
-      "suppressionState": 0,
-      "suppressionDate": null,
-      "lawlessAgeDays": null,
-      "lawlessAgeLabel": "-",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 21
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 10
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 12
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
           "jumps": 13
         },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 9
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002510,
-        "hubName": "Rens",
-        "jumps": 9
-      }
-    },
-    {
-      "id": 30003069,
-      "name": "Kamela",
-      "sec": "Low-Sec",
-      "security": 0.440865678479918,
-      "faction": "angels",
-      "campaignId": 156,
-      "campaignState": "PIRATE_VICTORY",
-      "isLawless": true,
-      "isFob": true,
-      "fobOriginId": 30003069,
-      "fobOriginName": "Kamela",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-08-05T14:38:49.524Z",
-      "suppressionPercentage": 27.2,
-      "suppressionState": 2,
-      "suppressionDate": null,
-      "lawlessAgeDays": 8,
-      "lawlessAgeLabel": "8d 3h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 18
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 7
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 9
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 10
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 6
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002510,
-        "hubName": "Rens",
-        "jumps": 6
-      }
-    },
-    {
-      "id": 30003068,
-      "name": "Kourmonen",
-      "sec": "Low-Sec",
-      "security": 0.363480159478758,
-      "faction": "angels",
-      "campaignId": 156,
-      "campaignState": "PIRATE_VICTORY",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30003069,
-      "fobOriginName": "Kamela",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-08-06T14:22:28.822Z",
-      "suppressionPercentage": 49.4,
-      "suppressionState": 3,
-      "suppressionDate": null,
-      "lawlessAgeDays": 7,
-      "lawlessAgeLabel": "7d 4h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 17
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 6
-        },
         "dodixie": {
           "hubId": 30002659,
           "hubName": "Dodixie",
@@ -615,92 +183,38 @@
         "hek": {
           "hubId": 30002053,
           "hubName": "Hek",
-          "jumps": 9
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 5
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002510,
-        "hubName": "Rens",
-        "jumps": 5
-      }
-    },
-    {
-      "id": 30003063,
-      "name": "Lamaa",
-      "sec": "Low-Sec",
-      "security": 0.355271173817566,
-      "faction": "angels",
-      "campaignId": 156,
-      "campaignState": "PIRATE_VICTORY",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30003069,
-      "fobOriginName": "Kamela",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-08-06T03:43:44.532Z",
-      "suppressionPercentage": 25.1,
-      "suppressionState": 2,
-      "suppressionDate": null,
-      "lawlessAgeDays": 7,
-      "lawlessAgeLabel": "7d 14h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 18
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
           "jumps": 7
         },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 9
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 10
-        },
         "rens": {
           "hubId": 30002510,
           "hubName": "Rens",
-          "jumps": 6
+          "jumps": 10
         }
       },
       "routeErrors": {},
       "nearestHub": {
-        "hubId": 30002510,
-        "hubName": "Rens",
-        "jumps": 6
+        "hubId": 30002053,
+        "hubName": "Hek",
+        "jumps": 7
       }
     },
     {
-      "id": 30002974,
-      "name": "Mehatoor",
-      "sec": "High-Sec",
-      "security": 0.659472795101,
+      "id": 30002087,
+      "name": "Isbrabata",
+      "sec": "Low-Sec",
+      "security": 0.35519455912258,
       "faction": "angels",
-      "campaignId": 156,
-      "campaignState": "PIRATE_VICTORY",
+      "campaignId": 158,
+      "campaignState": "FORECAST",
       "isLawless": false,
       "isFob": false,
-      "fobOriginId": 30003069,
-      "fobOriginName": "Kamela",
-      "corruptionPercentage": 4.01,
-      "corruptionState": 1,
+      "fobOriginId": 30002089,
+      "fobOriginName": "Avenod",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 73.4,
-      "suppressionState": 4,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -708,520 +222,88 @@
         "jita": {
           "hubId": 30000142,
           "hubName": "Jita",
-          "jumps": 21
+          "jumps": 15
         },
         "amarr": {
           "hubId": 30002187,
           "hubName": "Amarr",
-          "jumps": 10
+          "jumps": 12
         },
         "dodixie": {
           "hubId": 30002659,
           "hubName": "Dodixie",
-          "jumps": 12
+          "jumps": 9
         },
         "hek": {
           "hubId": 30002053,
           "hubName": "Hek",
+          "jumps": 7
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 10
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30002053,
+        "hubName": "Hek",
+        "jumps": 7
+      }
+    },
+    {
+      "id": 30002083,
+      "name": "Uisper",
+      "sec": "Low-Sec",
+      "security": 0.392681335480766,
+      "faction": "angels",
+      "campaignId": 158,
+      "campaignState": "FORECAST",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30002089,
+      "fobOriginName": "Avenod",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 15
+        },
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
           "jumps": 13
         },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 7
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002510,
-        "hubName": "Rens",
-        "jumps": 7
-      }
-    },
-    {
-      "id": 30002963,
-      "name": "Odin",
-      "sec": "High-Sec",
-      "security": 0.606669290454546,
-      "faction": "angels",
-      "campaignId": 156,
-      "campaignState": "PIRATE_VICTORY",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30003069,
-      "fobOriginName": "Kamela",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-08-11T15:27:10.733Z",
-      "suppressionPercentage": 1.8,
-      "suppressionState": 0,
-      "suppressionDate": null,
-      "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 3h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 20
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
           "jumps": 9
         },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 11
-        },
         "hek": {
           "hubId": 30002053,
           "hubName": "Hek",
-          "jumps": 12
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 8
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002510,
-        "hubName": "Rens",
-        "jumps": 8
-      }
-    },
-    {
-      "id": 30002970,
-      "name": "Ohide",
-      "sec": "High-Sec",
-      "security": 0.573906954973427,
-      "faction": "angels",
-      "campaignId": 156,
-      "campaignState": "PIRATE_VICTORY",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30003069,
-      "fobOriginName": "Kamela",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-08-08T05:29:50.314Z",
-      "suppressionPercentage": 21.9,
-      "suppressionState": 2,
-      "suppressionDate": null,
-      "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 12h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 19
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 8
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 10
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 11
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 7
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002510,
-        "hubName": "Rens",
-        "jumps": 7
-      }
-    },
-    {
-      "id": 30002961,
-      "name": "Oyeman",
-      "sec": "Low-Sec",
-      "security": 0.222380664573313,
-      "faction": "angels",
-      "campaignId": 156,
-      "campaignState": "PIRATE_VICTORY",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30003069,
-      "fobOriginName": "Kamela",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-08-11T09:26:07.068Z",
-      "suppressionPercentage": 26,
-      "suppressionState": 2,
-      "suppressionDate": null,
-      "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 9h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 20
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 9
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 11
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 12
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 8
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002510,
-        "hubName": "Rens",
-        "jumps": 8
-      }
-    },
-    {
-      "id": 30002958,
-      "name": "Raa",
-      "sec": "Low-Sec",
-      "security": 0.309656980826526,
-      "faction": "angels",
-      "campaignId": 156,
-      "campaignState": "PIRATE_VICTORY",
-      "isLawless": false,
-      "isFob": false,
-      "fobOriginId": 30003069,
-      "fobOriginName": "Kamela",
-      "corruptionPercentage": 4.2,
-      "corruptionState": 1,
-      "corruptionDate": null,
-      "suppressionPercentage": 1.2,
-      "suppressionState": 0,
-      "suppressionDate": null,
-      "lawlessAgeDays": null,
-      "lawlessAgeLabel": "-",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 20
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 9
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 11
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 12
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 8
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002510,
-        "hubName": "Rens",
-        "jumps": 8
-      }
-    },
-    {
-      "id": 30002975,
-      "name": "Roushzar",
-      "sec": "Low-Sec",
-      "security": 0.366979769415516,
-      "faction": "angels",
-      "campaignId": 156,
-      "campaignState": "PIRATE_VICTORY",
-      "isLawless": false,
-      "isFob": false,
-      "fobOriginId": 30003069,
-      "fobOriginName": "Kamela",
-      "corruptionPercentage": 12.75,
-      "corruptionState": 2,
-      "corruptionDate": null,
-      "suppressionPercentage": 15.75,
-      "suppressionState": 1,
-      "suppressionDate": null,
-      "lawlessAgeDays": null,
-      "lawlessAgeLabel": "-",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 17
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
           "jumps": 6
         },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 10
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 11
-        },
         "rens": {
           "hubId": 30002510,
           "hubName": "Rens",
-          "jumps": 7
+          "jumps": 9
         }
       },
       "routeErrors": {},
       "nearestHub": {
-        "hubId": 30002187,
-        "hubName": "Amarr",
+        "hubId": 30002053,
+        "hubName": "Hek",
         "jumps": 6
-      }
-    },
-    {
-      "id": 30002971,
-      "name": "Sasoutikh",
-      "sec": "High-Sec",
-      "security": 0.593643620662238,
-      "faction": "angels",
-      "campaignId": 156,
-      "campaignState": "PIRATE_VICTORY",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30003069,
-      "fobOriginName": "Kamela",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-08-10T10:23:40.909Z",
-      "suppressionPercentage": 8.3,
-      "suppressionState": 0,
-      "suppressionDate": null,
-      "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 8h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 20
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 9
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 11
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 12
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 8
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002510,
-        "hubName": "Rens",
-        "jumps": 8
-      }
-    },
-    {
-      "id": 30002959,
-      "name": "Sifilar",
-      "sec": "Low-Sec",
-      "security": 0.257302724757106,
-      "faction": "angels",
-      "campaignId": 156,
-      "campaignState": "PIRATE_VICTORY",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30003069,
-      "fobOriginName": "Kamela",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-08-12T17:58:50.355Z",
-      "suppressionPercentage": 15.5,
-      "suppressionState": 1,
-      "suppressionDate": null,
-      "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 0h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 19
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 9
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 10
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 11
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 7
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002510,
-        "hubName": "Rens",
-        "jumps": 7
-      }
-    },
-    {
-      "id": 30003070,
-      "name": "Sosala",
-      "sec": "Low-Sec",
-      "security": 0.420527431194374,
-      "faction": "angels",
-      "campaignId": 156,
-      "campaignState": "PIRATE_VICTORY",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30003069,
-      "fobOriginName": "Kamela",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-08-05T13:28:32.669Z",
-      "suppressionPercentage": 27.25,
-      "suppressionState": 2,
-      "suppressionDate": null,
-      "lawlessAgeDays": 8,
-      "lawlessAgeLabel": "8d 5h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 19
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 8
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 10
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 11
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 7
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002510,
-        "hubName": "Rens",
-        "jumps": 7
-      }
-    },
-    {
-      "id": 30002957,
-      "name": "Tzvi",
-      "sec": "Low-Sec",
-      "security": 0.279870936233633,
-      "faction": "angels",
-      "campaignId": 156,
-      "campaignState": "PIRATE_VICTORY",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30003069,
-      "fobOriginName": "Kamela",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-08-08T06:32:18.275Z",
-      "suppressionPercentage": 38.85,
-      "suppressionState": 2,
-      "suppressionDate": null,
-      "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 11h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 19
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 8
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 10
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 11
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 7
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002510,
-        "hubName": "Rens",
-        "jumps": 7
       }
     },
     {
@@ -1243,7 +325,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "17h",
+      "lawlessAgeLabel": "18h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1290,10 +372,10 @@
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 24.65,
+      "corruptionPercentage": 26.35,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 10.2,
+      "suppressionPercentage": 10.6,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -1344,7 +426,7 @@
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 51.75,
+      "corruptionPercentage": 55.15,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 0.8,
@@ -1405,7 +487,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "8h",
+      "lawlessAgeLabel": "9h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1452,7 +534,7 @@
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 35.55,
+      "corruptionPercentage": 39.9,
       "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 3.6,
@@ -1513,7 +595,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "17h",
+      "lawlessAgeLabel": "18h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1560,7 +642,7 @@
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 29.5,
+      "corruptionPercentage": 30.7,
       "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 2,
@@ -1621,7 +703,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 3h",
+      "lawlessAgeLabel": "1d 4h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1675,7 +757,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "12h",
+      "lawlessAgeLabel": "13h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1722,7 +804,7 @@
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 29.1,
+      "corruptionPercentage": 30.3,
       "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 4.2,
