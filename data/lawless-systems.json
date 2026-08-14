@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T21:37:37.641Z",
+  "generatedAt": "2026-08-14T21:57:21.137Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -102,7 +102,7 @@
       "isFob": true,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 1,
+      "corruptionPercentage": 1.4,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 0.4,
@@ -213,7 +213,7 @@
       "corruptionPercentage": 0.8,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 0,
+      "suppressionPercentage": 1,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -372,7 +372,7 @@
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 57.45,
+      "corruptionPercentage": 59.2,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 32.9,
@@ -433,7 +433,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "6h",
+      "lawlessAgeLabel": "7h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -588,7 +588,7 @@
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 95.05,
+      "corruptionPercentage": 95.25,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 9.3,
@@ -645,7 +645,7 @@
       "corruptionPercentage": 14.4,
       "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 0,
+      "suppressionPercentage": 20.2,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -804,7 +804,7 @@
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 79.2,
+      "corruptionPercentage": 79.4,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 9.2,
@@ -919,7 +919,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 15h",
+      "lawlessAgeLabel": "1d 16h",
       "distances": {
         "jita": {
           "hubId": 30000142,
