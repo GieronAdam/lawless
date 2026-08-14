@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T23:07:54.013Z",
+  "generatedAt": "2026-08-14T23:35:10.284Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -48,7 +48,7 @@
       "isFob": false,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 0.8,
+      "corruptionPercentage": 1,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 1.8,
@@ -156,7 +156,7 @@
       "isFob": false,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 3.6,
+      "corruptionPercentage": 4,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 2.2,
@@ -372,7 +372,7 @@
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 61.95,
+      "corruptionPercentage": 62.95,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 32.9,
@@ -588,7 +588,7 @@
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 95.25,
+      "corruptionPercentage": 95.45,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 9.3,
@@ -642,7 +642,7 @@
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 15,
+      "corruptionPercentage": 15.6,
       "corruptionState": 1,
       "corruptionDate": null,
       "suppressionPercentage": 20.2,
@@ -703,7 +703,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 21h",
+      "lawlessAgeLabel": "1d 22h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -804,7 +804,7 @@
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 85.8,
+      "corruptionPercentage": 88.3,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 9.2,
@@ -865,7 +865,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 7h",
+      "lawlessAgeLabel": "2d 8h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1020,7 +1020,7 @@
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 14.35,
+      "corruptionPercentage": 16.1,
       "corruptionState": 1,
       "corruptionDate": null,
       "suppressionPercentage": 0.8,
