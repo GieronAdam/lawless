@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T11:07:58.966Z",
+  "generatedAt": "2026-08-14T11:54:47.471Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -426,7 +426,7 @@
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 94.05,
+      "corruptionPercentage": 95.8,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 0.8,
@@ -595,7 +595,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 9h",
+      "lawlessAgeLabel": "1d 10h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -696,7 +696,7 @@
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 54.9,
+      "corruptionPercentage": 55.1,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 7.4,
@@ -757,7 +757,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 19h",
+      "lawlessAgeLabel": "1d 20h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -807,7 +807,7 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-08-13T05:55:28.306Z",
-      "suppressionPercentage": 10.6,
+      "suppressionPercentage": 10.8,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
@@ -858,7 +858,7 @@
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 63.4,
+      "corruptionPercentage": 63.6,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 7.6,
@@ -912,7 +912,7 @@
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 6,
+      "corruptionPercentage": 6.4,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 0,
