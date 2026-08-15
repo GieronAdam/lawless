@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T11:40:28.239Z",
+  "generatedAt": "2026-08-15T11:54:23.121Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -51,7 +51,7 @@
       "corruptionPercentage": 6,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 6.6,
+      "suppressionPercentage": 6.8,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -156,7 +156,7 @@
       "isFob": false,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 34.95,
+      "corruptionPercentage": 35.35,
       "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 2.6,
@@ -264,7 +264,7 @@
       "isFob": false,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 17.55,
+      "corruptionPercentage": 18.75,
       "corruptionState": 1,
       "corruptionDate": null,
       "suppressionPercentage": 0,
@@ -433,7 +433,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "20h",
+      "lawlessAgeLabel": "21h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -696,7 +696,7 @@
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 32,
+      "corruptionPercentage": 33,
       "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 23.7,
@@ -1020,7 +1020,7 @@
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 97.5,
+      "corruptionPercentage": 97.9,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 11.5,
