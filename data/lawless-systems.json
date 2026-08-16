@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T20:49:57.339Z",
+  "generatedAt": "2026-08-16T21:01:24.543Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -102,7 +102,7 @@
       "isFob": true,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 72.45,
+      "corruptionPercentage": 75.45,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 7.25,
@@ -156,7 +156,7 @@
       "isFob": false,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 93.25,
+      "corruptionPercentage": 93.65,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 25.9,
@@ -267,7 +267,7 @@
       "corruptionPercentage": 26,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 22.15,
+      "suppressionPercentage": 24.9,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -372,7 +372,7 @@
       "isFob": false,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 76.85,
+      "corruptionPercentage": 77.25,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 7.6,
@@ -426,7 +426,7 @@
       "isFob": false,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 1.4,
+      "corruptionPercentage": 1.8,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 0,
@@ -807,8 +807,8 @@
       "corruptionPercentage": 18.45,
       "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 39.2,
-      "suppressionState": 2,
+      "suppressionPercentage": 40.2,
+      "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -919,7 +919,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 19h",
+      "lawlessAgeLabel": "1d 20h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1297,7 +1297,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 14h",
+      "lawlessAgeLabel": "3d 15h",
       "distances": {
         "jita": {
           "hubId": 30000142,
