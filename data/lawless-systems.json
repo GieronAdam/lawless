@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T21:26:06.852Z",
+  "generatedAt": "2026-08-16T21:40:38.617Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -267,7 +267,7 @@
       "corruptionPercentage": 26,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 24.9,
+      "suppressionPercentage": 27.2,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -537,7 +537,7 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-08-16T02:21:09.296Z",
-      "suppressionPercentage": 55,
+      "suppressionPercentage": 55.4,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
@@ -750,7 +750,7 @@
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 52.5,
+      "corruptionPercentage": 54.25,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 4.4,
@@ -807,7 +807,7 @@
       "corruptionPercentage": 18.45,
       "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 41.2,
+      "suppressionPercentage": 41.6,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
