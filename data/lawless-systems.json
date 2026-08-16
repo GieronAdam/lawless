@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T17:48:01.340Z",
+  "generatedAt": "2026-08-16T18:00:23.519Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -48,7 +48,7 @@
       "isFob": false,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 32.4,
+      "corruptionPercentage": 32.8,
       "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 27.8,
@@ -105,7 +105,7 @@
       "corruptionPercentage": 68.35,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 5.3,
+      "suppressionPercentage": 5.5,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -372,7 +372,7 @@
       "isFob": false,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 74.65,
+      "corruptionPercentage": 74.85,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 4.85,
@@ -750,7 +750,7 @@
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 7.8,
+      "corruptionPercentage": 8.2,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 1.4,
@@ -811,7 +811,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 16h",
+      "lawlessAgeLabel": "1d 17h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1020,7 +1020,7 @@
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 67.1,
+      "corruptionPercentage": 68.6,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 5.7,
@@ -1189,7 +1189,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 11h",
+      "lawlessAgeLabel": "3d 12h",
       "distances": {
         "jita": {
           "hubId": 30000142,
