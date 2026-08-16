@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T18:37:06.313Z",
+  "generatedAt": "2026-08-16T18:58:47.997Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -31,8 +31,8 @@
   "stats": {
     "systems": 26,
     "lawlessNow": 11,
-    "cachedDistancesReused": 120,
-    "routeCalculatedNow": 10,
+    "cachedDistancesReused": 130,
+    "routeCalculatedNow": 0,
     "routeErrors": 0
   },
   "systems": [
@@ -102,7 +102,7 @@
       "isFob": true,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 70.85,
+      "corruptionPercentage": 71.45,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 7.25,
@@ -159,7 +159,7 @@
       "corruptionPercentage": 93.05,
       "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 24.5,
+      "suppressionPercentage": 24.9,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -210,7 +210,7 @@
       "isFob": false,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 7.6,
+      "corruptionPercentage": 7.8,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 0.8,
@@ -267,7 +267,7 @@
       "corruptionPercentage": 25.8,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 18.65,
+      "suppressionPercentage": 19.05,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -372,7 +372,7 @@
       "isFob": false,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 76.25,
+      "corruptionPercentage": 76.45,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 4.85,
@@ -435,6 +435,11 @@
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 16
+        },
         "amarr": {
           "hubId": 30002187,
           "hubName": "Amarr",
@@ -454,11 +459,6 @@
           "hubId": 30002510,
           "hubName": "Rens",
           "jumps": 10
-        },
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 16
         }
       },
       "routeErrors": {},
@@ -595,7 +595,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 3h",
+      "lawlessAgeLabel": "2d 4h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -705,15 +705,15 @@
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 14
-        },
         "jita": {
           "hubId": 30000142,
           "hubName": "Jita",
           "jumps": 5
+        },
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 14
         },
         "dodixie": {
           "hubId": 30002659,
@@ -804,7 +804,7 @@
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 18.25,
+      "corruptionPercentage": 18.45,
       "corruptionState": 1,
       "corruptionDate": null,
       "suppressionPercentage": 34.5,
@@ -919,7 +919,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 17h",
+      "lawlessAgeLabel": "1d 18h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1020,7 +1020,7 @@
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 6.2,
+      "corruptionPercentage": 7.2,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 1.2,
@@ -1297,7 +1297,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 12h",
+      "lawlessAgeLabel": "3d 13h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1351,7 +1351,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 5h",
+      "lawlessAgeLabel": "1d 6h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1398,7 +1398,7 @@
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 82.55,
+      "corruptionPercentage": 82.75,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 6.35,
