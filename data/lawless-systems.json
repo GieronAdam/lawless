@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T05:43:26.878Z",
+  "generatedAt": "2026-08-18T06:00:34.317Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -48,7 +48,7 @@
       "isFob": false,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 65.24,
+      "corruptionPercentage": 65.52,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 71.55,
@@ -210,7 +210,7 @@
       "isFob": false,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 60.7,
+      "corruptionPercentage": 60.9,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 12.65,
@@ -264,7 +264,7 @@
       "isFob": false,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 54.35,
+      "corruptionPercentage": 55.05,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 58.7,
@@ -379,7 +379,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "20h",
+      "lawlessAgeLabel": "21h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -426,7 +426,7 @@
       "isFob": false,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 36.45,
+      "corruptionPercentage": 37.95,
       "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 10.75,
@@ -595,7 +595,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 14h",
+      "lawlessAgeLabel": "3d 15h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -696,7 +696,7 @@
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 23.2,
+      "corruptionPercentage": 26.45,
       "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 2.4,
@@ -750,7 +750,7 @@
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 98.95,
+      "corruptionPercentage": 99.35,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 16.45,
@@ -858,7 +858,7 @@
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 47.4,
+      "corruptionPercentage": 49.3,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 3,
@@ -919,7 +919,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 4h",
+      "lawlessAgeLabel": "3d 5h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1020,7 +1020,7 @@
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 58.6,
+      "corruptionPercentage": 60.3,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 10.7,
@@ -1128,7 +1128,7 @@
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 5.4,
+      "corruptionPercentage": 5.8,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 2.4,
@@ -1350,8 +1350,8 @@
       "suppressionPercentage": 15.2,
       "suppressionState": 1,
       "suppressionDate": null,
-      "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 23h",
+      "lawlessAgeDays": 5,
+      "lawlessAgeLabel": "5d 0h",
       "distances": {
         "jita": {
           "hubId": 30000142,
