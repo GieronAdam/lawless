@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T23:50:07.188Z",
+  "generatedAt": "2026-08-19T00:02:27.412Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -30,7 +30,7 @@
   ],
   "stats": {
     "systems": 33,
-    "lawlessNow": 17,
+    "lawlessNow": 18,
     "cachedDistancesReused": 165,
     "routeCalculatedNow": 0,
     "routeErrors": 0
@@ -48,7 +48,7 @@
       "isFob": false,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 7,
+      "corruptionPercentage": 8,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 0.2,
@@ -105,7 +105,7 @@
       "corruptionPercentage": 87.64,
       "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 88.1,
+      "suppressionPercentage": 89.85,
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -699,7 +699,7 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-08-16T02:21:09.296Z",
-      "suppressionPercentage": 76.35,
+      "suppressionPercentage": 76.55,
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
@@ -912,7 +912,7 @@
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 45.7,
+      "corruptionPercentage": 45.9,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 4.4,
@@ -1128,7 +1128,7 @@
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 75.85,
+      "corruptionPercentage": 76.85,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 4.6,
@@ -1189,7 +1189,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 22h",
+      "lawlessAgeLabel": "3d 23h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1286,18 +1286,18 @@
       "faction": "guristas",
       "campaignId": 157,
       "campaignState": "ACTIVE",
-      "isLawless": false,
+      "isLawless": true,
       "isFob": false,
       "fobOriginId": 30045337,
       "fobOriginName": "Ikoskio",
-      "corruptionPercentage": 99.8,
-      "corruptionState": 4,
-      "corruptionDate": null,
+      "corruptionPercentage": 100,
+      "corruptionState": 5,
+      "corruptionDate": "2026-08-18T23:43:50.862Z",
       "suppressionPercentage": 11.9,
       "suppressionState": 1,
       "suppressionDate": null,
-      "lawlessAgeDays": null,
-      "lawlessAgeLabel": "-",
+      "lawlessAgeDays": 0,
+      "lawlessAgeLabel": "0h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1567,7 +1567,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 18h",
+      "lawlessAgeLabel": "3d 19h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1675,7 +1675,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 17h",
+      "lawlessAgeLabel": "5d 18h",
       "distances": {
         "jita": {
           "hubId": 30000142,
