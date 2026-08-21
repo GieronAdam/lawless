@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T17:05:36.274Z",
+  "generatedAt": "2026-08-21T17:37:55.637Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -109,7 +109,7 @@
       "suppressionState": 5,
       "suppressionDate": "2026-08-19T23:14:11.426Z",
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 12h",
+      "lawlessAgeLabel": "2d 13h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -163,7 +163,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 9h",
+      "lawlessAgeLabel": "4d 10h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -217,7 +217,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 16h",
+      "lawlessAgeLabel": "4d 17h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -379,7 +379,7 @@
       "suppressionState": 5,
       "suppressionDate": "2026-08-20T21:16:57.914Z",
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 11h",
+      "lawlessAgeLabel": "1d 12h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -426,7 +426,7 @@
       "isFob": false,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 53.1,
+      "corruptionPercentage": 53.3,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 27.95,
@@ -703,7 +703,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 4h",
+      "lawlessAgeLabel": "2d 5h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -757,7 +757,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 8,
-      "lawlessAgeLabel": "8d 15h",
+      "lawlessAgeLabel": "8d 16h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -811,7 +811,7 @@
       "suppressionState": 5,
       "suppressionDate": "2026-08-20T22:24:54.533Z",
       "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 14h",
+      "lawlessAgeLabel": "5d 15h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -973,7 +973,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 8,
-      "lawlessAgeLabel": "8d 6h",
+      "lawlessAgeLabel": "8d 7h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1081,7 +1081,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 10h",
+      "lawlessAgeLabel": "3d 11h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1297,7 +1297,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 6h",
+      "lawlessAgeLabel": "2d 7h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1512,8 +1512,8 @@
       "suppressionPercentage": 55,
       "suppressionState": 3,
       "suppressionDate": null,
-      "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 23h",
+      "lawlessAgeDays": 5,
+      "lawlessAgeLabel": "5d 0h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1621,7 +1621,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 8,
-      "lawlessAgeLabel": "8d 15h",
+      "lawlessAgeLabel": "8d 16h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1675,7 +1675,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "10h",
+      "lawlessAgeLabel": "11h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1729,7 +1729,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 0h",
+      "lawlessAgeLabel": "4d 1h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1891,7 +1891,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 9,
-      "lawlessAgeLabel": "9d 1h",
+      "lawlessAgeLabel": "9d 2h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -2053,7 +2053,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 11h",
+      "lawlessAgeLabel": "4d 12h",
       "distances": {
         "jita": {
           "hubId": 30000142,
