@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T05:55:56.157Z",
+  "generatedAt": "2026-08-22T06:20:31.777Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -318,7 +318,7 @@
       "isFob": false,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 21.35,
+      "corruptionPercentage": 24.1,
       "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 7.05,
@@ -426,10 +426,10 @@
       "isFob": false,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 64.74,
+      "corruptionPercentage": 64.88,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 44.35,
+      "suppressionPercentage": 44.55,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -534,7 +534,7 @@
       "isFob": false,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 46.3,
+      "corruptionPercentage": 47.5,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 24.8,
@@ -703,7 +703,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 17h",
+      "lawlessAgeLabel": "2d 18h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -757,7 +757,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 9,
-      "lawlessAgeLabel": "9d 4h",
+      "lawlessAgeLabel": "9d 5h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -973,7 +973,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 8,
-      "lawlessAgeLabel": "8d 19h",
+      "lawlessAgeLabel": "8d 20h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1027,7 +1027,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 15h",
+      "lawlessAgeLabel": "1d 16h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1080,8 +1080,8 @@
       "suppressionPercentage": 28.35,
       "suppressionState": 2,
       "suppressionDate": null,
-      "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 23h",
+      "lawlessAgeDays": 4,
+      "lawlessAgeLabel": "4d 0h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1243,7 +1243,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 6h",
+      "lawlessAgeLabel": "2d 7h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1513,7 +1513,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 12h",
+      "lawlessAgeLabel": "5d 13h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1621,7 +1621,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 9,
-      "lawlessAgeLabel": "9d 4h",
+      "lawlessAgeLabel": "9d 5h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1674,8 +1674,8 @@
       "suppressionPercentage": 25.45,
       "suppressionState": 2,
       "suppressionDate": null,
-      "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "23h",
+      "lawlessAgeDays": 1,
+      "lawlessAgeLabel": "1d 0h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1837,7 +1837,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 7,
-      "lawlessAgeLabel": "7d 0h",
+      "lawlessAgeLabel": "7d 1h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1891,7 +1891,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 9,
-      "lawlessAgeLabel": "9d 14h",
+      "lawlessAgeLabel": "9d 15h",
       "distances": {
         "jita": {
           "hubId": 30000142,
