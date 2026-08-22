@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T23:02:49.695Z",
+  "generatedAt": "2026-08-22T23:27:30.507Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -109,7 +109,7 @@
       "suppressionState": 5,
       "suppressionDate": "2026-08-19T23:14:11.426Z",
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 18h",
+      "lawlessAgeLabel": "3d 19h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -159,7 +159,7 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-08-17T07:30:59.574Z",
-      "suppressionPercentage": 18,
+      "suppressionPercentage": 18.4,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 5,
@@ -426,10 +426,10 @@
       "isFob": false,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 74.44,
+      "corruptionPercentage": 74.58,
       "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 58.2,
+      "suppressionPercentage": 59.95,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -483,7 +483,7 @@
       "corruptionPercentage": 76.9,
       "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 37.55,
+      "suppressionPercentage": 37.75,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -591,7 +591,7 @@
       "corruptionPercentage": 65.95,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 35.25,
+      "suppressionPercentage": 38.25,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -811,7 +811,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 10h",
+      "lawlessAgeLabel": "3d 11h",
       "distances": {
         "jita": {
           "hubId": 30000142,
