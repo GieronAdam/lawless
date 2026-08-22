@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T09:52:28.723Z",
+  "generatedAt": "2026-08-22T10:08:04.038Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -31,8 +31,8 @@
   "stats": {
     "systems": 18,
     "lawlessNow": 8,
-    "cachedDistancesReused": 65,
-    "routeCalculatedNow": 25,
+    "cachedDistancesReused": 90,
+    "routeCalculatedNow": 0,
     "routeErrors": 0
   },
   "systems": [
@@ -318,7 +318,7 @@
       "isFob": false,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 31.45,
+      "corruptionPercentage": 31.85,
       "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 7.05,
@@ -588,7 +588,7 @@
       "isFob": false,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 46.53,
+      "corruptionPercentage": 46.81,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 100,
@@ -921,25 +921,25 @@
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 17
-        },
         "jita": {
           "hubId": 30000142,
           "hubName": "Jita",
           "jumps": 12
         },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 11
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 17
         },
         "dodixie": {
           "hubId": 30002659,
           "hubName": "Dodixie",
           "jumps": 9
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 11
         },
         "rens": {
           "hubId": 30002510,
@@ -975,6 +975,11 @@
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 11
+        },
         "amarr": {
           "hubId": 30002187,
           "hubName": "Amarr",
@@ -994,11 +999,6 @@
           "hubId": 30002510,
           "hubName": "Rens",
           "jumps": 13
-        },
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 11
         }
       },
       "routeErrors": {},
