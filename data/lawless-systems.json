@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T21:49:38.821Z",
+  "generatedAt": "2026-08-22T22:00:58.816Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -55,7 +55,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 10h",
+      "lawlessAgeLabel": "1d 11h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -267,7 +267,7 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-08-19T07:38:31.079Z",
-      "suppressionPercentage": 34.65,
+      "suppressionPercentage": 35.05,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
@@ -429,7 +429,7 @@
       "corruptionPercentage": 74.44,
       "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 55.85,
+      "suppressionPercentage": 57.6,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -591,7 +591,7 @@
       "corruptionPercentage": 65.75,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 30.8,
+      "suppressionPercentage": 31.8,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -645,7 +645,7 @@
       "corruptionPercentage": 0,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 4.2,
+      "suppressionPercentage": 4.6,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
