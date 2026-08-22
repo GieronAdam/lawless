@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T16:51:42.719Z",
+  "generatedAt": "2026-08-22T17:07:09.285Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -159,7 +159,7 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-08-17T07:30:59.574Z",
-      "suppressionPercentage": 15.85,
+      "suppressionPercentage": 16.25,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 5,
@@ -696,7 +696,7 @@
       "isFob": false,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 53.04,
+      "corruptionPercentage": 53.32,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 100,
