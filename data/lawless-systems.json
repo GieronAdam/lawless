@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T21:48:09.087Z",
+  "generatedAt": "2026-08-23T22:00:59.703Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -55,7 +55,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 10h",
+      "lawlessAgeLabel": "2d 11h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -321,7 +321,7 @@
       "corruptionPercentage": 66.15,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 14.6,
+      "suppressionPercentage": 16.35,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -372,7 +372,7 @@
       "isFob": false,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 10,
+      "corruptionPercentage": 10.2,
       "corruptionState": 1,
       "corruptionDate": null,
       "suppressionPercentage": 0,
@@ -811,7 +811,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 6,
-      "lawlessAgeLabel": "6d 12h",
+      "lawlessAgeLabel": "6d 13h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -912,7 +912,7 @@
       "isFob": false,
       "fobOriginId": 30003836,
       "fobOriginName": "Vlillirier",
-      "corruptionPercentage": 7.4,
+      "corruptionPercentage": 7.6,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 4.6,
@@ -966,7 +966,7 @@
       "isFob": false,
       "fobOriginId": 30003836,
       "fobOriginName": "Vlillirier",
-      "corruptionPercentage": 10,
+      "corruptionPercentage": 10.4,
       "corruptionState": 1,
       "corruptionDate": null,
       "suppressionPercentage": 5.6,
@@ -1023,7 +1023,7 @@
       "corruptionPercentage": 5.25,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 18.15,
+      "suppressionPercentage": 18.55,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -1074,7 +1074,7 @@
       "isFob": false,
       "fobOriginId": 30003836,
       "fobOriginName": "Vlillirier",
-      "corruptionPercentage": 6.4,
+      "corruptionPercentage": 6.6,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 6,
@@ -1131,7 +1131,7 @@
       "corruptionPercentage": 1.8,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 7,
+      "suppressionPercentage": 7.4,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
