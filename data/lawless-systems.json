@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T17:09:11.458Z",
+  "generatedAt": "2026-08-23T17:32:35.268Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -109,7 +109,7 @@
       "suppressionState": 5,
       "suppressionDate": "2026-08-19T23:14:11.426Z",
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 12h",
+      "lawlessAgeLabel": "4d 13h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -163,7 +163,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 6,
-      "lawlessAgeLabel": "6d 9h",
+      "lawlessAgeLabel": "6d 10h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -217,7 +217,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 6,
-      "lawlessAgeLabel": "6d 16h",
+      "lawlessAgeLabel": "6d 17h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -318,7 +318,7 @@
       "isFob": false,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 61.2,
+      "corruptionPercentage": 61.4,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 12.85,
@@ -372,7 +372,7 @@
       "isFob": false,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 7.6,
+      "corruptionPercentage": 8,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 0,
@@ -483,7 +483,7 @@
       "corruptionPercentage": 87.49,
       "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 75,
+      "suppressionPercentage": 76.95,
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -534,7 +534,7 @@
       "isFob": false,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 89.07,
+      "corruptionPercentage": 89.35,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 52.1,
@@ -699,7 +699,7 @@
       "corruptionPercentage": 4.4,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 6.2,
+      "suppressionPercentage": 6.4,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -865,7 +865,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 4h",
+      "lawlessAgeLabel": "4d 5h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -912,10 +912,10 @@
       "isFob": false,
       "fobOriginId": 30003836,
       "fobOriginName": "Vlillirier",
-      "corruptionPercentage": 5.8,
+      "corruptionPercentage": 6.8,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 2,
+      "suppressionPercentage": 2.2,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -969,7 +969,7 @@
       "corruptionPercentage": 6.8,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 1.8,
+      "suppressionPercentage": 2.2,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -1023,7 +1023,7 @@
       "corruptionPercentage": 0,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 8.6,
+      "suppressionPercentage": 9.2,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
