@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T21:41:55.891Z",
+  "generatedAt": "2026-08-24T21:59:36.047Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -51,11 +51,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-08-21T10:51:25.695Z",
-      "suppressionPercentage": 32.95,
+      "suppressionPercentage": 34.7,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 10h",
+      "lawlessAgeLabel": "3d 11h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -919,7 +919,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 7,
-      "lawlessAgeLabel": "7d 12h",
+      "lawlessAgeLabel": "7d 13h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1023,7 +1023,7 @@
       "corruptionPercentage": 30.4,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 17,
+      "suppressionPercentage": 18.5,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -1182,10 +1182,10 @@
       "isFob": false,
       "fobOriginId": 30003836,
       "fobOriginName": "Vlillirier",
-      "corruptionPercentage": 28.65,
+      "corruptionPercentage": 30.15,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 13.75,
+      "suppressionPercentage": 13.95,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -1239,7 +1239,7 @@
       "corruptionPercentage": 23.05,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 35.3,
+      "suppressionPercentage": 35.5,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
