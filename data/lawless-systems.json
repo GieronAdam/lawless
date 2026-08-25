@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T07:49:27.764Z",
+  "generatedAt": "2026-08-25T08:24:10.278Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -55,7 +55,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 20h",
+      "lawlessAgeLabel": "3d 21h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -379,7 +379,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "11h",
+      "lawlessAgeLabel": "12h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -645,11 +645,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-08-24T13:17:30.731Z",
-      "suppressionPercentage": 78.5,
+      "suppressionPercentage": 79.7,
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "18h",
+      "lawlessAgeLabel": "19h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -696,7 +696,7 @@
       "isFob": false,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 63.6,
+      "corruptionPercentage": 64,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 21.15,
@@ -753,11 +753,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-08-24T23:52:11.965Z",
-      "suppressionPercentage": 68.15,
+      "suppressionPercentage": 68.35,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "7h",
+      "lawlessAgeLabel": "8h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -807,7 +807,7 @@
       "corruptionPercentage": 8.2,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 23.3,
+      "suppressionPercentage": 23.5,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -973,7 +973,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 19h",
+      "lawlessAgeLabel": "5d 20h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1020,7 +1020,7 @@
       "isFob": false,
       "fobOriginId": 30003836,
       "fobOriginName": "Vlillirier",
-      "corruptionPercentage": 38.1,
+      "corruptionPercentage": 38.3,
       "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 31.1,
@@ -1074,7 +1074,7 @@
       "isFob": false,
       "fobOriginId": 30003836,
       "fobOriginName": "Vlillirier",
-      "corruptionPercentage": 59.6,
+      "corruptionPercentage": 64.35,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 31.8,
@@ -1128,10 +1128,10 @@
       "isFob": false,
       "fobOriginId": 30003836,
       "fobOriginName": "Vlillirier",
-      "corruptionPercentage": 33.73,
+      "corruptionPercentage": 34.01,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 67.8,
+      "suppressionPercentage": 68.8,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -1185,7 +1185,7 @@
       "corruptionPercentage": 39.2,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 31.3,
+      "suppressionPercentage": 31.5,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -1236,10 +1236,10 @@
       "isFob": true,
       "fobOriginId": 30003836,
       "fobOriginName": "Vlillirier",
-      "corruptionPercentage": 25.08,
+      "corruptionPercentage": 26.31,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 53.3,
+      "suppressionPercentage": 53.9,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
