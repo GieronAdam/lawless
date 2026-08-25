@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T22:12:04.905Z",
+  "generatedAt": "2026-08-25T22:42:54.957Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -109,7 +109,7 @@
       "suppressionState": 5,
       "suppressionDate": "2026-08-19T23:14:11.426Z",
       "lawlessAgeDays": 6,
-      "lawlessAgeLabel": "6d 17h",
+      "lawlessAgeLabel": "6d 18h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -163,7 +163,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 8,
-      "lawlessAgeLabel": "8d 14h",
+      "lawlessAgeLabel": "8d 15h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -210,10 +210,10 @@
       "isFob": false,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 13.6,
+      "corruptionPercentage": 13.8,
       "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 3.6,
+      "suppressionPercentage": 5,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -271,7 +271,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 8,
-      "lawlessAgeLabel": "8d 21h",
+      "lawlessAgeLabel": "8d 22h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -325,7 +325,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 6,
-      "lawlessAgeLabel": "6d 14h",
+      "lawlessAgeLabel": "6d 15h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -541,7 +541,7 @@
       "suppressionState": 5,
       "suppressionDate": "2026-08-20T21:16:57.914Z",
       "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 16h",
+      "lawlessAgeLabel": "5d 17h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -649,7 +649,7 @@
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 8h",
+      "lawlessAgeLabel": "1d 9h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -753,7 +753,7 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-08-24T23:52:11.965Z",
-      "suppressionPercentage": 74.45,
+      "suppressionPercentage": 75.65,
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
@@ -804,7 +804,7 @@
       "isFob": false,
       "fobOriginId": 30002089,
       "fobOriginName": "Avenod",
-      "corruptionPercentage": 3.2,
+      "corruptionPercentage": 3.6,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 0,
@@ -861,7 +861,7 @@
       "corruptionPercentage": 13.7,
       "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 36.2,
+      "suppressionPercentage": 36.8,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -1027,7 +1027,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 6,
-      "lawlessAgeLabel": "6d 9h",
+      "lawlessAgeLabel": "6d 10h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1074,7 +1074,7 @@
       "isFob": false,
       "fobOriginId": 30003836,
       "fobOriginName": "Vlillirier",
-      "corruptionPercentage": 56.65,
+      "corruptionPercentage": 59.4,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 36.8,
@@ -1182,7 +1182,7 @@
       "isFob": false,
       "fobOriginId": 30003836,
       "fobOriginName": "Vlillirier",
-      "corruptionPercentage": 1.6,
+      "corruptionPercentage": 2.2,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 1,
@@ -1290,7 +1290,7 @@
       "isFob": false,
       "fobOriginId": 30003836,
       "fobOriginName": "Vlillirier",
-      "corruptionPercentage": 63.05,
+      "corruptionPercentage": 64.05,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 37.3,
@@ -1347,7 +1347,7 @@
       "corruptionPercentage": 35.51,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 64.2,
+      "suppressionPercentage": 65.9,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
