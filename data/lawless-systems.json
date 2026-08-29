@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T07:24:06.977Z",
+  "generatedAt": "2026-08-29T13:12:50.819Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -29,192 +29,30 @@
     }
   ],
   "stats": {
-    "systems": 33,
-    "lawlessNow": 15,
-    "cachedDistancesReused": 160,
-    "routeCalculatedNow": 5,
+    "systems": 17,
+    "lawlessNow": 2,
+    "cachedDistancesReused": 60,
+    "routeCalculatedNow": 25,
     "routeErrors": 0
   },
   "systems": [
     {
-      "id": 30002058,
-      "name": "Ardar",
+      "id": 30002537,
+      "name": "Amamake",
       "sec": "Low-Sec",
-      "security": 0.366010924486345,
+      "security": 0.438761248111,
       "faction": "angels",
-      "campaignId": 158,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30002089,
-      "fobOriginName": "Avenod",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-08-21T10:51:25.695Z",
-      "suppressionPercentage": 39.4,
-      "suppressionState": 2,
-      "suppressionDate": null,
-      "lawlessAgeDays": 7,
-      "lawlessAgeLabel": "7d 20h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 13
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 11
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 9
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 4
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 7
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002053,
-        "hubName": "Hek",
-        "jumps": 4
-      }
-    },
-    {
-      "id": 30002084,
-      "name": "Aset",
-      "sec": "Low-Sec",
-      "security": 0.355243976346207,
-      "faction": "angels",
-      "campaignId": 158,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30002089,
-      "fobOriginName": "Avenod",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-08-19T04:27:22.994Z",
-      "suppressionPercentage": 100,
-      "suppressionState": 5,
-      "suppressionDate": "2026-08-19T23:14:11.426Z",
-      "lawlessAgeDays": 10,
-      "lawlessAgeLabel": "10d 2h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 15
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 13
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 8
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 6
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 9
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002053,
-        "hubName": "Hek",
-        "jumps": 6
-      }
-    },
-    {
-      "id": 30002089,
-      "name": "Avenod",
-      "sec": "Low-Sec",
-      "security": 0.385904622093975,
-      "faction": "angels",
-      "campaignId": 158,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": true,
-      "fobOriginId": 30002089,
-      "fobOriginName": "Avenod",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-08-17T07:30:59.574Z",
-      "suppressionPercentage": 28.75,
-      "suppressionState": 2,
-      "suppressionDate": null,
-      "lawlessAgeDays": 11,
-      "lawlessAgeLabel": "11d 23h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 15
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 14
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 7
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 7
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 10
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002659,
-        "hubName": "Dodixie",
-        "jumps": 7
-      }
-    },
-    {
-      "id": 30002095,
-      "name": "Eszur",
-      "sec": "Low-Sec",
-      "security": 0.212796293381666,
-      "faction": "angels",
-      "campaignId": 158,
-      "campaignState": "NO_WINNER",
+      "campaignId": 160,
+      "campaignState": "FORECAST",
       "isLawless": false,
       "isFob": false,
-      "fobOriginId": 30002089,
-      "fobOriginName": "Avenod",
-      "corruptionPercentage": 85.7,
-      "corruptionState": 4,
+      "fobOriginId": 30002517,
+      "fobOriginName": "Gulmorogod",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 26.6,
-      "suppressionState": 2,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -227,7 +65,7 @@
         "amarr": {
           "hubId": 30002187,
           "hubName": "Amarr",
-          "jumps": 9
+          "jumps": 8
         },
         "dodixie": {
           "hubId": 30002659,
@@ -237,331 +75,115 @@
         "hek": {
           "hubId": 30002053,
           "hubName": "Hek",
-          "jumps": 6
+          "jumps": 8
         },
         "rens": {
           "hubId": 30002510,
           "hubName": "Rens",
-          "jumps": 5
+          "jumps": 3
         }
       },
       "routeErrors": {},
       "nearestHub": {
         "hubId": 30002510,
         "hubName": "Rens",
-        "jumps": 5
-      }
-    },
-    {
-      "id": 30002085,
-      "name": "Eytjangard",
-      "sec": "Low-Sec",
-      "security": 0.361597523689222,
-      "faction": "angels",
-      "campaignId": 158,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30002089,
-      "fobOriginName": "Avenod",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-08-17T00:31:29.909Z",
-      "suppressionPercentage": 74.1,
-      "suppressionState": 4,
-      "suppressionDate": null,
-      "lawlessAgeDays": 12,
-      "lawlessAgeLabel": "12d 6h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 16
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 13
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 8
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 7
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 10
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002053,
-        "hubName": "Hek",
-        "jumps": 7
-      }
-    },
-    {
-      "id": 30002082,
-      "name": "Floseswin",
-      "sec": "Low-Sec",
-      "security": 0.402952068704324,
-      "faction": "angels",
-      "campaignId": 158,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30002089,
-      "fobOriginName": "Avenod",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-08-19T07:38:31.079Z",
-      "suppressionPercentage": 56.2,
-      "suppressionState": 3,
-      "suppressionDate": null,
-      "lawlessAgeDays": 9,
-      "lawlessAgeLabel": "9d 23h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 14
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 12
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 9
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 5
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 8
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002053,
-        "hubName": "Hek",
-        "jumps": 5
-      }
-    },
-    {
-      "id": 30002090,
-      "name": "Frerstorn",
-      "sec": "Low-Sec",
-      "security": 0.30609419870664,
-      "faction": "angels",
-      "campaignId": 158,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30002089,
-      "fobOriginName": "Avenod",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-08-24T20:05:37.834Z",
-      "suppressionPercentage": 22.2,
-      "suppressionState": 2,
-      "suppressionDate": null,
-      "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 11h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 14
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 10
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 8
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 5
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 6
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002053,
-        "hubName": "Hek",
-        "jumps": 5
-      }
-    },
-    {
-      "id": 30002057,
-      "name": "Hadozeko",
-      "sec": "Low-Sec",
-      "security": 0.396071220581493,
-      "faction": "angels",
-      "campaignId": 158,
-      "campaignState": "NO_WINNER",
-      "isLawless": false,
-      "isFob": false,
-      "fobOriginId": 30002089,
-      "fobOriginName": "Avenod",
-      "corruptionPercentage": 49.4,
-      "corruptionState": 3,
-      "corruptionDate": null,
-      "suppressionPercentage": 16.25,
-      "suppressionState": 1,
-      "suppressionDate": null,
-      "lawlessAgeDays": null,
-      "lawlessAgeLabel": "-",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 12
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 12
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 10
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 3
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 8
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002053,
-        "hubName": "Hek",
         "jumps": 3
       }
     },
     {
-      "id": 30003087,
-      "name": "Haras",
+      "id": 30002514,
+      "name": "Bosboger",
       "sec": "Low-Sec",
-      "security": 0.279961992443544,
+      "security": 0.324581804745487,
       "faction": "angels",
-      "campaignId": 158,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30002089,
-      "fobOriginName": "Avenod",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-08-26T19:57:15.466Z",
-      "suppressionPercentage": 24.55,
-      "suppressionState": 2,
-      "suppressionDate": null,
-      "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 11h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 19
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 12
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 13
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 11
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 11
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002053,
-        "hubName": "Hek",
-        "jumps": 11
-      }
-    },
-    {
-      "id": 30002096,
-      "name": "Hofjaldgund",
-      "sec": "Low-Sec",
-      "security": 0.265825190145965,
-      "faction": "angels",
-      "campaignId": 158,
-      "campaignState": "NO_WINNER",
+      "campaignId": 160,
+      "campaignState": "FORECAST",
       "isLawless": false,
       "isFob": false,
-      "fobOriginId": 30002089,
-      "fobOriginName": "Avenod",
-      "corruptionPercentage": 3.2,
+      "fobOriginId": 30002517,
+      "fobOriginName": "Gulmorogod",
+      "corruptionPercentage": 0,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 1.2,
+      "suppressionPercentage": 0,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 16
-        },
         "amarr": {
           "hubId": 30002187,
           "hubName": "Amarr",
-          "jumps": 9
+          "jumps": 10
         },
         "dodixie": {
           "hubId": 30002659,
           "hubName": "Dodixie",
-          "jumps": 8
+          "jumps": 9
         },
         "hek": {
           "hubId": 30002053,
           "hubName": "Hek",
-          "jumps": 7
+          "jumps": 8
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 4
+        },
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 15
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30002510,
+        "hubName": "Rens",
+        "jumps": 4
+      }
+    },
+    {
+      "id": 30002099,
+      "name": "Egmar",
+      "sec": "Low-Sec",
+      "security": 0.252871671481953,
+      "faction": "angels",
+      "campaignId": 160,
+      "campaignState": "FORECAST",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30002517,
+      "fobOriginName": "Gulmorogod",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 10
+        },
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 13
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 6
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 9
         },
         "rens": {
           "hubId": 30002510,
@@ -577,455 +199,23 @@
       }
     },
     {
-      "id": 30002087,
-      "name": "Isbrabata",
+      "id": 30002517,
+      "name": "Gulmorogod",
       "sec": "Low-Sec",
-      "security": 0.35519455912258,
+      "security": 0.37679403765006,
       "faction": "angels",
-      "campaignId": 158,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30002089,
-      "fobOriginName": "Avenod",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-08-20T05:33:05.448Z",
-      "suppressionPercentage": 100,
-      "suppressionState": 5,
-      "suppressionDate": "2026-08-20T21:16:57.914Z",
-      "lawlessAgeDays": 9,
-      "lawlessAgeLabel": "9d 1h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 15
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 12
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 9
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 7
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 10
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002053,
-        "hubName": "Hek",
-        "jumps": 7
-      }
-    },
-    {
-      "id": 30003089,
-      "name": "Kurniainen",
-      "sec": "Low-Sec",
-      "security": 0.11437358488857,
-      "faction": "angels",
-      "campaignId": 158,
-      "campaignState": "NO_WINNER",
+      "campaignId": 160,
+      "campaignState": "FORECAST",
       "isLawless": false,
-      "isFob": false,
-      "fobOriginId": 30002089,
-      "fobOriginName": "Avenod",
-      "corruptionPercentage": 87.49,
-      "corruptionState": 4,
+      "isFob": true,
+      "fobOriginId": 30002517,
+      "fobOriginName": "Gulmorogod",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 100,
-      "suppressionState": 5,
-      "suppressionDate": "2026-08-24T04:41:25.884Z",
-      "lawlessAgeDays": null,
-      "lawlessAgeLabel": "-",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 16
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 11
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 10
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 8
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 10
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002053,
-        "hubName": "Hek",
-        "jumps": 8
-      }
-    },
-    {
-      "id": 30003088,
-      "name": "Oyonata",
-      "sec": "Low-Sec",
-      "security": 0.258891056186146,
-      "faction": "angels",
-      "campaignId": 158,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30002089,
-      "fobOriginName": "Avenod",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-08-24T13:17:30.731Z",
-      "suppressionPercentage": 100,
-      "suppressionState": 5,
-      "suppressionDate": "2026-08-26T20:33:09.763Z",
-      "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 18h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 17
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 10
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 11
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 9
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 9
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002053,
-        "hubName": "Hek",
-        "jumps": 9
-      }
-    },
-    {
-      "id": 30003086,
-      "name": "Sahtogas",
-      "sec": "Low-Sec",
-      "security": 0.279866537829615,
-      "faction": "angels",
-      "campaignId": 158,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30002089,
-      "fobOriginName": "Avenod",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-08-26T04:19:47.754Z",
-      "suppressionPercentage": 34.45,
-      "suppressionState": 2,
-      "suppressionDate": null,
-      "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 3h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 18
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 11
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 12
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 10
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 10
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002053,
-        "hubName": "Hek",
-        "jumps": 10
-      }
-    },
-    {
-      "id": 30003090,
-      "name": "Saidusairos",
-      "sec": "Low-Sec",
-      "security": 0.104733287909528,
-      "faction": "angels",
-      "campaignId": 158,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30002089,
-      "fobOriginName": "Avenod",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-08-24T23:52:11.965Z",
-      "suppressionPercentage": 100,
-      "suppressionState": 5,
-      "suppressionDate": "2026-08-28T16:53:20.992Z",
-      "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 7h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 17
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 12
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 11
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 9
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 11
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002053,
-        "hubName": "Hek",
-        "jumps": 9
-      }
-    },
-    {
-      "id": 30003079,
-      "name": "Saikamon",
-      "sec": "Low-Sec",
-      "security": 0.412492149467109,
-      "faction": "angels",
-      "campaignId": 158,
-      "campaignState": "NO_WINNER",
-      "isLawless": false,
-      "isFob": false,
-      "fobOriginId": 30002089,
-      "fobOriginName": "Avenod",
-      "corruptionPercentage": 54,
-      "corruptionState": 3,
-      "corruptionDate": null,
-      "suppressionPercentage": 9.4,
+      "suppressionPercentage": 0,
       "suppressionState": 0,
       "suppressionDate": null,
-      "lawlessAgeDays": null,
-      "lawlessAgeLabel": "-",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 19
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 11
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 13
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 11
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 10
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002510,
-        "hubName": "Rens",
-        "jumps": 10
-      }
-    },
-    {
-      "id": 30002980,
-      "name": "Sosan",
-      "sec": "Low-Sec",
-      "security": 0.335651305621016,
-      "faction": "angels",
-      "campaignId": 158,
-      "campaignState": "NO_WINNER",
-      "isLawless": false,
-      "isFob": false,
-      "fobOriginId": 30002089,
-      "fobOriginName": "Avenod",
-      "corruptionPercentage": 68.11,
-      "corruptionState": 3,
-      "corruptionDate": null,
-      "suppressionPercentage": 71.6,
-      "suppressionState": 4,
-      "suppressionDate": null,
-      "lawlessAgeDays": null,
-      "lawlessAgeLabel": "-",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 18
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 9
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 11
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 10
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 8
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002510,
-        "hubName": "Rens",
-        "jumps": 8
-      }
-    },
-    {
-      "id": 30003091,
-      "name": "Tannakan",
-      "sec": "Low-Sec",
-      "security": 0.247081947883106,
-      "faction": "angels",
-      "campaignId": 158,
-      "campaignState": "NO_WINNER",
-      "isLawless": false,
-      "isFob": false,
-      "fobOriginId": 30002089,
-      "fobOriginName": "Avenod",
-      "corruptionPercentage": 38.35,
-      "corruptionState": 2,
-      "corruptionDate": null,
-      "suppressionPercentage": 21.8,
-      "suppressionState": 2,
-      "suppressionDate": null,
-      "lawlessAgeDays": null,
-      "lawlessAgeLabel": "-",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 19
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 10
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 12
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 11
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 9
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002510,
-        "hubName": "Rens",
-        "jumps": 9
-      }
-    },
-    {
-      "id": 30002086,
-      "name": "Turnur",
-      "sec": "Low-Sec",
-      "security": 0.387434219905,
-      "faction": "angels",
-      "campaignId": 158,
-      "campaignState": "NO_WINNER",
-      "isLawless": false,
-      "isFob": false,
-      "fobOriginId": 30002089,
-      "fobOriginName": "Avenod",
-      "corruptionPercentage": 70.96,
-      "corruptionState": 4,
-      "corruptionDate": null,
-      "suppressionPercentage": 100,
-      "suppressionState": 5,
-      "suppressionDate": "2026-08-20T08:28:12.614Z",
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
@@ -1037,12 +227,12 @@
         "amarr": {
           "hubId": 30002187,
           "hubName": "Amarr",
-          "jumps": 13
+          "jumps": 9
         },
         "dodixie": {
           "hubId": 30002659,
           "hubName": "Dodixie",
-          "jumps": 9
+          "jumps": 8
         },
         "hek": {
           "hubId": 30002053,
@@ -1052,36 +242,36 @@
         "rens": {
           "hubId": 30002510,
           "hubName": "Rens",
-          "jumps": 10
+          "jumps": 4
         }
       },
       "routeErrors": {},
       "nearestHub": {
-        "hubId": 30002053,
-        "hubName": "Hek",
-        "jumps": 7
+        "hubId": 30002510,
+        "hubName": "Rens",
+        "jumps": 4
       }
     },
     {
-      "id": 30002083,
-      "name": "Uisper",
+      "id": 30002516,
+      "name": "Lulm",
       "sec": "Low-Sec",
-      "security": 0.392681335480766,
+      "security": 0.34397383105912,
       "faction": "angels",
-      "campaignId": 158,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
+      "campaignId": 160,
+      "campaignState": "FORECAST",
+      "isLawless": false,
       "isFob": false,
-      "fobOriginId": 30002089,
-      "fobOriginName": "Avenod",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-08-17T08:48:35.771Z",
-      "suppressionPercentage": 34.3,
-      "suppressionState": 2,
+      "fobOriginId": 30002517,
+      "fobOriginName": "Gulmorogod",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
       "suppressionDate": null,
-      "lawlessAgeDays": 11,
-      "lawlessAgeLabel": "11d 22h",
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1091,83 +281,29 @@
         "amarr": {
           "hubId": 30002187,
           "hubName": "Amarr",
-          "jumps": 13
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 9
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 6
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 9
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30002053,
-        "hubName": "Hek",
-        "jumps": 6
-      }
-    },
-    {
-      "id": 30002088,
-      "name": "Vimeini",
-      "sec": "Low-Sec",
-      "security": 0.353285144008109,
-      "faction": "angels",
-      "campaignId": 158,
-      "campaignState": "NO_WINNER",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30002089,
-      "fobOriginName": "Avenod",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-08-19T12:19:05.887Z",
-      "suppressionPercentage": 56.75,
-      "suppressionState": 3,
-      "suppressionDate": null,
-      "lawlessAgeDays": 9,
-      "lawlessAgeLabel": "9d 19h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 16
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 13
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 9
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 7
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
           "jumps": 10
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 9
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 8
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 5
         }
       },
       "routeErrors": {},
       "nearestHub": {
-        "hubId": 30002053,
-        "hubName": "Hek",
-        "jumps": 7
+        "hubId": 30002510,
+        "hubName": "Rens",
+        "jumps": 5
       }
     },
     {
@@ -1239,11 +375,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-08-26T10:20:12.564Z",
-      "suppressionPercentage": 58.35,
+      "suppressionPercentage": 58.55,
       "suppressionState": 3,
       "suppressionDate": null,
-      "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 21h",
+      "lawlessAgeDays": 3,
+      "lawlessAgeLabel": "3d 2h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1290,7 +426,7 @@
       "isFob": false,
       "fobOriginId": 30003836,
       "fobOriginName": "Vlillirier",
-      "corruptionPercentage": 0,
+      "corruptionPercentage": 0.8,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 0,
@@ -1309,14 +445,14 @@
           "hubName": "Amarr",
           "jumps": 19
         },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 13
-        },
         "dodixie": {
           "hubId": 30002659,
           "hubName": "Dodixie",
+          "jumps": 13
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
           "jumps": 13
         },
         "rens": {
@@ -1344,10 +480,10 @@
       "isFob": false,
       "fobOriginId": 30003836,
       "fobOriginName": "Vlillirier",
-      "corruptionPercentage": 41.75,
+      "corruptionPercentage": 57.8,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 15.55,
+      "suppressionPercentage": 16.15,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -1398,10 +534,10 @@
       "isFob": false,
       "fobOriginId": 30003836,
       "fobOriginName": "Vlillirier",
-      "corruptionPercentage": 19.36,
-      "corruptionState": 1,
+      "corruptionPercentage": 25.8,
+      "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 57.45,
+      "suppressionPercentage": 66.35,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -1452,10 +588,10 @@
       "isFob": false,
       "fobOriginId": 30003836,
       "fobOriginName": "Vlillirier",
-      "corruptionPercentage": 8.4,
-      "corruptionState": 0,
+      "corruptionPercentage": 10.6,
+      "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 3.8,
+      "suppressionPercentage": 5.75,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -1506,10 +642,10 @@
       "isFob": false,
       "fobOriginId": 30003836,
       "fobOriginName": "Vlillirier",
-      "corruptionPercentage": 70.55,
+      "corruptionPercentage": 72.35,
       "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 19.35,
+      "suppressionPercentage": 19.75,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -1563,11 +699,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-08-29T06:32:21.725Z",
-      "suppressionPercentage": 25.9,
+      "suppressionPercentage": 27.85,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "0h",
+      "lawlessAgeLabel": "6h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1614,10 +750,10 @@
       "isFob": false,
       "fobOriginId": 30003836,
       "fobOriginName": "Vlillirier",
-      "corruptionPercentage": 0.6,
+      "corruptionPercentage": 2.2,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 2.6,
+      "suppressionPercentage": 4.8,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
