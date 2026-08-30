@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T23:43:57.784Z",
+  "generatedAt": "2026-08-30T01:40:16.737Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -31,8 +31,8 @@
   "stats": {
     "systems": 18,
     "lawlessNow": 2,
-    "cachedDistancesReused": 85,
-    "routeCalculatedNow": 5,
+    "cachedDistancesReused": 90,
+    "routeCalculatedNow": 0,
     "routeErrors": 0
   },
   "systems": [
@@ -379,7 +379,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 13h",
+      "lawlessAgeLabel": "3d 15h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -426,10 +426,10 @@
       "isFob": false,
       "fobOriginId": 30003836,
       "fobOriginName": "Vlillirier",
-      "corruptionPercentage": 5.4,
+      "corruptionPercentage": 7.2,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 0,
+      "suppressionPercentage": 1,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -480,7 +480,7 @@
       "isFob": false,
       "fobOriginId": 30003836,
       "fobOriginName": "Vlillirier",
-      "corruptionPercentage": 0,
+      "corruptionPercentage": 0.2,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 0,
@@ -499,15 +499,15 @@
           "hubName": "Amarr",
           "jumps": 19
         },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 13
-        },
         "dodixie": {
           "hubId": 30002659,
           "hubName": "Dodixie",
           "jumps": 9
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 13
         },
         "rens": {
           "hubId": 30002510,
@@ -534,10 +534,10 @@
       "isFob": false,
       "fobOriginId": 30003836,
       "fobOriginName": "Vlillirier",
-      "corruptionPercentage": 72.7,
+      "corruptionPercentage": 73.1,
       "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 22.3,
+      "suppressionPercentage": 25.75,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -591,7 +591,7 @@
       "corruptionPercentage": 27.76,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 84.85,
+      "suppressionPercentage": 85.85,
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -642,7 +642,7 @@
       "isFob": false,
       "fobOriginId": 30003836,
       "fobOriginName": "Vlillirier",
-      "corruptionPercentage": 20.8,
+      "corruptionPercentage": 21.2,
       "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 7.7,
@@ -696,10 +696,10 @@
       "isFob": false,
       "fobOriginId": 30003836,
       "fobOriginName": "Vlillirier",
-      "corruptionPercentage": 90.35,
+      "corruptionPercentage": 92.35,
       "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 24.2,
+      "suppressionPercentage": 25.95,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -757,7 +757,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "17h",
+      "lawlessAgeLabel": "19h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -807,8 +807,8 @@
       "corruptionPercentage": 2.6,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 9.4,
-      "suppressionState": 0,
+      "suppressionPercentage": 10.2,
+      "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
