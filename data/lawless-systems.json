@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T06:01:33.294Z",
+  "generatedAt": "2026-08-31T13:22:09.798Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -29,10 +29,10 @@
     }
   ],
   "stats": {
-    "systems": 18,
+    "systems": 20,
     "lawlessNow": 4,
     "cachedDistancesReused": 90,
-    "routeCalculatedNow": 0,
+    "routeCalculatedNow": 10,
     "routeErrors": 0
   },
   "systems": [
@@ -48,10 +48,10 @@
       "isFob": false,
       "fobOriginId": 30002517,
       "fobOriginName": "Gulmorogod",
-      "corruptionPercentage": 5.4,
+      "corruptionPercentage": 8.4,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 7.6,
+      "suppressionPercentage": 7.8,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -102,10 +102,10 @@
       "isFob": false,
       "fobOriginId": 30002517,
       "fobOriginName": "Gulmorogod",
-      "corruptionPercentage": 9.35,
-      "corruptionState": 0,
+      "corruptionPercentage": 26.05,
+      "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 28.5,
+      "suppressionPercentage": 29.3,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -156,7 +156,7 @@
       "isFob": false,
       "fobOriginId": 30002517,
       "fobOriginName": "Gulmorogod",
-      "corruptionPercentage": 22.9,
+      "corruptionPercentage": 39.6,
       "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 4.35,
@@ -210,10 +210,10 @@
       "isFob": true,
       "fobOriginId": 30002517,
       "fobOriginName": "Gulmorogod",
-      "corruptionPercentage": 18.7,
-      "corruptionState": 1,
+      "corruptionPercentage": 28.25,
+      "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 7.55,
+      "suppressionPercentage": 7.95,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -264,11 +264,11 @@
       "isFob": false,
       "fobOriginId": 30002517,
       "fobOriginName": "Gulmorogod",
-      "corruptionPercentage": 20.55,
+      "corruptionPercentage": 30.95,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 7.55,
-      "suppressionState": 0,
+      "suppressionPercentage": 11.7,
+      "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -361,6 +361,60 @@
       }
     },
     {
+      "id": 30003811,
+      "name": "Algasienan",
+      "sec": "High-Sec",
+      "security": 0.725927172881236,
+      "faction": "guristas",
+      "campaignId": 159,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30003836,
+      "fobOriginName": "Vlillirier",
+      "corruptionPercentage": 2,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 15
+        },
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 20
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 10
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 14
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 17
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30002659,
+        "hubName": "Dodixie",
+        "jumps": 10
+      }
+    },
+    {
       "id": 30003841,
       "name": "Alsavoinon",
       "sec": "Low-Sec",
@@ -375,11 +429,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-08-26T10:20:12.564Z",
-      "suppressionPercentage": 67.3,
+      "suppressionPercentage": 68.5,
       "suppressionState": 3,
       "suppressionDate": null,
-      "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 19h",
+      "lawlessAgeDays": 5,
+      "lawlessAgeLabel": "5d 3h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -426,10 +480,10 @@
       "isFob": false,
       "fobOriginId": 30003836,
       "fobOriginName": "Vlillirier",
-      "corruptionPercentage": 47.25,
+      "corruptionPercentage": 60.2,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 4.4,
+      "suppressionPercentage": 6.15,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -480,10 +534,10 @@
       "isFob": false,
       "fobOriginId": 30003836,
       "fobOriginName": "Vlillirier",
-      "corruptionPercentage": 52.5,
-      "corruptionState": 3,
+      "corruptionPercentage": 72.3,
+      "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 5.8,
+      "suppressionPercentage": 6,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -537,11 +591,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-08-30T15:45:32.294Z",
-      "suppressionPercentage": 40.35,
+      "suppressionPercentage": 40.75,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "14h",
+      "lawlessAgeLabel": "21h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -588,7 +642,7 @@
       "isFob": false,
       "fobOriginId": 30003836,
       "fobOriginName": "Vlillirier",
-      "corruptionPercentage": 29.97,
+      "corruptionPercentage": 32.03,
       "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 100,
@@ -642,10 +696,10 @@
       "isFob": false,
       "fobOriginId": 30003836,
       "fobOriginName": "Vlillirier",
-      "corruptionPercentage": 63.35,
-      "corruptionState": 3,
+      "corruptionPercentage": 70.5,
+      "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 15.7,
+      "suppressionPercentage": 16.5,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -702,8 +756,8 @@
       "suppressionPercentage": 38.05,
       "suppressionState": 2,
       "suppressionDate": null,
-      "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "22h",
+      "lawlessAgeDays": 1,
+      "lawlessAgeLabel": "1d 6h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -739,6 +793,60 @@
       }
     },
     {
+      "id": 30003826,
+      "name": "Frarie",
+      "sec": "Low-Sec",
+      "security": 0.357455101918364,
+      "faction": "guristas",
+      "campaignId": 159,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30003836,
+      "fobOriginName": "Vlillirier",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 19
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 10
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 13
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 16
+        },
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 14
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30002659,
+        "hubName": "Dodixie",
+        "jumps": 10
+      }
+    },
+    {
       "id": 30003828,
       "name": "Moclinamaud",
       "sec": "Low-Sec",
@@ -753,11 +861,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-08-29T06:32:21.725Z",
-      "suppressionPercentage": 47.1,
+      "suppressionPercentage": 47.7,
       "suppressionState": 3,
       "suppressionDate": null,
-      "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 23h",
+      "lawlessAgeDays": 2,
+      "lawlessAgeLabel": "2d 6h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -804,10 +912,10 @@
       "isFob": false,
       "fobOriginId": 30003836,
       "fobOriginName": "Vlillirier",
-      "corruptionPercentage": 12.8,
-      "corruptionState": 1,
+      "corruptionPercentage": 21.1,
+      "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 28.75,
+      "suppressionPercentage": 31.7,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
