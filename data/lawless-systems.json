@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T05:17:33.345Z",
+  "generatedAt": "2026-09-07T10:29:04.819Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -30,9 +30,9 @@
   ],
   "stats": {
     "systems": 25,
-    "lawlessNow": 13,
-    "cachedDistancesReused": 120,
-    "routeCalculatedNow": 5,
+    "lawlessNow": 14,
+    "cachedDistancesReused": 125,
+    "routeCalculatedNow": 0,
     "routeErrors": 0
   },
   "systems": [
@@ -51,7 +51,7 @@
       "corruptionPercentage": 46.72,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 73.3,
+      "suppressionPercentage": 78.7,
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -105,11 +105,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-09-06T01:44:11.402Z",
-      "suppressionPercentage": 84.65,
+      "suppressionPercentage": 84.85,
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 3h",
+      "lawlessAgeLabel": "1d 8h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -156,10 +156,10 @@
       "isFob": false,
       "fobOriginId": 30002517,
       "fobOriginName": "Gulmorogod",
-      "corruptionPercentage": 40.22,
+      "corruptionPercentage": 40.64,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 53.25,
+      "suppressionPercentage": 57.5,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -216,8 +216,8 @@
       "suppressionPercentage": 96.15,
       "suppressionState": 4,
       "suppressionDate": null,
-      "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 21h",
+      "lawlessAgeDays": 3,
+      "lawlessAgeLabel": "3d 2h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -264,7 +264,7 @@
       "isFob": false,
       "fobOriginId": 30002517,
       "fobOriginName": "Gulmorogod",
-      "corruptionPercentage": 40.56,
+      "corruptionPercentage": 42.1,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 100,
@@ -325,7 +325,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 13h",
+      "lawlessAgeLabel": "5d 18h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -379,7 +379,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 18h",
+      "lawlessAgeLabel": "4d 23h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -433,7 +433,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 8h",
+      "lawlessAgeLabel": "4d 13h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -487,7 +487,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 17h",
+      "lawlessAgeLabel": "1d 22h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -541,7 +541,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 0h",
+      "lawlessAgeLabel": "2d 5h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -588,7 +588,7 @@
       "isFob": false,
       "fobOriginId": 30002517,
       "fobOriginName": "Gulmorogod",
-      "corruptionPercentage": 60.95,
+      "corruptionPercentage": 63.15,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 12.2,
@@ -642,10 +642,10 @@
       "isFob": false,
       "fobOriginId": 30002517,
       "fobOriginName": "Gulmorogod",
-      "corruptionPercentage": 14.5,
-      "corruptionState": 1,
+      "corruptionPercentage": 21.47,
+      "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 51.9,
+      "suppressionPercentage": 53.1,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -696,7 +696,7 @@
       "isFob": false,
       "fobOriginId": 30045346,
       "fobOriginName": "Kedama",
-      "corruptionPercentage": 1.4,
+      "corruptionPercentage": 4.2,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 2.2,
@@ -753,11 +753,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-09-05T23:12:53.005Z",
-      "suppressionPercentage": 17.25,
+      "suppressionPercentage": 18.65,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 6h",
+      "lawlessAgeLabel": "1d 11h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -811,7 +811,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 14h",
+      "lawlessAgeLabel": "1d 19h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -858,10 +858,10 @@
       "isFob": false,
       "fobOriginId": 30045346,
       "fobOriginName": "Kedama",
-      "corruptionPercentage": 0,
+      "corruptionPercentage": 1.8,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 0,
+      "suppressionPercentage": 0.6,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -872,6 +872,11 @@
           "hubName": "Jita",
           "jumps": 6
         },
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 15
+        },
         "dodixie": {
           "hubId": 30002659,
           "hubName": "Dodixie",
@@ -881,11 +886,6 @@
           "hubId": 30002053,
           "hubName": "Hek",
           "jumps": 14
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 15
         },
         "rens": {
           "hubId": 30002510,
@@ -919,7 +919,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 5h",
+      "lawlessAgeLabel": "1d 10h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -966,8 +966,8 @@
       "isFob": false,
       "fobOriginId": 30045346,
       "fobOriginName": "Kedama",
-      "corruptionPercentage": 37.7,
-      "corruptionState": 2,
+      "corruptionPercentage": 49.3,
+      "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 2.95,
       "suppressionState": 0,
@@ -1016,18 +1016,18 @@
       "faction": "guristas",
       "campaignId": 161,
       "campaignState": "ACTIVE",
-      "isLawless": false,
+      "isLawless": true,
       "isFob": false,
       "fobOriginId": 30045346,
       "fobOriginName": "Kedama",
-      "corruptionPercentage": 93.7,
-      "corruptionState": 4,
-      "corruptionDate": null,
-      "suppressionPercentage": 7.1,
+      "corruptionPercentage": 100,
+      "corruptionState": 5,
+      "corruptionDate": "2026-09-07T08:23:06.763Z",
+      "suppressionPercentage": 7.5,
       "suppressionState": 0,
       "suppressionDate": null,
-      "lawlessAgeDays": null,
-      "lawlessAgeLabel": "-",
+      "lawlessAgeDays": 0,
+      "lawlessAgeLabel": "2h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1074,10 +1074,10 @@
       "isFob": false,
       "fobOriginId": 30045346,
       "fobOriginName": "Kedama",
-      "corruptionPercentage": 32,
-      "corruptionState": 2,
+      "corruptionPercentage": 40.55,
+      "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 12.4,
+      "suppressionPercentage": 15,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -1128,11 +1128,11 @@
       "isFob": false,
       "fobOriginId": 30045346,
       "fobOriginName": "Kedama",
-      "corruptionPercentage": 7.4,
+      "corruptionPercentage": 9.4,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 8.2,
-      "suppressionState": 0,
+      "suppressionPercentage": 10.6,
+      "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -1185,11 +1185,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-09-06T18:27:48.619Z",
-      "suppressionPercentage": 9.5,
-      "suppressionState": 0,
+      "suppressionPercentage": 11.1,
+      "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "10h",
+      "lawlessAgeLabel": "16h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1236,11 +1236,11 @@
       "isFob": false,
       "fobOriginId": 30045346,
       "fobOriginName": "Kedama",
-      "corruptionPercentage": 70.35,
+      "corruptionPercentage": 75.05,
       "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 7.55,
-      "suppressionState": 0,
+      "suppressionPercentage": 10.55,
+      "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -1297,7 +1297,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 17h",
+      "lawlessAgeLabel": "1d 22h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1351,7 +1351,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 9h",
+      "lawlessAgeLabel": "2d 14h",
       "distances": {
         "jita": {
           "hubId": 30000142,
