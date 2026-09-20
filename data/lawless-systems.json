@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T06:25:37.701Z",
+  "generatedAt": "2026-09-20T11:38:14.172Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -29,10 +29,10 @@
     }
   ],
   "stats": {
-    "systems": 22,
-    "lawlessNow": 6,
-    "cachedDistancesReused": 95,
-    "routeCalculatedNow": 15,
+    "systems": 23,
+    "lawlessNow": 7,
+    "cachedDistancesReused": 110,
+    "routeCalculatedNow": 5,
     "routeErrors": 0
   },
   "systems": [
@@ -55,7 +55,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "8h",
+      "lawlessAgeLabel": "13h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -102,20 +102,15 @@
       "isFob": false,
       "fobOriginId": 30003088,
       "fobOriginName": "Oyonata",
-      "corruptionPercentage": 0.6,
+      "corruptionPercentage": 1.4,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 0.8,
+      "suppressionPercentage": 1.6,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 11
-        },
         "jita": {
           "hubId": 30000142,
           "hubName": "Jita",
@@ -125,6 +120,11 @@
           "hubId": 30002187,
           "hubName": "Amarr",
           "jumps": 9
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 11
         },
         "hek": {
           "hubId": 30002053,
@@ -156,8 +156,8 @@
       "isFob": false,
       "fobOriginId": 30003088,
       "fobOriginName": "Oyonata",
-      "corruptionPercentage": 19.15,
-      "corruptionState": 1,
+      "corruptionPercentage": 22.5,
+      "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 16.5,
       "suppressionState": 1,
@@ -210,10 +210,10 @@
       "isFob": false,
       "fobOriginId": 30003088,
       "fobOriginName": "Oyonata",
-      "corruptionPercentage": 1.4,
+      "corruptionPercentage": 1.6,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 2.2,
+      "suppressionPercentage": 3.6,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -267,7 +267,7 @@
       "corruptionPercentage": 4.4,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 6,
+      "suppressionPercentage": 8.2,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -372,8 +372,8 @@
       "isFob": false,
       "fobOriginId": 30003088,
       "fobOriginName": "Oyonata",
-      "corruptionPercentage": 16.95,
-      "corruptionState": 1,
+      "corruptionPercentage": 29.15,
+      "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 1,
       "suppressionState": 0,
@@ -432,8 +432,8 @@
       "suppressionPercentage": 1.4,
       "suppressionState": 0,
       "suppressionDate": null,
-      "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 22h",
+      "lawlessAgeDays": 2,
+      "lawlessAgeLabel": "2d 4h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -480,7 +480,7 @@
       "isFob": false,
       "fobOriginId": 30003088,
       "fobOriginName": "Oyonata",
-      "corruptionPercentage": 81.3,
+      "corruptionPercentage": 96.5,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 11.4,
@@ -541,7 +541,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 0h",
+      "lawlessAgeLabel": "3d 5h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -591,11 +591,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-09-19T03:23:45.893Z",
-      "suppressionPercentage": 58.15,
+      "suppressionPercentage": 58.35,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 3h",
+      "lawlessAgeLabel": "1d 8h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -645,11 +645,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-09-16T09:44:06.932Z",
-      "suppressionPercentage": 29.2,
+      "suppressionPercentage": 29.4,
       "suppressionState": 2,
       "suppressionDate": null,
-      "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 20h",
+      "lawlessAgeDays": 4,
+      "lawlessAgeLabel": "4d 1h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -703,7 +703,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 0h",
+      "lawlessAgeLabel": "2d 6h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -750,7 +750,7 @@
       "isFob": false,
       "fobOriginId": 30003088,
       "fobOriginName": "Oyonata",
-      "corruptionPercentage": 74.7,
+      "corruptionPercentage": 86.45,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 27.9,
@@ -804,7 +804,7 @@
       "isFob": false,
       "fobOriginId": 30003850,
       "fobOriginName": "Alparena",
-      "corruptionPercentage": 71.5,
+      "corruptionPercentage": 89.2,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 6.4,
@@ -858,7 +858,7 @@
       "isFob": true,
       "fobOriginId": 30003850,
       "fobOriginName": "Alparena",
-      "corruptionPercentage": 55.65,
+      "corruptionPercentage": 67,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 0.8,
@@ -901,6 +901,60 @@
       }
     },
     {
+      "id": 30003852,
+      "name": "Arderonne",
+      "sec": "Low-Sec",
+      "security": 0.174709207291325,
+      "faction": "guristas",
+      "campaignId": 163,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30003850,
+      "fobOriginName": "Alparena",
+      "corruptionPercentage": 0.6,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 21
+        },
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 13
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 15
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 11
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 18
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30002659,
+        "hubName": "Dodixie",
+        "jumps": 11
+      }
+    },
+    {
       "id": 30003856,
       "name": "Athounon",
       "sec": "Low-Sec",
@@ -912,15 +966,20 @@
       "isFob": false,
       "fobOriginId": 30003850,
       "fobOriginName": "Alparena",
-      "corruptionPercentage": 0,
+      "corruptionPercentage": 1,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 0,
+      "suppressionPercentage": 1.8,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 10
+        },
         "amarr": {
           "hubId": 30002187,
           "hubName": "Amarr",
@@ -940,11 +999,6 @@
           "hubId": 30002510,
           "hubName": "Rens",
           "jumps": 21
-        },
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 10
         }
       },
       "routeErrors": {},
@@ -966,7 +1020,7 @@
       "isFob": false,
       "fobOriginId": 30003850,
       "fobOriginName": "Alparena",
-      "corruptionPercentage": 0,
+      "corruptionPercentage": 5.2,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 0,
@@ -1016,18 +1070,18 @@
       "faction": "guristas",
       "campaignId": 163,
       "campaignState": "ACTIVE",
-      "isLawless": false,
+      "isLawless": true,
       "isFob": false,
       "fobOriginId": 30003850,
       "fobOriginName": "Alparena",
-      "corruptionPercentage": 94.8,
-      "corruptionState": 4,
-      "corruptionDate": null,
-      "suppressionPercentage": 8.8,
+      "corruptionPercentage": 100,
+      "corruptionState": 5,
+      "corruptionDate": "2026-09-20T09:03:41.618Z",
+      "suppressionPercentage": 9,
       "suppressionState": 0,
       "suppressionDate": null,
-      "lawlessAgeDays": null,
-      "lawlessAgeLabel": "-",
+      "lawlessAgeDays": 0,
+      "lawlessAgeLabel": "2h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1074,7 +1128,7 @@
       "isFob": false,
       "fobOriginId": 30003850,
       "fobOriginName": "Alparena",
-      "corruptionPercentage": 70.7,
+      "corruptionPercentage": 86.35,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 7.2,
@@ -1128,7 +1182,7 @@
       "isFob": false,
       "fobOriginId": 30003850,
       "fobOriginName": "Alparena",
-      "corruptionPercentage": 2.8,
+      "corruptionPercentage": 5,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 4.4,
@@ -1182,8 +1236,8 @@
       "isFob": false,
       "fobOriginId": 30003850,
       "fobOriginName": "Alparena",
-      "corruptionPercentage": 58.1,
-      "corruptionState": 3,
+      "corruptionPercentage": 73.25,
+      "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 3.35,
       "suppressionState": 0,
