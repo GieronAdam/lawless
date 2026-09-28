@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T01:20:05.082Z",
+  "generatedAt": "2026-09-28T07:03:18.770Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -31,8 +31,8 @@
   "stats": {
     "systems": 26,
     "lawlessNow": 16,
-    "cachedDistancesReused": 125,
-    "routeCalculatedNow": 5,
+    "cachedDistancesReused": 130,
+    "routeCalculatedNow": 0,
     "routeErrors": 0
   },
   "systems": [
@@ -375,11 +375,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-09-20T14:12:13.714Z",
-      "suppressionPercentage": 27.6,
+      "suppressionPercentage": 32.1,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 7,
-      "lawlessAgeLabel": "7d 11h",
+      "lawlessAgeLabel": "7d 16h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -426,11 +426,11 @@
       "isFob": false,
       "fobOriginId": 30003850,
       "fobOriginName": "Alparena",
-      "corruptionPercentage": 50.75,
+      "corruptionPercentage": 62,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 19.75,
-      "suppressionState": 1,
+      "suppressionPercentage": 21.75,
+      "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -483,11 +483,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-09-21T01:47:38.349Z",
-      "suppressionPercentage": 31.3,
+      "suppressionPercentage": 33.3,
       "suppressionState": 2,
       "suppressionDate": null,
-      "lawlessAgeDays": 6,
-      "lawlessAgeLabel": "6d 23h",
+      "lawlessAgeDays": 7,
+      "lawlessAgeLabel": "7d 5h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -537,11 +537,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-09-22T20:47:31.898Z",
-      "suppressionPercentage": 38.3,
-      "suppressionState": 2,
+      "suppressionPercentage": 40.05,
+      "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 4h",
+      "lawlessAgeLabel": "5d 10h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -595,7 +595,7 @@
       "suppressionState": 5,
       "suppressionDate": "2026-09-27T10:25:38.034Z",
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 10h",
+      "lawlessAgeLabel": "4d 15h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -645,11 +645,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-09-26T18:47:47.359Z",
-      "suppressionPercentage": 80,
+      "suppressionPercentage": 83,
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 6h",
+      "lawlessAgeLabel": "1d 12h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -699,11 +699,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-09-22T13:02:26.237Z",
-      "suppressionPercentage": 14,
+      "suppressionPercentage": 16,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 12h",
+      "lawlessAgeLabel": "5d 18h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -750,10 +750,10 @@
       "isFob": false,
       "fobOriginId": 30003850,
       "fobOriginName": "Alparena",
-      "corruptionPercentage": 44,
+      "corruptionPercentage": 47.75,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 30.5,
+      "suppressionPercentage": 34.25,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -807,11 +807,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-09-27T02:24:58.876Z",
-      "suppressionPercentage": 22.5,
+      "suppressionPercentage": 24,
       "suppressionState": 2,
       "suppressionDate": null,
-      "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "22h",
+      "lawlessAgeDays": 1,
+      "lawlessAgeLabel": "1d 4h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -861,7 +861,7 @@
       "corruptionPercentage": 0.75,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 6.75,
+      "suppressionPercentage": 9,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -919,7 +919,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 7,
-      "lawlessAgeLabel": "7d 16h",
+      "lawlessAgeLabel": "7d 21h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -969,11 +969,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-09-20T18:05:29.563Z",
-      "suppressionPercentage": 16.7,
+      "suppressionPercentage": 16.95,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 7,
-      "lawlessAgeLabel": "7d 7h",
+      "lawlessAgeLabel": "7d 12h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1023,11 +1023,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-09-23T20:13:02.968Z",
-      "suppressionPercentage": 12.25,
+      "suppressionPercentage": 13,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 5h",
+      "lawlessAgeLabel": "4d 10h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1077,11 +1077,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-09-25T07:53:57.763Z",
-      "suppressionPercentage": 11.75,
+      "suppressionPercentage": 17.25,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 17h",
+      "lawlessAgeLabel": "2d 23h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1131,11 +1131,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-09-25T21:06:13.871Z",
-      "suppressionPercentage": 68.5,
-      "suppressionState": 3,
+      "suppressionPercentage": 74.5,
+      "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 4h",
+      "lawlessAgeLabel": "2d 9h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1185,11 +1185,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-09-22T20:52:16.976Z",
-      "suppressionPercentage": 18.7,
+      "suppressionPercentage": 18.95,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 4h",
+      "lawlessAgeLabel": "5d 10h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1239,11 +1239,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-09-22T16:21:49.865Z",
-      "suppressionPercentage": 22.05,
+      "suppressionPercentage": 22.3,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 8h",
+      "lawlessAgeLabel": "5d 14h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1293,11 +1293,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-09-23T15:32:40.558Z",
-      "suppressionPercentage": 15.15,
+      "suppressionPercentage": 15.4,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 9h",
+      "lawlessAgeLabel": "4d 15h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1344,10 +1344,10 @@
       "isFob": false,
       "fobOriginId": 30003850,
       "fobOriginName": "Alparena",
-      "corruptionPercentage": 31.33,
+      "corruptionPercentage": 34.83,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 54.5,
+      "suppressionPercentage": 60,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -1401,11 +1401,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-09-21T01:15:41.056Z",
-      "suppressionPercentage": 32.6,
+      "suppressionPercentage": 34.1,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 7,
-      "lawlessAgeLabel": "7d 0h",
+      "lawlessAgeLabel": "7d 5h",
       "distances": {
         "jita": {
           "hubId": 30000142,
