@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T02:05:51.397Z",
+  "generatedAt": "2026-10-03T07:59:03.048Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -51,11 +51,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-10-01T09:53:37.919Z",
-      "suppressionPercentage": 31.25,
+      "suppressionPercentage": 32,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 16h",
+      "lawlessAgeLabel": "1d 22h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -102,7 +102,7 @@
       "isFob": false,
       "fobOriginId": 30002097,
       "fobOriginName": "Klogori",
-      "corruptionPercentage": 27.33,
+      "corruptionPercentage": 27.5,
       "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 100,
@@ -159,11 +159,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-10-02T13:44:23.281Z",
-      "suppressionPercentage": 3.75,
+      "suppressionPercentage": 4.75,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "12h",
+      "lawlessAgeLabel": "18h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -210,7 +210,7 @@
       "isFob": false,
       "fobOriginId": 30002097,
       "fobOriginName": "Klogori",
-      "corruptionPercentage": 52,
+      "corruptionPercentage": 66.25,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 1,
@@ -271,7 +271,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 16h",
+      "lawlessAgeLabel": "1d 21h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -318,10 +318,10 @@
       "isFob": false,
       "fobOriginId": 30002097,
       "fobOriginName": "Klogori",
-      "corruptionPercentage": 0.25,
+      "corruptionPercentage": 2.75,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 1.5,
+      "suppressionPercentage": 4.25,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -372,10 +372,10 @@
       "isFob": false,
       "fobOriginId": 30002097,
       "fobOriginName": "Klogori",
-      "corruptionPercentage": 8.25,
-      "corruptionState": 0,
+      "corruptionPercentage": 10.7,
+      "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 48.5,
+      "suppressionPercentage": 55.5,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -429,11 +429,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-10-02T19:58:25.250Z",
-      "suppressionPercentage": 39.75,
-      "suppressionState": 2,
+      "suppressionPercentage": 40.5,
+      "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "6h",
+      "lawlessAgeLabel": "12h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -483,11 +483,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-10-01T17:16:19.280Z",
-      "suppressionPercentage": 24.5,
+      "suppressionPercentage": 27.5,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 8h",
+      "lawlessAgeLabel": "1d 14h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -537,11 +537,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-10-01T20:33:26.343Z",
-      "suppressionPercentage": 1.5,
+      "suppressionPercentage": 2.5,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 5h",
+      "lawlessAgeLabel": "1d 11h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -595,7 +595,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 2h",
+      "lawlessAgeLabel": "2d 8h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -642,11 +642,11 @@
       "isFob": false,
       "fobOriginId": 30002097,
       "fobOriginName": "Klogori",
-      "corruptionPercentage": 13.5,
+      "corruptionPercentage": 15,
       "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 18,
-      "suppressionState": 1,
+      "suppressionPercentage": 21,
+      "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -696,10 +696,10 @@
       "isFob": false,
       "fobOriginId": 30002097,
       "fobOriginName": "Klogori",
-      "corruptionPercentage": 24.75,
+      "corruptionPercentage": 38.75,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 0.25,
+      "suppressionPercentage": 3,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -757,7 +757,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 6h",
+      "lawlessAgeLabel": "2d 12h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -811,7 +811,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "12h",
+      "lawlessAgeLabel": "18h",
       "distances": {
         "jita": {
           "hubId": 30000142,
