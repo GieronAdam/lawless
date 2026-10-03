@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T23:18:12.093Z",
+  "generatedAt": "2026-10-03T02:05:51.397Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -31,8 +31,8 @@
   "stats": {
     "systems": 20,
     "lawlessNow": 9,
-    "cachedDistancesReused": 95,
-    "routeCalculatedNow": 5,
+    "cachedDistancesReused": 100,
+    "routeCalculatedNow": 0,
     "routeErrors": 0
   },
   "systems": [
@@ -55,7 +55,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 13h",
+      "lawlessAgeLabel": "1d 16h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -163,7 +163,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "9h",
+      "lawlessAgeLabel": "12h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -210,7 +210,7 @@
       "isFob": false,
       "fobOriginId": 30002097,
       "fobOriginName": "Klogori",
-      "corruptionPercentage": 47.5,
+      "corruptionPercentage": 52,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 1,
@@ -271,7 +271,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 13h",
+      "lawlessAgeLabel": "1d 16h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -318,34 +318,34 @@
       "isFob": false,
       "fobOriginId": 30002097,
       "fobOriginName": "Klogori",
-      "corruptionPercentage": 0,
+      "corruptionPercentage": 0.25,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 0.25,
+      "suppressionPercentage": 1.5,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 12
-        },
         "jita": {
           "hubId": 30000142,
           "hubName": "Jita",
           "jumps": 14
         },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 5
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 12
         },
         "dodixie": {
           "hubId": 30002659,
           "hubName": "Dodixie",
           "jumps": 9
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 5
         },
         "rens": {
           "hubId": 30002510,
@@ -375,7 +375,7 @@
       "corruptionPercentage": 8.25,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 44.25,
+      "suppressionPercentage": 48.5,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -429,11 +429,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-10-02T19:58:25.250Z",
-      "suppressionPercentage": 35.5,
+      "suppressionPercentage": 39.75,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "3h",
+      "lawlessAgeLabel": "6h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -483,11 +483,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-10-01T17:16:19.280Z",
-      "suppressionPercentage": 24.25,
+      "suppressionPercentage": 24.5,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 6h",
+      "lawlessAgeLabel": "1d 8h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -537,11 +537,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-10-01T20:33:26.343Z",
-      "suppressionPercentage": 1.25,
+      "suppressionPercentage": 1.5,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 2h",
+      "lawlessAgeLabel": "1d 5h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -594,8 +594,8 @@
       "suppressionPercentage": 13,
       "suppressionState": 1,
       "suppressionDate": null,
-      "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 23h",
+      "lawlessAgeDays": 2,
+      "lawlessAgeLabel": "2d 2h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -642,10 +642,10 @@
       "isFob": false,
       "fobOriginId": 30002097,
       "fobOriginName": "Klogori",
-      "corruptionPercentage": 12,
+      "corruptionPercentage": 13.5,
       "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 17.5,
+      "suppressionPercentage": 18,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -696,7 +696,7 @@
       "isFob": false,
       "fobOriginId": 30002097,
       "fobOriginName": "Klogori",
-      "corruptionPercentage": 21,
+      "corruptionPercentage": 24.75,
       "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 0.25,
@@ -753,11 +753,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-09-30T19:56:49.302Z",
-      "suppressionPercentage": 16.75,
+      "suppressionPercentage": 18.25,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 3h",
+      "lawlessAgeLabel": "2d 6h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -807,11 +807,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-10-02T13:50:38.836Z",
-      "suppressionPercentage": 7.25,
-      "suppressionState": 0,
+      "suppressionPercentage": 10.75,
+      "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "9h",
+      "lawlessAgeLabel": "12h",
       "distances": {
         "jita": {
           "hubId": 30000142,
