@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T22:48:53.447Z",
+  "generatedAt": "2026-10-04T02:04:30.717Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -29,10 +29,10 @@
     }
   ],
   "stats": {
-    "systems": 21,
+    "systems": 22,
     "lawlessNow": 10,
     "cachedDistancesReused": 105,
-    "routeCalculatedNow": 0,
+    "routeCalculatedNow": 5,
     "routeErrors": 0
   },
   "systems": [
@@ -55,7 +55,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 12h",
+      "lawlessAgeLabel": "2d 16h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -163,7 +163,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 9h",
+      "lawlessAgeLabel": "1d 12h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -217,7 +217,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "2h",
+      "lawlessAgeLabel": "5h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -325,7 +325,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 12h",
+      "lawlessAgeLabel": "2d 16h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -487,7 +487,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 2h",
+      "lawlessAgeLabel": "1d 6h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -541,7 +541,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 5h",
+      "lawlessAgeLabel": "2d 8h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -595,7 +595,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 2h",
+      "lawlessAgeLabel": "2d 5h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -648,8 +648,8 @@
       "suppressionPercentage": 13,
       "suppressionState": 1,
       "suppressionDate": null,
-      "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 23h",
+      "lawlessAgeDays": 3,
+      "lawlessAgeLabel": "3d 2h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -811,7 +811,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 2h",
+      "lawlessAgeLabel": "3d 6h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -865,7 +865,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 8h",
+      "lawlessAgeLabel": "1d 12h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -912,11 +912,11 @@
       "isFob": false,
       "fobOriginId": 30045342,
       "fobOriginName": "Akidagi",
-      "corruptionPercentage": 6.5,
+      "corruptionPercentage": 6.75,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 15.25,
-      "suppressionState": 1,
+      "suppressionPercentage": 20,
+      "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -966,10 +966,10 @@
       "isFob": true,
       "fobOriginId": 30045342,
       "fobOriginName": "Akidagi",
-      "corruptionPercentage": 5.25,
+      "corruptionPercentage": 6.25,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 6.75,
+      "suppressionPercentage": 9.75,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -1020,10 +1020,10 @@
       "isFob": false,
       "fobOriginId": 30045342,
       "fobOriginName": "Akidagi",
-      "corruptionPercentage": 15.25,
+      "corruptionPercentage": 16.75,
       "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 2.75,
+      "suppressionPercentage": 7,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -1074,10 +1074,10 @@
       "isFob": false,
       "fobOriginId": 30045342,
       "fobOriginName": "Akidagi",
-      "corruptionPercentage": 32.75,
-      "corruptionState": 2,
+      "corruptionPercentage": 43.75,
+      "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 0,
+      "suppressionPercentage": 0.25,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -1117,6 +1117,60 @@
       }
     },
     {
+      "id": 30045338,
+      "name": "Hikkoken",
+      "sec": "Low-Sec",
+      "security": 0.342755089938634,
+      "faction": "guristas",
+      "campaignId": 165,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30045342,
+      "fobOriginName": "Akidagi",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 17
+        },
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 8
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 13
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 9
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 16
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30000142,
+        "hubName": "Jita",
+        "jumps": 8
+      }
+    },
+    {
       "id": 30045344,
       "name": "Nennamaila",
       "sec": "Low-Sec",
@@ -1128,10 +1182,10 @@
       "isFob": false,
       "fobOriginId": 30045342,
       "fobOriginName": "Akidagi",
-      "corruptionPercentage": 5,
+      "corruptionPercentage": 6.5,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 5.5,
+      "suppressionPercentage": 6.5,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
