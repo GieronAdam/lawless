@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T12:14:22.657Z",
+  "generatedAt": "2026-10-06T01:23:46.663Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -29,10 +29,10 @@
     }
   ],
   "stats": {
-    "systems": 13,
-    "lawlessNow": 2,
+    "systems": 16,
+    "lawlessNow": 3,
     "cachedDistancesReused": 65,
-    "routeCalculatedNow": 0,
+    "routeCalculatedNow": 15,
     "routeErrors": 0
   },
   "systems": [
@@ -318,7 +318,7 @@
       "isFob": false,
       "fobOriginId": 30045342,
       "fobOriginName": "Akidagi",
-      "corruptionPercentage": 23.93,
+      "corruptionPercentage": 30.75,
       "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 100,
@@ -372,11 +372,11 @@
       "isFob": true,
       "fobOriginId": 30045342,
       "fobOriginName": "Akidagi",
-      "corruptionPercentage": 36.28,
-      "corruptionState": 2,
+      "corruptionPercentage": 46.25,
+      "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 64,
-      "suppressionState": 3,
+      "suppressionPercentage": 91.5,
+      "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -415,6 +415,60 @@
       }
     },
     {
+      "id": 30003837,
+      "name": "Aldranette",
+      "sec": "Low-Sec",
+      "security": 0.36751048374349,
+      "faction": "guristas",
+      "campaignId": 165,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30045342,
+      "fobOriginName": "Akidagi",
+      "corruptionPercentage": 4,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 2.5,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 17
+        },
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 10
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 11
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 11
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 14
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30000142,
+        "hubName": "Jita",
+        "jumps": 10
+      }
+    },
+    {
       "id": 30045339,
       "name": "Enaluri",
       "sec": "Low-Sec",
@@ -429,11 +483,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-10-05T08:17:59.696Z",
-      "suppressionPercentage": 24.5,
+      "suppressionPercentage": 28.5,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "3h",
+      "lawlessAgeLabel": "17h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -469,6 +523,60 @@
       }
     },
     {
+      "id": 30003839,
+      "name": "Evaulon",
+      "sec": "Low-Sec",
+      "security": 0.36683600683103,
+      "faction": "guristas",
+      "campaignId": 165,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30045342,
+      "fobOriginName": "Akidagi",
+      "corruptionPercentage": 7.25,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 18
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 12
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 12
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 15
+        },
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 11
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30000142,
+        "hubName": "Jita",
+        "jumps": 11
+      }
+    },
+    {
       "id": 30045341,
       "name": "Hallanen",
       "sec": "Low-Sec",
@@ -483,11 +591,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-10-04T14:35:04.584Z",
-      "suppressionPercentage": 3,
+      "suppressionPercentage": 4.5,
       "suppressionState": 0,
       "suppressionDate": null,
-      "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "21h",
+      "lawlessAgeDays": 1,
+      "lawlessAgeLabel": "1d 10h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -530,18 +638,18 @@
       "faction": "guristas",
       "campaignId": 165,
       "campaignState": "ACTIVE",
-      "isLawless": false,
+      "isLawless": true,
       "isFob": false,
       "fobOriginId": 30045342,
       "fobOriginName": "Akidagi",
-      "corruptionPercentage": 66.25,
-      "corruptionState": 3,
-      "corruptionDate": null,
-      "suppressionPercentage": 11.75,
+      "corruptionPercentage": 100,
+      "corruptionState": 5,
+      "corruptionDate": "2026-10-05T23:35:24.258Z",
+      "suppressionPercentage": 15,
       "suppressionState": 1,
       "suppressionDate": null,
-      "lawlessAgeDays": null,
-      "lawlessAgeLabel": "-",
+      "lawlessAgeDays": 0,
+      "lawlessAgeLabel": "1h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -588,11 +696,11 @@
       "isFob": false,
       "fobOriginId": 30045342,
       "fobOriginName": "Akidagi",
-      "corruptionPercentage": 28.5,
-      "corruptionState": 2,
+      "corruptionPercentage": 57.5,
+      "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 13.5,
-      "suppressionState": 1,
+      "suppressionPercentage": 24.5,
+      "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -642,11 +750,11 @@
       "isFob": false,
       "fobOriginId": 30045342,
       "fobOriginName": "Akidagi",
-      "corruptionPercentage": 23.7,
+      "corruptionPercentage": 36.83,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 50.25,
-      "suppressionState": 3,
+      "suppressionPercentage": 70.75,
+      "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -685,6 +793,60 @@
       }
     },
     {
+      "id": 30045347,
+      "name": "Oinasiken",
+      "sec": "Low-Sec",
+      "security": 0.233713658496399,
+      "faction": "guristas",
+      "campaignId": 165,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30045342,
+      "fobOriginName": "Akidagi",
+      "corruptionPercentage": 1,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0.75,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 7
+        },
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 16
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 7
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 13
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 16
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30000142,
+        "hubName": "Jita",
+        "jumps": 7
+      }
+    },
+    {
       "id": 30045353,
       "name": "Pynekastoh",
       "sec": "Low-Sec",
@@ -696,10 +858,10 @@
       "isFob": false,
       "fobOriginId": 30045342,
       "fobOriginName": "Akidagi",
-      "corruptionPercentage": 15.75,
-      "corruptionState": 1,
+      "corruptionPercentage": 47,
+      "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 0,
+      "suppressionPercentage": 5.5,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
