@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-06T07:38:56.656Z",
+  "generatedAt": "2026-10-06T14:27:35.226Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -29,10 +29,10 @@
     }
   ],
   "stats": {
-    "systems": 16,
+    "systems": 17,
     "lawlessNow": 3,
     "cachedDistancesReused": 80,
-    "routeCalculatedNow": 0,
+    "routeCalculatedNow": 5,
     "routeErrors": 0
   },
   "systems": [
@@ -318,7 +318,7 @@
       "isFob": false,
       "fobOriginId": 30045342,
       "fobOriginName": "Akidagi",
-      "corruptionPercentage": 31.8,
+      "corruptionPercentage": 34.6,
       "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 100,
@@ -372,7 +372,7 @@
       "isFob": true,
       "fobOriginId": 30045342,
       "fobOriginName": "Akidagi",
-      "corruptionPercentage": 49.58,
+      "corruptionPercentage": 51.15,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 100,
@@ -426,10 +426,10 @@
       "isFob": false,
       "fobOriginId": 30045342,
       "fobOriginName": "Akidagi",
-      "corruptionPercentage": 5.5,
+      "corruptionPercentage": 6.25,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 4.25,
+      "suppressionPercentage": 6.25,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -483,11 +483,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-10-05T08:17:59.696Z",
-      "suppressionPercentage": 33,
+      "suppressionPercentage": 35.25,
       "suppressionState": 2,
       "suppressionDate": null,
-      "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "23h",
+      "lawlessAgeDays": 1,
+      "lawlessAgeLabel": "1d 6h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -534,10 +534,10 @@
       "isFob": false,
       "fobOriginId": 30045342,
       "fobOriginName": "Akidagi",
-      "corruptionPercentage": 9.5,
-      "corruptionState": 0,
+      "corruptionPercentage": 11.25,
+      "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 0.25,
+      "suppressionPercentage": 0.75,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -591,11 +591,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-10-04T14:35:04.584Z",
-      "suppressionPercentage": 4.5,
+      "suppressionPercentage": 4.75,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 17h",
+      "lawlessAgeLabel": "1d 23h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -645,11 +645,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-10-05T23:35:24.258Z",
-      "suppressionPercentage": 16.25,
+      "suppressionPercentage": 18,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "8h",
+      "lawlessAgeLabel": "14h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -696,10 +696,10 @@
       "isFob": false,
       "fobOriginId": 30045342,
       "fobOriginName": "Akidagi",
-      "corruptionPercentage": 69.75,
-      "corruptionState": 3,
+      "corruptionPercentage": 78.25,
+      "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 32,
+      "suppressionPercentage": 39.5,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -750,10 +750,10 @@
       "isFob": false,
       "fobOriginId": 30045342,
       "fobOriginName": "Akidagi",
-      "corruptionPercentage": 37.35,
-      "corruptionState": 2,
+      "corruptionPercentage": 43.48,
+      "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 83,
+      "suppressionPercentage": 90.25,
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -804,7 +804,7 @@
       "isFob": false,
       "fobOriginId": 30045342,
       "fobOriginName": "Akidagi",
-      "corruptionPercentage": 2.5,
+      "corruptionPercentage": 6.25,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 1.75,
@@ -858,8 +858,8 @@
       "isFob": false,
       "fobOriginId": 30045342,
       "fobOriginName": "Akidagi",
-      "corruptionPercentage": 56,
-      "corruptionState": 3,
+      "corruptionPercentage": 78.25,
+      "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 9,
       "suppressionState": 0,
@@ -898,6 +898,60 @@
         "hubId": 30000142,
         "hubName": "Jita",
         "jumps": 7
+      }
+    },
+    {
+      "id": 30003836,
+      "name": "Vlillirier",
+      "sec": "Low-Sec",
+      "security": 0.289309115052423,
+      "faction": "guristas",
+      "campaignId": 165,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30045342,
+      "fobOriginName": "Akidagi",
+      "corruptionPercentage": 0.25,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 4,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 16
+        },
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 11
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 10
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 10
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 13
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30002659,
+        "hubName": "Dodixie",
+        "jumps": 10
       }
     }
   ]
