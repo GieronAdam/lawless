@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T19:31:48.556Z",
+  "generatedAt": "2026-10-08T23:52:15.389Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -55,7 +55,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "12h",
+      "lawlessAgeLabel": "17h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -102,10 +102,10 @@
       "isFob": false,
       "fobOriginId": 30002537,
       "fobOriginName": "Amamake",
-      "corruptionPercentage": 27.25,
+      "corruptionPercentage": 37.75,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 6.75,
+      "suppressionPercentage": 7.5,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -156,10 +156,10 @@
       "isFob": true,
       "fobOriginId": 30002537,
       "fobOriginName": "Amamake",
-      "corruptionPercentage": 8.25,
+      "corruptionPercentage": 8.75,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 4.75,
+      "suppressionPercentage": 5.5,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -210,7 +210,7 @@
       "isFob": false,
       "fobOriginId": 30002537,
       "fobOriginName": "Amamake",
-      "corruptionPercentage": 22,
+      "corruptionPercentage": 27,
       "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 9.25,
@@ -264,10 +264,10 @@
       "isFob": false,
       "fobOriginId": 30002537,
       "fobOriginName": "Amamake",
-      "corruptionPercentage": 13.25,
+      "corruptionPercentage": 15.75,
       "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 13.5,
+      "suppressionPercentage": 13.75,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -321,11 +321,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-10-08T17:54:52.417Z",
-      "suppressionPercentage": 18.25,
+      "suppressionPercentage": 18.75,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "1h",
+      "lawlessAgeLabel": "5h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -372,7 +372,7 @@
       "isFob": false,
       "fobOriginId": 30002537,
       "fobOriginName": "Amamake",
-      "corruptionPercentage": 13,
+      "corruptionPercentage": 16,
       "corruptionState": 1,
       "corruptionDate": null,
       "suppressionPercentage": 0.25,
@@ -433,7 +433,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 4h",
+      "lawlessAgeLabel": "1d 9h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -703,7 +703,7 @@
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 11h",
+      "lawlessAgeLabel": "3d 15h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -811,7 +811,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 4h",
+      "lawlessAgeLabel": "4d 9h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -864,8 +864,8 @@
       "suppressionPercentage": 34.5,
       "suppressionState": 2,
       "suppressionDate": null,
-      "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 19h",
+      "lawlessAgeDays": 3,
+      "lawlessAgeLabel": "3d 0h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1243,7 +1243,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 15h",
+      "lawlessAgeLabel": "1d 20h",
       "distances": {
         "jita": {
           "hubId": 30000142,
