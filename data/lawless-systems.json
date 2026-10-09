@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T23:52:15.389Z",
+  "generatedAt": "2026-10-09T03:08:35.586Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -29,10 +29,10 @@
     }
   ],
   "stats": {
-    "systems": 24,
+    "systems": 25,
     "lawlessNow": 7,
     "cachedDistancesReused": 120,
-    "routeCalculatedNow": 0,
+    "routeCalculatedNow": 5,
     "routeErrors": 0
   },
   "systems": [
@@ -55,7 +55,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "17h",
+      "lawlessAgeLabel": "20h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -102,11 +102,11 @@
       "isFob": false,
       "fobOriginId": 30002537,
       "fobOriginName": "Amamake",
-      "corruptionPercentage": 37.75,
-      "corruptionState": 2,
+      "corruptionPercentage": 44.75,
+      "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 7.5,
-      "suppressionState": 0,
+      "suppressionPercentage": 10.5,
+      "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -159,7 +159,7 @@
       "corruptionPercentage": 8.75,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 5.5,
+      "suppressionPercentage": 6.5,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -210,11 +210,11 @@
       "isFob": false,
       "fobOriginId": 30002537,
       "fobOriginName": "Amamake",
-      "corruptionPercentage": 27,
+      "corruptionPercentage": 28.5,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 9.25,
-      "suppressionState": 0,
+      "suppressionPercentage": 11,
+      "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -264,10 +264,10 @@
       "isFob": false,
       "fobOriginId": 30002537,
       "fobOriginName": "Amamake",
-      "corruptionPercentage": 15.75,
+      "corruptionPercentage": 17.5,
       "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 13.75,
+      "suppressionPercentage": 14.25,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -307,6 +307,60 @@
       }
     },
     {
+      "id": 30002513,
+      "name": "Dammalin",
+      "sec": "High-Sec",
+      "security": 0.478755802383134,
+      "faction": "angels",
+      "campaignId": 166,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30002537,
+      "fobOriginName": "Amamake",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 1.75,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 16
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 10
+        },
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 11
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 8
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 3
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30002510,
+        "hubName": "Rens",
+        "jumps": 3
+      }
+    },
+    {
       "id": 30002517,
       "name": "Gulmorogod",
       "sec": "Low-Sec",
@@ -325,7 +379,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "5h",
+      "lawlessAgeLabel": "9h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -372,7 +426,7 @@
       "isFob": false,
       "fobOriginId": 30002537,
       "fobOriginName": "Amamake",
-      "corruptionPercentage": 16,
+      "corruptionPercentage": 19,
       "corruptionState": 1,
       "corruptionDate": null,
       "suppressionPercentage": 0.25,
@@ -433,7 +487,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 9h",
+      "lawlessAgeLabel": "1d 12h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -703,7 +757,7 @@
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 15h",
+      "lawlessAgeLabel": "3d 18h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -811,7 +865,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 9h",
+      "lawlessAgeLabel": "4d 12h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -865,7 +919,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 0h",
+      "lawlessAgeLabel": "3d 3h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1020,7 +1074,7 @@
       "isFob": false,
       "fobOriginId": 30045342,
       "fobOriginName": "Akidagi",
-      "corruptionPercentage": 56.25,
+      "corruptionPercentage": 56.43,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 100,
@@ -1243,7 +1297,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 20h",
+      "lawlessAgeLabel": "1d 23h",
       "distances": {
         "jita": {
           "hubId": 30000142,
