@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T19:50:43.363Z",
+  "generatedAt": "2026-10-14T22:42:35.075Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -321,7 +321,7 @@
       "corruptionPercentage": 4,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 4.5,
+      "suppressionPercentage": 4.75,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -372,7 +372,7 @@
       "isFob": false,
       "fobOriginId": 30045346,
       "fobOriginName": "Kedama",
-      "corruptionPercentage": 6.25,
+      "corruptionPercentage": 6.5,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 6.75,
@@ -429,11 +429,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-10-13T16:38:47.564Z",
-      "suppressionPercentage": 33,
+      "suppressionPercentage": 33.25,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 3h",
+      "lawlessAgeLabel": "1d 6h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -487,7 +487,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 1h",
+      "lawlessAgeLabel": "1d 4h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -541,7 +541,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "2h",
+      "lawlessAgeLabel": "5h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -595,7 +595,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "4h",
+      "lawlessAgeLabel": "7h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -642,7 +642,7 @@
       "isFob": false,
       "fobOriginId": 30045346,
       "fobOriginName": "Kedama",
-      "corruptionPercentage": 25.5,
+      "corruptionPercentage": 30,
       "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 3,
@@ -696,7 +696,7 @@
       "isFob": false,
       "fobOriginId": 30045346,
       "fobOriginName": "Kedama",
-      "corruptionPercentage": 14.25,
+      "corruptionPercentage": 16.25,
       "corruptionState": 1,
       "corruptionDate": null,
       "suppressionPercentage": 0,
@@ -750,7 +750,7 @@
       "isFob": false,
       "fobOriginId": 30045346,
       "fobOriginName": "Kedama",
-      "corruptionPercentage": 95,
+      "corruptionPercentage": 97.5,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 12.5,
@@ -804,10 +804,10 @@
       "isFob": false,
       "fobOriginId": 30045346,
       "fobOriginName": "Kedama",
-      "corruptionPercentage": 6.83,
+      "corruptionPercentage": 7.88,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 78.5,
+      "suppressionPercentage": 84.25,
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -861,11 +861,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-10-13T17:16:12.057Z",
-      "suppressionPercentage": 25.5,
+      "suppressionPercentage": 26.5,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 2h",
+      "lawlessAgeLabel": "1d 5h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -912,7 +912,7 @@
       "isFob": false,
       "fobOriginId": 30045346,
       "fobOriginName": "Kedama",
-      "corruptionPercentage": 82,
+      "corruptionPercentage": 86.5,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 1.75,
@@ -973,7 +973,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "18h",
+      "lawlessAgeLabel": "21h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1026,8 +1026,8 @@
       "suppressionPercentage": 6.5,
       "suppressionState": 0,
       "suppressionDate": null,
-      "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "21h",
+      "lawlessAgeDays": 1,
+      "lawlessAgeLabel": "1d 0h",
       "distances": {
         "jita": {
           "hubId": 30000142,
