@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T23:58:21.141Z",
+  "generatedAt": "2026-10-17T03:59:31.768Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -29,13 +29,121 @@
     }
   ],
   "stats": {
-    "systems": 10,
+    "systems": 13,
     "lawlessNow": 0,
     "cachedDistancesReused": 50,
-    "routeCalculatedNow": 0,
+    "routeCalculatedNow": 15,
     "routeErrors": 0
   },
   "systems": [
+    {
+      "id": 30002977,
+      "name": "Arayar",
+      "sec": "Low-Sec",
+      "security": 0.386265072022067,
+      "faction": "angels",
+      "campaignId": 168,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30003067,
+      "fobOriginName": "Huola",
+      "corruptionPercentage": 2.25,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 8
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 12
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 12
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 9
+        },
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 19
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30002187,
+        "hubName": "Amarr",
+        "jumps": 8
+      }
+    },
+    {
+      "id": 30002978,
+      "name": "Asghed",
+      "sec": "Low-Sec",
+      "security": 0.355537673646794,
+      "faction": "angels",
+      "campaignId": 168,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30003067,
+      "fobOriginName": "Huola",
+      "corruptionPercentage": 1.75,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 19
+        },
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 8
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 11
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 11
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 8
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30002187,
+        "hubName": "Amarr",
+        "jumps": 8
+      }
+    },
     {
       "id": 30003067,
       "name": "Huola",
@@ -48,10 +156,10 @@
       "isFob": true,
       "fobOriginId": 30003067,
       "fobOriginName": "Huola",
-      "corruptionPercentage": 5.75,
+      "corruptionPercentage": 7.25,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 27.75,
+      "suppressionPercentage": 37.25,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -102,8 +210,8 @@
       "isFob": false,
       "fobOriginId": 30003067,
       "fobOriginName": "Huola",
-      "corruptionPercentage": 35.25,
-      "corruptionState": 2,
+      "corruptionPercentage": 54.25,
+      "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 1.25,
       "suppressionState": 0,
@@ -156,11 +264,11 @@
       "isFob": false,
       "fobOriginId": 30003067,
       "fobOriginName": "Huola",
-      "corruptionPercentage": 6.25,
+      "corruptionPercentage": 7.25,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 17.75,
-      "suppressionState": 1,
+      "suppressionPercentage": 30,
+      "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -210,10 +318,10 @@
       "isFob": false,
       "fobOriginId": 30003067,
       "fobOriginName": "Huola",
-      "corruptionPercentage": 26.25,
-      "corruptionState": 2,
+      "corruptionPercentage": 40.25,
+      "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 5,
+      "suppressionPercentage": 6.5,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -253,6 +361,60 @@
       }
     },
     {
+      "id": 30003063,
+      "name": "Lamaa",
+      "sec": "Low-Sec",
+      "security": 0.355271173817566,
+      "faction": "angels",
+      "campaignId": 168,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30003067,
+      "fobOriginName": "Huola",
+      "corruptionPercentage": 2.5,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 18
+        },
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 7
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 9
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 10
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 6
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30002510,
+        "hubName": "Rens",
+        "jumps": 6
+      }
+    },
+    {
       "id": 30002975,
       "name": "Roushzar",
       "sec": "Low-Sec",
@@ -264,10 +426,10 @@
       "isFob": false,
       "fobOriginId": 30003067,
       "fobOriginName": "Huola",
-      "corruptionPercentage": 34.25,
-      "corruptionState": 2,
+      "corruptionPercentage": 46.25,
+      "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 13.75,
+      "suppressionPercentage": 14.25,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
