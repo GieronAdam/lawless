@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T01:17:56.698Z",
+  "generatedAt": "2026-10-18T06:03:47.149Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -29,10 +29,10 @@
     }
   ],
   "stats": {
-    "systems": 14,
+    "systems": 16,
     "lawlessNow": 1,
     "cachedDistancesReused": 70,
-    "routeCalculatedNow": 0,
+    "routeCalculatedNow": 10,
     "routeErrors": 0
   },
   "systems": [
@@ -48,10 +48,10 @@
       "isFob": false,
       "fobOriginId": 30003067,
       "fobOriginName": "Huola",
-      "corruptionPercentage": 37.5,
-      "corruptionState": 2,
+      "corruptionPercentage": 49.25,
+      "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 3.75,
+      "suppressionPercentage": 5.75,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -102,8 +102,8 @@
       "isFob": false,
       "fobOriginId": 30003067,
       "fobOriginName": "Huola",
-      "corruptionPercentage": 13.25,
-      "corruptionState": 1,
+      "corruptionPercentage": 20,
+      "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 7.75,
       "suppressionState": 0,
@@ -159,7 +159,7 @@
       "corruptionPercentage": 2.25,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 0.5,
+      "suppressionPercentage": 1,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -199,6 +199,114 @@
       }
     },
     {
+      "id": 30002541,
+      "name": "Dal",
+      "sec": "Low-Sec",
+      "security": 0.411359588988721,
+      "faction": "angels",
+      "campaignId": 168,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30003067,
+      "fobOriginName": "Huola",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 1,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 8
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 7
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 8
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 4
+        },
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 16
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30002510,
+        "hubName": "Rens",
+        "jumps": 4
+      }
+    },
+    {
+      "id": 30002981,
+      "name": "Halmah",
+      "sec": "Low-Sec",
+      "security": 0.448846397094033,
+      "faction": "angels",
+      "campaignId": 168,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30003067,
+      "fobOriginName": "Huola",
+      "corruptionPercentage": 5.75,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0.25,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 20
+        },
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 9
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 11
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 12
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 8
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30002510,
+        "hubName": "Rens",
+        "jumps": 8
+      }
+    },
+    {
       "id": 30003067,
       "name": "Huola",
       "sec": "Low-Sec",
@@ -210,11 +318,11 @@
       "isFob": true,
       "fobOriginId": 30003067,
       "fobOriginName": "Huola",
-      "corruptionPercentage": 44.65,
+      "corruptionPercentage": 46.75,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 63.5,
-      "suppressionState": 3,
+      "suppressionPercentage": 72.25,
+      "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -271,7 +379,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "8h",
+      "lawlessAgeLabel": "13h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -318,10 +426,10 @@
       "isFob": false,
       "fobOriginId": 30003067,
       "fobOriginName": "Huola",
-      "corruptionPercentage": 39.7,
-      "corruptionState": 2,
+      "corruptionPercentage": 40.05,
+      "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 46,
+      "suppressionPercentage": 51.25,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -372,7 +480,7 @@
       "isFob": false,
       "fobOriginId": 30003067,
       "fobOriginName": "Huola",
-      "corruptionPercentage": 83,
+      "corruptionPercentage": 97.5,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 15.25,
@@ -426,10 +534,10 @@
       "isFob": false,
       "fobOriginId": 30003067,
       "fobOriginName": "Huola",
-      "corruptionPercentage": 24.75,
+      "corruptionPercentage": 32.5,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 0,
+      "suppressionPercentage": 0.25,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -480,10 +588,10 @@
       "isFob": false,
       "fobOriginId": 30003067,
       "fobOriginName": "Huola",
-      "corruptionPercentage": 87,
+      "corruptionPercentage": 99.25,
       "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 24.25,
+      "suppressionPercentage": 25,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -529,7 +637,7 @@
       "security": 0.404251730337359,
       "faction": "guristas",
       "campaignId": 169,
-      "campaignState": "FORECAST",
+      "campaignState": "ACTIVE",
       "isLawless": false,
       "isFob": false,
       "fobOriginId": 30003826,
@@ -583,7 +691,7 @@
       "security": 0.357455101918364,
       "faction": "guristas",
       "campaignId": 169,
-      "campaignState": "FORECAST",
+      "campaignState": "ACTIVE",
       "isLawless": false,
       "isFob": true,
       "fobOriginId": 30003826,
@@ -637,7 +745,7 @@
       "security": 0.6,
       "faction": "guristas",
       "campaignId": 169,
-      "campaignState": "FORECAST",
+      "campaignState": "ACTIVE",
       "isLawless": false,
       "isFob": false,
       "fobOriginId": 30003826,
@@ -691,7 +799,7 @@
       "security": 0.394320846733168,
       "faction": "guristas",
       "campaignId": 169,
-      "campaignState": "FORECAST",
+      "campaignState": "ACTIVE",
       "isLawless": false,
       "isFob": false,
       "fobOriginId": 30003826,
@@ -745,7 +853,7 @@
       "security": 0.188945751656699,
       "faction": "guristas",
       "campaignId": 169,
-      "campaignState": "FORECAST",
+      "campaignState": "ACTIVE",
       "isLawless": false,
       "isFob": false,
       "fobOriginId": 30003826,
