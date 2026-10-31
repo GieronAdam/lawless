@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T17:41:35.084Z",
+  "generatedAt": "2026-10-31T20:40:00.770Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -31,8 +31,8 @@
   "stats": {
     "systems": 35,
     "lawlessNow": 17,
-    "cachedDistancesReused": 170,
-    "routeCalculatedNow": 5,
+    "cachedDistancesReused": 175,
+    "routeCalculatedNow": 0,
     "routeErrors": 0
   },
   "systems": [
@@ -109,7 +109,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 20h",
+      "lawlessAgeLabel": "1d 23h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -163,7 +163,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "0h",
+      "lawlessAgeLabel": "3h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -217,7 +217,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 4h",
+      "lawlessAgeLabel": "2d 7h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -273,25 +273,25 @@
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 8
-        },
         "jita": {
           "hubId": 30000142,
           "hubName": "Jita",
           "jumps": 19
         },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 11
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 8
         },
         "dodixie": {
           "hubId": 30002659,
           "hubName": "Dodixie",
           "jumps": 10
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 11
         },
         "rens": {
           "hubId": 30002510,
@@ -433,7 +433,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 5h",
+      "lawlessAgeLabel": "4d 8h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -595,7 +595,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 4h",
+      "lawlessAgeLabel": "3d 7h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -649,7 +649,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 8h",
+      "lawlessAgeLabel": "1d 11h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -703,7 +703,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "11h",
+      "lawlessAgeLabel": "14h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -757,7 +757,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 10h",
+      "lawlessAgeLabel": "1d 13h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -811,7 +811,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 0h",
+      "lawlessAgeLabel": "4d 3h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -865,7 +865,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 2h",
+      "lawlessAgeLabel": "1d 5h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1069,12 +1069,12 @@
       "security": 0.377330251008162,
       "faction": "guristas",
       "campaignId": 170,
-      "campaignState": "ACTIVE",
+      "campaignState": "ANTI_PIRATE_VICTORY",
       "isLawless": false,
       "isFob": false,
       "fobOriginId": 30045343,
       "fobOriginName": "Immuri",
-      "corruptionPercentage": 38.8,
+      "corruptionPercentage": 39.15,
       "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 100,
@@ -1123,12 +1123,12 @@
       "security": 0.444938823903481,
       "faction": "guristas",
       "campaignId": 170,
-      "campaignState": "ACTIVE",
+      "campaignState": "ANTI_PIRATE_VICTORY",
       "isLawless": false,
       "isFob": false,
       "fobOriginId": 30045343,
       "fobOriginName": "Immuri",
-      "corruptionPercentage": 67.65,
+      "corruptionPercentage": 68.53,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 100,
@@ -1177,7 +1177,7 @@
       "security": 0.36751048374349,
       "faction": "guristas",
       "campaignId": 170,
-      "campaignState": "ACTIVE",
+      "campaignState": "ANTI_PIRATE_VICTORY",
       "isLawless": false,
       "isFob": false,
       "fobOriginId": 30045343,
@@ -1185,8 +1185,8 @@
       "corruptionPercentage": 54,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 72.25,
-      "suppressionState": 4,
+      "suppressionPercentage": 75.75,
+      "suppressionState": 5,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -1231,7 +1231,7 @@
       "security": 0.327798024861379,
       "faction": "guristas",
       "campaignId": 170,
-      "campaignState": "ACTIVE",
+      "campaignState": "ANTI_PIRATE_VICTORY",
       "isLawless": true,
       "isFob": false,
       "fobOriginId": 30045343,
@@ -1243,7 +1243,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 12h",
+      "lawlessAgeLabel": "2d 15h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1285,7 +1285,7 @@
       "security": 0.364361115347895,
       "faction": "guristas",
       "campaignId": 170,
-      "campaignState": "ACTIVE",
+      "campaignState": "ANTI_PIRATE_VICTORY",
       "isLawless": true,
       "isFob": false,
       "fobOriginId": 30045343,
@@ -1297,7 +1297,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 12h",
+      "lawlessAgeLabel": "3d 15h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1339,7 +1339,7 @@
       "security": 0.342755089938634,
       "faction": "guristas",
       "campaignId": 170,
-      "campaignState": "ACTIVE",
+      "campaignState": "ANTI_PIRATE_VICTORY",
       "isLawless": true,
       "isFob": false,
       "fobOriginId": 30045343,
@@ -1351,7 +1351,7 @@
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 12h",
+      "lawlessAgeLabel": "4d 15h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1393,7 +1393,7 @@
       "security": 0.335504032624278,
       "faction": "guristas",
       "campaignId": 170,
-      "campaignState": "ACTIVE",
+      "campaignState": "ANTI_PIRATE_VICTORY",
       "isLawless": true,
       "isFob": false,
       "fobOriginId": 30045343,
@@ -1405,7 +1405,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 3h",
+      "lawlessAgeLabel": "2d 6h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1447,7 +1447,7 @@
       "security": 0.42115981760492,
       "faction": "guristas",
       "campaignId": 170,
-      "campaignState": "ACTIVE",
+      "campaignState": "ANTI_PIRATE_VICTORY",
       "isLawless": true,
       "isFob": true,
       "fobOriginId": 30045343,
@@ -1458,8 +1458,8 @@
       "suppressionPercentage": 45.25,
       "suppressionState": 3,
       "suppressionDate": null,
-      "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 21h",
+      "lawlessAgeDays": 5,
+      "lawlessAgeLabel": "5d 0h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1501,7 +1501,7 @@
       "security": 0.238360468023429,
       "faction": "guristas",
       "campaignId": 170,
-      "campaignState": "ACTIVE",
+      "campaignState": "ANTI_PIRATE_VICTORY",
       "isLawless": false,
       "isFob": false,
       "fobOriginId": 30045343,
@@ -1509,8 +1509,8 @@
       "corruptionPercentage": 7.75,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 0,
-      "suppressionState": 0,
+      "suppressionPercentage": 13,
+      "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -1555,16 +1555,16 @@
       "security": 0.338464408401388,
       "faction": "guristas",
       "campaignId": 170,
-      "campaignState": "ACTIVE",
+      "campaignState": "ANTI_PIRATE_VICTORY",
       "isLawless": false,
       "isFob": false,
       "fobOriginId": 30045343,
       "fobOriginName": "Immuri",
-      "corruptionPercentage": 76.25,
+      "corruptionPercentage": 78.25,
       "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 29.5,
-      "suppressionState": 2,
+      "suppressionPercentage": 29.75,
+      "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -1609,7 +1609,7 @@
       "security": 0.274257774046926,
       "faction": "guristas",
       "campaignId": 170,
-      "campaignState": "ACTIVE",
+      "campaignState": "ANTI_PIRATE_VICTORY",
       "isLawless": true,
       "isFob": false,
       "fobOriginId": 30045343,
@@ -1621,7 +1621,7 @@
       "suppressionState": 5,
       "suppressionDate": "2026-10-31T10:08:47.806Z",
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 2h",
+      "lawlessAgeLabel": "3d 5h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1663,13 +1663,13 @@
       "security": 0.395648512809534,
       "faction": "guristas",
       "campaignId": 170,
-      "campaignState": "ACTIVE",
+      "campaignState": "ANTI_PIRATE_VICTORY",
       "isLawless": false,
       "isFob": false,
       "fobOriginId": 30045343,
       "fobOriginName": "Immuri",
-      "corruptionPercentage": 19.43,
-      "corruptionState": 1,
+      "corruptionPercentage": 20.83,
+      "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 100,
       "suppressionState": 5,
@@ -1717,7 +1717,7 @@
       "security": 0.239632812646096,
       "faction": "guristas",
       "campaignId": 170,
-      "campaignState": "ACTIVE",
+      "campaignState": "ANTI_PIRATE_VICTORY",
       "isLawless": true,
       "isFob": false,
       "fobOriginId": 30045343,
@@ -1729,7 +1729,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 12h",
+      "lawlessAgeLabel": "3d 15h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1771,12 +1771,12 @@
       "security": 0.222780374110675,
       "faction": "guristas",
       "campaignId": 170,
-      "campaignState": "ACTIVE",
+      "campaignState": "ANTI_PIRATE_VICTORY",
       "isLawless": false,
       "isFob": false,
       "fobOriginId": 30045343,
       "fobOriginName": "Immuri",
-      "corruptionPercentage": 48.3,
+      "corruptionPercentage": 50.4,
       "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 100,
@@ -1825,16 +1825,16 @@
       "security": 0.189510479733951,
       "faction": "guristas",
       "campaignId": 170,
-      "campaignState": "ACTIVE",
+      "campaignState": "ANTI_PIRATE_VICTORY",
       "isLawless": false,
       "isFob": false,
       "fobOriginId": 30045343,
       "fobOriginName": "Immuri",
-      "corruptionPercentage": 21.5,
+      "corruptionPercentage": 22,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 2.5,
-      "suppressionState": 0,
+      "suppressionPercentage": 6.75,
+      "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -1879,7 +1879,7 @@
       "security": 0.289309115052423,
       "faction": "guristas",
       "campaignId": 170,
-      "campaignState": "ACTIVE",
+      "campaignState": "ANTI_PIRATE_VICTORY",
       "isLawless": false,
       "isFob": false,
       "fobOriginId": 30045343,
@@ -1887,8 +1887,8 @@
       "corruptionPercentage": 7.5,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 14.75,
-      "suppressionState": 1,
+      "suppressionPercentage": 16.5,
+      "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
