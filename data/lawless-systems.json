@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T23:50:53.712Z",
+  "generatedAt": "2026-11-02T02:47:46.784Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -29,10 +29,10 @@
     }
   ],
   "stats": {
-    "systems": 21,
-    "lawlessNow": 7,
-    "cachedDistancesReused": 105,
-    "routeCalculatedNow": 0,
+    "systems": 10,
+    "lawlessNow": 0,
+    "cachedDistancesReused": 25,
+    "routeCalculatedNow": 25,
     "routeErrors": 0
   },
   "systems": [
@@ -307,23 +307,185 @@
       }
     },
     {
-      "id": 30045340,
-      "name": "Aivonen",
+      "id": 30003854,
+      "name": "Alamel",
       "sec": "Low-Sec",
-      "security": 0.377330251008162,
+      "security": 0.170912543465936,
       "faction": "guristas",
-      "campaignId": 170,
-      "campaignState": "ANTI_PIRATE_VICTORY",
+      "campaignId": 173,
+      "campaignState": "FORECAST",
       "isLawless": false,
       "isFob": false,
-      "fobOriginId": 30045343,
-      "fobOriginName": "Immuri",
-      "corruptionPercentage": 39.15,
-      "corruptionState": 2,
+      "fobOriginId": 30003857,
+      "fobOriginName": "Odamia",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 100,
-      "suppressionState": 5,
-      "suppressionDate": "2026-10-30T14:14:48.230Z",
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 14
+        },
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 21
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 12
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 15
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 18
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30002659,
+        "hubName": "Dodixie",
+        "jumps": 12
+      }
+    },
+    {
+      "id": 30003840,
+      "name": "Anchauttes",
+      "sec": "Low-Sec",
+      "security": 0.339596185034814,
+      "faction": "guristas",
+      "campaignId": 173,
+      "campaignState": "FORECAST",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30003857,
+      "fobOriginName": "Odamia",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 19
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 13
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 13
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 16
+        },
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 12
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30000142,
+        "hubName": "Jita",
+        "jumps": 12
+      }
+    },
+    {
+      "id": 30003852,
+      "name": "Arderonne",
+      "sec": "Low-Sec",
+      "security": 0.174709207291325,
+      "faction": "guristas",
+      "campaignId": 173,
+      "campaignState": "FORECAST",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30003857,
+      "fobOriginName": "Odamia",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 13
+        },
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 21
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 11
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 15
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 18
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30002659,
+        "hubName": "Dodixie",
+        "jumps": 11
+      }
+    },
+    {
+      "id": 30003839,
+      "name": "Evaulon",
+      "sec": "Low-Sec",
+      "security": 0.36683600683103,
+      "faction": "guristas",
+      "campaignId": 173,
+      "campaignState": "FORECAST",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30003857,
+      "fobOriginName": "Odamia",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
+      "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
@@ -335,22 +497,22 @@
         "amarr": {
           "hubId": 30002187,
           "hubName": "Amarr",
-          "jumps": 20
+          "jumps": 18
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 12
         },
         "dodixie": {
           "hubId": 30002659,
           "hubName": "Dodixie",
           "jumps": 12
         },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 14
-        },
         "rens": {
           "hubId": 30002510,
           "hubName": "Rens",
-          "jumps": 17
+          "jumps": 15
         }
       },
       "routeErrors": {},
@@ -361,400 +523,22 @@
       }
     },
     {
-      "id": 30045342,
-      "name": "Akidagi",
+      "id": 30003857,
+      "name": "Odamia",
       "sec": "Low-Sec",
-      "security": 0.444938823903481,
+      "security": 0.220428671728945,
       "faction": "guristas",
-      "campaignId": 170,
-      "campaignState": "ANTI_PIRATE_VICTORY",
+      "campaignId": 173,
+      "campaignState": "FORECAST",
       "isLawless": false,
-      "isFob": false,
-      "fobOriginId": 30045343,
-      "fobOriginName": "Immuri",
-      "corruptionPercentage": 68.53,
-      "corruptionState": 3,
-      "corruptionDate": null,
-      "suppressionPercentage": 100,
-      "suppressionState": 5,
-      "suppressionDate": "2026-10-28T02:48:01.641Z",
-      "lawlessAgeDays": null,
-      "lawlessAgeLabel": "-",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 10
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 19
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 11
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 13
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 16
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 10
-      }
-    },
-    {
-      "id": 30003837,
-      "name": "Aldranette",
-      "sec": "Low-Sec",
-      "security": 0.36751048374349,
-      "faction": "guristas",
-      "campaignId": 170,
-      "campaignState": "ANTI_PIRATE_VICTORY",
-      "isLawless": false,
-      "isFob": false,
-      "fobOriginId": 30045343,
-      "fobOriginName": "Immuri",
-      "corruptionPercentage": 54,
-      "corruptionState": 3,
-      "corruptionDate": null,
-      "suppressionPercentage": 75.75,
-      "suppressionState": 5,
-      "suppressionDate": null,
-      "lawlessAgeDays": null,
-      "lawlessAgeLabel": "-",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 10
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 17
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 11
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 11
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 14
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 10
-      }
-    },
-    {
-      "id": 30045339,
-      "name": "Enaluri",
-      "sec": "Low-Sec",
-      "security": 0.327798024861379,
-      "faction": "guristas",
-      "campaignId": 170,
-      "campaignState": "ANTI_PIRATE_VICTORY",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30045343,
-      "fobOriginName": "Immuri",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-10-29T05:02:55.815Z",
-      "suppressionPercentage": 30.25,
-      "suppressionState": 2,
-      "suppressionDate": null,
-      "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 18h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 10
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 19
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 11
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 13
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 16
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 10
-      }
-    },
-    {
-      "id": 30045341,
-      "name": "Hallanen",
-      "sec": "Low-Sec",
-      "security": 0.364361115347895,
-      "faction": "guristas",
-      "campaignId": 170,
-      "campaignState": "ANTI_PIRATE_VICTORY",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30045343,
-      "fobOriginName": "Immuri",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-10-28T05:15:31.255Z",
-      "suppressionPercentage": 8.25,
-      "suppressionState": 0,
-      "suppressionDate": null,
-      "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 18h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 9
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 18
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 10
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 14
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 17
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 9
-      }
-    },
-    {
-      "id": 30045338,
-      "name": "Hikkoken",
-      "sec": "Low-Sec",
-      "security": 0.342755089938634,
-      "faction": "guristas",
-      "campaignId": 170,
-      "campaignState": "ANTI_PIRATE_VICTORY",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30045343,
-      "fobOriginName": "Immuri",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-10-27T05:15:17.738Z",
-      "suppressionPercentage": 51,
-      "suppressionState": 3,
-      "suppressionDate": null,
-      "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 18h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 8
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 17
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 9
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 13
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 16
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 8
-      }
-    },
-    {
-      "id": 30045345,
-      "name": "Hirri",
-      "sec": "Low-Sec",
-      "security": 0.335504032624278,
-      "faction": "guristas",
-      "campaignId": 170,
-      "campaignState": "ANTI_PIRATE_VICTORY",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30045343,
-      "fobOriginName": "Immuri",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-10-29T14:07:27.074Z",
-      "suppressionPercentage": 19.75,
-      "suppressionState": 1,
-      "suppressionDate": null,
-      "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 9h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 6
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 15
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 9
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 14
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 18
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 6
-      }
-    },
-    {
-      "id": 30045343,
-      "name": "Immuri",
-      "sec": "Low-Sec",
-      "security": 0.42115981760492,
-      "faction": "guristas",
-      "campaignId": 170,
-      "campaignState": "ANTI_PIRATE_VICTORY",
-      "isLawless": true,
       "isFob": true,
-      "fobOriginId": 30045343,
-      "fobOriginName": "Immuri",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-10-26T20:17:53.138Z",
-      "suppressionPercentage": 45.25,
-      "suppressionState": 3,
-      "suppressionDate": null,
-      "lawlessAgeDays": 6,
-      "lawlessAgeLabel": "6d 3h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 9
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 18
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 10
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 13
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 16
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 9
-      }
-    },
-    {
-      "id": 30045351,
-      "name": "Iwisoda",
-      "sec": "Low-Sec",
-      "security": 0.238360468023429,
-      "faction": "guristas",
-      "campaignId": 170,
-      "campaignState": "ANTI_PIRATE_VICTORY",
-      "isLawless": false,
-      "isFob": false,
-      "fobOriginId": 30045343,
-      "fobOriginName": "Immuri",
-      "corruptionPercentage": 7.75,
+      "fobOriginId": 30003857,
+      "fobOriginName": "Odamia",
+      "corruptionPercentage": 0,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 13,
-      "suppressionState": 1,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -762,169 +546,7 @@
         "jita": {
           "hubId": 30000142,
           "hubName": "Jita",
-          "jumps": 8
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 17
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 10
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 16
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 19
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 8
-      }
-    },
-    {
-      "id": 30045346,
-      "name": "Kedama",
-      "sec": "Low-Sec",
-      "security": 0.338464408401388,
-      "faction": "guristas",
-      "campaignId": 170,
-      "campaignState": "ANTI_PIRATE_VICTORY",
-      "isLawless": false,
-      "isFob": false,
-      "fobOriginId": 30045343,
-      "fobOriginName": "Immuri",
-      "corruptionPercentage": 78.25,
-      "corruptionState": 4,
-      "corruptionDate": null,
-      "suppressionPercentage": 29.75,
-      "suppressionState": 3,
-      "suppressionDate": null,
-      "lawlessAgeDays": null,
-      "lawlessAgeLabel": "-",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 5
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 14
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 9
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
           "jumps": 13
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 18
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 5
-      }
-    },
-    {
-      "id": 30045344,
-      "name": "Nennamaila",
-      "sec": "Low-Sec",
-      "security": 0.274257774046926,
-      "faction": "guristas",
-      "campaignId": 170,
-      "campaignState": "ANTI_PIRATE_VICTORY",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30045343,
-      "fobOriginName": "Immuri",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-10-28T15:23:19.312Z",
-      "suppressionPercentage": 100,
-      "suppressionState": 5,
-      "suppressionDate": "2026-10-31T10:08:47.806Z",
-      "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 8h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 9
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 18
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 10
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 12
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 15
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 9
-      }
-    },
-    {
-      "id": 30045320,
-      "name": "Pavanakka",
-      "sec": "Low-Sec",
-      "security": 0.395648512809534,
-      "faction": "guristas",
-      "campaignId": 170,
-      "campaignState": "ANTI_PIRATE_VICTORY",
-      "isLawless": false,
-      "isFob": false,
-      "fobOriginId": 30045343,
-      "fobOriginName": "Immuri",
-      "corruptionPercentage": 20.83,
-      "corruptionState": 2,
-      "corruptionDate": null,
-      "suppressionPercentage": 100,
-      "suppressionState": 5,
-      "suppressionDate": "2026-10-31T00:02:54.377Z",
-      "lawlessAgeDays": null,
-      "lawlessAgeLabel": "-",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 10
         },
         "amarr": {
           "hubId": 30002187,
@@ -934,240 +556,24 @@
         "dodixie": {
           "hubId": 30002659,
           "hubName": "Dodixie",
-          "jumps": 13
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 14
+          "jumps": 12
         },
         "rens": {
           "hubId": 30002510,
           "hubName": "Rens",
           "jumps": 17
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 10
-      }
-    },
-    {
-      "id": 30045353,
-      "name": "Pynekastoh",
-      "sec": "Low-Sec",
-      "security": 0.239632812646096,
-      "faction": "guristas",
-      "campaignId": 170,
-      "campaignState": "ANTI_PIRATE_VICTORY",
-      "isLawless": true,
-      "isFob": false,
-      "fobOriginId": 30045343,
-      "fobOriginName": "Immuri",
-      "corruptionPercentage": 100,
-      "corruptionState": 5,
-      "corruptionDate": "2026-10-28T05:27:54.392Z",
-      "suppressionPercentage": 37.25,
-      "suppressionState": 2,
-      "suppressionDate": null,
-      "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 18h",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 7
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 16
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 8
         },
         "hek": {
           "hubId": 30002053,
           "hubName": "Hek",
           "jumps": 14
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 17
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 7
-      }
-    },
-    {
-      "id": 30045349,
-      "name": "Rakapas",
-      "sec": "Low-Sec",
-      "security": 0.222780374110675,
-      "faction": "guristas",
-      "campaignId": 170,
-      "campaignState": "ANTI_PIRATE_VICTORY",
-      "isLawless": false,
-      "isFob": false,
-      "fobOriginId": 30045343,
-      "fobOriginName": "Immuri",
-      "corruptionPercentage": 50.4,
-      "corruptionState": 3,
-      "corruptionDate": null,
-      "suppressionPercentage": 100,
-      "suppressionState": 5,
-      "suppressionDate": "2026-10-29T12:10:45.605Z",
-      "lawlessAgeDays": null,
-      "lawlessAgeLabel": "-",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 7
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 16
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 9
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 15
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 18
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 7
-      }
-    },
-    {
-      "id": 30045354,
-      "name": "Reitsato",
-      "sec": "Low-Sec",
-      "security": 0.189510479733951,
-      "faction": "guristas",
-      "campaignId": 170,
-      "campaignState": "ANTI_PIRATE_VICTORY",
-      "isLawless": false,
-      "isFob": false,
-      "fobOriginId": 30045343,
-      "fobOriginName": "Immuri",
-      "corruptionPercentage": 22,
-      "corruptionState": 2,
-      "corruptionDate": null,
-      "suppressionPercentage": 6.75,
-      "suppressionState": 1,
-      "suppressionDate": null,
-      "lawlessAgeDays": null,
-      "lawlessAgeLabel": "-",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 6
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 15
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 10
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 14
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 19
-        }
-      },
-      "routeErrors": {},
-      "nearestHub": {
-        "hubId": 30000142,
-        "hubName": "Jita",
-        "jumps": 6
-      }
-    },
-    {
-      "id": 30003836,
-      "name": "Vlillirier",
-      "sec": "Low-Sec",
-      "security": 0.289309115052423,
-      "faction": "guristas",
-      "campaignId": 170,
-      "campaignState": "ANTI_PIRATE_VICTORY",
-      "isLawless": false,
-      "isFob": false,
-      "fobOriginId": 30045343,
-      "fobOriginName": "Immuri",
-      "corruptionPercentage": 7.5,
-      "corruptionState": 0,
-      "corruptionDate": null,
-      "suppressionPercentage": 16.5,
-      "suppressionState": 2,
-      "suppressionDate": null,
-      "lawlessAgeDays": null,
-      "lawlessAgeLabel": "-",
-      "distances": {
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 11
-        },
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 16
-        },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 10
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 10
-        },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 13
         }
       },
       "routeErrors": {},
       "nearestHub": {
         "hubId": 30002659,
         "hubName": "Dodixie",
-        "jumps": 10
+        "jumps": 12
       }
     }
   ]
