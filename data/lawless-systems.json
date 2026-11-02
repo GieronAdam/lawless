@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T02:47:46.784Z",
+  "generatedAt": "2026-11-02T10:05:11.805Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -31,8 +31,8 @@
   "stats": {
     "systems": 10,
     "lawlessNow": 0,
-    "cachedDistancesReused": 25,
-    "routeCalculatedNow": 25,
+    "cachedDistancesReused": 50,
+    "routeCalculatedNow": 0,
     "routeErrors": 0
   },
   "systems": [
@@ -381,6 +381,11 @@
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 12
+        },
         "amarr": {
           "hubId": 30002187,
           "hubName": "Amarr",
@@ -400,11 +405,6 @@
           "hubId": 30002510,
           "hubName": "Rens",
           "jumps": 16
-        },
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 12
         }
       },
       "routeErrors": {},
@@ -499,14 +499,14 @@
           "hubName": "Amarr",
           "jumps": 18
         },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 12
-        },
         "dodixie": {
           "hubId": 30002659,
           "hubName": "Dodixie",
+          "jumps": 12
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
           "jumps": 12
         },
         "rens": {
@@ -558,15 +558,15 @@
           "hubName": "Dodixie",
           "jumps": 12
         },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 17
-        },
         "hek": {
           "hubId": 30002053,
           "hubName": "Hek",
           "jumps": 14
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 17
         }
       },
       "routeErrors": {},
