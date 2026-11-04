@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T02:27:20.622Z",
+  "generatedAt": "2026-11-04T17:31:58.648Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -29,13 +29,67 @@
     }
   ],
   "stats": {
-    "systems": 10,
+    "systems": 14,
     "lawlessNow": 0,
     "cachedDistancesReused": 50,
-    "routeCalculatedNow": 0,
+    "routeCalculatedNow": 20,
     "routeErrors": 0
   },
   "systems": [
+    {
+      "id": 30002537,
+      "name": "Amamake",
+      "sec": "Low-Sec",
+      "security": 0.438761248111,
+      "faction": "angels",
+      "campaignId": 172,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30002962,
+      "fobOriginName": "Ezzara",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0.25,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 15
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 7
+        },
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 8
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 8
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 3
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30002510,
+        "hubName": "Rens",
+        "jumps": 3
+      }
+    },
     {
       "id": 30002960,
       "name": "Arzad",
@@ -48,10 +102,10 @@
       "isFob": false,
       "fobOriginId": 30002962,
       "fobOriginName": "Ezzara",
-      "corruptionPercentage": 19,
-      "corruptionState": 1,
+      "corruptionPercentage": 89.25,
+      "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 0,
+      "suppressionPercentage": 1,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -102,10 +156,10 @@
       "isFob": true,
       "fobOriginId": 30002962,
       "fobOriginName": "Ezzara",
-      "corruptionPercentage": 8.5,
-      "corruptionState": 0,
+      "corruptionPercentage": 45.25,
+      "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 1.5,
+      "suppressionPercentage": 4,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -156,10 +210,10 @@
       "isFob": false,
       "fobOriginId": 30002962,
       "fobOriginName": "Ezzara",
-      "corruptionPercentage": 3.5,
-      "corruptionState": 0,
+      "corruptionPercentage": 10.25,
+      "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 1,
+      "suppressionPercentage": 8.75,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -199,6 +253,60 @@
       }
     },
     {
+      "id": 30002961,
+      "name": "Oyeman",
+      "sec": "Low-Sec",
+      "security": 0.222380664573313,
+      "faction": "angels",
+      "campaignId": 172,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30002962,
+      "fobOriginName": "Ezzara",
+      "corruptionPercentage": 13.25,
+      "corruptionState": 1,
+      "corruptionDate": null,
+      "suppressionPercentage": 0.75,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 9
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 12
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 11
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 8
+        },
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 20
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30002510,
+        "hubName": "Rens",
+        "jumps": 8
+      }
+    },
+    {
       "id": 30002959,
       "name": "Sifilar",
       "sec": "Low-Sec",
@@ -210,10 +318,10 @@
       "isFob": false,
       "fobOriginId": 30002962,
       "fobOriginName": "Ezzara",
-      "corruptionPercentage": 16.75,
-      "corruptionState": 1,
+      "corruptionPercentage": 71.75,
+      "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 0,
+      "suppressionPercentage": 0.75,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -253,6 +361,60 @@
       }
     },
     {
+      "id": 30002979,
+      "name": "Tararan",
+      "sec": "Low-Sec",
+      "security": 0.327187962262672,
+      "faction": "angels",
+      "campaignId": 172,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30002962,
+      "fobOriginName": "Ezzara",
+      "corruptionPercentage": 19.25,
+      "corruptionState": 1,
+      "corruptionDate": null,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 19
+        },
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 9
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 11
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 10
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 7
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30002510,
+        "hubName": "Rens",
+        "jumps": 7
+      }
+    },
+    {
       "id": 30002538,
       "name": "Vard",
       "sec": "Low-Sec",
@@ -264,11 +426,11 @@
       "isFob": false,
       "fobOriginId": 30002962,
       "fobOriginName": "Ezzara",
-      "corruptionPercentage": 0,
+      "corruptionPercentage": 3.5,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 6.75,
-      "suppressionState": 0,
+      "suppressionPercentage": 18.25,
+      "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -318,10 +480,10 @@
       "isFob": false,
       "fobOriginId": 30003857,
       "fobOriginName": "Odamia",
-      "corruptionPercentage": 2.75,
-      "corruptionState": 0,
+      "corruptionPercentage": 29.5,
+      "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 0,
+      "suppressionPercentage": 9.5,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -372,10 +534,10 @@
       "isFob": false,
       "fobOriginId": 30003857,
       "fobOriginName": "Odamia",
-      "corruptionPercentage": 4.5,
-      "corruptionState": 0,
+      "corruptionPercentage": 33.75,
+      "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 0,
+      "suppressionPercentage": 2,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -426,11 +588,11 @@
       "isFob": false,
       "fobOriginId": 30003857,
       "fobOriginName": "Odamia",
-      "corruptionPercentage": 2.5,
-      "corruptionState": 0,
+      "corruptionPercentage": 14,
+      "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 0.25,
-      "suppressionState": 0,
+      "suppressionPercentage": 12.25,
+      "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -480,10 +642,10 @@
       "isFob": false,
       "fobOriginId": 30003857,
       "fobOriginName": "Odamia",
-      "corruptionPercentage": 1.75,
+      "corruptionPercentage": 9.5,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 1.25,
+      "suppressionPercentage": 8.25,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -523,6 +685,60 @@
       }
     },
     {
+      "id": 30003855,
+      "name": "Mantenault",
+      "sec": "Low-Sec",
+      "security": 0.13714960488229,
+      "faction": "guristas",
+      "campaignId": 173,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30003857,
+      "fobOriginName": "Odamia",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 15
+        },
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 22
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 13
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 16
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 19
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30002659,
+        "hubName": "Dodixie",
+        "jumps": 13
+      }
+    },
+    {
       "id": 30003857,
       "name": "Odamia",
       "sec": "Low-Sec",
@@ -534,10 +750,10 @@
       "isFob": true,
       "fobOriginId": 30003857,
       "fobOriginName": "Odamia",
-      "corruptionPercentage": 3.5,
-      "corruptionState": 0,
+      "corruptionPercentage": 40,
+      "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 1,
+      "suppressionPercentage": 2.25,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
