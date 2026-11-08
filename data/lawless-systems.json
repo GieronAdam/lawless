@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T22:22:47.916Z",
+  "generatedAt": "2026-11-08T01:31:17.666Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -29,10 +29,10 @@
     }
   ],
   "stats": {
-    "systems": 29,
+    "systems": 30,
     "lawlessNow": 13,
-    "cachedDistancesReused": 135,
-    "routeCalculatedNow": 10,
+    "cachedDistancesReused": 145,
+    "routeCalculatedNow": 5,
     "routeErrors": 0
   },
   "systems": [
@@ -48,10 +48,10 @@
       "isFob": false,
       "fobOriginId": 30002962,
       "fobOriginName": "Ezzara",
-      "corruptionPercentage": 11.08,
+      "corruptionPercentage": 11.43,
       "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 83.25,
+      "suppressionPercentage": 83.5,
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -105,11 +105,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-11-07T05:31:45.691Z",
-      "suppressionPercentage": 7,
+      "suppressionPercentage": 7.5,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "16h",
+      "lawlessAgeLabel": "19h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -217,7 +217,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 5h",
+      "lawlessAgeLabel": "2d 8h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -264,10 +264,10 @@
       "isFob": false,
       "fobOriginId": 30002962,
       "fobOriginName": "Ezzara",
-      "corruptionPercentage": 0.5,
+      "corruptionPercentage": 2,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 0.75,
+      "suppressionPercentage": 1.5,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -283,11 +283,6 @@
           "hubName": "Amarr",
           "jumps": 6
         },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 5
-        },
         "dodixie": {
           "hubId": 30002659,
           "hubName": "Dodixie",
@@ -297,6 +292,11 @@
           "hubId": 30002053,
           "hubName": "Hek",
           "jumps": 9
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 5
         }
       },
       "routeErrors": {},
@@ -318,8 +318,8 @@
       "isFob": false,
       "fobOriginId": 30002962,
       "fobOriginName": "Ezzara",
-      "corruptionPercentage": 67,
-      "corruptionState": 3,
+      "corruptionPercentage": 74,
+      "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 8.25,
       "suppressionState": 0,
@@ -372,10 +372,10 @@
       "isFob": false,
       "fobOriginId": 30002962,
       "fobOriginName": "Ezzara",
-      "corruptionPercentage": 45.5,
+      "corruptionPercentage": 50.25,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 4.25,
+      "suppressionPercentage": 4.75,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -433,7 +433,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "0h",
+      "lawlessAgeLabel": "3h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -483,11 +483,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-11-06T05:06:40.167Z",
-      "suppressionPercentage": 5,
+      "suppressionPercentage": 5.5,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 17h",
+      "lawlessAgeLabel": "1d 20h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -534,7 +534,7 @@
       "isFob": false,
       "fobOriginId": 30002962,
       "fobOriginName": "Ezzara",
-      "corruptionPercentage": 12.75,
+      "corruptionPercentage": 15.75,
       "corruptionState": 1,
       "corruptionDate": null,
       "suppressionPercentage": 1,
@@ -591,11 +591,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-11-05T05:49:00.511Z",
-      "suppressionPercentage": 3.75,
+      "suppressionPercentage": 4,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 16h",
+      "lawlessAgeLabel": "2d 19h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -642,10 +642,10 @@
       "isFob": false,
       "fobOriginId": 30002962,
       "fobOriginName": "Ezzara",
-      "corruptionPercentage": 0,
+      "corruptionPercentage": 0.25,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 2,
+      "suppressionPercentage": 3,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -699,11 +699,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-11-04T21:15:12.180Z",
-      "suppressionPercentage": 4,
+      "suppressionPercentage": 5,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 1h",
+      "lawlessAgeLabel": "3d 4h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -757,7 +757,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 0h",
+      "lawlessAgeLabel": "2d 3h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -807,11 +807,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-11-07T17:21:35.635Z",
-      "suppressionPercentage": 5,
+      "suppressionPercentage": 5.5,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "5h",
+      "lawlessAgeLabel": "8h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -858,10 +858,10 @@
       "isFob": false,
       "fobOriginId": 30002962,
       "fobOriginName": "Ezzara",
-      "corruptionPercentage": 46,
+      "corruptionPercentage": 47.23,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 84.75,
+      "suppressionPercentage": 86,
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -919,7 +919,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 17h",
+      "lawlessAgeLabel": "1d 21h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -966,11 +966,11 @@
       "isFob": false,
       "fobOriginId": 30003857,
       "fobOriginName": "Odamia",
-      "corruptionPercentage": 2.25,
+      "corruptionPercentage": 2.75,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 36.75,
-      "suppressionState": 2,
+      "suppressionPercentage": 41.25,
+      "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -1020,10 +1020,10 @@
       "isFob": false,
       "fobOriginId": 30003857,
       "fobOriginName": "Odamia",
-      "corruptionPercentage": 31,
+      "corruptionPercentage": 33.1,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 52,
+      "suppressionPercentage": 55.25,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -1077,11 +1077,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-11-06T00:34:32.530Z",
-      "suppressionPercentage": 22.5,
+      "suppressionPercentage": 22.75,
       "suppressionState": 2,
       "suppressionDate": null,
-      "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 21h",
+      "lawlessAgeDays": 2,
+      "lawlessAgeLabel": "2d 0h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1171,6 +1171,60 @@
       }
     },
     {
+      "id": 30003856,
+      "name": "Athounon",
+      "sec": "Low-Sec",
+      "security": 0.076205911588786,
+      "faction": "guristas",
+      "campaignId": 173,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30003857,
+      "fobOriginName": "Odamia",
+      "corruptionPercentage": 1.75,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 20
+        },
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 10
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 12
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 18
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 21
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30000142,
+        "hubName": "Jita",
+        "jumps": 10
+      }
+    },
+    {
       "id": 30003842,
       "name": "Esesier",
       "sec": "Low-Sec",
@@ -1189,7 +1243,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 1h",
+      "lawlessAgeLabel": "1d 4h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1236,8 +1290,8 @@
       "isFob": false,
       "fobOriginId": 30003857,
       "fobOriginName": "Odamia",
-      "corruptionPercentage": 69.73,
-      "corruptionState": 3,
+      "corruptionPercentage": 70.08,
+      "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 100,
       "suppressionState": 5,
@@ -1297,7 +1351,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "14h",
+      "lawlessAgeLabel": "17h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1344,7 +1398,7 @@
       "isFob": false,
       "fobOriginId": 30003857,
       "fobOriginName": "Odamia",
-      "corruptionPercentage": 1.25,
+      "corruptionPercentage": 1.5,
       "corruptionState": 0,
       "corruptionDate": null,
       "suppressionPercentage": 0,
@@ -1353,6 +1407,11 @@
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 14
+        },
         "amarr": {
           "hubId": 30002187,
           "hubName": "Amarr",
@@ -1372,11 +1431,6 @@
           "hubId": 30002510,
           "hubName": "Rens",
           "jumps": 17
-        },
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 14
         }
       },
       "routeErrors": {},
@@ -1398,8 +1452,8 @@
       "isFob": false,
       "fobOriginId": 30003857,
       "fobOriginName": "Odamia",
-      "corruptionPercentage": 30.75,
-      "corruptionState": 2,
+      "corruptionPercentage": 40.25,
+      "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 27,
       "suppressionState": 2,
@@ -1455,8 +1509,8 @@
       "corruptionPercentage": 8.5,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 36,
-      "suppressionState": 2,
+      "suppressionPercentage": 41.75,
+      "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -1509,11 +1563,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-11-05T13:27:20.872Z",
-      "suppressionPercentage": 14,
+      "suppressionPercentage": 14.25,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 8h",
+      "lawlessAgeLabel": "2d 12h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1560,11 +1614,11 @@
       "isFob": false,
       "fobOriginId": 30003857,
       "fobOriginName": "Odamia",
-      "corruptionPercentage": 40.6,
+      "corruptionPercentage": 43.75,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 69.25,
-      "suppressionState": 3,
+      "suppressionPercentage": 70.25,
+      "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
