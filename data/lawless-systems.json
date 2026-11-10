@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T17:58:52.395Z",
+  "generatedAt": "2026-11-10T23:05:09.326Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -31,8 +31,8 @@
   "stats": {
     "systems": 10,
     "lawlessNow": 0,
-    "cachedDistancesReused": 25,
-    "routeCalculatedNow": 25,
+    "cachedDistancesReused": 50,
+    "routeCalculatedNow": 0,
     "routeErrors": 0
   },
   "systems": [
@@ -327,30 +327,30 @@
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 8
+        },
         "amarr": {
           "hubId": 30002187,
           "hubName": "Amarr",
           "jumps": 17
-        },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 16
         },
         "dodixie": {
           "hubId": 30002659,
           "hubName": "Dodixie",
           "jumps": 12
         },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 16
+        },
         "rens": {
           "hubId": 30002510,
           "hubName": "Rens",
           "jumps": 21
-        },
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 8
         }
       },
       "routeErrors": {},
@@ -445,20 +445,20 @@
           "hubName": "Amarr",
           "jumps": 16
         },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 20
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 11
         },
         "hek": {
           "hubId": 30002053,
           "hubName": "Hek",
           "jumps": 15
         },
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 11
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 20
         }
       },
       "routeErrors": {},
@@ -489,15 +489,15 @@
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 16
-        },
         "jita": {
           "hubId": 30000142,
           "hubName": "Jita",
           "jumps": 7
+        },
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 16
         },
         "dodixie": {
           "hubId": 30002659,
@@ -558,15 +558,15 @@
           "hubName": "Dodixie",
           "jumps": 10
         },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 19
-        },
         "hek": {
           "hubId": 30002053,
           "hubName": "Hek",
           "jumps": 14
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 19
         }
       },
       "routeErrors": {},
