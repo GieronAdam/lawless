@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T01:16:21.769Z",
+  "generatedAt": "2026-11-13T08:00:54.774Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -29,10 +29,10 @@
     }
   ],
   "stats": {
-    "systems": 10,
+    "systems": 12,
     "lawlessNow": 0,
     "cachedDistancesReused": 50,
-    "routeCalculatedNow": 0,
+    "routeCalculatedNow": 10,
     "routeErrors": 0
   },
   "systems": [
@@ -48,10 +48,10 @@
       "isFob": false,
       "fobOriginId": 30002538,
       "fobOriginName": "Vard",
-      "corruptionPercentage": 3.75,
+      "corruptionPercentage": 6.5,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 0.75,
+      "suppressionPercentage": 1,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -102,11 +102,11 @@
       "isFob": false,
       "fobOriginId": 30002538,
       "fobOriginName": "Vard",
-      "corruptionPercentage": 1.75,
+      "corruptionPercentage": 2,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 7.25,
-      "suppressionState": 0,
+      "suppressionPercentage": 10.5,
+      "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -156,10 +156,10 @@
       "isFob": false,
       "fobOriginId": 30002538,
       "fobOriginName": "Vard",
-      "corruptionPercentage": 20.75,
-      "corruptionState": 2,
+      "corruptionPercentage": 40.25,
+      "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 0,
+      "suppressionPercentage": 0.25,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -210,8 +210,8 @@
       "isFob": false,
       "fobOriginId": 30002538,
       "fobOriginName": "Vard",
-      "corruptionPercentage": 7.25,
-      "corruptionState": 0,
+      "corruptionPercentage": 14,
+      "corruptionState": 1,
       "corruptionDate": null,
       "suppressionPercentage": 1.75,
       "suppressionState": 0,
@@ -253,6 +253,60 @@
       }
     },
     {
+      "id": 30002960,
+      "name": "Starkman",
+      "sec": "Low-Sec",
+      "security": 0.220429780096,
+      "faction": "angels",
+      "campaignId": 175,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30002538,
+      "fobOriginName": "Vard",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 10
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 9
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 10
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 6
+        },
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 18
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30002510,
+        "hubName": "Rens",
+        "jumps": 6
+      }
+    },
+    {
       "id": 30002538,
       "name": "Vard",
       "sec": "Low-Sec",
@@ -264,10 +318,10 @@
       "isFob": true,
       "fobOriginId": 30002538,
       "fobOriginName": "Vard",
-      "corruptionPercentage": 3.25,
+      "corruptionPercentage": 6.75,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 6,
+      "suppressionPercentage": 7.75,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -318,10 +372,10 @@
       "isFob": false,
       "fobOriginId": 30045330,
       "fobOriginName": "Okkamon",
-      "corruptionPercentage": 15,
-      "corruptionState": 1,
+      "corruptionPercentage": 33.25,
+      "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 3.25,
+      "suppressionPercentage": 6.5,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -361,6 +415,60 @@
       }
     },
     {
+      "id": 30045346,
+      "name": "Kedama",
+      "sec": "Low-Sec",
+      "security": 0.338464408401388,
+      "faction": "guristas",
+      "campaignId": 174,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30045330,
+      "fobOriginName": "Okkamon",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 5
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 13
+        },
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 14
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 9
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 18
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30000142,
+        "hubName": "Jita",
+        "jumps": 5
+      }
+    },
+    {
       "id": 30045334,
       "name": "Mushikegi",
       "sec": "Low-Sec",
@@ -372,8 +480,8 @@
       "isFob": false,
       "fobOriginId": 30045330,
       "fobOriginName": "Okkamon",
-      "corruptionPercentage": 16.5,
-      "corruptionState": 1,
+      "corruptionPercentage": 30.25,
+      "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 3.25,
       "suppressionState": 0,
@@ -426,10 +534,10 @@
       "isFob": true,
       "fobOriginId": 30045330,
       "fobOriginName": "Okkamon",
-      "corruptionPercentage": 21,
+      "corruptionPercentage": 38.5,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 1,
+      "suppressionPercentage": 1.75,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -480,10 +588,10 @@
       "isFob": false,
       "fobOriginId": 30045330,
       "fobOriginName": "Okkamon",
-      "corruptionPercentage": 3,
-      "corruptionState": 0,
+      "corruptionPercentage": 20,
+      "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 31,
+      "suppressionPercentage": 34.5,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -534,10 +642,10 @@
       "isFob": false,
       "fobOriginId": 30045330,
       "fobOriginName": "Okkamon",
-      "corruptionPercentage": 24.25,
-      "corruptionState": 2,
+      "corruptionPercentage": 41.5,
+      "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 1.5,
+      "suppressionPercentage": 5.75,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
