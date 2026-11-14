@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T19:50:33.337Z",
+  "generatedAt": "2026-11-14T23:26:04.421Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -29,10 +29,10 @@
     }
   ],
   "stats": {
-    "systems": 19,
+    "systems": 20,
     "lawlessNow": 5,
-    "cachedDistancesReused": 85,
-    "routeCalculatedNow": 10,
+    "cachedDistancesReused": 95,
+    "routeCalculatedNow": 5,
     "routeErrors": 0
   },
   "systems": [
@@ -51,7 +51,7 @@
       "corruptionPercentage": 18.5,
       "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 4.5,
+      "suppressionPercentage": 7,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -105,7 +105,7 @@
       "corruptionPercentage": 27,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 34.5,
+      "suppressionPercentage": 37.75,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -159,11 +159,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-11-14T02:26:14.439Z",
-      "suppressionPercentage": 9.75,
-      "suppressionState": 0,
+      "suppressionPercentage": 10,
+      "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "17h",
+      "lawlessAgeLabel": "20h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -210,11 +210,11 @@
       "isFob": false,
       "fobOriginId": 30002538,
       "fobOriginName": "Vard",
-      "corruptionPercentage": 80.75,
+      "corruptionPercentage": 83.25,
       "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 9.5,
-      "suppressionState": 0,
+      "suppressionPercentage": 11.5,
+      "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -264,10 +264,10 @@
       "isFob": false,
       "fobOriginId": 30002538,
       "fobOriginName": "Vard",
-      "corruptionPercentage": 8.5,
-      "corruptionState": 0,
+      "corruptionPercentage": 10,
+      "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 1.75,
+      "suppressionPercentage": 2.25,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -321,7 +321,7 @@
       "corruptionPercentage": 7.25,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 1.5,
+      "suppressionPercentage": 1.75,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -372,10 +372,10 @@
       "isFob": false,
       "fobOriginId": 30002538,
       "fobOriginName": "Vard",
-      "corruptionPercentage": 56.75,
+      "corruptionPercentage": 61.25,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 2.75,
+      "suppressionPercentage": 8.25,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -426,10 +426,10 @@
       "isFob": true,
       "fobOriginId": 30002538,
       "fobOriginName": "Vard",
-      "corruptionPercentage": 27,
+      "corruptionPercentage": 27.5,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 31,
+      "suppressionPercentage": 34.25,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -483,11 +483,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-11-14T15:31:22.599Z",
-      "suppressionPercentage": 26.5,
+      "suppressionPercentage": 28.5,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "4h",
+      "lawlessAgeLabel": "7h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -534,11 +534,11 @@
       "isFob": false,
       "fobOriginId": 30045330,
       "fobOriginName": "Okkamon",
-      "corruptionPercentage": 50.75,
+      "corruptionPercentage": 51.5,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 8.25,
-      "suppressionState": 0,
+      "suppressionPercentage": 13.5,
+      "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -588,10 +588,10 @@
       "isFob": false,
       "fobOriginId": 30045330,
       "fobOriginName": "Okkamon",
-      "corruptionPercentage": 28.5,
+      "corruptionPercentage": 33.25,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 21.5,
+      "suppressionPercentage": 25.5,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -642,10 +642,10 @@
       "isFob": false,
       "fobOriginId": 30045330,
       "fobOriginName": "Okkamon",
-      "corruptionPercentage": 17.5,
+      "corruptionPercentage": 17.75,
       "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 5.5,
+      "suppressionPercentage": 6.5,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -696,11 +696,11 @@
       "isFob": false,
       "fobOriginId": 30045330,
       "fobOriginName": "Okkamon",
-      "corruptionPercentage": 42.25,
+      "corruptionPercentage": 46.75,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 7.75,
-      "suppressionState": 0,
+      "suppressionPercentage": 16,
+      "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -753,11 +753,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-11-14T15:37:12.654Z",
-      "suppressionPercentage": 21.25,
+      "suppressionPercentage": 23,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "4h",
+      "lawlessAgeLabel": "7h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -807,11 +807,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-11-14T03:01:33.990Z",
-      "suppressionPercentage": 8.5,
-      "suppressionState": 0,
+      "suppressionPercentage": 11.75,
+      "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "16h",
+      "lawlessAgeLabel": "20h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -858,15 +858,20 @@
       "isFob": false,
       "fobOriginId": 30045330,
       "fobOriginName": "Okkamon",
-      "corruptionPercentage": 3.75,
+      "corruptionPercentage": 6.25,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 0,
+      "suppressionPercentage": 0.25,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 9
+        },
         "amarr": {
           "hubId": 30002187,
           "hubName": "Amarr",
@@ -882,11 +887,6 @@
           "hubName": "Hek",
           "jumps": 17
         },
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 9
-        },
         "rens": {
           "hubId": 30002510,
           "hubName": "Rens",
@@ -901,6 +901,60 @@
       }
     },
     {
+      "id": 30045353,
+      "name": "Pynekastoh",
+      "sec": "Low-Sec",
+      "security": 0.239632812646096,
+      "faction": "guristas",
+      "campaignId": 174,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30045330,
+      "fobOriginName": "Okkamon",
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 16
+        },
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 7
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 8
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 14
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 17
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30000142,
+        "hubName": "Jita",
+        "jumps": 7
+      }
+    },
+    {
       "id": 30045349,
       "name": "Rakapas",
       "sec": "Low-Sec",
@@ -912,8 +966,8 @@
       "isFob": false,
       "fobOriginId": 30045330,
       "fobOriginName": "Okkamon",
-      "corruptionPercentage": 38.68,
-      "corruptionState": 2,
+      "corruptionPercentage": 41.13,
+      "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 100,
       "suppressionState": 5,
@@ -969,11 +1023,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-11-14T05:24:45.204Z",
-      "suppressionPercentage": 26,
+      "suppressionPercentage": 26.5,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "14h",
+      "lawlessAgeLabel": "18h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1020,15 +1074,20 @@
       "isFob": false,
       "fobOriginId": 30045330,
       "fobOriginName": "Okkamon",
-      "corruptionPercentage": 0.75,
+      "corruptionPercentage": 1,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 0,
+      "suppressionPercentage": 0.75,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 9
+        },
         "amarr": {
           "hubId": 30002187,
           "hubName": "Amarr",
@@ -1048,11 +1107,6 @@
           "hubId": 30002510,
           "hubName": "Rens",
           "jumps": 23
-        },
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 9
         }
       },
       "routeErrors": {},
