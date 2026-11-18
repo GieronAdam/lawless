@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T01:01:21.824Z",
+  "generatedAt": "2026-11-18T08:23:20.986Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -29,9 +29,9 @@
     }
   ],
   "stats": {
-    "systems": 20,
+    "systems": 21,
     "lawlessNow": 6,
-    "cachedDistancesReused": 95,
+    "cachedDistancesReused": 100,
     "routeCalculatedNow": 5,
     "routeErrors": 0
   },
@@ -48,10 +48,10 @@
       "isFob": false,
       "fobOriginId": 30002538,
       "fobOriginName": "Vard",
-      "corruptionPercentage": 41.78,
+      "corruptionPercentage": 49.13,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 42,
+      "suppressionPercentage": 47,
       "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -102,10 +102,10 @@
       "isFob": false,
       "fobOriginId": 30002538,
       "fobOriginName": "Vard",
-      "corruptionPercentage": 3.75,
+      "corruptionPercentage": 5,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 16,
+      "suppressionPercentage": 18.25,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -156,12 +156,12 @@
       "isFob": false,
       "fobOriginId": 30002538,
       "fobOriginName": "Vard",
-      "corruptionPercentage": 62.35,
+      "corruptionPercentage": 66.2,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 99.75,
-      "suppressionState": 4,
-      "suppressionDate": null,
+      "suppressionPercentage": 100,
+      "suppressionState": 5,
+      "suppressionDate": "2026-11-18T01:15:43.956Z",
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
@@ -210,10 +210,10 @@
       "isFob": false,
       "fobOriginId": 30002538,
       "fobOriginName": "Vard",
-      "corruptionPercentage": 34.5,
-      "corruptionState": 2,
+      "corruptionPercentage": 47,
+      "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 2.75,
+      "suppressionPercentage": 3.25,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -270,8 +270,8 @@
       "suppressionPercentage": 28.75,
       "suppressionState": 2,
       "suppressionDate": null,
-      "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 22h",
+      "lawlessAgeDays": 4,
+      "lawlessAgeLabel": "4d 5h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -307,6 +307,60 @@
       }
     },
     {
+      "id": 30002090,
+      "name": "Frerstorn",
+      "sec": "Low-Sec",
+      "security": 0.30609419870664,
+      "faction": "angels",
+      "campaignId": 175,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30002538,
+      "fobOriginName": "Vard",
+      "corruptionPercentage": 2,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 1,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 14
+        },
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 10
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 5
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 8
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 6
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30002053,
+        "hubName": "Hek",
+        "jumps": 5
+      }
+    },
+    {
       "id": 30002517,
       "name": "Gulmorogod",
       "sec": "Low-Sec",
@@ -318,10 +372,10 @@
       "isFob": false,
       "fobOriginId": 30002538,
       "fobOriginName": "Vard",
-      "corruptionPercentage": 0,
+      "corruptionPercentage": 3.25,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 2.5,
+      "suppressionPercentage": 3,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -337,15 +391,15 @@
           "hubName": "Amarr",
           "jumps": 9
         },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 7
-        },
         "dodixie": {
           "hubId": 30002659,
           "hubName": "Dodixie",
           "jumps": 8
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 7
         },
         "rens": {
           "hubId": 30002510,
@@ -372,11 +426,11 @@
       "isFob": false,
       "fobOriginId": 30002538,
       "fobOriginName": "Vard",
-      "corruptionPercentage": 19.75,
-      "corruptionState": 1,
+      "corruptionPercentage": 27.25,
+      "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 8.25,
-      "suppressionState": 0,
+      "suppressionPercentage": 12.25,
+      "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -433,7 +487,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 15h",
+      "lawlessAgeLabel": "2d 22h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -480,11 +534,11 @@
       "isFob": false,
       "fobOriginId": 30002538,
       "fobOriginName": "Vard",
-      "corruptionPercentage": 20,
+      "corruptionPercentage": 24.38,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 45.25,
-      "suppressionState": 3,
+      "suppressionPercentage": 72.25,
+      "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -534,10 +588,10 @@
       "isFob": false,
       "fobOriginId": 30002538,
       "fobOriginName": "Vard",
-      "corruptionPercentage": 68.5,
-      "corruptionState": 3,
+      "corruptionPercentage": 75.25,
+      "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 4.25,
+      "suppressionPercentage": 9.75,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -591,11 +645,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-11-16T20:18:07.276Z",
-      "suppressionPercentage": 12,
+      "suppressionPercentage": 13,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 4h",
+      "lawlessAgeLabel": "1d 12h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -645,11 +699,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-11-17T20:01:07.586Z",
-      "suppressionPercentage": 6,
+      "suppressionPercentage": 6.75,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "5h",
+      "lawlessAgeLabel": "12h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -699,11 +753,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-11-15T22:55:26.531Z",
-      "suppressionPercentage": 22.5,
+      "suppressionPercentage": 23.25,
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 2h",
+      "lawlessAgeLabel": "2d 9h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -753,11 +807,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-11-17T15:32:46.408Z",
-      "suppressionPercentage": 6.25,
+      "suppressionPercentage": 7.75,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "9h",
+      "lawlessAgeLabel": "16h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -804,10 +858,10 @@
       "isFob": true,
       "fobOriginId": 30002538,
       "fobOriginName": "Vard",
-      "corruptionPercentage": 74.45,
+      "corruptionPercentage": 78.83,
       "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 95,
+      "suppressionPercentage": 97.75,
       "suppressionState": 4,
       "suppressionDate": null,
       "lawlessAgeDays": null,
