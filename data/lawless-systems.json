@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T10:24:16.943Z",
+  "generatedAt": "2026-11-20T18:39:31.855Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -29,10 +29,10 @@
     }
   ],
   "stats": {
-    "systems": 14,
+    "systems": 15,
     "lawlessNow": 0,
-    "cachedDistancesReused": 35,
-    "routeCalculatedNow": 35,
+    "cachedDistancesReused": 70,
+    "routeCalculatedNow": 5,
     "routeErrors": 0
   },
   "systems": [
@@ -72,15 +72,15 @@
           "hubName": "Dodixie",
           "jumps": 10
         },
-        "rens": {
-          "hubId": 30002510,
-          "hubName": "Rens",
-          "jumps": 7
-        },
         "hek": {
           "hubId": 30002053,
           "hubName": "Hek",
           "jumps": 11
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 7
         }
       },
       "routeErrors": {},
@@ -121,15 +121,15 @@
           "hubName": "Amarr",
           "jumps": 7
         },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 10
-        },
         "dodixie": {
           "hubId": 30002659,
           "hubName": "Dodixie",
           "jumps": 9
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 10
         },
         "rens": {
           "hubId": 30002510,
@@ -175,15 +175,15 @@
           "hubName": "Amarr",
           "jumps": 7
         },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 10
-        },
         "dodixie": {
           "hubId": 30002659,
           "hubName": "Dodixie",
           "jumps": 9
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 10
         },
         "rens": {
           "hubId": 30002510,
@@ -229,15 +229,15 @@
           "hubName": "Amarr",
           "jumps": 8
         },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 11
-        },
         "dodixie": {
           "hubId": 30002659,
           "hubName": "Dodixie",
           "jumps": 10
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 11
         },
         "rens": {
           "hubId": 30002510,
@@ -283,15 +283,15 @@
           "hubName": "Amarr",
           "jumps": 8
         },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 11
-        },
         "dodixie": {
           "hubId": 30002659,
           "hubName": "Dodixie",
           "jumps": 10
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 11
         },
         "rens": {
           "hubId": 30002510,
@@ -318,8 +318,8 @@
       "isFob": false,
       "fobOriginId": 30045308,
       "fobOriginName": "Kehjari",
-      "corruptionPercentage": 65.5,
-      "corruptionState": 3,
+      "corruptionPercentage": 89.25,
+      "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 0.75,
       "suppressionState": 0,
@@ -372,8 +372,8 @@
       "isFob": false,
       "fobOriginId": 30045308,
       "fobOriginName": "Kehjari",
-      "corruptionPercentage": 8.5,
-      "corruptionState": 0,
+      "corruptionPercentage": 17.25,
+      "corruptionState": 1,
       "corruptionDate": null,
       "suppressionPercentage": 2,
       "suppressionState": 0,
@@ -426,8 +426,8 @@
       "isFob": false,
       "fobOriginId": 30045308,
       "fobOriginName": "Kehjari",
-      "corruptionPercentage": 5.75,
-      "corruptionState": 0,
+      "corruptionPercentage": 13.5,
+      "corruptionState": 1,
       "corruptionDate": null,
       "suppressionPercentage": 0.5,
       "suppressionState": 0,
@@ -480,10 +480,10 @@
       "isFob": false,
       "fobOriginId": 30045308,
       "fobOriginName": "Kehjari",
-      "corruptionPercentage": 9.75,
-      "corruptionState": 0,
+      "corruptionPercentage": 18.25,
+      "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 0,
+      "suppressionPercentage": 1.75,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -499,14 +499,14 @@
           "hubName": "Amarr",
           "jumps": 20
         },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 14
-        },
         "dodixie": {
           "hubId": 30002659,
           "hubName": "Dodixie",
+          "jumps": 14
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
           "jumps": 14
         },
         "rens": {
@@ -534,10 +534,10 @@
       "isFob": true,
       "fobOriginId": 30045308,
       "fobOriginName": "Kehjari",
-      "corruptionPercentage": 63.75,
-      "corruptionState": 3,
+      "corruptionPercentage": 93,
+      "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 6,
+      "suppressionPercentage": 6.75,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -577,6 +577,60 @@
       }
     },
     {
+      "id": 30045314,
+      "name": "Kinakka",
+      "sec": "Low-Sec",
+      "security": 0.415623008476671,
+      "faction": "guristas",
+      "campaignId": 176,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30045308,
+      "fobOriginName": "Kehjari",
+      "corruptionPercentage": 6.25,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 8
+        },
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 19
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 14
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 14
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 17
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30000142,
+        "hubName": "Jita",
+        "jumps": 8
+      }
+    },
+    {
       "id": 30045312,
       "name": "Korasen",
       "sec": "Low-Sec",
@@ -588,15 +642,20 @@
       "isFob": false,
       "fobOriginId": 30045308,
       "fobOriginName": "Kehjari",
-      "corruptionPercentage": 2.25,
+      "corruptionPercentage": 8,
       "corruptionState": 0,
       "corruptionDate": null,
-      "suppressionPercentage": 0.25,
+      "suppressionPercentage": 1.5,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 12
+        },
         "amarr": {
           "hubId": 30002187,
           "hubName": "Amarr",
@@ -616,11 +675,6 @@
           "hubId": 30002510,
           "hubName": "Rens",
           "jumps": 19
-        },
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 12
         }
       },
       "routeErrors": {},
@@ -642,11 +696,11 @@
       "isFob": false,
       "fobOriginId": 30045308,
       "fobOriginName": "Kehjari",
-      "corruptionPercentage": 29.25,
-      "corruptionState": 2,
+      "corruptionPercentage": 44,
+      "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 35.75,
-      "suppressionState": 2,
+      "suppressionPercentage": 44.75,
+      "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -696,7 +750,7 @@
       "isFob": false,
       "fobOriginId": 30045308,
       "fobOriginName": "Kehjari",
-      "corruptionPercentage": 85.5,
+      "corruptionPercentage": 99.5,
       "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 1,
@@ -750,10 +804,10 @@
       "isFob": false,
       "fobOriginId": 30045308,
       "fobOriginName": "Kehjari",
-      "corruptionPercentage": 53.75,
+      "corruptionPercentage": 69.25,
       "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 2.25,
+      "suppressionPercentage": 3,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
