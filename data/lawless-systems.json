@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T21:43:42.466Z",
+  "generatedAt": "2026-11-20T02:36:05.126Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -29,10 +29,10 @@
     }
   ],
   "stats": {
-    "systems": 24,
+    "systems": 26,
     "lawlessNow": 9,
-    "cachedDistancesReused": 115,
-    "routeCalculatedNow": 5,
+    "cachedDistancesReused": 120,
+    "routeCalculatedNow": 10,
     "routeErrors": 0
   },
   "systems": [
@@ -325,7 +325,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "14h",
+      "lawlessAgeLabel": "19h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -378,8 +378,8 @@
       "suppressionPercentage": 30,
       "suppressionState": 2,
       "suppressionDate": null,
-      "lawlessAgeDays": 5,
-      "lawlessAgeLabel": "5d 19h",
+      "lawlessAgeDays": 6,
+      "lawlessAgeLabel": "6d 0h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -595,7 +595,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "6h",
+      "lawlessAgeLabel": "10h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -649,7 +649,7 @@
       "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": 4,
-      "lawlessAgeLabel": "4d 12h",
+      "lawlessAgeLabel": "4d 17h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -757,7 +757,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 1,
-      "lawlessAgeLabel": "1d 1h",
+      "lawlessAgeLabel": "1d 6h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -811,7 +811,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 1h",
+      "lawlessAgeLabel": "3d 6h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -865,7 +865,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 1h",
+      "lawlessAgeLabel": "2d 6h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -918,8 +918,8 @@
       "suppressionPercentage": 25.5,
       "suppressionState": 2,
       "suppressionDate": null,
-      "lawlessAgeDays": 3,
-      "lawlessAgeLabel": "3d 22h",
+      "lawlessAgeDays": 4,
+      "lawlessAgeLabel": "4d 3h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -973,7 +973,7 @@
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": 2,
-      "lawlessAgeLabel": "2d 6h",
+      "lawlessAgeLabel": "2d 11h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -1074,8 +1074,8 @@
       "isFob": false,
       "fobOriginId": 30045308,
       "fobOriginName": "Kehjari",
-      "corruptionPercentage": 25,
-      "corruptionState": 2,
+      "corruptionPercentage": 42.75,
+      "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 0.75,
       "suppressionState": 0,
@@ -1117,6 +1117,114 @@
       }
     },
     {
+      "id": 30045306,
+      "name": "Hykanima",
+      "sec": "Low-Sec",
+      "security": 0.246859379085991,
+      "faction": "guristas",
+      "campaignId": 176,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30045308,
+      "fobOriginName": "Kehjari",
+      "corruptionPercentage": 0.25,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 22
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 16
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 16
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 19
+        },
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 12
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30000142,
+        "hubName": "Jita",
+        "jumps": 12
+      }
+    },
+    {
+      "id": 30045313,
+      "name": "Ienakkamon",
+      "sec": "Low-Sec",
+      "security": 0.107988090776,
+      "faction": "guristas",
+      "campaignId": 176,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30045308,
+      "fobOriginName": "Kehjari",
+      "corruptionPercentage": 2.5,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0.25,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 12
+        },
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 22
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 16
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 14
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 19
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30000142,
+        "hubName": "Jita",
+        "jumps": 12
+      }
+    },
+    {
       "id": 30045308,
       "name": "Kehjari",
       "sec": "Low-Sec",
@@ -1128,10 +1236,10 @@
       "isFob": true,
       "fobOriginId": 30045308,
       "fobOriginName": "Kehjari",
-      "corruptionPercentage": 21.75,
+      "corruptionPercentage": 37,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 3.75,
+      "suppressionPercentage": 6,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -1182,11 +1290,11 @@
       "isFob": false,
       "fobOriginId": 30045308,
       "fobOriginName": "Kehjari",
-      "corruptionPercentage": 7,
-      "corruptionState": 0,
+      "corruptionPercentage": 13.5,
+      "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 17.5,
-      "suppressionState": 1,
+      "suppressionPercentage": 24,
+      "suppressionState": 2,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -1236,8 +1344,8 @@
       "isFob": false,
       "fobOriginId": 30045308,
       "fobOriginName": "Kehjari",
-      "corruptionPercentage": 33.25,
-      "corruptionState": 2,
+      "corruptionPercentage": 56.5,
+      "corruptionState": 3,
       "corruptionDate": null,
       "suppressionPercentage": 0.25,
       "suppressionState": 0,
@@ -1290,8 +1398,8 @@
       "isFob": false,
       "fobOriginId": 30045308,
       "fobOriginName": "Kehjari",
-      "corruptionPercentage": 18.75,
-      "corruptionState": 1,
+      "corruptionPercentage": 28.5,
+      "corruptionState": 2,
       "corruptionDate": null,
       "suppressionPercentage": 2.25,
       "suppressionState": 0,
