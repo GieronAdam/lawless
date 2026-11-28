@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-28T02:14:43.325Z",
+  "generatedAt": "2026-11-28T10:27:08.064Z",
   "source": "https://www.eveonline.com/api/warzone/insurgency",
   "hubs": [
     {
@@ -29,10 +29,10 @@
     }
   ],
   "stats": {
-    "systems": 16,
-    "lawlessNow": 3,
-    "cachedDistancesReused": 55,
-    "routeCalculatedNow": 25,
+    "systems": 18,
+    "lawlessNow": 4,
+    "cachedDistancesReused": 80,
+    "routeCalculatedNow": 10,
     "routeErrors": 0
   },
   "systems": [
@@ -111,25 +111,25 @@
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
-        "dodixie": {
-          "hubId": 30002659,
-          "hubName": "Dodixie",
-          "jumps": 8
-        },
         "jita": {
           "hubId": 30000142,
           "hubName": "Jita",
           "jumps": 14
         },
-        "hek": {
-          "hubId": 30002053,
-          "hubName": "Hek",
-          "jumps": 5
-        },
         "amarr": {
           "hubId": 30002187,
           "hubName": "Amarr",
           "jumps": 10
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 8
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 5
         },
         "rens": {
           "hubId": 30002510,
@@ -165,6 +165,11 @@
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 15
+        },
         "amarr": {
           "hubId": 30002187,
           "hubName": "Amarr",
@@ -184,11 +189,6 @@
           "hubId": 30002510,
           "hubName": "Rens",
           "jumps": 6
-        },
-        "jita": {
-          "hubId": 30000142,
-          "hubName": "Jita",
-          "jumps": 15
         }
       },
       "routeErrors": {},
@@ -273,15 +273,15 @@
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
       "distances": {
-        "amarr": {
-          "hubId": 30002187,
-          "hubName": "Amarr",
-          "jumps": 8
-        },
         "jita": {
           "hubId": 30000142,
           "hubName": "Jita",
           "jumps": 16
+        },
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 8
         },
         "dodixie": {
           "hubId": 30002659,
@@ -318,11 +318,11 @@
       "isFob": false,
       "fobOriginId": 30002809,
       "fobOriginName": "Sujarento",
-      "corruptionPercentage": 21.5,
-      "corruptionState": 2,
+      "corruptionPercentage": 41.25,
+      "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 6.25,
-      "suppressionState": 0,
+      "suppressionPercentage": 10.75,
+      "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -375,11 +375,11 @@
       "corruptionPercentage": 100,
       "corruptionState": 5,
       "corruptionDate": "2026-11-27T20:37:37.253Z",
-      "suppressionPercentage": 9,
+      "suppressionPercentage": 9.5,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "5h",
+      "lawlessAgeLabel": "13h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -415,6 +415,60 @@
       }
     },
     {
+      "id": 30004980,
+      "name": "Fliet",
+      "sec": "Low-Sec",
+      "security": 0.345510552864609,
+      "faction": "guristas",
+      "campaignId": 178,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": null,
+      "fobOriginName": null,
+      "corruptionPercentage": 0,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 0,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 17
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 6
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 12
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 15
+        },
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 8
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30002659,
+        "hubName": "Dodixie",
+        "jumps": 6
+      }
+    },
+    {
       "id": 30002806,
       "name": "Hasmijaala",
       "sec": "Low-Sec",
@@ -426,11 +480,11 @@
       "isFob": false,
       "fobOriginId": 30002809,
       "fobOriginName": "Sujarento",
-      "corruptionPercentage": 31.75,
+      "corruptionPercentage": 37.08,
       "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 30.5,
-      "suppressionState": 2,
+      "suppressionPercentage": 49,
+      "suppressionState": 3,
       "suppressionDate": null,
       "lawlessAgeDays": null,
       "lawlessAgeLabel": "-",
@@ -469,6 +523,60 @@
       }
     },
     {
+      "id": 30002796,
+      "name": "Hysera",
+      "sec": "Low-Sec",
+      "security": 0.397182849620969,
+      "faction": "guristas",
+      "campaignId": 178,
+      "campaignState": "ACTIVE",
+      "isLawless": false,
+      "isFob": false,
+      "fobOriginId": 30002809,
+      "fobOriginName": "Sujarento",
+      "corruptionPercentage": 4,
+      "corruptionState": 0,
+      "corruptionDate": null,
+      "suppressionPercentage": 4.25,
+      "suppressionState": 0,
+      "suppressionDate": null,
+      "lawlessAgeDays": null,
+      "lawlessAgeLabel": "-",
+      "distances": {
+        "amarr": {
+          "hubId": 30002187,
+          "hubName": "Amarr",
+          "jumps": 17
+        },
+        "hek": {
+          "hubId": 30002053,
+          "hubName": "Hek",
+          "jumps": 16
+        },
+        "jita": {
+          "hubId": 30000142,
+          "hubName": "Jita",
+          "jumps": 8
+        },
+        "dodixie": {
+          "hubId": 30002659,
+          "hubName": "Dodixie",
+          "jumps": 10
+        },
+        "rens": {
+          "hubId": 30002510,
+          "hubName": "Rens",
+          "jumps": 19
+        }
+      },
+      "routeErrors": {},
+      "nearestHub": {
+        "hubId": 30000142,
+        "hubName": "Jita",
+        "jumps": 8
+      }
+    },
+    {
       "id": 30045346,
       "name": "Kedama",
       "sec": "Low-Sec",
@@ -480,10 +588,10 @@
       "isFob": false,
       "fobOriginId": 30002809,
       "fobOriginName": "Sujarento",
-      "corruptionPercentage": 8.75,
-      "corruptionState": 0,
+      "corruptionPercentage": 17,
+      "corruptionState": 1,
       "corruptionDate": null,
-      "suppressionPercentage": 1.25,
+      "suppressionPercentage": 2.75,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -530,18 +638,18 @@
       "faction": "guristas",
       "campaignId": 178,
       "campaignState": "ACTIVE",
-      "isLawless": false,
+      "isLawless": true,
       "isFob": false,
       "fobOriginId": 30002809,
       "fobOriginName": "Sujarento",
-      "corruptionPercentage": 92,
-      "corruptionState": 4,
-      "corruptionDate": null,
-      "suppressionPercentage": 31.5,
+      "corruptionPercentage": 100,
+      "corruptionState": 5,
+      "corruptionDate": "2026-11-28T05:52:48.962Z",
+      "suppressionPercentage": 35.5,
       "suppressionState": 2,
       "suppressionDate": null,
-      "lawlessAgeDays": null,
-      "lawlessAgeLabel": "-",
+      "lawlessAgeDays": 0,
+      "lawlessAgeLabel": "4h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -595,7 +703,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "9h",
+      "lawlessAgeLabel": "17h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -642,10 +750,10 @@
       "isFob": false,
       "fobOriginId": 30002809,
       "fobOriginName": "Sujarento",
-      "corruptionPercentage": 39,
-      "corruptionState": 2,
+      "corruptionPercentage": 61.5,
+      "corruptionState": 3,
       "corruptionDate": null,
-      "suppressionPercentage": 0,
+      "suppressionPercentage": 1.5,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -696,10 +804,10 @@
       "isFob": false,
       "fobOriginId": 30002809,
       "fobOriginName": "Sujarento",
-      "corruptionPercentage": 7.25,
-      "corruptionState": 0,
+      "corruptionPercentage": 22.25,
+      "corruptionState": 2,
       "corruptionDate": null,
-      "suppressionPercentage": 2.5,
+      "suppressionPercentage": 3.25,
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -757,7 +865,7 @@
       "suppressionState": 0,
       "suppressionDate": null,
       "lawlessAgeDays": 0,
-      "lawlessAgeLabel": "14h",
+      "lawlessAgeLabel": "22h",
       "distances": {
         "jita": {
           "hubId": 30000142,
@@ -804,10 +912,10 @@
       "isFob": false,
       "fobOriginId": 30002809,
       "fobOriginName": "Sujarento",
-      "corruptionPercentage": 59.75,
-      "corruptionState": 3,
+      "corruptionPercentage": 83.75,
+      "corruptionState": 4,
       "corruptionDate": null,
-      "suppressionPercentage": 16,
+      "suppressionPercentage": 19.5,
       "suppressionState": 1,
       "suppressionDate": null,
       "lawlessAgeDays": null,
@@ -858,8 +966,8 @@
       "isFob": false,
       "fobOriginId": 30002809,
       "fobOriginName": "Sujarento",
-      "corruptionPercentage": 64.5,
-      "corruptionState": 3,
+      "corruptionPercentage": 91,
+      "corruptionState": 4,
       "corruptionDate": null,
       "suppressionPercentage": 0.25,
       "suppressionState": 0,
